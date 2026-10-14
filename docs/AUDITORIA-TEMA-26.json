@@ -1,0 +1,667 @@
+{
+  "topic": 26,
+  "sourceRules": 72,
+  "questions": 240,
+  "categories": {
+    "naturaleza": 24,
+    "medios": 24,
+    "solicitud": 24,
+    "procedimiento": 24,
+    "silencio": 24,
+    "condiciones": 24,
+    "transmision": 24,
+    "vigencia": 24,
+    "sectores": 24,
+    "control": 24
+  },
+  "anchors": [
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 10",
+      "phrase": "no alterarán las situaciones jurídicas privadas",
+      "contrasts": [
+        "alterarán toda relación jurídica privada",
+        "extinguirán los derechos de propiedad"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 11.1",
+      "phrase": "normas de las Ordenanzas y Reglamentos",
+      "contrasts": [
+        "únicamente contratos privados",
+        "únicamente sentencias"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.1",
+      "phrase": "salvo el derecho de propiedad y sin perjuicio del de tercero",
+      "contrasts": [
+        "con transmisión del derecho de propiedad",
+        "con eliminación de derechos de terceros"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 11.2",
+      "phrase": "vincularán a los administrados y a la Corporación",
+      "contrasts": [
+        "vincularán sólo a los administrados",
+        "vincularán sólo a los funcionarios"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.2",
+      "phrase": "No podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 10",
+      "phrase": "entre éste y las demás personas",
+      "contrasts": [
+        "únicamente entre funcionarios",
+        "únicamente entre órganos judiciales"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 10",
+      "phrase": "entre la Corporación y el sujeto",
+      "contrasts": [
+        "entre dos particulares exclusivamente",
+        "entre dos órganos judiciales"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.1",
+      "phrase": "propiedad",
+      "contrasts": [
+        "titularidad tributaria exclusivamente",
+        "condición de vecino exclusivamente"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 84.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 84 bis.1",
+      "phrase": "licencia",
+      "contrasts": [
+        "concesión en todo caso",
+        "mera inscripción padronal"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 84 ter",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 85.1",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 85 bis.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 85 ter.1",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 84, letra b",
+      "phrase": "17",
+      "contrasts": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "category": "medios",
+      "reference": "Ley 7/1985, artículo 84, letra c",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 66, letra a",
+      "phrase": "Nombre y apellidos",
+      "contrasts": [
+        "únicamente iniciales",
+        "únicamente domicilio"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 68.1",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 69",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 66, letra b",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 66",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 66.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 66.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "solicitud",
+      "reference": "Ley 39/2015, artículo 66.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9",
+      "phrase": "cinco días",
+      "contrasts": [
+        "tres días",
+        "diez días"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9, letra a",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 9, letra b",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 21.1",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24.1",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 21",
+      "phrase": "renuncia",
+      "contrasts": [
+        "cualquier permiso",
+        "cualquier cambio de puesto"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 21.2",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 21",
+      "phrase": "seis",
+      "contrasts": [
+        "cinco",
+        "siete"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 21.3",
+      "phrase": "tres meses",
+      "contrasts": [
+        "dos meses",
+        "seis meses"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 21.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 21",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.1",
+      "phrase": "salvo el derecho de propiedad",
+      "contrasts": [
+        "con transmisión del derecho de propiedad",
+        "con extinción de la propiedad"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 14.1",
+      "phrase": "personalmente por los titulares",
+      "contrasts": [
+        "siempre por un representante",
+        "siempre por cualquier contratista"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 14.2",
+      "phrase": "licencia",
+      "contrasts": [
+        "concesión en todo caso",
+        "mera inscripción padronal"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.1",
+      "phrase": "sin perjuicio del de tercero",
+      "contrasts": [
+        "eliminando el derecho de tercero",
+        "suprimiendo derechos privados"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.2",
+      "phrase": "responsabilidad civil o penal",
+      "contrasts": [
+        "únicamente responsabilidad política",
+        "únicamente responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.2",
+      "phrase": "No podrán ser invocadas",
+      "contrasts": [
+        "deberán ser invocadas siempre",
+        "sólo podrán ser invocadas para eximir toda responsabilidad"
+      ]
+    },
+    {
+      "category": "condiciones",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 12.2",
+      "phrase": "excluir o disminuir la responsabilidad civil o penal",
+      "contrasts": [
+        "excluir únicamente impuestos",
+        "disminuir siempre las obligaciones urbanísticas"
+      ]
+    },
+    {
+      "category": "transmision",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 13.1",
+      "phrase": "serán transmisibles",
+      "contrasts": [
+        "serán siempre intransmisibles",
+        "se extinguirán con cualquier cambio de titular"
+      ]
+    },
+    {
+      "category": "transmision",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 13.2",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "transmision",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 13.3",
+      "phrase": "serán transmisibles",
+      "contrasts": [
+        "serán siempre intransmisibles",
+        "se extinguirán con cualquier cambio de titular"
+      ]
+    },
+    {
+      "category": "transmision",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 13.1",
+      "phrase": "comunicarlo por escrito a la Corporación",
+      "contrasts": [
+        "no comunicarlo nunca",
+        "comunicarlo sólo verbalmente al vecino"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 15.1",
+      "phrase": "vigencia mientras subsistan aquéllas",
+      "contrasts": [
+        "vigencia siempre de un año",
+        "vigencia hasta el cambio de Alcalde"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 16.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 16.2",
+      "phrase": "Podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 16.3",
+      "phrase": "resarcimiento de los daños y perjuicios",
+      "contrasts": [
+        "confiscación sin compensación",
+        "convalidación automática"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 17.1",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 21.1",
+      "phrase": "licencia",
+      "contrasts": [
+        "concesión en todo caso",
+        "mera inscripción padronal"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 22.1",
+      "phrase": "17",
+      "contrasts": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 21.2",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 22.3",
+      "phrase": "licencia",
+      "contrasts": [
+        "concesión en todo caso",
+        "mera inscripción padronal"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 17.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 17.1",
+      "phrase": "reglamentación",
+      "contrasts": [
+        "contratación",
+        "nombramiento"
+      ]
+    },
+    {
+      "category": "sectores",
+      "reference": "Reglamento de Servicios de las Corporaciones Locales, artículo 22.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 35.1",
+      "phrase": "sucinta referencia de hechos y fundamentos de derecho",
+      "contrasts": [
+        "una cita normativa sin hechos en todo caso",
+        "una referencia sólo a hechos sin fundamento"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 69.2",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 106.1",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 107.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 109.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 35, letra a",
+      "phrase": "limiten derechos subjetivos o intereses legítimos",
+      "contrasts": [
+        "concedan siempre derechos sin condiciones",
+        "no afecten nunca a derechos"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 35, letra c",
+      "phrase": "criterio seguido en actuaciones precedentes",
+      "contrasts": [
+        "criterio elegido por el solicitante",
+        "criterio de cualquier tercero"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 39/2015, artículo 35, letra d",
+      "phrase": "medidas provisionales",
+      "contrasts": [
+        "sanciones definitivas sin procedimiento",
+        "medidas legislativas"
+      ]
+    }
+  ]
+}

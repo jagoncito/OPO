@@ -18,6 +18,7 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
 
 
 class LegislationChecks(unittest.TestCase):
+    topics = range(3, 17)
     @classmethod
     def setUpClass(cls):
         cls.server = http.server.ThreadingHTTPServer(
@@ -44,10 +45,12 @@ class LegislationChecks(unittest.TestCase):
         return page
 
     def test_all_pages_sources_partition_and_scores(self):
-        for topic in range(3, 17):
+        for topic in self.topics:
             with self.subTest(topic=topic), self.browser.new_context() as context:
                 page = self.open_topic(topic, context)
-                self.assertEqual(page.locator('.topic-switch [data-topic]').count(), 16)
+                if topic>=17:
+                    self.assertIn(f'Tema específico {topic-16}:',page.locator('#sources-content').inner_text())
+                self.assertEqual(page.locator('.topic-switch [data-topic]').count(), 33)
                 self.assertGreaterEqual(page.locator('.lesson-section').count(), 12)
                 self.assertGreaterEqual(page.locator('#lesson-content mark').count(), 30)
                 for href in page.locator('#sources-content a[href^="docs/normas/"]').evaluate_all('(links)=>links.map(a=>a.getAttribute("href"))'):
@@ -85,7 +88,7 @@ class LegislationChecks(unittest.TestCase):
 
     def test_each_page_submission_review_and_independent_history(self):
         with self.browser.new_context() as context:
-            for topic in range(3, 17):
+            for topic in self.topics:
                 with self.subTest(topic=topic):
                     page = self.open_topic(topic, context)
                     errors=[]
@@ -119,14 +122,14 @@ class LegislationChecks(unittest.TestCase):
                     self.assertEqual(len(exported['attempts']), 1)
                     self.assertEqual(errors, [])
                     page.close()
-            for topic in range(3, 17):
+            for topic in self.topics:
                 page=self.open_topic(topic, context)
                 page.locator('[data-view="progress"]').click()
                 self.assertEqual(page.locator('[data-result]').count(), 1)
                 page.close()
 
     def test_mobile_evaluation_and_offline_in_each_topic(self):
-        for topic in range(3, 17):
+        for topic in self.topics:
             with self.subTest(topic=topic), self.browser.new_context(viewport={'width':390,'height':844}) as context:
                 page = self.open_topic(topic, context)
                 self.assertTrue(page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'))
@@ -143,6 +146,34 @@ class LegislationChecks(unittest.TestCase):
                 self.assertEqual(page.locator('#result-review .explanation').count(), 40)
                 self.assertEqual(page.locator('#result-review .option-reason').count(), 120)
                 self.assertFalse(requests)
+
+
+class SpecificChecks(LegislationChecks):
+    topics = range(17, 34)
+
+    def test_official_origin_in_exam_and_correction(self):
+        with self.browser.new_context() as context:
+            page = self.open_topic(17, context)
+            target = page.evaluate('''() => {
+              const bank=[...OPO_QUESTIONS_A,...OPO_QUESTIONS_B,...OPO_QUESTIONS_C];
+              const q=bank.find(q=>q.origin==='official');
+              const test=OPO_APP.tests.find(t=>t.ids.includes(q.id));
+              return {test:test.id,index:test.ids.indexOf(q.id),answer:q.answer,number:q.exam.number};
+            }''')
+            page.locator('[data-view="training"]').click()
+            page.locator(f'[data-start="{target["test"]}"]').click()
+            self.assertIn('ESPECÍFICA 01',page.locator('#exam-panel .eyebrow').first.inner_text())
+            page.locator('.question-chip').nth(target['index']).click()
+            self.assertIn('Administrativo CAM',page.locator('.question-origin').inner_text())
+            self.assertIn(f'pregunta {target["number"]}',page.locator('.question-origin').inner_text())
+            page.locator(f'input[name="answer"][value="{target["answer"]}"]').check()
+            page.locator('#submit-test').click()
+            page.locator('#confirm-accept').click()
+            review=page.locator('.review-card').nth(target['index'])
+            self.assertIn('Cuestionario oficial',review.locator('.badge').inner_text())
+            self.assertIn('normativa propia',review.locator('.source-note').inner_text())
+            self.assertEqual(review.locator('a[href="docs/examenes/administrativo-melilla-2026.pdf"]').count(),1)
+            self.assertEqual(review.locator('.option-reason').count(),3)
 
 
 if __name__ == '__main__':

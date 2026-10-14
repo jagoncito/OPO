@@ -1,0 +1,739 @@
+{
+  "topic": 29,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "objeto": 24,
+    "valor": 24,
+    "umbrales": 24,
+    "expediente": 24,
+    "duracion": 24,
+    "adjudicacion": 24,
+    "publicidad": 24,
+    "formalizacion": 24,
+    "control": 24,
+    "melilla": 24
+  },
+  "anchors": [
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 28.1",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 99.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 28.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 28.4",
+      "phrase": "al menos",
+      "contrasts": [
+        "como máximo",
+        "exactamente sin posibilidad de aumentar"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 99.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 99.3",
+      "phrase": "disposición adicional cuarta",
+      "contrasts": [
+        "disposición transitoria primera",
+        "disposición final única"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 99",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 99",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 100.1",
+      "phrase": "Impuesto sobre el Valor Añadido",
+      "contrasts": [
+        "coste salarial del personal administrativo",
+        "impuesto sobre sociedades"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 101.1",
+      "phrase": "valor estimado",
+      "contrasts": [
+        "importe con IVA",
+        "precio pagado con IVA siempre"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 102.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 101, letra a",
+      "phrase": "Impuesto sobre el Valor Añadido",
+      "contrasts": [
+        "coste salarial del personal administrativo",
+        "impuesto sobre sociedades"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 101, letra b",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 101.2",
+      "phrase": "valor estimado",
+      "contrasts": [
+        "importe con IVA",
+        "precio pagado con IVA siempre"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 101, letra c",
+      "phrase": "totalidad",
+      "contrasts": [
+        "mitad",
+        "tercera parte"
+      ]
+    },
+    {
+      "category": "valor",
+      "reference": "Ley 9/2017, artículo 101",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.1",
+      "phrase": "40.000 euros",
+      "contrasts": [
+        "50.000 euros",
+        "15.000 euros"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.2",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.3",
+      "phrase": "aprobación del gasto",
+      "contrasts": [
+        "aprobación del tributo",
+        "aprobación judicial previa"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.4",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.5",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.6",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.1",
+      "phrase": "15.000 euros",
+      "contrasts": [
+        "18.000 euros",
+        "40.000 euros"
+      ]
+    },
+    {
+      "category": "umbrales",
+      "reference": "Ley 9/2017, artículo 118.1",
+      "phrase": "inferior",
+      "contrasts": [
+        "igual o inferior",
+        "superior"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 116.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 118.1",
+      "phrase": "valor estimado",
+      "contrasts": [
+        "importe con IVA",
+        "precio pagado con IVA siempre"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 116",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 116.2",
+      "phrase": "totalidad",
+      "contrasts": [
+        "mitad",
+        "tercera parte"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 116.3",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 116",
+      "phrase": "crédito",
+      "contrasts": [
+        "potestad jurisdiccional",
+        "soberanía monetaria"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 116, letra d",
+      "phrase": "valor estimado",
+      "contrasts": [
+        "importe con IVA",
+        "precio pagado con IVA siempre"
+      ]
+    },
+    {
+      "category": "expediente",
+      "reference": "Ley 9/2017, artículo 116, letra f",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29",
+      "phrase": "dos meses",
+      "contrasts": [
+        "tres meses",
+        "un mes"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29",
+      "phrase": "En ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29",
+      "phrase": "seis",
+      "contrasts": [
+        "cinco",
+        "siete"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29.4",
+      "phrase": "cinco años",
+      "contrasts": [
+        "cuatro años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "duracion",
+      "reference": "Ley 9/2017, artículo 29",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 65.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 131.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 65",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 65.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 131.2",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 131",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 131.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "adjudicacion",
+      "reference": "Ley 9/2017, artículo 131.4",
+      "phrase": "inferior",
+      "contrasts": [
+        "igual o inferior",
+        "superior"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 63.1",
+      "phrase": "exclusivamente",
+      "contrasts": [
+        "preferentemente",
+        "subsidiariamente"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 64.1",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 63",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 63.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 63.3",
+      "phrase": "al menos",
+      "contrasts": [
+        "como máximo",
+        "exactamente sin posibilidad de aumentar"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 63, letra a",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 63, letra b",
+      "phrase": "Impuesto sobre el Valor Añadido",
+      "contrasts": [
+        "coste salarial del personal administrativo",
+        "impuesto sobre sociedades"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 9/2017, artículo 63, letra c",
+      "phrase": "negociados",
+      "contrasts": [
+        "Consejerías",
+        "Direcciones Generales"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 36.1",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 37.1",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 153.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 37.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 37.3",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 153.3",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 153",
+      "phrase": "cinco días",
+      "contrasts": [
+        "tres días",
+        "diez días"
+      ]
+    },
+    {
+      "category": "formalizacion",
+      "reference": "Ley 9/2017, artículo 153",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 118.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 235",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 346.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 118.2",
+      "phrase": "informe del órgano de contratación",
+      "contrasts": [
+        "informe exclusivamente del contratista",
+        "informe judicial"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 118.3",
+      "phrase": "factura",
+      "contrasts": [
+        "sólo recibo informal",
+        "sólo presupuesto sin factura"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 118.4",
+      "phrase": "presupuesto de las obras",
+      "contrasts": [
+        "únicamente factura sin presupuesto",
+        "únicamente padrón de contratistas"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 118.5",
+      "phrase": "5.000",
+      "contrasts": [
+        "10.000",
+        "20.000"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "Ley 9/2017, artículo 235",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.1",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.3",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.4",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.5",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.6",
+      "phrase": "Consejeros",
+      "contrasts": [
+        "Viceconsejeros",
+        "Secretarios Técnicos"
+      ]
+    }
+  ]
+}

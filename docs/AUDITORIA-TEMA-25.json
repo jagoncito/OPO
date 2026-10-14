@@ -1,0 +1,739 @@
+{
+  "topic": 25,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "termino": 24,
+    "vecinos": 24,
+    "padron": 24,
+    "datos": 24,
+    "gestion": 24,
+    "organizacion": 24,
+    "pleno": 24,
+    "participacion": 24,
+    "competencias": 24,
+    "servicios": 24
+  },
+  "anchors": [
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 12.1",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 13.1",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 12.2",
+      "phrase": "municipio",
+      "contrasts": [
+        "Estado",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 13.2",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 13.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 13.4",
+      "phrase": "diez",
+      "contrasts": [
+        "doce",
+        "quince"
+      ]
+    },
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 13",
+      "phrase": "municipio",
+      "contrasts": [
+        "Estado",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "termino",
+      "reference": "Ley 7/1985, artículo 13, letra a",
+      "phrase": "Decreto Legislativo",
+      "contrasts": [
+        "decreto-ley",
+        "reglamento"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 14.1",
+      "phrase": "Administración del Estado",
+      "contrasts": [
+        "Administración de la Ciudad",
+        "Administración provincial"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 15",
+      "phrase": "municipio",
+      "contrasts": [
+        "Estado",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 16.1",
+      "phrase": "el municipio",
+      "contrasts": [
+        "la Provincia",
+        "la Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 14.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 15",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 15",
+      "phrase": "Padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 16",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "vecinos",
+      "reference": "Ley 7/1985, artículo 16",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 17.1",
+      "phrase": "Padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 18.1",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 17",
+      "phrase": "Padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 17",
+      "phrase": "Padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 17.2",
+      "phrase": "Ayuntamientos",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Departamentos ministeriales"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 17",
+      "phrase": "ayuntamiento",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 17.3",
+      "phrase": "municipios",
+      "contrasts": [
+        "Provincias",
+        "Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "padron",
+      "reference": "Ley 7/1985, artículo 17",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 53.1",
+      "phrase": "el municipio",
+      "contrasts": [
+        "la Provincia",
+        "la Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 54.1",
+      "phrase": "municipio",
+      "contrasts": [
+        "Estado",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 54.1",
+      "phrase": "padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 55.1",
+      "phrase": "padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 56.1",
+      "phrase": "derechos y deberes",
+      "contrasts": [
+        "derechos sin deberes",
+        "deberes sin derechos"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 57.1",
+      "phrase": "padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 58.1",
+      "phrase": "Ayuntamiento",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "datos",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 59.1",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 62.1",
+      "phrase": "Ayuntamientos",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Departamentos ministeriales"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 63",
+      "phrase": "padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 64",
+      "phrase": "Ayuntamientos",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Departamentos ministeriales"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 65",
+      "phrase": "Ley Orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 66",
+      "phrase": "Ayuntamientos",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Departamentos ministeriales"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 67",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 68",
+      "phrase": "padrón municipal",
+      "contrasts": [
+        "Registro Civil",
+        "censo electoral exclusivamente"
+      ]
+    },
+    {
+      "category": "gestion",
+      "reference": "Reglamento de Población y Demarcación Territorial, artículo 69.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 19.1",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 20.1",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 21.1",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 19.2",
+      "phrase": "sufragio universal",
+      "contrasts": [
+        "sufragio censitario",
+        "designación administrativa"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 19.3",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 20, letra a",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 20, letra b",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "Ley 7/1985, artículo 20, letra c",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 22.1",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 23.1",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 22.2",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 22, letra b",
+      "phrase": "municipio",
+      "contrasts": [
+        "Estado",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 22, letra f",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 22, letra g",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 22, letra h",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "Ley 7/1985, artículo 22, letra i",
+      "phrase": "personal eventual",
+      "contrasts": [
+        "funcionarios interinos en todo caso",
+        "funcionarios de carrera en todo caso"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24.1",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24 bis.1",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24.2",
+      "phrase": "municipios",
+      "contrasts": [
+        "Provincias",
+        "Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24 bis.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24 bis.3",
+      "phrase": "Ley Orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24.1",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24.1",
+      "phrase": "ayuntamiento",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 7/1985, artículo 24.1",
+      "phrase": "municipio",
+      "contrasts": [
+        "Estado",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 7.1",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 25.1",
+      "phrase": "El Municipio",
+      "contrasts": [
+        "la Provincia",
+        "la Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 27.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 7.2",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 7.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 7",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 7.4",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "Ley 7/1985, artículo 7",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26, letra a",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26, letra b",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26, letra c",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26, letra d",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26.2",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26, letra d",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 7/1985, artículo 26",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    }
+  ]
+}

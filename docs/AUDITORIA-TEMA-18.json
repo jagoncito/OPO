@@ -1,0 +1,739 @@
+{
+  "topic": 18,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "clases": 24,
+    "produccion": 24,
+    "motivacion": 24,
+    "forma": 24,
+    "eficacia": 24,
+    "retroactividad": 24,
+    "notificar": 24,
+    "papel": 24,
+    "electronica": 24,
+    "publicacion": 24
+  },
+  "anchors": [
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 24.1",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 109.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 112.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 114, letra c",
+      "phrase": "superior jerárquico",
+      "contrasts": [
+        "inferior jerárquico",
+        "interesado particular"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 24",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 24",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 24.2",
+      "phrase": "acto administrativo",
+      "contrasts": [
+        "reglamento exclusivamente",
+        "contrato privado"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Ley 39/2015, artículo 24.3",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.2",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.1",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.1",
+      "phrase": "procedimiento establecido",
+      "contrasts": [
+        "procedimiento elegido libremente",
+        "procedimiento siempre judicial"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.1",
+      "phrase": "se producirán por el órgano competente",
+      "contrasts": [
+        "se producirán por cualquier órgano",
+        "se producirán exclusivamente por el superior"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.2",
+      "phrase": "fines de aquéllos",
+      "contrasts": [
+        "preferencias del órgano",
+        "intereses particulares del instructor"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.2",
+      "phrase": "se ajustará a lo dispuesto por el ordenamiento jurídico",
+      "contrasts": [
+        "se ajustará sólo al criterio personal del órgano",
+        "se ajustará sólo al acuerdo privado de las partes"
+      ]
+    },
+    {
+      "category": "produccion",
+      "reference": "Ley 39/2015, artículo 34.2",
+      "phrase": "será determinado y adecuado",
+      "contrasts": [
+        "podrá ser indeterminado e inadecuado",
+        "será siempre indeterminado"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35.1",
+      "phrase": "sucinta referencia de hechos y fundamentos de derecho",
+      "contrasts": [
+        "una cita normativa sin hechos en todo caso",
+        "una referencia sólo a hechos sin fundamento"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35, letra a",
+      "phrase": "limiten derechos subjetivos o intereses legítimos",
+      "contrasts": [
+        "concedan siempre derechos sin condiciones",
+        "no afecten nunca a derechos"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35, letra c",
+      "phrase": "criterio seguido en actuaciones precedentes",
+      "contrasts": [
+        "criterio elegido por el solicitante",
+        "criterio de cualquier tercero"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35, letra d",
+      "phrase": "medidas provisionales",
+      "contrasts": [
+        "sanciones definitivas sin procedimiento",
+        "medidas legislativas"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35, letra f",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35, letra h",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35, letra i",
+      "phrase": "potestades discrecionales",
+      "contrasts": [
+        "potestades exclusivamente privadas",
+        "potestades legislativas"
+      ]
+    },
+    {
+      "category": "motivacion",
+      "reference": "Ley 39/2015, artículo 35.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.1",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.2",
+      "phrase": "de forma verbal",
+      "contrasts": [
+        "de forma tácita únicamente",
+        "únicamente por comparecencia notarial"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.1",
+      "phrase": "por escrito",
+      "contrasts": [
+        "siempre verbalmente",
+        "siempre notarialmente"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.2",
+      "phrase": "inferior",
+      "contrasts": [
+        "igual o inferior",
+        "superior"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.2",
+      "phrase": "constancia escrita",
+      "contrasts": [
+        "ausencia de documentación",
+        "constancia sólo verbal"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.2",
+      "phrase": "titular de la competencia",
+      "contrasts": [
+        "recurrente",
+        "tercero ajeno"
+      ]
+    },
+    {
+      "category": "forma",
+      "reference": "Ley 39/2015, artículo 36.3",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 37.1",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 38",
+      "phrase": "Derecho Administrativo",
+      "contrasts": [
+        "Derecho privado",
+        "Derecho penal"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 39.1",
+      "phrase": "Derecho Administrativo",
+      "contrasts": [
+        "Derecho privado",
+        "Derecho penal"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 39.2",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 39.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 39.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 39.5",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "eficacia",
+      "reference": "Ley 39/2015, artículo 37.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.3",
+      "phrase": "eficacia retroactiva",
+      "contrasts": [
+        "eficacia siempre nula",
+        "eficacia nunca demorada"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.5",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.1",
+      "phrase": "desde la fecha en que se dicten",
+      "contrasts": [
+        "desde la publicación en todo caso",
+        "desde el agotamiento de recursos en todo caso"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.3",
+      "phrase": "Excepcionalmente",
+      "contrasts": [
+        "ordinariamente sin requisitos",
+        "siempre obligatoriamente"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.3",
+      "phrase": "supuestos de hecho necesarios",
+      "contrasts": [
+        "meras preferencias políticas",
+        "únicamente opiniones del solicitante"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.3",
+      "phrase": "existieran ya en la fecha",
+      "contrasts": [
+        "existieran sólo en una fecha futura",
+        "no existieran en ninguna fecha"
+      ]
+    },
+    {
+      "category": "retroactividad",
+      "reference": "Ley 39/2015, artículo 39.5",
+      "phrase": "recurso contencioso-administrativo",
+      "contrasts": [
+        "recurso de alzada obligatorio",
+        "recurso de reposición obligatorio"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 40.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 41.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 40.2",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 40.3",
+      "phrase": "texto íntegro",
+      "contrasts": [
+        "extracto del texto únicamente",
+        "título de la ordenanza únicamente"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 40.4",
+      "phrase": "texto íntegro de la resolución",
+      "contrasts": [
+        "únicamente la parte dispositiva sin más datos",
+        "sólo una síntesis de sus hechos"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 40.5",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 41",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "notificar",
+      "reference": "Ley 39/2015, artículo 41, letra a",
+      "phrase": "representante",
+      "contrasts": [
+        "testigo",
+        "perito"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.2",
+      "phrase": "tres días",
+      "contrasts": [
+        "cinco días",
+        "diez días"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.3",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.2",
+      "phrase": "tres",
+      "contrasts": [
+        "dos",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.2",
+      "phrase": "hora distinta",
+      "contrasts": [
+        "la misma hora siempre",
+        "una hora elegida por el destinatario obligatoriamente"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.2",
+      "phrase": "catorce años",
+      "contrasts": [
+        "dieciséis años",
+        "dieciocho años"
+      ]
+    },
+    {
+      "category": "papel",
+      "reference": "Ley 39/2015, artículo 42.2",
+      "phrase": "al menos",
+      "contrasts": [
+        "como máximo",
+        "exactamente sin posibilidad de aumentar"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43.1",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43",
+      "phrase": "representante",
+      "contrasts": [
+        "testigo",
+        "perito"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43.2",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43.3",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43.4",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43",
+      "phrase": "diez",
+      "contrasts": [
+        "doce",
+        "quince"
+      ]
+    },
+    {
+      "category": "electronica",
+      "reference": "Ley 39/2015, artículo 43",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 44",
+      "phrase": "Boletín Oficial del Estado",
+      "contrasts": [
+        "sólo boletín provincial",
+        "sólo tablón interno"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 45.1",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 46",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 44",
+      "phrase": "la Provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 44",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 45",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 45, letra a",
+      "phrase": "solo",
+      "contrasts": [
+        "indistintamente",
+        "preferentemente"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "Ley 39/2015, artículo 45, letra b",
+      "phrase": "concurrencia competitiva",
+      "contrasts": [
+        "asignación discrecional sin bases",
+        "sorteo entre proveedores"
+      ]
+    }
+  ]
+}

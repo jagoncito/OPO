@@ -1,0 +1,739 @@
+{
+  "topic": 27,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "potestad": 24,
+    "inicial": 24,
+    "definitiva": 24,
+    "limites": 24,
+    "participacion": 24,
+    "iniciativa": 24,
+    "asamblea": 24,
+    "consejo": 24,
+    "organizativos": 24,
+    "efectos": 24
+  },
+  "anchors": [
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 4.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 22.1",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 49, letra a",
+      "phrase": "Pleno",
+      "contrasts": [
+        "Junta Electoral",
+        "órgano judicial"
+      ]
+    },
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 4, letra d",
+      "phrase": "investigación",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad judicial exclusiva"
+      ]
+    },
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 4, letra g",
+      "phrase": "actos y acuerdos",
+      "contrasts": [
+        "tratados internacionales",
+        "leyes orgánicas estatales"
+      ]
+    },
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 4, letra h",
+      "phrase": "bienes y derechos",
+      "contrasts": [
+        "únicamente inmuebles",
+        "únicamente derechos tributarios"
+      ]
+    },
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 4.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "potestad",
+      "reference": "Ley 7/1985, artículo 4.3",
+      "phrase": "municipios",
+      "contrasts": [
+        "Provincias",
+        "Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 49, letra b",
+      "phrase": "treinta días",
+      "contrasts": [
+        "quince días",
+        "sesenta días"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 70.1",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 70 bis.1",
+      "phrase": "el municipio",
+      "contrasts": [
+        "la Provincia",
+        "la Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 70 ter.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 70 quater.1",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 49, letra c",
+      "phrase": "Pleno",
+      "contrasts": [
+        "Junta Electoral",
+        "órgano judicial"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 49",
+      "phrase": "se entenderá definitivamente adoptado",
+      "contrasts": [
+        "se entenderá archivado",
+        "se entenderá anulado"
+      ]
+    },
+    {
+      "category": "inicial",
+      "reference": "Ley 7/1985, artículo 70",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 49, letra b",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 65.1",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 70.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 70 bis.1",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 70 ter.1",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 70 quater.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 65.2",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "Ley 7/1985, artículo 65.3",
+      "phrase": "jurisdicción contencioso-administrativa",
+      "contrasts": [
+        "jurisdicción civil",
+        "jurisdicción penal"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 128.1",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 129.1",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 128.2",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 128.3",
+      "phrase": "rango superior",
+      "contrasts": [
+        "rango inferior",
+        "cualquier rango sin excepción"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 129.2",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 129.3",
+      "phrase": "proporcionalidad",
+      "contrasts": [
+        "arbitrariedad",
+        "conveniencia electoral"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 129.4",
+      "phrase": "seguridad jurídica",
+      "contrasts": [
+        "confianza política",
+        "oportunidad electoral"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 129",
+      "phrase": "procedimiento administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 130.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 131",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 132.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 133.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 130",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 130.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 131",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Ley 39/2015, artículo 131",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 77.1",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 78.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 79.2",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 77.1",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 77.1",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 77.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 77.1",
+      "phrase": "seguridad jurídica",
+      "contrasts": [
+        "confianza política",
+        "oportunidad electoral"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 77.1",
+      "phrase": "Procedimiento Administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84, letra a",
+      "phrase": "mayoría simple",
+      "contrasts": [
+        "mayoría absoluta",
+        "mayoría de tres quintos"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84, letra a",
+      "phrase": "veinte días",
+      "contrasts": [
+        "quince días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84, letra a",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84, letra a",
+      "phrase": "veinte",
+      "contrasts": [
+        "quince",
+        "veinticinco"
+      ]
+    },
+    {
+      "category": "asamblea",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 84, letra a",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85",
+      "phrase": "veinte días",
+      "contrasts": [
+        "quince días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85.1",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "consejo",
+      "reference": "Reglamento de la Asamblea de Melilla, artículo 85",
+      "phrase": "veinte",
+      "contrasts": [
+        "quince",
+        "veinticinco"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 70.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 71.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 69.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 70.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 70.3",
+      "phrase": "veinte días",
+      "contrasts": [
+        "quince días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 70.4",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 71.2",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "organizativos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 70.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 17.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 17.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 17.3",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 17.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 17.1",
+      "phrase": "funciones ejecutivas y administrativas",
+      "contrasts": [
+        "funciones legislativas y jurisdiccionales",
+        "funciones exclusivamente consultivas"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "Estatuto de Melilla, artículo 17.1",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    }
+  ]
+}

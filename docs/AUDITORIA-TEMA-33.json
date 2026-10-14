@@ -1,0 +1,739 @@
+{
+  "topic": 33,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "ambito": 24,
+    "personal": 24,
+    "derechos": 24,
+    "retribuciones": 24,
+    "jornada": 24,
+    "deberes": 24,
+    "acceso": 24,
+    "perdida": 24,
+    "disciplina": 24,
+    "sanciones": 24
+  },
+  "anchors": [
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 1.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 2.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 3.1",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 4, letra a",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 5",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 6",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 7",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "TREBEP, artículo 1, letra b",
+      "phrase": "Igualdad, mérito y capacidad",
+      "contrasts": [
+        "antigüedad y confianza",
+        "mérito y afinidad política"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 8.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 9.1",
+      "phrase": "Derecho Administrativo",
+      "contrasts": [
+        "Derecho privado",
+        "Derecho penal"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 10.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 11.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 12.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 13",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 8, letra a",
+      "phrase": "Funcionarios de carrera",
+      "contrasts": [
+        "personal eventual exclusivamente",
+        "personal laboral exclusivamente"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "TREBEP, artículo 8, letra b",
+      "phrase": "Funcionarios interinos",
+      "contrasts": [
+        "personal eventual siempre",
+        "contratistas exclusivamente"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 14, letra c",
+      "phrase": "igualdad, mérito y capacidad",
+      "contrasts": [
+        "antigüedad y confianza",
+        "mérito y afinidad política"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 15, letra c",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 16.1",
+      "phrase": "funcionarios de carrera",
+      "contrasts": [
+        "personal eventual exclusivamente",
+        "personal laboral exclusivamente"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 17",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 18.1",
+      "phrase": "igualdad, mérito y capacidad",
+      "contrasts": [
+        "antigüedad y confianza",
+        "mérito y afinidad política"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 19.1",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 20.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "derechos",
+      "reference": "TREBEP, artículo 14, letra e",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 21.1",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 22.1",
+      "phrase": "funcionarios de carrera",
+      "contrasts": [
+        "personal eventual exclusivamente",
+        "personal laboral exclusivamente"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 23",
+      "phrase": "exclusivamente",
+      "contrasts": [
+        "preferentemente",
+        "subsidiariamente"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 24",
+      "phrase": "retribuciones complementarias",
+      "contrasts": [
+        "retribuciones básicas exclusivamente",
+        "tasas públicas"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 25.1",
+      "phrase": "cuerpo o escala",
+      "contrasts": [
+        "grupo parlamentario",
+        "territorio de nacimiento"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 26",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 27",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "retribuciones",
+      "reference": "TREBEP, artículo 29",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 47.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 47 bis.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 48, letra a",
+      "phrase": "cinco días",
+      "contrasts": [
+        "tres días",
+        "diez días"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 49",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 50.1",
+      "phrase": "veintidós días hábiles",
+      "contrasts": [
+        "treinta días naturales",
+        "veinte días hábiles"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 51",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 47.2",
+      "phrase": "doce",
+      "contrasts": [
+        "diez",
+        "quince"
+      ]
+    },
+    {
+      "category": "jornada",
+      "reference": "TREBEP, artículo 47 bis.2",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 52",
+      "phrase": "objetividad",
+      "contrasts": [
+        "arbitrariedad",
+        "preferencia política"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 53.1",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 54.3",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 53.3",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 53.4",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 53.5",
+      "phrase": "interés personal",
+      "contrasts": [
+        "mera condición de ciudadano",
+        "cualquier conocimiento del asunto"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 53.8",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "deberes",
+      "reference": "TREBEP, artículo 53.9",
+      "phrase": "en ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 55.1",
+      "phrase": "igualdad, mérito y capacidad",
+      "contrasts": [
+        "antigüedad y confianza",
+        "mérito y afinidad política"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 56, letra c",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 57.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 58",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 59.1",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 60.2",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 61",
+      "phrase": "igualdad de oportunidades",
+      "contrasts": [
+        "preferencia por nacionalidad",
+        "preferencia por domicilio"
+      ]
+    },
+    {
+      "category": "acceso",
+      "reference": "TREBEP, artículo 62, letra b",
+      "phrase": "Nombramiento",
+      "contrasts": [
+        "únicamente aprobación del examen",
+        "únicamente publicación de la convocatoria"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 63, letra a",
+      "phrase": "renuncia",
+      "contrasts": [
+        "cualquier permiso",
+        "cualquier cambio de puesto"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 64.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 65",
+      "phrase": "nombramiento",
+      "contrasts": [
+        "únicamente aprobación del examen",
+        "únicamente publicación de la convocatoria"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 67.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 68.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 63, letra b",
+      "phrase": "pérdida de la nacionalidad",
+      "contrasts": [
+        "cualquier cambio de residencia",
+        "cualquier sanción leve"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 63, letra c",
+      "phrase": "jubilación",
+      "contrasts": [
+        "cualquier excedencia",
+        "cualquier traslado"
+      ]
+    },
+    {
+      "category": "perdida",
+      "reference": "TREBEP, artículo 63, letra d",
+      "phrase": "separación del servicio",
+      "contrasts": [
+        "traslado ordinario",
+        "permiso retribuido"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 93.1",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 94.1",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 95.2",
+      "phrase": "faltas muy graves",
+      "contrasts": [
+        "faltas leves en todo caso",
+        "actos sin infracción"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 93.2",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 93.3",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 93.4",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 94, letra a",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "disciplina",
+      "reference": "TREBEP, artículo 94, letra c",
+      "phrase": "proporcionalidad",
+      "contrasts": [
+        "arbitrariedad",
+        "conveniencia electoral"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 96.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 97.1",
+      "phrase": "tres años",
+      "contrasts": [
+        "dos años",
+        "cuatro años"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 98.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 96, letra a",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 96, letra b",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 96, letra c",
+      "phrase": "6",
+      "contrasts": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 96.2",
+      "phrase": "personal laboral",
+      "contrasts": [
+        "funcionarios de carrera siempre",
+        "titulares de cargos electivos"
+      ]
+    },
+    {
+      "category": "sanciones",
+      "reference": "TREBEP, artículo 98",
+      "phrase": "faltas leves",
+      "contrasts": [
+        "faltas muy graves en todo caso",
+        "faltas graves en todo caso"
+      ]
+    }
+  ]
+}

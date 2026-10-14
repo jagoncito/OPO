@@ -1,0 +1,436 @@
+[
+  {
+    "number": 1,
+    "topic": 28,
+    "category": "suministros",
+    "source": "lcsp",
+    "article": 16,
+    "answer": 1,
+    "explanation": "El artículo 16.3.b excluye del suministro los programas desarrollados a medida, que son contratos de servicios.",
+    "reasons": [
+      "La entrega sucesiva de bienes por precio unitario sí es suministro según el artículo 16.3.a.",
+      "Es la exclusión solicitada: el programa desarrollado a medida se considera servicio.",
+      "La adquisición de energía sí es suministro según el artículo 16.3.d."
+    ]
+  },
+  {
+    "number": 2,
+    "topic": 22,
+    "category": "concesion",
+    "source": "subvenciones",
+    "article": 22,
+    "answer": 2,
+    "explanation": "Los supuestos de los apartados b y c del artículo 22.2 permiten concesión directa.",
+    "reasons": [
+      "Describe correctamente el supuesto de imposición por norma con rango legal, pero no reúne ambas respuestas.",
+      "Describe correctamente la excepción por razones justificadas que dificultan convocatoria pública, pero no reúne ambas respuestas.",
+      "Ambas alternativas anteriores describen supuestos del artículo 22.2."
+    ]
+  },
+  {
+    "number": 3,
+    "topic": 28,
+    "category": "objeto",
+    "source": "lcsp",
+    "article": 1,
+    "answer": 0,
+    "explanation": "El artículo 1.2 incluye la regulación del régimen jurídico aplicable a efectos, cumplimiento y extinción de contratos administrativos.",
+    "reasons": [
+      "Reproduce la previsión del artículo 1.2.",
+      "El término «no aplicable» invierte lo establecido.",
+      "Sustituye «cumplimiento» por «incumplimiento», alterando la formulación solicitada."
+    ]
+  },
+  {
+    "number": 5,
+    "topic": 29,
+    "category": "formalizacion",
+    "source": "lcsp",
+    "article": 37,
+    "answer": 0,
+    "explanation": "El artículo 37.1 prohíbe contratación verbal salvo carácter de emergencia conforme al artículo 120.1.",
+    "reasons": [
+      "La excepción es emergencia.",
+      "Urgencia y emergencia son tramitaciones distintas; la urgencia no basta para esta excepción.",
+      "La contratación verbal no es una autorización general."
+    ]
+  },
+  {
+    "number": 7,
+    "topic": 20,
+    "category": "anulabilidad",
+    "source": "ley39",
+    "article": 48,
+    "answer": 1,
+    "explanation": "El artículo 48.3 vincula anulabilidad por actuación fuera de plazo a que lo imponga la naturaleza del término o plazo.",
+    "reasons": [
+      "Introduce la negación «no» que invierte la condición.",
+      "Es la formulación legal del apartado 3.",
+      "Habla de actuar dentro del tiempo establecido, cuando el precepto regula hacerlo fuera."
+    ]
+  },
+  {
+    "number": 8,
+    "topic": 23,
+    "category": "legislador",
+    "source": "ley40",
+    "article": 32,
+    "answer": 1,
+    "explanation": "El artículo 32.3 se refiere a actos legislativos de naturaleza NO expropiatoria. Por pedir la afirmación que no se ajusta, la clave es la que omite «no».",
+    "reasons": [
+      "Es regla correcta del artículo 32.1 y no es la afirmación incorrecta solicitada.",
+      "Es la opción que altera el precepto: sustituye naturaleza no expropiatoria por expropiatoria.",
+      "Son requisitos correctos del daño del artículo 32.2; no es la afirmación incorrecta."
+    ]
+  },
+  {
+    "number": 9,
+    "topic": 33,
+    "category": "perdida",
+    "source": "ebep",
+    "article": 68,
+    "answer": 0,
+    "explanation": "El artículo 68.1 dice «le será concedida», no «podrá ser concedida», una vez desaparecida la causa objetiva y solicitada la rehabilitación.",
+    "reasons": [
+      "Es la formulación incorrecta solicitada: transforma la concesión prevista en facultativa.",
+      "Describe el supuesto excepcional del apartado 2, con silencio desestimatorio.",
+      "Mantiene «le será concedida» del apartado 1 y no es la incorrecta."
+    ]
+  },
+  {
+    "number": 10,
+    "topic": 17,
+    "category": "resolver",
+    "source": "ley39",
+    "article": 23,
+    "answer": 2,
+    "explanation": "El artículo 23.2 excluye recurso contra el acuerdo de ampliación del plazo máximo para resolver y notificar.",
+    "reasons": [
+      "No corresponde revisión contra este acuerdo.",
+      "No corresponde alzada contra este acuerdo.",
+      "El apartado 2 dispone que no cabe recurso alguno."
+    ]
+  },
+  {
+    "number": 11,
+    "topic": 19,
+    "category": "iniciacion",
+    "source": "ley39",
+    "article": 61,
+    "answer": 1,
+    "explanation": "La petición razonada procede de un órgano que no tiene competencia para INICIAR el procedimiento.",
+    "reasons": [
+      "Atribuye competencia para iniciar al órgano que formula la petición, alterando la definición.",
+      "Reproduce el requisito «no tiene competencia para iniciar».",
+      "Sustituye iniciar por tramitar, que no es la definición solicitada."
+    ]
+  },
+  {
+    "number": 12,
+    "topic": 19,
+    "category": "prueba",
+    "source": "ley39",
+    "article": 77,
+    "answer": 1,
+    "explanation": "El artículo 77.6 considera preceptivo el informe de un órgano administrativo, organismo público o entidad de derecho público cuando constituye prueba.",
+    "reasons": [
+      "Preceptivo no significa vinculante.",
+      "Es la regla de informe que constituye prueba del apartado 6.",
+      "Sustituye entidad de derecho público por entidad de derecho privado."
+    ]
+  },
+  {
+    "number": 13,
+    "topic": 29,
+    "category": "expediente",
+    "source": "lcsp",
+    "article": 118,
+    "answer": 0,
+    "explanation": "El artículo 118.2 atribuye el informe justificativo al órgano de contratación, no al interventor. Se pide la alternativa incorrecta.",
+    "reasons": [
+      "Es la incorrecta: cambia al autor del informe legalmente exigido.",
+      "Es una exigencia correcta del apartado 3, por lo que no es la incorrecta.",
+      "Recoge las exigencias adicionales de obras del apartado 4, por lo que no es la incorrecta."
+    ]
+  },
+  {
+    "number": 17,
+    "topic": 30,
+    "category": "avocacion",
+    "source": "ley40",
+    "article": 10,
+    "answer": 0,
+    "explanation": "El acuerdo de avocación se motiva y notifica antes o simultáneamente a la resolución final si existen interesados.",
+    "reasons": [
+      "Mantiene motivación, notificación y momento previstos.",
+      "La notificación posterior no es la previsión del artículo 10.2.",
+      "Suprime el deber de notificar a los interesados."
+    ]
+  },
+  {
+    "number": 18,
+    "topic": 24,
+    "category": "demaniales",
+    "source": "lbrl",
+    "article": 83,
+    "answer": 0,
+    "explanation": "El artículo 83 remite los montes vecinales en mano común a su legislación específica.",
+    "reasons": [
+      "Es la remisión literal del artículo 83.",
+      "La ley no utiliza la exclusividad autonómica de esta opción.",
+      "La ley no utiliza la exclusividad estatal de esta opción."
+    ]
+  },
+  {
+    "number": 19,
+    "topic": 24,
+    "category": "demaniales",
+    "source": "lbrl",
+    "article": 79,
+    "answer": 1,
+    "explanation": "El artículo 79.3 define los comunales como dominio público cuyo aprovechamiento corresponde al común de los vecinos.",
+    "reasons": [
+      "Los comunales no son patrimoniales por pagar un precio.",
+      "Mantiene las dos características de la definición.",
+      "La ausencia de dueño conocido no define un bien comunal."
+    ]
+  },
+  {
+    "number": 20,
+    "topic": 24,
+    "category": "recuperacion",
+    "source": "lbrl",
+    "article": 82,
+    "answer": 2,
+    "explanation": "La recuperación posesoria de dominio público puede realizarse en cualquier tiempo; la patrimonial tiene límite administrativo de un año.",
+    "reasons": [
+      "Aplica incorrectamente el año también al dominio público.",
+      "Elimina el límite de un año para patrimoniales.",
+      "Distingue correctamente ambas categorías."
+    ]
+  },
+  {
+    "number": 21,
+    "topic": 24,
+    "category": "demaniales",
+    "source": "lbrl",
+    "article": 79,
+    "answer": 1,
+    "explanation": "El artículo 79.1 enumera bienes, derechos y acciones que pertenezcan a las entidades locales.",
+    "reasons": [
+      "Sustituye acciones por obligaciones; no reproduce la enumeración solicitada.",
+      "Mantiene bienes, derechos y acciones.",
+      "Restringe la enumeración a categorías que no equivalen al texto del artículo 79.1."
+    ]
+  },
+  {
+    "number": 22,
+    "topic": 24,
+    "category": "demaniales",
+    "source": "lbrl",
+    "article": 80,
+    "answer": 0,
+    "explanation": "El artículo 80.1 establece inalienabilidad, inembargabilidad, imprescriptibilidad y ausencia de sujeción a tributos de comunales y demás dominio público.",
+    "reasons": [
+      "Incluye los atributos legales.",
+      "Permite alienación y sujeción tributaria, contrarias a la formulación.",
+      "Introduce prescripción a treinta años, contraria a imprescriptibilidad."
+    ]
+  },
+  {
+    "number": 32,
+    "topic": 26,
+    "category": "vigencia",
+    "source": "servicios",
+    "article": 16,
+    "answer": 0,
+    "explanation": "El artículo 16.1 distingue quedar sin efecto por incumplir condiciones, revocación obligatoria por circunstancias y posible por nuevos criterios.",
+    "reasons": [
+      "Reproduce la regla del apartado 1.",
+      "El apartado 2 dice «podrán ser anuladas», no esta formulación de quedar sin efecto obligatoriamente.",
+      "Sustituye «sin efecto» por «anuladas» al describir el incumplimiento del apartado 1."
+    ]
+  },
+  {
+    "number": 33,
+    "topic": 26,
+    "category": "transmision",
+    "source": "servicios",
+    "article": 13,
+    "answer": 1,
+    "explanation": "El artículo 13.1 declara transmisibles las licencias relativas a condiciones de obra, instalación o servicio; se pide la incorrecta.",
+    "reasons": [
+      "Es la regla correcta de las licencias ligadas a cualidades del sujeto o actividades sobre dominio público.",
+      "Es la incorrecta solicitada: niega transmisibilidad donde el apartado 1 la reconoce.",
+      "Reproduce el apartado 1 y no es la incorrecta."
+    ]
+  },
+  {
+    "number": 36,
+    "topic": 25,
+    "category": "competencias",
+    "source": "lbrl",
+    "article": 7,
+    "answer": 2,
+    "explanation": "El artículo 7.1 diferencia competencias propias o atribuidas por delegación.",
+    "reasons": [
+      "Sustituye delegación por atribución exclusivamente autonómica.",
+      "No es la clasificación literal del artículo 7.1.",
+      "Mantiene la clasificación prevista."
+    ]
+  },
+  {
+    "number": 37,
+    "topic": 25,
+    "category": "termino",
+    "source": "lbrl",
+    "article": 13,
+    "answer": 1,
+    "explanation": "El artículo 13.4 impide segregación hasta transcurridos diez años desde la adopción del convenio de fusión.",
+    "reasons": [
+      "Reduce el periodo a cinco años.",
+      "Es el periodo legal de diez años.",
+      "Eleva el periodo a quince años."
+    ]
+  },
+  {
+    "number": 40,
+    "topic": 30,
+    "category": "competencia",
+    "source": "ley40",
+    "article": 8,
+    "answer": 0,
+    "explanation": "El artículo 8.2 admite desconcentración en órganos jerárquicamente dependientes, con los términos y requisitos de las normas de atribución.",
+    "reasons": [
+      "Reproduce esa posibilidad y sus requisitos.",
+      "Niega la posibilidad de desconcentración prevista.",
+      "Sustituye dependientes por independientes."
+    ]
+  },
+  {
+    "number": 41,
+    "topic": 30,
+    "category": "firma",
+    "source": "ley40",
+    "article": 13,
+    "answer": 1,
+    "explanation": "El artículo 13.1 establece que, sin suplente designado, ejerce quien designe el órgano administrativo inmediato superior de quien dependa.",
+    "reasons": [
+      "Confunde esa regla subsidiaria con el órgano que realizó el nombramiento.",
+      "Es la designación subsidiaria legal.",
+      "La suplencia sí está regulada."
+    ]
+  },
+  {
+    "number": 42,
+    "topic": 17,
+    "category": "representacion",
+    "source": "ley39",
+    "article": 5,
+    "answer": 2,
+    "explanation": "El artículo 5.6 permite aportar o subsanar representación en diez días o plazo superior si las circunstancias lo requieren, sin impedir por ello tener el acto por realizado.",
+    "reasons": [
+      "Invierte la regla y omite la posibilidad de plazo superior.",
+      "Invierte la regla y fija quince días como plazo general.",
+      "Mantiene la subsanación y la regla de diez días ampliable por circunstancias."
+    ]
+  },
+  {
+    "number": 43,
+    "topic": 17,
+    "category": "canal",
+    "source": "ley39",
+    "article": 14,
+    "answer": 0,
+    "explanation": "El artículo 14.2.e vincula la obligación del empleado público a actuaciones por su condición de empleado, en la forma que determine cada Administración.",
+    "reasons": [
+      "Delimita la obligación a la condición de empleado.",
+      "Generaliza la obligación a toda actuación privada del empleado sin atender a otras reglas.",
+      "Omite la obligación en las actuaciones por su condición de empleado."
+    ]
+  },
+  {
+    "number": 49,
+    "topic": 33,
+    "category": "derechos",
+    "source": "ebep",
+    "article": 15,
+    "answer": 1,
+    "explanation": "La libertad sindical figura en los derechos ejercidos colectivamente del artículo 15.a; no en la enumeración individual del artículo 14 que pregunta el examen.",
+    "reasons": [
+      "La libre asociación profesional sí aparece en el artículo 14.p.",
+      "Es la opción solicitada: libertad sindical pertenece a la enumeración del artículo 15.",
+      "La defensa y protección por ejercicio legítimo sí aparece en el artículo 14.f."
+    ]
+  },
+  {
+    "number": 54,
+    "topic": 17,
+    "category": "resolver",
+    "source": "ley39",
+    "article": 21,
+    "answer": 2,
+    "explanation": "El artículo 21.6 identifica personal encargado del despacho y titulares competentes, con obligación de resolución expresa en plazo.",
+    "reasons": [
+      "Niega tener a cargo el despacho, alterando el sujeto responsable.",
+      "Sustituye resolución expresa por tácita.",
+      "Mantiene sujetos y resolución expresa."
+    ]
+  },
+  {
+    "number": 55,
+    "topic": 17,
+    "category": "resolver",
+    "source": "ley39",
+    "article": 22,
+    "answer": 1,
+    "explanation": "El artículo 22.1.g permite suspensión por pronunciamiento judicial previo indispensable, comunicando solicitud y constancia a los interesados.",
+    "reasons": [
+      "Sustituye previo por posterior.",
+      "Mantiene el pronunciamiento previo y las dos comunicaciones.",
+      "Elimina la comunicación de tener constancia del pronunciamiento."
+    ]
+  },
+  {
+    "number": 56,
+    "topic": 17,
+    "category": "resolver",
+    "source": "ley39",
+    "article": 23,
+    "answer": 1,
+    "explanation": "La ampliación excepcional exige agotar medios, acuerdo motivado y límite no superior al plazo de tramitación previsto.",
+    "reasons": [
+      "Niega la posibilidad de acordar ampliación que reconoce el artículo 23.1.",
+      "Recoge presupuestos, órgano y límite.",
+      "Elimina agotamiento de medios y permite superar el límite."
+    ]
+  },
+  {
+    "number": 58,
+    "topic": 21,
+    "category": "resolucion",
+    "source": "ley39",
+    "article": 120,
+    "answer": 0,
+    "explanation": "El artículo 120.3 exige comunicar el pronunciamiento judicial y permite resolver sin nuevos trámites salvo audiencia cuando proceda.",
+    "reasons": [
+      "Mantiene comunicación y excepción de audiencia.",
+      "Elimina la comunicación exigida.",
+      "Niega la posibilidad de resolver en los términos previstos."
+    ]
+  },
+  {
+    "number": 59,
+    "topic": 21,
+    "category": "extraordinario",
+    "source": "ley39",
+    "article": 126,
+    "answer": 2,
+    "explanation": "El artículo 126.2 exige pronunciarse sobre procedencia y, en su caso, fondo de la cuestión del acto recurrido.",
+    "reasons": [
+      "Limita indebidamente el pronunciamiento a procedencia.",
+      "Niega ambos pronunciamientos.",
+      "Mantiene ambos niveles de decisión."
+    ]
+  }
+]

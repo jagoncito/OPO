@@ -1,0 +1,739 @@
+{
+  "topic": 32,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "imposicion": 24,
+    "contenido": 24,
+    "exposicion": 24,
+    "anuncios": 24,
+    "definitiva": 24,
+    "publicacion": 24,
+    "interesados": 24,
+    "recurso": 24,
+    "melilla": 24,
+    "regimen": 24
+  },
+  "anchors": [
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.1",
+      "phrase": "tributos",
+      "contrasts": [
+        "multas siempre",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.2",
+      "phrase": "ayuntamientos",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Departamentos ministeriales"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.3",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.1",
+      "phrase": "correspondientes ordenanzas fiscales",
+      "contrasts": [
+        "ordenanzas electorales",
+        "pliegos contractuales"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.1",
+      "phrase": "aprobar las correspondientes ordenanzas fiscales",
+      "contrasts": [
+        "aprobar únicamente una factura",
+        "aprobar únicamente una licencia"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.1",
+      "phrase": "tributos propios",
+      "contrasts": [
+        "tributos estatales exclusivamente",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.1",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 15.2",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16.1",
+      "phrase": "al menos",
+      "contrasts": [
+        "como máximo",
+        "exactamente sin posibilidad de aumentar"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16, letra a",
+      "phrase": "hecho imponible",
+      "contrasts": [
+        "objeto del contrato",
+        "causa de abstención"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16, letra b",
+      "phrase": "regímenes de declaración y de ingreso",
+      "contrasts": [
+        "regímenes de nombramiento",
+        "regímenes de contratación"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16",
+      "phrase": "tributos",
+      "contrasts": [
+        "multas siempre",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16.2",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "contenido",
+      "reference": "TRLRHL, artículo 16.1",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17.1",
+      "phrase": "treinta días",
+      "contrasts": [
+        "quince días",
+        "sesenta días"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "la provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17.3",
+      "phrase": "acuerdos definitivos",
+      "contrasts": [
+        "acuerdos únicamente provisionales",
+        "acuerdos de un particular"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17.4",
+      "phrase": "la provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17.5",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "exposicion",
+      "reference": "TRLRHL, artículo 17.1",
+      "phrase": "tributos",
+      "contrasts": [
+        "multas siempre",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17.3",
+      "phrase": "sin necesidad de acuerdo plenario",
+      "contrasts": [
+        "con necesidad de nuevo acuerdo en todo caso",
+        "sin publicación en ningún caso"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17.4",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17.5",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17.1",
+      "phrase": "treinta días, como mínimo",
+      "contrasts": [
+        "treinta días, como máximo",
+        "quince días, como mínimo"
+      ]
+    },
+    {
+      "category": "anuncios",
+      "reference": "TRLRHL, artículo 17.1",
+      "phrase": "correspondientes ordenanzas fiscales",
+      "contrasts": [
+        "ordenanzas electorales",
+        "pliegos contractuales"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.1",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.3",
+      "phrase": "reclamaciones que se hubieran presentado",
+      "contrasts": [
+        "únicamente solicitudes de licencia",
+        "únicamente recursos judiciales"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.4",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.5",
+      "phrase": "20",
+      "contrasts": [
+        "15",
+        "25"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "provincia",
+      "contrasts": [
+        "Municipio",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "10",
+      "contrasts": [
+        "12",
+        "15"
+      ]
+    },
+    {
+      "category": "definitiva",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "ayuntamientos",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Departamentos ministeriales"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "diputaciones provinciales",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Delegaciones del Gobierno"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 19.1",
+      "phrase": "la provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 17.3",
+      "phrase": "acuerdo provisional",
+      "contrasts": [
+        "contrato firmado",
+        "nombramiento interino"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 17.4",
+      "phrase": "provincia",
+      "contrasts": [
+        "Municipio",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 17.5",
+      "phrase": "diputaciones provinciales",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Delegaciones del Gobierno"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 19.2",
+      "phrase": "resolución judicial",
+      "contrasts": [
+        "resolución administrativa",
+        "resolución gubernativa"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "boletín oficial de la provincia",
+      "contrasts": [
+        "Boletín Oficial del Estado exclusivamente",
+        "tablón interno únicamente"
+      ]
+    },
+    {
+      "category": "publicacion",
+      "reference": "TRLRHL, artículo 17.2",
+      "phrase": "diario de los de mayor difusión",
+      "contrasts": [
+        "diario extranjero exclusivamente",
+        "tablón interno exclusivamente"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18, letra a",
+      "phrase": "interés directo",
+      "contrasts": [
+        "interés ajeno en todo caso",
+        "condición exclusivamente electoral"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18, letra b",
+      "phrase": "colegios oficiales",
+      "contrasts": [
+        "contratistas exclusivamente",
+        "órganos judiciales exclusivamente"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18",
+      "phrase": "la consideración de interesados",
+      "contrasts": [
+        "la condición de órgano de contratación",
+        "la condición de autoridad tributaria"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18, letra a",
+      "phrase": "resulten afectados",
+      "contrasts": [
+        "nunca resulten afectados",
+        "sean exclusivamente empleados públicos"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18, letra b",
+      "phrase": "intereses profesionales",
+      "contrasts": [
+        "intereses exclusivamente electorales",
+        "intereses ajenos en todo caso"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18, letra b",
+      "phrase": "intereses profesionales, económicos o vecinales",
+      "contrasts": [
+        "intereses únicamente electorales",
+        "intereses únicamente estatales"
+      ]
+    },
+    {
+      "category": "interesados",
+      "reference": "TRLRHL, artículo 18, letra b",
+      "phrase": "cuando actúen en defensa de los que les son propios",
+      "contrasts": [
+        "cuando defiendan cualquier interés ajeno",
+        "aunque carezcan de fines relacionados"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.1",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.2",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.1",
+      "phrase": "provincia",
+      "contrasts": [
+        "Municipio",
+        "Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.1",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.1",
+      "phrase": "boletín oficial de la provincia",
+      "contrasts": [
+        "Boletín Oficial del Estado exclusivamente",
+        "tablón interno únicamente"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.1",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "recurso",
+      "reference": "TRLRHL, artículo 19.2",
+      "phrase": "ordenanzas fiscales",
+      "contrasts": [
+        "pliegos administrativos",
+        "declaraciones responsables"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 12.1",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 38.1",
+      "phrase": "gestión, liquidación, recaudación, inspección y revisión",
+      "contrasts": [
+        "gestión sin recaudación ni revisión",
+        "liquidación exclusivamente"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 39",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 40.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 12, letra c",
+      "phrase": "Presidente de la ciudad",
+      "contrasts": [
+        "Presidente de la Asamblea Legislativa del Estado",
+        "Delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 12, letra d",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 12, letra e",
+      "phrase": "Tribunal de Cuentas",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 12, letra f",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 34",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 35.1",
+      "phrase": "patrimonio de la ciudad",
+      "contrasts": [
+        "patrimonio exclusivamente estatal",
+        "patrimonio exclusivamente privado"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "municipios",
+      "contrasts": [
+        "Provincias",
+        "Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 37",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 35",
+      "phrase": "Ayuntamiento",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 35",
+      "phrase": "bienes afectos a los servicios",
+      "contrasts": [
+        "bienes sin afectación a ningún servicio",
+        "bienes de cualquier Administración sin transferencia"
+      ]
+    }
+  ]
+}

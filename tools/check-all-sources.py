@@ -43,8 +43,10 @@ class Quotes(HTMLParser):
             self.current['text'].append(text)
 
 
-total_quotes=total_questions=total_cases=0
-for topic in range(3,17):
+total_quotes=total_questions=total_cases=total_official=0
+exam=json.loads((ROOT/'docs/examenes/administrativo-melilla-2026.json').read_text())
+official={q['number']:q for q in exam['questions']}
+for topic in range(3,34):
     code=f"""
     const fs=require('fs'),vm=require('vm'),c={{window:{{}}}};
     vm.createContext(c);
@@ -64,8 +66,17 @@ for topic in range(3,17):
         audit=question['audit'];article=articles[(audit['source'],audit['articleId'])]
         if audit['variant']=='case':
             assert audit['paragraph']==' '.join(article['paragraphs'])
-            assert not question['evaluation']
+            if topic<=16:
+                assert not question['evaluation']
             total_cases+=1
+            continue
+        if audit['variant']=='official':
+            assert audit['paragraph']==' '.join(article['paragraphs'])
+            original=official[question['exam']['number']]
+            assert question['stem']==original['stem'],question['id']
+            assert question['options']==original['options'],question['id']
+            assert question['exam']['url']==exam['sourceURL'],question['id']
+            total_official+=1
             continue
         assert audit['paragraph'] in article['paragraphs'],question['id']
         for related in audit['related']:
@@ -90,4 +101,4 @@ for topic in range(3,17):
         assert matches[question['answer']],(question['id'],'Clave incorrecta según la fuente')
         total_questions+=1
     print(f'Tema {topic}: {len(parser.rows)} citas íntegras y claves de literalidad cotejadas.')
-print(f'Cotejo total: {total_quotes} citas; {total_questions} ejercicios textuales; {total_cases} casos de interpretación con fuente identificada.')
+print(f'Cotejo total: {total_quotes} citas; {total_questions} ejercicios textuales; {total_cases} casos de interpretación; {total_official} preguntas oficiales transcritas, con solución propia.')

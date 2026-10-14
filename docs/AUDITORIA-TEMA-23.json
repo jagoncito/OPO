@@ -1,0 +1,739 @@
+{
+  "topic": 23,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "principio": 24,
+    "legislador": 24,
+    "concurrencia": 24,
+    "indemnizacion": 24,
+    "privado": 24,
+    "personal": 24,
+    "reclamacion": 24,
+    "informes": 24,
+    "resolucion": 24,
+    "melilla": 24
+  },
+  "anchors": [
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32.2",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32.3",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32, letra a",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32, letra b",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "Ley 40/2015, artículo 32.6",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32.1",
+      "phrase": "funcionamiento normal o anormal",
+      "contrasts": [
+        "funcionamiento anormal exclusivamente",
+        "funcionamiento normal exclusivamente"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32.2",
+      "phrase": "daño alegado habrá de ser efectivo",
+      "contrasts": [
+        "daño podrá ser meramente hipotético",
+        "daño no deberá acreditarse"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32.3",
+      "phrase": "no tengan el deber jurídico de soportar",
+      "contrasts": [
+        "tengan el deber jurídico de soportar",
+        "no puedan valorar económicamente"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32.6",
+      "phrase": "Boletín Oficial del Estado",
+      "contrasts": [
+        "sólo boletín provincial",
+        "sólo tablón interno"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32.7",
+      "phrase": "Ley Orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32.8",
+      "phrase": "Consejo de Ministros",
+      "contrasts": [
+        "Consejo General del Poder Judicial",
+        "Consejo de Estado"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "legislador",
+      "reference": "Ley 40/2015, artículo 32.9",
+      "phrase": "Decreto Legislativo",
+      "contrasts": [
+        "decreto-ley",
+        "reglamento"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.2",
+      "phrase": "solidaria",
+      "contrasts": [
+        "siempre excluyente",
+        "siempre inexistente"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.3",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.4",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.1",
+      "phrase": "solidaria",
+      "contrasts": [
+        "siempre excluyente",
+        "siempre inexistente"
+      ]
+    },
+    {
+      "category": "concurrencia",
+      "reference": "Ley 40/2015, artículo 33.3",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34",
+      "phrase": "cinco años",
+      "contrasts": [
+        "cuatro años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34.3",
+      "phrase": "Instituto Nacional de Estadística",
+      "contrasts": [
+        "Banco de España",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34.4",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "indemnizacion",
+      "reference": "Ley 40/2015, artículo 34",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "entidad de derecho privado",
+      "contrasts": [
+        "órgano judicial",
+        "órgano legislativo"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "sujetos de derecho privado",
+      "contrasts": [
+        "sólo órganos estatales",
+        "sólo órganos judiciales"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "responsabilidad se exigirá",
+      "contrasts": [
+        "responsabilidad nunca se exigirá",
+        "responsabilidad será siempre penal"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "directamente o a través de una entidad de derecho privado",
+      "contrasts": [
+        "sólo a través de una entidad pública",
+        "sólo por gestión directa"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "incluso cuando concurra con sujetos de derecho privado",
+      "contrasts": [
+        "salvo cuando concurra con sujetos privados",
+        "sólo si no interviene sujeto privado alguno"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "la entidad que cubra su responsabilidad",
+      "contrasts": [
+        "únicamente el propio solicitante",
+        "únicamente un órgano penal"
+      ]
+    },
+    {
+      "category": "privado",
+      "reference": "Ley 40/2015, artículo 35",
+      "phrase": "relaciones de esta naturaleza",
+      "contrasts": [
+        "relaciones exclusivamente penales",
+        "relaciones exclusivamente electorales"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 36.1",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 37.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 36.2",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 36",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 36.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 36, letra a",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 36, letra b",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "personal",
+      "reference": "Ley 40/2015, artículo 36, letra c",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 65.1",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 67.1",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 65.2",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 67",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 67",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 67.2",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 65.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "reclamacion",
+      "reference": "Ley 39/2015, artículo 65.2",
+      "phrase": "diez",
+      "contrasts": [
+        "doce",
+        "quince"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 81.1",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 82.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 86.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 81.2",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 81",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 81",
+      "phrase": "dos meses",
+      "contrasts": [
+        "tres meses",
+        "un mes"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 81.3",
+      "phrase": "dos meses",
+      "contrasts": [
+        "tres meses",
+        "un mes"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 82",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 91.1",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 92",
+      "phrase": "Consejo de Ministros",
+      "contrasts": [
+        "Consejo General del Poder Judicial",
+        "Consejo de Estado"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 96.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 91.2",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 91.3",
+      "phrase": "seis",
+      "contrasts": [
+        "cinco",
+        "siete"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 92",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 92",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 96",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.3",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.4",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.1",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.2",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.2",
+      "phrase": "Pleno de la Asamblea",
+      "contrasts": [
+        "Viceconsejero en todo caso",
+        "Secretario Técnico exclusivamente"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 111.2",
+      "phrase": "Consejero",
+      "contrasts": [
+        "Secretario General exclusivamente",
+        "Vicepresidente de la Asamblea exclusivamente"
+      ]
+    }
+  ]
+}

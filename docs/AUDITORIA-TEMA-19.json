@@ -1,0 +1,739 @@
+{
+  "topic": 19,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "garantias": 24,
+    "iniciacion": 24,
+    "solicitudes": 24,
+    "ordenacion": 24,
+    "prueba": 24,
+    "informes": 24,
+    "terminacion": 24,
+    "desistimiento": 24,
+    "ejecucion": 24,
+    "melilla": 24
+  },
+  "anchors": [
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53.1",
+      "phrase": "procedimiento administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53, letra a",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53, letra b",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53, letra c",
+      "phrase": "no presentar documentos originales",
+      "contrasts": [
+        "presentar siempre todos los originales",
+        "destruir originales tras presentarlos"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53, letra d",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53, letra e",
+      "phrase": "Ordenamiento Jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "Ley 39/2015, artículo 53, letra h",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 54",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 55.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 56.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 57",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 58",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 60.1",
+      "phrase": "superior jerárquico",
+      "contrasts": [
+        "inferior jerárquico",
+        "interesado particular"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 61.1",
+      "phrase": "investigación",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad judicial exclusiva"
+      ]
+    },
+    {
+      "category": "iniciacion",
+      "reference": "Ley 39/2015, artículo 62.1",
+      "phrase": "procedimiento administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 66, letra a",
+      "phrase": "Nombre y apellidos",
+      "contrasts": [
+        "únicamente iniciales",
+        "únicamente domicilio"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 67.1",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 68.1",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 69",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 66, letra b",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 66",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 66.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "solicitudes",
+      "reference": "Ley 39/2015, artículo 66.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 70.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 71.1",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 72.1",
+      "phrase": "solo",
+      "contrasts": [
+        "indistintamente",
+        "preferentemente"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 73.1",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 74",
+      "phrase": "cuestiones incidentales",
+      "contrasts": [
+        "resoluciones judiciales firmes",
+        "actos legislativos"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 73.2",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 73.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Ley 39/2015, artículo 71.1",
+      "phrase": "principio de celeridad",
+      "contrasts": [
+        "principio de demora libre",
+        "principio de impulso exclusivamente privado"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 75.1",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 76.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 77.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 78.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 75.3",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 75.4",
+      "phrase": "pleno",
+      "contrasts": [
+        "Junta Electoral",
+        "órgano judicial"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 76",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "Ley 39/2015, artículo 76.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 79.2",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 80.1",
+      "phrase": "no vinculantes",
+      "contrasts": [
+        "vinculantes",
+        "inmediatamente ejecutivas"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 81.1",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 82.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 83.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 80.2",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 80.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "informes",
+      "reference": "Ley 39/2015, artículo 80.4",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 84.1",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 85.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 86.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 87",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 88.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 89.2",
+      "phrase": "formular alegaciones",
+      "contrasts": [
+        "dictar la resolución",
+        "sustituir al órgano competente"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 90.1",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "terminacion",
+      "reference": "Ley 39/2015, artículo 91.1",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 94.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 95.1",
+      "phrase": "tres meses",
+      "contrasts": [
+        "dos meses",
+        "seis meses"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 96.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 94.2",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 94.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 94.4",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 94.5",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "desistimiento",
+      "reference": "Ley 39/2015, artículo 95.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 97.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 98.1",
+      "phrase": "Derecho Administrativo",
+      "contrasts": [
+        "Derecho privado",
+        "Derecho penal"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 99",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 100.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 101.1",
+      "phrase": "acto administrativo",
+      "contrasts": [
+        "reglamento exclusivamente",
+        "contrato privado"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 102.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 103.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Ley 39/2015, artículo 104.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 86.1",
+      "phrase": "legislación estatal",
+      "contrasts": [
+        "normativa exclusivamente municipal",
+        "legislación autonómica de Andalucía"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 81.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 82.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 83.1",
+      "phrase": "legislación estatal",
+      "contrasts": [
+        "normativa exclusivamente municipal",
+        "legislación autonómica de Andalucía"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 84.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 85.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 86.2",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 86.3",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    }
+  ]
+}

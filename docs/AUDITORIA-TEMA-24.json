@@ -1,0 +1,739 @@
+{
+  "topic": 24,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "clases": 24,
+    "demaniales": 24,
+    "alteracion": 24,
+    "inventario": 24,
+    "potestades": 24,
+    "deslinde": 24,
+    "recuperacion": 24,
+    "uso": 24,
+    "comunales": 24,
+    "patrimoniales": 24
+  },
+  "anchors": [
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 1.2",
+      "phrase": "régimen de bienes",
+      "contrasts": [
+        "régimen electoral exclusivamente",
+        "régimen de relaciones internacionales"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 2.1",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 3.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 4",
+      "phrase": "museos",
+      "contrasts": [
+        "Tribunales de Justicia",
+        "Embajadas"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 5",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 6.1",
+      "phrase": "bienes patrimoniales",
+      "contrasts": [
+        "bienes de dominio público",
+        "bienes comunales exclusivamente"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 1, letra a",
+      "phrase": "régimen local",
+      "contrasts": [
+        "Régimen Militar",
+        "Régimen Judicial"
+      ]
+    },
+    {
+      "category": "clases",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 1, letra b",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 79.3",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 80.1",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 81, letra a",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 82, letra a",
+      "phrase": "un año",
+      "contrasts": [
+        "dos años",
+        "cuatro años"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 80.2",
+      "phrase": "bienes patrimoniales",
+      "contrasts": [
+        "bienes de dominio público",
+        "bienes comunales exclusivamente"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 81, letra b",
+      "phrase": "veinticinco",
+      "contrasts": [
+        "veinte",
+        "treinta"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 82, letra b",
+      "phrase": "deslinde",
+      "contrasts": [
+        "expropiación automática",
+        "compraventa"
+      ]
+    },
+    {
+      "category": "demaniales",
+      "reference": "Ley 7/1985, artículo 79.3",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 7.1",
+      "phrase": "bienes patrimoniales",
+      "contrasts": [
+        "bienes de dominio público",
+        "bienes comunales exclusivamente"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 8.2",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 7.2",
+      "phrase": "propiedad",
+      "contrasts": [
+        "titularidad tributaria exclusivamente",
+        "condición de vecino exclusivamente"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 7.3",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 7.4",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 8.3",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 8, letra a",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "alteracion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 8, letra b",
+      "phrase": "veinticinco",
+      "contrasts": [
+        "veinte",
+        "treinta"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 17.1",
+      "phrase": "bienes y derechos",
+      "contrasts": [
+        "únicamente inmuebles",
+        "únicamente derechos tributarios"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 18",
+      "phrase": "Bienes y derechos",
+      "contrasts": [
+        "únicamente inmuebles",
+        "únicamente derechos tributarios"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 20, letra g",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 21, letra e",
+      "phrase": "Propiedad",
+      "contrasts": [
+        "titularidad tributaria exclusivamente",
+        "condición de vecino exclusivamente"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 22",
+      "phrase": "bienes muebles",
+      "contrasts": [
+        "bienes inmuebles exclusivamente",
+        "derechos incorporales exclusivamente"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 27",
+      "phrase": "bienes muebles",
+      "contrasts": [
+        "bienes inmuebles exclusivamente",
+        "derechos incorporales exclusivamente"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 28.1",
+      "phrase": "Bienes y derechos",
+      "contrasts": [
+        "únicamente inmuebles",
+        "únicamente derechos tributarios"
+      ]
+    },
+    {
+      "category": "inventario",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 29.2",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 44.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 45",
+      "phrase": "bienes y derechos",
+      "contrasts": [
+        "únicamente inmuebles",
+        "únicamente derechos tributarios"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 46",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 47",
+      "phrase": "10",
+      "contrasts": [
+        "12",
+        "15"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 49.1",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 50",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 51",
+      "phrase": "certificaciones",
+      "contrasts": [
+        "títulos de propiedad",
+        "licencias de actividad"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 52",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 56.1",
+      "phrase": "deslinde",
+      "contrasts": [
+        "expropiación automática",
+        "compraventa"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 57.1",
+      "phrase": "deslinde",
+      "contrasts": [
+        "expropiación automática",
+        "compraventa"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 58",
+      "phrase": "deslinde",
+      "contrasts": [
+        "expropiación automática",
+        "compraventa"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 59",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 60",
+      "phrase": "deslinde",
+      "contrasts": [
+        "expropiación automática",
+        "compraventa"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 61.1",
+      "phrase": "la provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 62.1",
+      "phrase": "veinte días",
+      "contrasts": [
+        "quince días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "deslinde",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 63",
+      "phrase": "deslinde",
+      "contrasts": [
+        "expropiación automática",
+        "compraventa"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 70.1",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 71.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 72",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 73",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 70.2",
+      "phrase": "bienes patrimoniales",
+      "contrasts": [
+        "bienes de dominio público",
+        "bienes comunales exclusivamente"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 71.2",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 71.3",
+      "phrase": "autoridad judicial",
+      "contrasts": [
+        "autoridad administrativa",
+        "autoridad parlamentaria"
+      ]
+    },
+    {
+      "category": "recuperacion",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 70.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 74.2",
+      "phrase": "Servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 75",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 76",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 77.1",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 78.1",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 79",
+      "phrase": "nueve años",
+      "contrasts": [
+        "seis años",
+        "cinco años"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 80",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "uso",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 83.1",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 94, letra a",
+      "phrase": "costumbre",
+      "contrasts": [
+        "jurisprudencia",
+        "disposición administrativa"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 95",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 97",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 98.1",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 99",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 100.1",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 102",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "comunales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 103.1",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 92.1",
+      "phrase": "cinco años",
+      "contrasts": [
+        "cuatro años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 93.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 112.1",
+      "phrase": "bienes patrimoniales",
+      "contrasts": [
+        "bienes de dominio público",
+        "bienes comunales exclusivamente"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 113",
+      "phrase": "deslinde",
+      "contrasts": [
+        "expropiación automática",
+        "compraventa"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 114",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 115.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 116.1",
+      "phrase": "diez",
+      "contrasts": [
+        "doce",
+        "quince"
+      ]
+    },
+    {
+      "category": "patrimoniales",
+      "reference": "Reglamento de Bienes de las Entidades Locales, artículo 117",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    }
+  ]
+}

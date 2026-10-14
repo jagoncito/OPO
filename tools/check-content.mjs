@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-for (let topic=1;topic<=16;topic++) {
+for (let topic=1;topic<=33;topic++) {
   const context = vm.createContext({window: {}});
   const directory = topic === 1 ? "js" : `js/tema${topic}`;
   const files = topic === 1 ? ["lesson.js","questions-a.js","questions-b.js","questions-c.js"] : topic === 2 ? ["config.js","lesson-a.js","lesson-b.js","lesson.js","questions-a.js","questions-b.js","questions-c.js"] : ["config.js","lesson.js","questions-a.js","questions-b.js","questions-c.js"];
@@ -32,7 +32,15 @@ for (let topic=1;topic<=16;topic++) {
     assert.ok(q.explanation.length>35,`Justificación insuficiente: ${q.id}`);
     assert.equal(q.wrongReasons.length,3,q.id);
     assert.ok(q.wrongReasons.every(s=>typeof s==='string'&&s.length>10),q.id);
-    assert.equal(q.origin,'original',q.id);
+    assert.ok(['original','official'].includes(q.origin),q.id);
+    if(q.origin==='official'){
+      assert.ok(topic>=17,q.id);
+      assert.equal(q.exam.date,'2026-09-06',q.id);
+      assert.ok(q.exam.body.includes('Administrativo'),q.id);
+      assert.ok(q.exam.number>=1&&q.exam.number<=85,q.id);
+      assert.ok(q.exam.answerStatus.includes('propia'),q.id);
+      assert.ok(fs.existsSync(path.join(root,q.exam.local)),q.id);
+    }
     assert.ok(q.reference.length>5,q.id);
     const url = new URL(q.sourceUrl);
     assert.ok(['www.boe.es','www.melilla.es'].includes(url.hostname),q.id);
@@ -59,7 +67,11 @@ for (let topic=1;topic<=16;topic++) {
     for(let option=0;option<3;option++)assert.equal(bank.filter(q=>q.answer===option).length,80,'Claves equilibradas');
   }
   if(topic>=3){
-    assert.equal(bank.filter(q=>q.audit.variant==='case').length,3,'Casos prácticos originales');
+    assert.equal(bank.filter(q=>q.audit.variant==='case').length,topic<=16?3:6,'Casos prácticos originales');
+    if(topic>=17){
+      assert.equal(context.window.OPO_CONFIG.officialTopic,topic-16);
+      assert.equal(bank.filter(q=>q.audit.variant==='case'&&q.evaluation).length,3,'Casos reservados para evaluación');
+    }
     assert.ok(new Set(bank.filter(q=>q.evaluation).map(q=>q.audit.variant)).size>=3,'Evaluación con varias tareas');
   }
   console.log(`Tema ${topic}: 240 preguntas, 200 de entrenamiento + 40 de evaluación; cobertura, claves y explicaciones verificadas.`);

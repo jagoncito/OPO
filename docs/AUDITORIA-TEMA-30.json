@@ -1,0 +1,739 @@
+{
+  "topic": 30,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "organos": 24,
+    "competencia": 24,
+    "delegacion": 24,
+    "avocacion": 24,
+    "encomienda": 24,
+    "firma": 24,
+    "conflictos": 24,
+    "colegiados": 24,
+    "estado": 24,
+    "imparcialidad": 24
+  },
+  "anchors": [
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 5.2",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 6.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 7",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 5.3",
+      "phrase": "al menos",
+      "contrasts": [
+        "como máximo",
+        "exactamente sin posibilidad de aumentar"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 5, letra b",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 5.4",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 6.2",
+      "phrase": "solo",
+      "contrasts": [
+        "indistintamente",
+        "preferentemente"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 40/2015, artículo 7",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8.1",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8.3",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8.1",
+      "phrase": "irrenunciable",
+      "contrasts": [
+        "libremente renunciable",
+        "siempre transmisible por acuerdo privado"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8",
+      "phrase": "titularidad de la competencia",
+      "contrasts": [
+        "sólo la firma del documento",
+        "sólo la sede de trabajo"
+      ]
+    },
+    {
+      "category": "competencia",
+      "reference": "Ley 40/2015, artículo 8.2",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9",
+      "phrase": "competencias propias",
+      "contrasts": [
+        "competencias jurisdiccionales",
+        "competencias estatales exclusivas"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9.2",
+      "phrase": "En ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9, letra a",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9.3",
+      "phrase": "la Provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9.4",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "Ley 40/2015, artículo 9.5",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10.2",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10.1",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10.1",
+      "phrase": "circunstancias de índole técnica, económica, social, jurídica o territorial",
+      "contrasts": [
+        "sólo razones personales del titular",
+        "sólo razones electorales"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "avocacion",
+      "reference": "Ley 40/2015, artículo 10",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11.2",
+      "phrase": "titularidad de la competencia",
+      "contrasts": [
+        "sólo la firma del documento",
+        "sólo la sede de trabajo"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11, letra a",
+      "phrase": "la Provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11, letra b",
+      "phrase": "la Provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "encomienda",
+      "reference": "Ley 40/2015, artículo 11.1",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 12.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 13.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 12.2",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 12.3",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 13.2",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 13.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 13, letra b",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "firma",
+      "reference": "Ley 40/2015, artículo 12.1",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14.1",
+      "phrase": "remitirá directamente las actuaciones",
+      "contrasts": [
+        "archivará siempre sin comunicar",
+        "resolverá pese a su incompetencia"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14.2",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14.2",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "Ley 40/2015, artículo 14.3",
+      "phrase": "procedimiento administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 15.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 16.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 17.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 18.1",
+      "phrase": "Secretario",
+      "contrasts": [
+        "Presidente exclusivamente",
+        "vocal de menor edad"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 15.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 15.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 16.2",
+      "phrase": "Secretario",
+      "contrasts": [
+        "Presidente exclusivamente",
+        "vocal de menor edad"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Ley 40/2015, artículo 16.3",
+      "phrase": "Secretario",
+      "contrasts": [
+        "Presidente exclusivamente",
+        "vocal de menor edad"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 19.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 20.1",
+      "phrase": "tres",
+      "contrasts": [
+        "dos",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 21, letra b",
+      "phrase": "solo",
+      "contrasts": [
+        "indistintamente",
+        "preferentemente"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 22.1",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 19.2",
+      "phrase": "Presidente",
+      "contrasts": [
+        "Secretario exclusivamente",
+        "cualquier interesado"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 19, letra f",
+      "phrase": "certificaciones",
+      "contrasts": [
+        "títulos de propiedad",
+        "licencias de actividad"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 19, letra g",
+      "phrase": "Presidente",
+      "contrasts": [
+        "Secretario exclusivamente",
+        "cualquier interesado"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "Ley 40/2015, artículo 19",
+      "phrase": "Presidente",
+      "contrasts": [
+        "Secretario exclusivamente",
+        "cualquier interesado"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 23.1",
+      "phrase": "superior inmediato",
+      "contrasts": [
+        "interesado",
+        "Secretario del órgano exclusivamente"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 24.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 23, letra a",
+      "phrase": "interés personal",
+      "contrasts": [
+        "mera condición de ciudadano",
+        "cualquier conocimiento del asunto"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 23, letra b",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 23, letra c",
+      "phrase": "amistad íntima o enemistad manifiesta",
+      "contrasts": [
+        "cualquier relación profesional ordinaria",
+        "mera coincidencia de domicilio"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 23, letra e",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 23.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "imparcialidad",
+      "reference": "Ley 40/2015, artículo 23.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    }
+  ]
+}

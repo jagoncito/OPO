@@ -1,6 +1,6 @@
-# Auxiliar Administrativo de Melilla · Legislación, temas 1–16
+# Auxiliar Administrativo de Melilla · Programa general y específico
 
-Web local con los **16 temas de la parte general** de la convocatoria. Mantiene la plantilla, apartados, controles, tiempos y corrección de los temas 1 y 2. El menú permite cambiar de tema; el historial y los intentos se guardan por separado. La parte específica y los simulacros generales de todo el programa no forman parte de esta entrega.
+Web local con los **16 temas generales y los 17 específicos** de la convocatoria. Mantiene la plantilla, apartados, controles, tiempos y corrección de los temas 1 y 2. El menú permite cambiar de tema; el historial y los intentos se guardan por separado. Los simulacros generales que mezclan todo el programa siguen pendientes de una entrega posterior.
 
 | Página | Tema | Ámbito |
 |---|---|---|
@@ -21,6 +21,28 @@ Web local con los **16 temas de la parte general** de la convocatoria. Mantiene 
 | [tema15.html](tema15.html) | 15. Régimen local español: principios, entidades y Municipio. Concepto y elementos | Régimen local · Constitución y Ley 7/1985 |
 | [tema16.html](tema16.html) | 16. Ley Orgánica 3/2007: Títulos Preliminar y I. Igualdad y tutela contra la discriminación | Igualdad efectiva · Artículos 1–13 |
 
+La numeración de las bases **vuelve a empezar en 1 en la parte específica**. Sus páginas se llaman `tema17.html` a `tema33.html` para mantener la secuencia de archivos, y el menú las identifica como «Específica 1–17».
+
+| Página | Tema específico oficial |
+|---|---|
+| [tema17.html](tema17.html) | 1. Ley 39/2015: interesados, identificación, actuación, términos y plazos |
+| [tema18.html](tema18.html) | 2. El acto administrativo: concepto, clases, requisitos y eficacia |
+| [tema19.html](tema19.html) | 3. Procedimiento administrativo: garantías, fases y especialidades de Melilla |
+| [tema20.html](tema20.html) | 4. Nulidad, anulabilidad y revisión administrativa en Melilla |
+| [tema21.html](tema21.html) | 5. Recursos administrativos y órganos competentes en Melilla |
+| [tema22.html](tema22.html) | 6. Acción administrativa: fomento, policía y servicio público |
+| [tema23.html](tema23.html) | 7. Responsabilidad patrimonial y tramitación en Melilla |
+| [tema24.html](tema24.html) | 8. Patrimonio local: bienes, potestades y comunales |
+| [tema25.html](tema25.html) | 9. Término, Padrón, organización, competencias y servicios municipales |
+| [tema26.html](tema26.html) | 10. Licencias: naturaleza, régimen jurídico y otorgamiento |
+| [tema27.html](tema27.html) | 11. Ordenanzas y reglamentos locales y elaboración en Melilla |
+| [tema28.html](tema28.html) | 12. Contratos del sector público: ámbito, tipos y órganos de Melilla |
+| [tema29.html](tema29.html) | 13. Contratos menores: umbrales, expediente, adjudicación y Melilla |
+| [tema30.html](tema30.html) | 14. Ley 40/2015: competencia, órganos colegiados, abstención y recusación |
+| [tema31.html](tema31.html) | 15. Haciendas locales: recursos, tasas, precios y contribuciones |
+| [tema32.html](tema32.html) | 16. Ordenanzas fiscales y órganos competentes de Melilla |
+| [tema33.html](tema33.html) | 17. TREBEP: personal, derechos, deberes, disciplina y relación de servicio |
+
 ## Abrir en tu ordenador
 
 1. Descarga el repositorio con **Code → Download ZIP**, o clónalo.
@@ -34,14 +56,18 @@ Opcionalmente, puedes servir esta carpeta con `python3 -m http.server 8000`. El 
 ## Qué incluye
 
 - Una página por tema, con teoría, subrayados amarillos, confusiones, criterios de dominio y fuentes. Los temas añadidos incluyen los preceptos de su ámbito y casos resueltos.
-- **Por tema: 10 tests de 20 preguntas + evaluación de 40. En total: 3.840 preguntas originales, 160 entrenamientos y 16 evaluaciones.**
+- **Por tema: 10 tests de 20 preguntas + evaluación de 40. En total: 7.920 preguntas, 330 entrenamientos y 33 evaluaciones. Son 7.889 originales y 31 transcritas de un cuestionario oficial relacionado.**
 - Tres alternativas y una correcta. Entrega manual o automática al agotarse el tiempo, navegación, preguntas marcadas, blancos y confianza opcional.
 - Corrección debajo de **cada pregunta**, tanto acertada como fallada o en blanco: elección, clave, fundamento, artículo y explicación de cada opción.
 - Historial, diagnóstico por bloques, errores con confianza alta y exportación/importación del progreso.
 
-El tema 1 distribuye sus tests según los focos indicados en las tarjetas. En los temas 2–16, cada entrenamiento cubre uno de diez bloques; la evaluación contiene cuatro preguntas reservadas de cada bloque. Las preguntas de evaluación no aparecen en los entrenamientos, aunque recuperan conceptos estudiados.
+El tema 1 distribuye sus tests según los focos indicados en las tarjetas. En los temas 2–33, cada entrenamiento cubre uno de diez bloques; la evaluación contiene cuatro preguntas reservadas de cada bloque. Las preguntas de evaluación no aparecen en los entrenamientos, aunque recuperan conceptos estudiados.
 
 Los temas 3–16 combinan recuperación de términos, corrección de formulaciones, contraste de reglas y casos. El tema 3 parte de 80 contrastes normativos; los demás, de 40 por tema, practicados mediante varias tareas. **240 preguntas no equivalen a 240 conceptos jurídicos independientes**. Hay 42 casos de interpretación redactados y revisados por separado, tres en cada tema añadido. El reparto es pedagógico; la dificultad es editorial y no está calibrada con aspirantes ni basada en frecuencias históricas verificadas.
+
+Los 17 temas específicos aportan **4.080 preguntas**, con 102 casos originales: tres de entrenamiento y tres reservados para la evaluación por tema. Parten de 72–80 contrastes normativos por tema, recuperados mediante varias tareas; no se presentan como 240 conceptos independientes. Los casos de evaluación no se muestran en los casos resueltos de la teoría.
+
+Hay **31 preguntas transcritas, conservando enunciado y alternativas**, del cuestionario oficial de **Administrativo CAM del 06/09/2026**. Se identifica cuerpo, fecha y número al responder y en la corrección. Es otro cuerpo: no se presenta como examen de Auxiliar. Las soluciones y explicaciones son una revisión normativa propia, porque no se ha localizado su plantilla definitiva. El PDF completo, con 80 preguntas y cinco reservas, está en `docs/examenes/administrativo-melilla-2026.pdf`.
 
 ## Tiempo y puntuación
 
@@ -92,12 +118,21 @@ Para los temas añadidos se incluyen textos de referencia y datos cotejables en 
 | Ley 7/1985, régimen local | 12/11/2024 |
 | LO 3/2007, igualdad | 02/08/2024 |
 | Reglamento del Gobierno y de la Administración de Melilla | Publicación oficial de 30/01/2017 |
+| Ley 40/2015 | 02/08/2024 |
+| Ley 9/2017, contratos del sector público | 02/08/2024 |
+| RDL 2/2004, haciendas locales | 28/12/2023 |
+| RDL 5/2015, TREBEP | 02/08/2024 |
+| Reglamento de Servicios de las Corporaciones Locales | 02/10/2015 |
+| Reglamento de Bienes de las Entidades Locales | 07/07/1986 |
+| Reglamento de Población y Demarcación Territorial | 07/02/2024 |
+| Ley 38/2003, subvenciones | 02/08/2024 |
+| Reglamento de la Asamblea de Melilla | Publicación oficial de 18/04/2018 |
 
 Se usan las redacciones vigentes a **19/11/2024**, conforme a las bases, aunque el ejercicio se celebre en 2026. El tema 9 incorpora las notas oficiales de la STC 55/2018 en los artículos 129, 130, 132 y 133 de la Ley 39/2015: leer su literalidad no basta para determinar su ámbito de aplicación.
 
 Para el Reglamento de Melilla se conserva el PDF original y se ha buscado una modificación anterior al corte sin localizarla en el recorrido documentado. La consolidación del portal de marzo de 2026 no se sustituye automáticamente por la fuente de 2017; la búsqueda no permite certificar la inexistencia de cualquier modificación o sentencia. Esta limitación queda indicada en la documentación y en el propio tema.
 
-Las 3.840 preguntas son originales y llevan ese origen explícito. La búsqueda de exámenes anteriores sigue sin ser exhaustiva: se han localizado anuncios oficiales de convocatorias anteriores, pero no cuestionarios ni plantillas de Auxiliar Administrativo que permitan atribuir preguntas. Véase `docs/INVESTIGACION-EXAMENES.md`. No se inventan frecuencias ni preguntas «caídas».
+Las preguntas originales y las del cuestionario oficial relacionado llevan su procedencia explícita. La búsqueda de exámenes anteriores sigue sin ser exhaustiva: se han localizado anuncios oficiales de convocatorias anteriores, pero no cuestionarios ni plantillas de Auxiliar Administrativo que permitan atribuir preguntas. Véase `docs/INVESTIGACION-EXAMENES.md`. No se inventan frecuencias ni preguntas «caídas».
 
 ## Privacidad y conservación
 
@@ -105,13 +140,15 @@ Las respuestas se guardan solo en el almacenamiento local del navegador. No hay 
 
 ## Comprobaciones para desarrollo
 
-No hay compilación ni dependencias de ejecución. El banco y el contenido se pueden validar con Node:
+No hay compilación ni dependencias de ejecución. El banco y las citas se pueden validar con Node y Python:
 
 ```sh
 node tools/check-content.mjs
 python3 tools/check-literals.py
 python3 tools/check-all-sources.py
 ```
+
+Las páginas y bancos estáticos de los temas añadidos se construyen desde sus modelos, fuentes y casos en `tools/data/` y `docs/normas/`. Para reconstruir un tema específico, por ejemplo: `python3 tools/build-legislation.py 17`; para actualizar las páginas: `python3 tools/build-pages.py`. Estas operaciones son sólo de desarrollo.
 
 La comprobación de navegador usa Python y Playwright (solo para desarrollo, no para utilizar la web):
 

@@ -1,0 +1,739 @@
+{
+  "topic": 21,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "objeto": 24,
+    "presentacion": 24,
+    "suspension": 24,
+    "audiencia": 24,
+    "resolucion": 24,
+    "alzada": 24,
+    "reposicion": 24,
+    "extraordinario": 24,
+    "melilla_alzada": 24,
+    "melilla_resto": 24
+  },
+  "anchors": [
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 112.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 113",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 114, letra c",
+      "phrase": "superior jerárquico",
+      "contrasts": [
+        "inferior jerárquico",
+        "interesado particular"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 112",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 112.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 112",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 112",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 39/2015, artículo 112.3",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 115.1",
+      "phrase": "La interposición del recurso",
+      "contrasts": [
+        "la mera firma del borrador",
+        "la publicación de la convocatoria"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 116, letra a",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 115, letra a",
+      "phrase": "nombre y apellidos",
+      "contrasts": [
+        "únicamente iniciales",
+        "únicamente domicilio"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 115, letra b",
+      "phrase": "razón de su impugnación",
+      "contrasts": [
+        "únicamente preferencias privadas",
+        "razón de su abstención"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 115.2",
+      "phrase": "error o la ausencia de la calificación del recurso",
+      "contrasts": [
+        "cualquier falta de motivación del acto",
+        "inexistencia del acto impugnado"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 115.3",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 116, letra b",
+      "phrase": "Carecer de legitimación",
+      "contrasts": [
+        "tener legitimación acreditada",
+        "ser mayor de edad"
+      ]
+    },
+    {
+      "category": "presentacion",
+      "reference": "Ley 39/2015, artículo 116, letra c",
+      "phrase": "acto no susceptible de recurso",
+      "contrasts": [
+        "acto recurrible",
+        "acto nulo exclusivamente"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117.1",
+      "phrase": "no suspenderá",
+      "contrasts": [
+        "suspenderá siempre",
+        "anulará"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117, letra b",
+      "phrase": "pleno",
+      "contrasts": [
+        "Junta Electoral",
+        "órgano judicial"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117.3",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117.4",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117",
+      "phrase": "recurso contencioso-administrativo",
+      "contrasts": [
+        "recurso de alzada obligatorio",
+        "recurso de reposición obligatorio"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117.5",
+      "phrase": "acto administrativo",
+      "contrasts": [
+        "reglamento exclusivamente",
+        "contrato privado"
+      ]
+    },
+    {
+      "category": "suspension",
+      "reference": "Ley 39/2015, artículo 117.1",
+      "phrase": "no suspenderá la ejecución del acto impugnado",
+      "contrasts": [
+        "suspenderá siempre la ejecución",
+        "anulará el acto automáticamente"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118.1",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118.3",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118.1",
+      "phrase": "diez",
+      "contrasts": [
+        "doce",
+        "quince"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118.1",
+      "phrase": "no inferior a diez días ni superior a quince",
+      "contrasts": [
+        "no inferior a cinco ni superior a ocho",
+        "no inferior a veinte ni superior a treinta"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118.1",
+      "phrase": "inferior",
+      "contrasts": [
+        "igual o inferior",
+        "superior"
+      ]
+    },
+    {
+      "category": "audiencia",
+      "reference": "Ley 39/2015, artículo 118.1",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 119.2",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 120.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 119.3",
+      "phrase": "en ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 120.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 120",
+      "phrase": "acto administrativo",
+      "contrasts": [
+        "reglamento exclusivamente",
+        "contrato privado"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 120.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 119.3",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "resolucion",
+      "reference": "Ley 39/2015, artículo 120.1",
+      "phrase": "acto administrativo",
+      "contrasts": [
+        "reglamento exclusivamente",
+        "contrato privado"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 121.1",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 122.1",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 121.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 121",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 121",
+      "phrase": "órgano que dictó el acto",
+      "contrasts": [
+        "órgano inferior al que dictó el acto",
+        "órgano elegido libremente"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 122",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 122.2",
+      "phrase": "tres meses",
+      "contrasts": [
+        "dos meses",
+        "seis meses"
+      ]
+    },
+    {
+      "category": "alzada",
+      "reference": "Ley 39/2015, artículo 122.3",
+      "phrase": "recurso de alzada",
+      "contrasts": [
+        "recurso de revisión siempre",
+        "recurso de casación"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 123.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 124.1",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 123.2",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 124",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 124.2",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 124.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 123.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "reposicion",
+      "reference": "Ley 39/2015, artículo 123.2",
+      "phrase": "recurso contencioso-administrativo",
+      "contrasts": [
+        "recurso de alzada obligatorio",
+        "recurso de reposición obligatorio"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 125.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 126.1",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 125, letra a",
+      "phrase": "error de hecho",
+      "contrasts": [
+        "error de Derecho cualquiera",
+        "cambio de criterio político"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 125.2",
+      "phrase": "cuatro años",
+      "contrasts": [
+        "cinco años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 125.3",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 126.2",
+      "phrase": "recurso extraordinario de revisión",
+      "contrasts": [
+        "recurso ordinario de alzada",
+        "recurso obligatorio de reposición"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 126.3",
+      "phrase": "tres meses",
+      "contrasts": [
+        "dos meses",
+        "seis meses"
+      ]
+    },
+    {
+      "category": "extraordinario",
+      "reference": "Ley 39/2015, artículo 125.1",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 88",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 92.1",
+      "phrase": "Consejeros",
+      "contrasts": [
+        "Viceconsejeros",
+        "Secretarios Técnicos"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 92.2",
+      "phrase": "recurso de alzada",
+      "contrasts": [
+        "recurso de revisión siempre",
+        "recurso de casación"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 88",
+      "phrase": "Presidente de la Ciudad",
+      "contrasts": [
+        "Presidente de la Asamblea Legislativa del Estado",
+        "Delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 88",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 88",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 88",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "melilla_alzada",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 88",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 93.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 94",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 95.1",
+      "phrase": "recurso de alzada",
+      "contrasts": [
+        "recurso de revisión siempre",
+        "recurso de casación"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 93",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 93.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 93.3",
+      "phrase": "carácter público",
+      "contrasts": [
+        "carácter privado",
+        "carácter reservado"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 95.2",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "melilla_resto",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 93",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    }
+  ]
+}

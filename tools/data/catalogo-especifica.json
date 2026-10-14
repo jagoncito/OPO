@@ -1,0 +1,2895 @@
+[
+  {
+    "topic": 17,
+    "officialTopic": 1,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Ley 39/2015: interesados, identificación, actuación, términos y plazos",
+    "subtitle": "Parte específica · Tema 1 · Ley 39/2015: interesados, identificación, actuación, términos y plazos",
+    "overview": "Empieza cada expediente identificando quién actúa, con qué capacidad y representación, ante qué Administración y por qué canal. No confundas identificación con firma ni derecho a usar medios electrónicos con obligación de utilizarlos. En el cómputo distingue horas, días hábiles, días naturales y meses; la presentación en un registro electrónico abierto no convierte el día inhábil en hábil. Conecta el deber de resolver con suspensión, ampliación y efectos del silencio.",
+    "categories": [
+      [
+        "ambito",
+        "Objeto y ámbito",
+        "ley39",
+        [
+          1,
+          2
+        ],
+        "Una entidad del sector público debe determinar qué preceptos le son aplicables."
+      ],
+      [
+        "capacidad",
+        "Capacidad e interesado",
+        "ley39",
+        [
+          3,
+          4
+        ],
+        "Una persona con interés legítimo decide personarse antes de la resolución."
+      ],
+      [
+        "representacion",
+        "Representación y pluralidad",
+        "ley39",
+        [
+          5,
+          6,
+          7,
+          8
+        ],
+        "Se presenta un escrito por representante y hay que acreditar el poder o subsanar."
+      ],
+      [
+        "identificacion",
+        "Identificación y firma",
+        "ley39",
+        [
+          9,
+          10,
+          11,
+          12
+        ],
+        "El trámite puede requerir identificación o firma, con asistencia si procede."
+      ],
+      [
+        "canal",
+        "Derechos y relación electrónica",
+        "ley39",
+        [
+          13,
+          14
+        ],
+        "Una persona física elige canal, mientras una persona jurídica debe relacionarse electrónicamente."
+      ],
+      [
+        "registros",
+        "Lengua, registro y archivo",
+        "ley39",
+        [
+          15,
+          16,
+          17
+        ],
+        "Se presenta un documento y se comprueba el registro, idioma y archivo electrónico."
+      ],
+      [
+        "documentos",
+        "Colaboración, comparecencia y documentos",
+        "ley39",
+        [
+          18,
+          19,
+          20,
+          26,
+          27,
+          28
+        ],
+        "La oficina solicita un documento que otra Administración ya tiene o una copia auténtica."
+      ],
+      [
+        "resolver",
+        "Resolución, suspensión y ampliación",
+        "ley39",
+        [
+          21,
+          22,
+          23
+        ],
+        "Un expediente requiere informe preceptivo y se estudia el efecto sobre el plazo máximo."
+      ],
+      [
+        "silencio",
+        "Silencio a solicitud y de oficio",
+        "ley39",
+        [
+          24,
+          25
+        ],
+        "Vence el plazo sin notificar y se distingue el sentido del silencio del deber de resolver."
+      ],
+      [
+        "plazos",
+        "Términos, cómputo, registro y urgencia",
+        "ley39",
+        [
+          29,
+          30,
+          31,
+          32,
+          33
+        ],
+        "Un plazo por meses vence en día inhábil y no debe confundirse con treinta días."
+      ]
+    ],
+    "scope": {
+      "ley39": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        26,
+        27,
+        28,
+        21,
+        22,
+        23,
+        24,
+        25,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "rga": [
+        86
+      ]
+    }
+  },
+  {
+    "topic": 18,
+    "officialTopic": 2,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "El acto administrativo: concepto, clases, requisitos y eficacia",
+    "subtitle": "Parte específica · Tema 2 · El acto administrativo: concepto, clases, requisitos y eficacia",
+    "overview": "Un acto aplica potestades administrativas a un supuesto; una disposición general establece reglas normativas. Distingue actos expresos y presuntos, definitivos y de trámite, favorables y de gravamen, y actos que agotan o no la vía administrativa. Esta clasificación es una explicación didáctica apoyada en los artículos citados, no una definición literal de la Ley. Examina órgano, contenido, motivación y forma antes de separar validez y eficacia. Una notificación defectuosa no equivale automáticamente a nulidad del acto.",
+    "categories": [
+      [
+        "clases",
+        "Clases y actos recurribles",
+        "ley39",
+        [
+          24,
+          109,
+          112,
+          114
+        ],
+        "Un acto de trámite puede ser recurrible si decide el fondo o causa indefensión."
+      ],
+      [
+        "produccion",
+        "Competencia y producción",
+        "ley39",
+        [
+          34
+        ],
+        "Se decide si el órgano competente ha seguido el procedimiento aplicable."
+      ],
+      [
+        "motivacion",
+        "Actos que requieren motivación",
+        "ley39",
+        [
+          35
+        ],
+        "Se limita un derecho o se separa un criterio seguido anteriormente."
+      ],
+      [
+        "forma",
+        "Forma y actos verbales",
+        "ley39",
+        [
+          36
+        ],
+        "Una orden verbal debe documentarse cuando proceda y no elimina la competencia."
+      ],
+      [
+        "eficacia",
+        "Presunción y eficacia",
+        "ley39",
+        [
+          37,
+          38,
+          39
+        ],
+        "Un acto válido puede tener eficacia demorada y debe respetar la inderogabilidad singular."
+      ],
+      [
+        "retroactividad",
+        "Eficacia demorada y retroactiva",
+        "ley39",
+        [
+          39
+        ],
+        "Un acto favorable puede retrotraer efectos únicamente con los presupuestos legales."
+      ],
+      [
+        "notificar",
+        "Contenido y plazo de notificación",
+        "ley39",
+        [
+          40,
+          41
+        ],
+        "La notificación debe incluir texto íntegro, recursos y órgano y plazo correspondientes."
+      ],
+      [
+        "papel",
+        "Notificación en papel",
+        "ley39",
+        [
+          42
+        ],
+        "Nadie recoge la notificación domiciliaria y se comprueba el segundo intento."
+      ],
+      [
+        "electronica",
+        "Notificación electrónica",
+        "ley39",
+        [
+          43
+        ],
+        "El destinatario obligado no accede a la notificación electrónica en el plazo previsto."
+      ],
+      [
+        "publicacion",
+        "Publicación y notificación infructuosa",
+        "ley39",
+        [
+          44,
+          45,
+          46
+        ],
+        "El anuncio por destinatario desconocido y la publicación del acto tienen reglas distintas."
+      ]
+    ],
+    "scope": {
+      "ley39": [
+        24,
+        109,
+        112,
+        114,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    }
+  },
+  {
+    "topic": 19,
+    "officialTopic": 3,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Procedimiento administrativo: garantías, fases y especialidades de Melilla",
+    "subtitle": "Parte específica · Tema 3 · Procedimiento administrativo: garantías, fases y especialidades de Melilla",
+    "overview": "Sitúa cada actuación en su fase y comprueba qué garantía protege: conocer el expediente, alegar, probar, ser oído y obtener resolución congruente. La denuncia no convierte siempre al denunciante en interesado. La caducidad, el desistimiento, la renuncia y la terminación convencional no tienen el mismo efecto. En Melilla aplica la legislación básica junto con la organización del expediente y los informes del Reglamento local.",
+    "categories": [
+      [
+        "garantias",
+        "Garantías y derechos del interesado",
+        "ley39",
+        [
+          53
+        ],
+        "El interesado pide acceso al expediente y conocer quién es responsable de tramitarlo."
+      ],
+      [
+        "iniciacion",
+        "Inicio de oficio, denuncia y medidas",
+        "ley39",
+        [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "Se inicia de oficio, se adoptan medidas provisionales y se examina una denuncia."
+      ],
+      [
+        "solicitudes",
+        "Solicitud, subsanación y declaración",
+        "ley39",
+        [
+          66,
+          67,
+          68,
+          69
+        ],
+        "Una solicitud incompleta puede subsanarse; una declaración responsable tiene efectos diferentes."
+      ],
+      [
+        "ordenacion",
+        "Expediente, impulso y trámites",
+        "ley39",
+        [
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "Se ordena un expediente electrónico y se resuelven incidentes sin paralizarlo indebidamente."
+      ],
+      [
+        "prueba",
+        "Instrucción, alegaciones y prueba",
+        "ley39",
+        [
+          75,
+          76,
+          77,
+          78
+        ],
+        "Se propone prueba y sólo puede rechazarse con los motivos y garantías legales."
+      ],
+      [
+        "informes",
+        "Informes, audiencia e información pública",
+        "ley39",
+        [
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "Un informe preceptivo, la audiencia y la información pública no son intercambiables."
+      ],
+      [
+        "terminacion",
+        "Terminación y resolución",
+        "ley39",
+        [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "La resolución debe contestar las cuestiones planteadas y respetar los límites de congruencia."
+      ],
+      [
+        "desistimiento",
+        "Desistimiento, renuncia y caducidad",
+        "ley39",
+        [
+          94,
+          95,
+          96
+        ],
+        "El solicitante abandona su solicitud o se paraliza por causa imputable al interesado."
+      ],
+      [
+        "ejecucion",
+        "Ejecución y medios forzosos",
+        "ley39",
+        [
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "Se selecciona un medio de ejecución proporcionado sin acceder al domicilio sin título."
+      ],
+      [
+        "melilla",
+        "Procedimiento y expedientes en Melilla",
+        "rga",
+        [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "Se forma un expediente de Melilla con informes preceptivos, índice y registro adecuado."
+      ]
+    ],
+    "scope": {
+      "ley39": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "rga": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ]
+    }
+  },
+  {
+    "topic": 20,
+    "officialTopic": 4,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Nulidad, anulabilidad y revisión administrativa en Melilla",
+    "subtitle": "Parte específica · Tema 4 · Nulidad, anulabilidad y revisión administrativa en Melilla",
+    "overview": "Clasifica primero el vicio. La incompetencia manifiesta por materia o territorio y la incompetencia jerárquica no producen siempre el mismo resultado. Después distingue revisión de oficio de un acto nulo, declaración de lesividad de uno favorable anulable, revocación de gravamen y rectificación de errores materiales. En Melilla el Pleno de la Asamblea y el Consejo de Gobierno tienen atribuciones distintas; una regla estatal de organización no se traslada automáticamente.",
+    "categories": [
+      [
+        "nulidad",
+        "Nulidad de actos y disposiciones",
+        "ley39",
+        [
+          47
+        ],
+        "El acto omite totalmente el procedimiento o la disposición vulnera una ley."
+      ],
+      [
+        "anulabilidad",
+        "Anulabilidad y defectos formales",
+        "ley39",
+        [
+          48
+        ],
+        "El defecto de forma sólo tiene los efectos previstos si cumple los requisitos legales."
+      ],
+      [
+        "limites",
+        "Extensión de la invalidez",
+        "ley39",
+        [
+          49
+        ],
+        "La invalidez de una parte no se extiende sin más a partes independientes."
+      ],
+      [
+        "conversion",
+        "Conversión de actos",
+        "ley39",
+        [
+          50
+        ],
+        "Un acto inválido contiene elementos constitutivos de otro acto distinto."
+      ],
+      [
+        "conservacion",
+        "Conservación de actuaciones",
+        "ley39",
+        [
+          51
+        ],
+        "Se conservan trámites cuyo contenido habría permanecido igual."
+      ],
+      [
+        "convalidacion",
+        "Convalidación",
+        "ley39",
+        [
+          52
+        ],
+        "El superior competente puede subsanar determinados vicios de un acto anulable."
+      ],
+      [
+        "revision",
+        "Revisión de oficio",
+        "ley39",
+        [
+          106
+        ],
+        "La revisión de un acto nulo exige los presupuestos y el dictamen legalmente previsto."
+      ],
+      [
+        "lesividad",
+        "Lesividad y suspensión",
+        "ley39",
+        [
+          107,
+          108
+        ],
+        "Un acto favorable anulable debe impugnarse judicialmente tras declarar su lesividad."
+      ],
+      [
+        "revocacion",
+        "Revocación, errores y límites",
+        "ley39",
+        [
+          109,
+          110,
+          111
+        ],
+        "Se pretende revocar un acto de gravamen o corregir un cálculo sin cambiar la decisión."
+      ],
+      [
+        "melilla",
+        "Órganos de revisión en Melilla",
+        "rga",
+        [
+          87,
+          88,
+          89,
+          90,
+          91
+        ],
+        "Se identifica el órgano competente según autor del acto y materia tributaria."
+      ]
+    ],
+    "scope": {
+      "ley39": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "rga": [
+        87,
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    "seedCounts": {
+      "conversion": 4,
+      "conservacion": 4
+    }
+  },
+  {
+    "topic": 21,
+    "officialTopic": 5,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Recursos administrativos y órganos competentes en Melilla",
+    "subtitle": "Parte específica · Tema 5 · Recursos administrativos y órganos competentes en Melilla",
+    "overview": "Antes de elegir recurso, identifica si el acto agota la vía administrativa y si es firme. La alzada, la reposición y la revisión extraordinaria tienen órganos, causas y plazos diferentes. No confundas interposición con plazo para resolver; el recurso no suspende automáticamente la ejecución. Usa los artículos 88 y 92–95 del Reglamento de Melilla para situar Presidente, Consejeros, Viceconsejeros y organismos.",
+    "categories": [
+      [
+        "objeto",
+        "Objeto, clases y vía administrativa",
+        "ley39",
+        [
+          112,
+          113,
+          114
+        ],
+        "Se recurre una disposición general o un acto de trámite cualificado."
+      ],
+      [
+        "presentacion",
+        "Interposición e inadmisión",
+        "ley39",
+        [
+          115,
+          116
+        ],
+        "Un escrito con denominación incorrecta puede tramitarse si se deduce su carácter."
+      ],
+      [
+        "suspension",
+        "Suspensión de ejecución",
+        "ley39",
+        [
+          117
+        ],
+        "El recurrente solicita suspensión y se ponderan daños y efectos del plazo legal."
+      ],
+      [
+        "audiencia",
+        "Audiencia en el recurso",
+        "ley39",
+        [
+          118
+        ],
+        "Aparecen documentos nuevos y deben respetarse las posibilidades de alegación."
+      ],
+      [
+        "resolucion",
+        "Resolución y pluralidad de recursos",
+        "ley39",
+        [
+          119,
+          120
+        ],
+        "Resolver no permite agravar la situación inicial del recurrente."
+      ],
+      [
+        "alzada",
+        "Alzada: objeto, órgano y plazos",
+        "ley39",
+        [
+          121,
+          122
+        ],
+        "Un acto no pone fin a la vía y debe interponerse alzada ante el superior."
+      ],
+      [
+        "reposicion",
+        "Reposición potestativa",
+        "ley39",
+        [
+          123,
+          124
+        ],
+        "El acto agota la vía y se elige entre reposición y recurso contencioso."
+      ],
+      [
+        "extraordinario",
+        "Revisión extraordinaria",
+        "ley39",
+        [
+          125,
+          126
+        ],
+        "Un acto firme sólo admite revisión extraordinaria por causas tasadas."
+      ],
+      [
+        "melilla_alzada",
+        "Alzada y fin de vía en Melilla",
+        "rga",
+        [
+          88,
+          92
+        ],
+        "Una Orden de Consejero o resolución de Viceconsejero se examina con el artículo 92."
+      ],
+      [
+        "melilla_resto",
+        "Reposición, revisión y organismos",
+        "rga",
+        [
+          93,
+          94,
+          95
+        ],
+        "Se resuelve un recurso frente a un acto del Consejo o de un organismo público."
+      ]
+    ],
+    "scope": {
+      "ley39": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ],
+      "rga": [
+        88,
+        92,
+        93,
+        94,
+        95
+      ]
+    }
+  },
+  {
+    "topic": 22,
+    "officialTopic": 6,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Acción administrativa: fomento, policía y servicio público",
+    "subtitle": "Parte específica · Tema 6 · Acción administrativa: fomento, policía y servicio público",
+    "overview": "La policía administrativa limita o controla actividades dentro de la ley; el fomento promueve actividades de interés público y el servicio público organiza prestaciones. Distingue proporcionalidad, autorización, subvención y formas de gestión. El Reglamento de Servicios de 1955 debe leerse junto con la legislación básica vigente: no traslades remisiones antiguas ni formas contractuales históricas a un expediente actual sin comprobar la ley posterior.",
+    "categories": [
+      [
+        "policia",
+        "Intervención y proporcionalidad",
+        "servicios",
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "La medida de intervención debe ser congruente y la menos restrictiva admisible."
+      ],
+      [
+        "medios",
+        "Medios de intervención local",
+        "lbrl",
+        [
+          84,
+          85
+        ],
+        "Se compara licencia, comunicación, declaración responsable y control posterior."
+      ],
+      [
+        "licencias",
+        "Autorizaciones y efectos",
+        "servicios",
+        [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "Una autorización no resuelve la titularidad privada ni excluye responsabilidad."
+      ],
+      [
+        "fomento",
+        "Fomento en el Reglamento de Servicios",
+        "servicios",
+        [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "Una actividad complementa competencias locales y se plantea una subvención."
+      ],
+      [
+        "subvencion",
+        "Concepto y principios de subvención",
+        "subvenciones",
+        [
+          2,
+          4,
+          8,
+          9
+        ],
+        "La entrega dineraria sin contraprestación debe cumplir los requisitos de la subvención."
+      ],
+      [
+        "beneficiario",
+        "Beneficiarios, obligaciones y bases",
+        "subvenciones",
+        [
+          13,
+          14,
+          17,
+          19
+        ],
+        "El beneficiario debe cumplir los requisitos, justificar y comunicar otras ayudas."
+      ],
+      [
+        "concesion",
+        "Concesión y concurrencia",
+        "subvenciones",
+        [
+          22,
+          23,
+          24,
+          25
+        ],
+        "La concesión directa es una excepción con supuestos legales concretos."
+      ],
+      [
+        "justificacion",
+        "Justificación y reintegro",
+        "subvenciones",
+        [
+          30,
+          34,
+          36,
+          37
+        ],
+        "El incumplimiento puede generar reintegro y no se confunde con una sanción."
+      ],
+      [
+        "servicio",
+        "Servicio público local",
+        "servicios",
+        [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "Una prestación de competencia local requiere organizarse con continuidad y regularidad."
+      ],
+      [
+        "gestion",
+        "Gestión de servicios y actividad económica",
+        "lbrl",
+        [
+          85,
+          86
+        ],
+        "Se elige forma de gestión directa o indirecta y se comprueba sostenibilidad y eficiencia."
+      ]
+    ],
+    "scope": {
+      "servicios": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "lbrl": [
+        84,
+        85,
+        86
+      ],
+      "subvenciones": [
+        2,
+        4,
+        8,
+        9,
+        13,
+        14,
+        17,
+        19,
+        22,
+        23,
+        24,
+        25,
+        30,
+        34,
+        36,
+        37
+      ]
+    }
+  },
+  {
+    "topic": 23,
+    "officialTopic": 7,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Responsabilidad patrimonial y tramitación en Melilla",
+    "subtitle": "Parte específica · Tema 7 · Responsabilidad patrimonial y tramitación en Melilla",
+    "overview": "Responsabilidad objetiva no significa indemnización por cualquier daño. Comprueba lesión efectiva, evaluable e individualizada, causalidad, ausencia de fuerza mayor y que no exista deber jurídico de soportarla. Distingue plazo para reclamar, resolución, silencio y regreso contra personal. En Melilla la iniciación, instrucción y resolución se distribuyen conforme al artículo 111 del Reglamento y deben respetarse los supuestos reservados al Pleno.",
+    "categories": [
+      [
+        "principio",
+        "Principios y lesión indemnizable",
+        "ley40",
+        [
+          32
+        ],
+        "Un daño derivado del funcionamiento normal puede ser indemnizable si reúne todos los requisitos."
+      ],
+      [
+        "legislador",
+        "Responsabilidad del Estado legislador",
+        "ley40",
+        [
+          32
+        ],
+        "Los supuestos de ley inconstitucional y Derecho de la Unión requieren condiciones adicionales."
+      ],
+      [
+        "concurrencia",
+        "Concurrencia de Administraciones",
+        "ley40",
+        [
+          33
+        ],
+        "Una actuación conjunta provoca daño y debe examinarse la distribución de responsabilidad."
+      ],
+      [
+        "indemnizacion",
+        "Indemnización y valoración",
+        "ley40",
+        [
+          34
+        ],
+        "Se determina la fecha de valoración, actualización y forma de indemnizar."
+      ],
+      [
+        "privado",
+        "Actuación de Derecho privado",
+        "ley40",
+        [
+          34,
+          35
+        ],
+        "La Administración actúa mediante una entidad privada sin eludir el régimen aplicable."
+      ],
+      [
+        "personal",
+        "Autoridades, personal y regreso",
+        "ley40",
+        [
+          36,
+          37
+        ],
+        "La Administración indemniza y examina si procede exigir responsabilidad al personal."
+      ],
+      [
+        "reclamacion",
+        "Inicio y prescripción de la reclamación",
+        "ley39",
+        [
+          65,
+          67
+        ],
+        "En daño físico se determina cuándo curó o se fijaron las secuelas."
+      ],
+      [
+        "informes",
+        "Informes y audiencia",
+        "ley39",
+        [
+          81,
+          82,
+          86
+        ],
+        "La cuantía puede exigir dictamen y no elimina audiencia ni informe del servicio."
+      ],
+      [
+        "resolucion",
+        "Resolución y procedimiento simplificado",
+        "ley39",
+        [
+          91,
+          92,
+          96
+        ],
+        "Vence el plazo de responsabilidad patrimonial y se determina el silencio."
+      ],
+      [
+        "melilla",
+        "Órganos competentes en Melilla",
+        "rga",
+        [
+          111
+        ],
+        "Se identifica quién inicia y quién resuelve la responsabilidad patrimonial de la Ciudad."
+      ]
+    ],
+    "scope": {
+      "ley40": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "ley39": [
+        65,
+        67,
+        81,
+        82,
+        86,
+        91,
+        92,
+        96
+      ],
+      "rga": [
+        111
+      ]
+    }
+  },
+  {
+    "topic": 24,
+    "officialTopic": 8,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Patrimonio local: bienes, potestades y comunales",
+    "subtitle": "Parte específica · Tema 8 · Patrimonio local: bienes, potestades y comunales",
+    "overview": "La titularidad local no convierte todo bien en dominio público. Clasifica por uso o servicio, afectación y régimen jurídico. Separa investigación de la titularidad, deslinde de límites y recuperación de la posesión. La recuperación de un bien patrimonial está sujeta a un plazo distinto del demanial. Los comunales son dominio público y su aprovechamiento corresponde al común de los vecinos en las condiciones legales.",
+    "categories": [
+      [
+        "clases",
+        "Patrimonio y clases de bienes",
+        "bienes",
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "Un inmueble local debe clasificarse por afectación y destino, no sólo por titularidad."
+      ],
+      [
+        "demaniales",
+        "Dominio público y comunales",
+        "lbrl",
+        [
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "Se distinguen bienes de uso público, servicio público, patrimoniales y comunales."
+      ],
+      [
+        "alteracion",
+        "Afectación y alteración jurídica",
+        "bienes",
+        [
+          7,
+          8
+        ],
+        "Una alteración del uso puede requerir expediente de calificación y acuerdo."
+      ],
+      [
+        "inventario",
+        "Inventario y registro",
+        "bienes",
+        [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "La entidad debe inventariar y registrar sus bienes y derechos según su naturaleza."
+      ],
+      [
+        "potestades",
+        "Prerrogativas e investigación",
+        "bienes",
+        [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "Hay duda sobre la titularidad y se tramita investigación con garantías."
+      ],
+      [
+        "deslinde",
+        "Deslinde",
+        "bienes",
+        [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        "Se precisan límites sin confundir deslinde administrativo con un juicio de propiedad."
+      ],
+      [
+        "recuperacion",
+        "Recuperación y desahucio",
+        "bienes",
+        [
+          70,
+          71,
+          72,
+          73
+        ],
+        "La ocupación del bien debe abordarse distinguiendo dominio público y patrimonial."
+      ],
+      [
+        "uso",
+        "Uso del dominio público",
+        "bienes",
+        [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ],
+        "Un uso común general, especial o privativo exige un título distinto."
+      ],
+      [
+        "comunales",
+        "Aprovechamiento comunal",
+        "bienes",
+        [
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ],
+        "El aprovechamiento comunal debe seguir el orden y las condiciones reglamentarias."
+      ],
+      [
+        "patrimoniales",
+        "Utilización y enajenación patrimonial",
+        "bienes",
+        [
+          92,
+          93,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "Un arrendamiento o enajenación requiere el procedimiento y controles aplicables."
+      ]
+    ],
+    "scope": {
+      "bienes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        92,
+        93,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "lbrl": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    }
+  },
+  {
+    "topic": 25,
+    "officialTopic": 9,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Término, Padrón, organización, competencias y servicios municipales",
+    "subtitle": "Parte específica · Tema 9 · Término, Padrón, organización, competencias y servicios municipales",
+    "overview": "Distingue término municipal, residencia real y condición de vecino. El Padrón acredita residencia y domicilio habitual, no residencia legal de extranjeros ni derechos ajenos a esa finalidad. En organización separa atribuciones del Alcalde, Pleno y Junta de Gobierno. Competencia municipal y servicio mínimo obligatorio no son la misma lista; aplica los umbrales de población con precisión.",
+    "categories": [
+      [
+        "termino",
+        "Término y alteración municipal",
+        "lbrl",
+        [
+          12,
+          13
+        ],
+        "Una alteración municipal debe respetar requisitos, informes y prohibición de modificar límites provinciales."
+      ],
+      [
+        "vecinos",
+        "Población y vecindad",
+        "lbrl",
+        [
+          14,
+          15,
+          16
+        ],
+        "Una persona reside en varios municipios y debe empadronarse donde pasa más tiempo."
+      ],
+      [
+        "padron",
+        "Gestión y efectos del Padrón",
+        "lbrl",
+        [
+          17,
+          18
+        ],
+        "Se comprueba el valor de certificaciones y los derechos de los vecinos."
+      ],
+      [
+        "datos",
+        "Inscripción y datos padronales",
+        "poblacion",
+        [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "La inscripción debe reflejar la residencia efectiva y los datos reglamentarios."
+      ],
+      [
+        "gestion",
+        "Altas, bajas y comprobación",
+        "poblacion",
+        [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "La gestión del Padrón exige coordinación y comprobación de las inscripciones."
+      ],
+      [
+        "organizacion",
+        "Organización municipal y Alcalde",
+        "lbrl",
+        [
+          19,
+          20,
+          21
+        ],
+        "El municipio debe tener órganos necesarios y diferenciar competencias del Alcalde."
+      ],
+      [
+        "pleno",
+        "Pleno y Junta de Gobierno",
+        "lbrl",
+        [
+          22,
+          23
+        ],
+        "Una competencia del Pleno puede tener límites de delegación distintos de la Alcaldía."
+      ],
+      [
+        "participacion",
+        "Órganos territoriales y participación",
+        "lbrl",
+        [
+          24
+        ],
+        "Se crean órganos de gestión desconcentrada preservando la unidad de gobierno."
+      ],
+      [
+        "competencias",
+        "Competencias propias y delegadas",
+        "lbrl",
+        [
+          7,
+          25,
+          27
+        ],
+        "La delegación no debe confundirse con atribución de competencia propia."
+      ],
+      [
+        "servicios",
+        "Servicios mínimos por población",
+        "lbrl",
+        [
+          26
+        ],
+        "Un municipio supera un umbral y debe prestar los servicios mínimos adicionales."
+      ]
+    ],
+    "scope": {
+      "lbrl": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        7,
+        25,
+        27,
+        26
+      ],
+      "poblacion": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    }
+  },
+  {
+    "topic": 26,
+    "officialTopic": 10,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Licencias: naturaleza, régimen jurídico y otorgamiento",
+    "subtitle": "Parte específica · Tema 10 · Licencias: naturaleza, régimen jurídico y otorgamiento",
+    "overview": "La licencia comprueba una actividad con el régimen aplicable; no crea por sí sola propiedad ni resuelve conflictos privados. Antes de aplicar el procedimiento del artículo 9 del Reglamento de Servicios comprueba si existe normativa especial de igual o superior rango. No generalices el silencio positivo: las excepciones legales y la legislación sectorial pueden determinar otro efecto. Diferencia licencia, declaración responsable y comunicación.",
+    "categories": [
+      [
+        "naturaleza",
+        "Naturaleza y efectos frente a terceros",
+        "servicios",
+        [
+          10,
+          11,
+          12
+        ],
+        "Una licencia no autoriza a ocupar un inmueble ajeno ni elimina derechos de terceros."
+      ],
+      [
+        "medios",
+        "Licencia y medios de intervención",
+        "lbrl",
+        [
+          84,
+          85
+        ],
+        "Debe justificarse una licencia frente a instrumentos de intervención menos restrictivos."
+      ],
+      [
+        "solicitud",
+        "Solicitud y subsanación",
+        "ley39",
+        [
+          66,
+          68,
+          69
+        ],
+        "Una solicitud incompleta y una declaración responsable inexacta tienen consecuencias distintas."
+      ],
+      [
+        "procedimiento",
+        "Procedimiento supletorio del Reglamento",
+        "servicios",
+        [
+          9
+        ],
+        "Se comprueba primero que no hay otro procedimiento de igual o superior rango."
+      ],
+      [
+        "silencio",
+        "Resolución y silencio",
+        "ley39",
+        [
+          21,
+          24
+        ],
+        "La falta de respuesta no permite adquirir facultades si existe una excepción legal aplicable."
+      ],
+      [
+        "condiciones",
+        "Condiciones y responsabilidad",
+        "servicios",
+        [
+          11,
+          12,
+          14
+        ],
+        "El título se otorga sin perjuicio de terceros y con las condiciones legalmente admisibles."
+      ],
+      [
+        "transmision",
+        "Transmisibilidad",
+        "servicios",
+        [
+          13
+        ],
+        "El tipo de licencia determina si puede transmitirse y si debe comunicarse."
+      ],
+      [
+        "vigencia",
+        "Vigencia, revocación y anulación",
+        "servicios",
+        [
+          15,
+          16
+        ],
+        "Desaparecen las circunstancias del otorgamiento o se incumple una condición."
+      ],
+      [
+        "sectores",
+        "Obras y establecimientos",
+        "servicios",
+        [
+          17,
+          21,
+          22
+        ],
+        "La apertura y las obras deben comprobarse con su régimen sectorial y la legislación básica posterior."
+      ],
+      [
+        "control",
+        "Control posterior y rectificación",
+        "ley39",
+        [
+          35,
+          69,
+          106,
+          107,
+          109
+        ],
+        "Una inexactitud esencial y una revocación tienen procedimientos y garantías diferentes."
+      ]
+    ],
+    "scope": {
+      "servicios": [
+        10,
+        12,
+        9,
+        11,
+        14,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22
+      ],
+      "lbrl": [
+        84,
+        85
+      ],
+      "ley39": [
+        66,
+        68,
+        69,
+        21,
+        24,
+        35,
+        106,
+        107,
+        109
+      ]
+    },
+    "seedCounts": {
+      "transmision": 4,
+      "vigencia": 4
+    }
+  },
+  {
+    "topic": 27,
+    "officialTopic": 11,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Ordenanzas y reglamentos locales y elaboración en Melilla",
+    "subtitle": "Parte específica · Tema 11 · Ordenanzas y reglamentos locales y elaboración en Melilla",
+    "overview": "Separa el procedimiento general local de la especialidad organizativa de Melilla. No confundas treinta días de información pública de la Ley 7/1985 con el mes previsto en el Reglamento de la Asamblea. Distingue normas de la Asamblea, desarrollo por el Consejo de Gobierno, consulta previa e información pública. La mayoría ordinaria, la exigida para reglamentos institucionales y el régimen fiscal tienen reglas propias. Lee las notas de la STC 55/2018 en la Ley 39/2015.",
+    "categories": [
+      [
+        "potestad",
+        "Potestad y competencia normativa",
+        "lbrl",
+        [
+          4,
+          22,
+          49
+        ],
+        "Una ordenanza requiere potestad reglamentaria y el órgano competente."
+      ],
+      [
+        "inicial",
+        "Aprobación inicial y exposición local",
+        "lbrl",
+        [
+          49,
+          70,
+          70,
+          "a70bis"
+        ],
+        "Se aprueba inicialmente y se abre información pública y audiencia."
+      ],
+      [
+        "definitiva",
+        "Resolución y publicación local",
+        "lbrl",
+        [
+          49,
+          65,
+          70
+        ],
+        "Sin reclamaciones el acuerdo inicial puede elevarse a definitivo conforme a la ley."
+      ],
+      [
+        "limites",
+        "Jerarquía y límites reglamentarios",
+        "ley39",
+        [
+          128,
+          129
+        ],
+        "Una norma reglamentaria no puede invadir materia reservada ni contradecir una ley."
+      ],
+      [
+        "participacion",
+        "Planificación y participación",
+        "ley39",
+        [
+          130,
+          131,
+          132,
+          133
+        ],
+        "Consulta previa e información pública se examinan con su ámbito de aplicación y excepciones."
+      ],
+      [
+        "iniciativa",
+        "Iniciativa reglamentaria en Melilla",
+        "asamblea",
+        [
+          77,
+          78,
+          79
+        ],
+        "Se identifica quién puede promover un reglamento y cómo se realiza la consulta."
+      ],
+      [
+        "asamblea",
+        "Aprobación por la Asamblea",
+        "asamblea",
+        [
+          84
+        ],
+        "El texto se dictamina, expone y aprueba con la mayoría exigida."
+      ],
+      [
+        "consejo",
+        "Desarrollo por el Consejo de Gobierno",
+        "asamblea",
+        [
+          85
+        ],
+        "La autorización expresa y el desarrollo organizativo deben distinguirse."
+      ],
+      [
+        "organizativos",
+        "Reglamentos organizativos de Melilla",
+        "rga",
+        [
+          69,
+          70,
+          71
+        ],
+        "Una disposición meramente organizativa sigue la especialidad local prevista."
+      ],
+      [
+        "efectos",
+        "Publicación y efectos en Melilla",
+        "estatuto",
+        [
+          17,
+          29,
+          30
+        ],
+        "La publicación íntegra en el BOME y el órgano emisor determinan el régimen aplicable."
+      ]
+    ],
+    "scope": {
+      "lbrl": [
+        4,
+        22,
+        49,
+        70,
+        "a70bis",
+        65
+      ],
+      "ley39": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "asamblea": [
+        77,
+        78,
+        79,
+        84,
+        85
+      ],
+      "rga": [
+        69,
+        70,
+        71
+      ],
+      "estatuto": [
+        17,
+        29,
+        30
+      ]
+    }
+  },
+  {
+    "topic": 28,
+    "officialTopic": 12,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Contratos del sector público: ámbito, tipos y órganos de Melilla",
+    "subtitle": "Parte específica · Tema 12 · Contratos del sector público: ámbito, tipos y órganos de Melilla",
+    "overview": "Clasifica por objeto y por entidad contratante antes de elegir régimen. La concesión exige transferencia del riesgo operacional; un servicio no se convierte en concesión por su nombre. Distingue suministro y software desarrollado a medida, contrato administrativo y privado, contratos mixtos y exclusiones. En Melilla adapta los órganos locales mediante el artículo 112 del Reglamento y la disposición adicional segunda de la LCSP.",
+    "categories": [
+      [
+        "objeto",
+        "Objeto y principios",
+        "lcsp",
+        [
+          1
+        ],
+        "Un expediente debe justificar necesidad, eficiencia y el uso de fondos públicos."
+      ],
+      [
+        "ambito",
+        "Ámbito subjetivo y objetivo",
+        "lcsp",
+        [
+          2,
+          3
+        ],
+        "Una entidad puede ser sector público, poder adjudicador y Administración Pública según los criterios legales."
+      ],
+      [
+        "exclusiones",
+        "Negocios excluidos",
+        "lcsp",
+        [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "No todo negocio oneroso de una entidad pública queda sujeto íntegramente a la LCSP."
+      ],
+      [
+        "obras",
+        "Contratos de obras",
+        "lcsp",
+        [
+          12,
+          13
+        ],
+        "El objeto se define por el resultado de construcción o ingeniería civil."
+      ],
+      [
+        "concesiones",
+        "Concesiones y riesgo operacional",
+        "lcsp",
+        [
+          14,
+          15
+        ],
+        "Debe transferirse un riesgo operacional real en obras o servicios."
+      ],
+      [
+        "suministros",
+        "Contratos de suministro",
+        "lcsp",
+        [
+          16
+        ],
+        "El software desarrollado a medida se distingue de la adquisición de programas estándar."
+      ],
+      [
+        "servicios",
+        "Servicios y contratos mixtos",
+        "lcsp",
+        [
+          17,
+          18
+        ],
+        "Un contrato mixto debe clasificarse con las reglas legales de sus prestaciones."
+      ],
+      [
+        "regimen",
+        "Régimen y jurisdicción",
+        "lcsp",
+        [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "Preparación, adjudicación y efectos no tienen siempre el mismo régimen o jurisdicción."
+      ],
+      [
+        "organos",
+        "Órganos, responsable y competencias locales",
+        "lcsp",
+        [
+          61,
+          62,
+          64,
+          65,
+          "dasegunda",
+          "datercera"
+        ],
+        "Se identifica órgano de contratación, responsable y controles en entidades locales."
+      ],
+      [
+        "melilla",
+        "Contratación en Melilla",
+        "rga",
+        [
+          112
+        ],
+        "Se diferencia Pleno de la Asamblea, Consejería competente y contratos menores."
+      ]
+    ],
+    "scope": {
+      "lcsp": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        61,
+        62,
+        64,
+        65,
+        "dasegunda",
+        "datercera"
+      ],
+      "rga": [
+        112
+      ]
+    }
+  },
+  {
+    "topic": 29,
+    "officialTopic": 13,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Contratos menores: umbrales, expediente, adjudicación y Melilla",
+    "subtitle": "Parte específica · Tema 13 · Contratos menores: umbrales, expediente, adjudicación y Melilla",
+    "overview": "El umbral usa valor estimado sin IVA y es estrictamente inferior: no confundas inferior con igual. El menor no permite fraccionar una unidad funcional para eludir publicidad o procedimiento. Justifica necesidad y ausencia de alteración del objeto, aprueba gasto e incorpora factura y documentos adicionales de obras. Separa duración, prórroga, adjudicación directa y publicación trimestral. El antiguo límite acumulado por contratista de 2017 no se usa como regla del artículo 118 vigente en el corte.",
+    "categories": [
+      [
+        "objeto",
+        "Objeto y prohibición de fraccionar",
+        "lcsp",
+        [
+          28,
+          99
+        ],
+        "Se dividen facturas para evitar el umbral de una prestación única."
+      ],
+      [
+        "valor",
+        "Valor estimado y cálculo",
+        "lcsp",
+        [
+          100,
+          101,
+          102
+        ],
+        "El importe debe calcularse sin IVA y sin manipular el método de estimación."
+      ],
+      [
+        "umbrales",
+        "Umbrales y requisitos del menor",
+        "lcsp",
+        [
+          118
+        ],
+        "Se compara el valor estimado de obras y de servicios o suministros."
+      ],
+      [
+        "expediente",
+        "Informe, gasto, factura y obras",
+        "lcsp",
+        [
+          118,
+          116
+        ],
+        "El menor exige documentación y no convierte el expediente en una mera factura."
+      ],
+      [
+        "duracion",
+        "Duración y prórroga",
+        "lcsp",
+        [
+          29
+        ],
+        "Un contrato menor no puede superar su duración máxima ni prorrogarse."
+      ],
+      [
+        "adjudicacion",
+        "Adjudicación directa y capacidad",
+        "lcsp",
+        [
+          65,
+          131
+        ],
+        "La adjudicación directa exige capacidad y habilitación profesional."
+      ],
+      [
+        "publicidad",
+        "Perfil y publicidad trimestral",
+        "lcsp",
+        [
+          63,
+          64
+        ],
+        "Se comprueba qué datos publicar y la excepción de ciertos pagos menores."
+      ],
+      [
+        "formalizacion",
+        "Existencia y formalización",
+        "lcsp",
+        [
+          36,
+          37,
+          153
+        ],
+        "El menor se acredita con su documentación y no autoriza contratación verbal ordinaria."
+      ],
+      [
+        "control",
+        "Controles, supervisión y registros",
+        "lcsp",
+        [
+          118,
+          235,
+          346,
+          "datercera"
+        ],
+        "Las obras que afectan a estabilidad, seguridad o estanqueidad requieren el control correspondiente."
+      ],
+      [
+        "melilla",
+        "Órganos y publicación en Melilla",
+        "rga",
+        [
+          112
+        ],
+        "Los Consejeros son órganos del menor y el Presidente tiene la excepción representativa prevista."
+      ]
+    ],
+    "scope": {
+      "lcsp": [
+        28,
+        99,
+        100,
+        101,
+        102,
+        118,
+        116,
+        29,
+        65,
+        131,
+        63,
+        64,
+        36,
+        37,
+        153,
+        235,
+        346,
+        "datercera"
+      ],
+      "rga": [
+        112
+      ]
+    }
+  },
+  {
+    "topic": 30,
+    "officialTopic": 14,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Ley 40/2015: competencia, órganos colegiados, abstención y recusación",
+    "subtitle": "Parte específica · Tema 14 · Ley 40/2015: competencia, órganos colegiados, abstención y recusación",
+    "overview": "La competencia es irrenunciable. Delegación, avocación, encomienda de gestión, delegación de firma y suplencia modifican aspectos diferentes, sin ser sinónimos de transmisión de titularidad. Para los colegiados distingue régimen general y reglas específicas de la Administración General del Estado. Abstenerse o recusar protege imparcialidad; no toda intervención de una persona incursa en causa invalida automáticamente el acto.",
+    "categories": [
+      [
+        "organos",
+        "Órganos, instrucciones y creación",
+        "ley40",
+        [
+          5,
+          6,
+          7
+        ],
+        "Se crea un órgano y se comprueba integración, funciones y ausencia de duplicación."
+      ],
+      [
+        "competencia",
+        "Competencia y desconcentración",
+        "ley40",
+        [
+          8
+        ],
+        "Un órgano debe ejercer su competencia salvo los supuestos previstos legalmente."
+      ],
+      [
+        "delegacion",
+        "Delegación de competencias",
+        "ley40",
+        [
+          9
+        ],
+        "La delegación tiene límites, publicidad y debe constar en la resolución."
+      ],
+      [
+        "avocacion",
+        "Avocación",
+        "ley40",
+        [
+          10
+        ],
+        "Un órgano superior asume un asunto concreto con motivación y comunicación."
+      ],
+      [
+        "encomienda",
+        "Encomienda de gestión",
+        "ley40",
+        [
+          11
+        ],
+        "Sólo se encomiendan actividades materiales o técnicas sin ceder titularidad."
+      ],
+      [
+        "firma",
+        "Firma y suplencia",
+        "ley40",
+        [
+          12,
+          13
+        ],
+        "Delegar la firma no altera la competencia y la suplencia tiene régimen propio."
+      ],
+      [
+        "conflictos",
+        "Decisiones sobre competencia",
+        "ley40",
+        [
+          14
+        ],
+        "Un órgano se considera incompetente y remite actuaciones al que estima competente."
+      ],
+      [
+        "colegiados",
+        "Régimen general de colegiados",
+        "ley40",
+        [
+          15,
+          16,
+          17,
+          18
+        ],
+        "La reunión presencial o a distancia exige constitución, deliberación y acta válidas."
+      ],
+      [
+        "estado",
+        "Reglas de colegiados estatales",
+        "ley40",
+        [
+          19,
+          20,
+          21,
+          22
+        ],
+        "Se aplica el régimen específico de colegiados de la Administración General del Estado."
+      ],
+      [
+        "imparcialidad",
+        "Abstención y recusación",
+        "ley40",
+        [
+          23,
+          24
+        ],
+        "Existe una causa legal y se tramita recusación sin recurso autónomo contra su decisión."
+      ]
+    ],
+    "scope": {
+      "ley40": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "rga": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    }
+  },
+  {
+    "topic": 31,
+    "officialTopic": 15,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Haciendas locales: recursos, tasas, precios y contribuciones",
+    "subtitle": "Parte específica · Tema 15 · Haciendas locales: recursos, tasas, precios y contribuciones",
+    "overview": "Clasifica cada ingreso por naturaleza: tributario, patrimonial, transferencia, crédito u otro recurso legal. Una tasa y un precio público no se distinguen sólo por el nombre de la ordenanza: examina voluntariedad y prestación por el sector privado. La contribución especial exige beneficio especial o aumento de valor por obra o servicio local. No confundas base imponible, cuota y coste máximo repercutible.",
+    "categories": [
+      [
+        "recursos",
+        "Recursos de las haciendas locales",
+        "haciendas",
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        "La Hacienda obtiene ingresos que no son todos tributos."
+      ],
+      [
+        "tributos",
+        "Principios y gestión tributaria",
+        "haciendas",
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "Un tributo local debe respetar principios, competencia y revisión tributaria."
+      ],
+      [
+        "tasa",
+        "Hecho imponible y exclusiones de tasas",
+        "haciendas",
+        [
+          20,
+          21,
+          22
+        ],
+        "Se presta un servicio o se usa privativamente dominio público y se comprueba la tasa."
+      ],
+      [
+        "sujeto",
+        "Sujetos pasivos y responsables",
+        "haciendas",
+        [
+          23
+        ],
+        "La condición de contribuyente y de sustituto no son equivalentes."
+      ],
+      [
+        "cuota",
+        "Cuota, devengo y gestión de tasas",
+        "haciendas",
+        [
+          24,
+          25,
+          26,
+          27
+        ],
+        "La cuantía y el devengo dependen de las reglas legales del aprovechamiento o servicio."
+      ],
+      [
+        "contribucion",
+        "Contribución especial: hecho y sujetos",
+        "haciendas",
+        [
+          28,
+          29
+        ],
+        "Una obra genera beneficio especial para determinados sujetos."
+      ],
+      [
+        "base",
+        "Base y cuotas de contribuciones",
+        "haciendas",
+        [
+          30,
+          31
+        ],
+        "El coste repercutible tiene límite y se distribuye con criterios legales."
+      ],
+      [
+        "imposicion",
+        "Devengo y acuerdo de imposición",
+        "haciendas",
+        [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "Las contribuciones requieren acuerdo y permiten determinadas formas de colaboración."
+      ],
+      [
+        "precio",
+        "Precios públicos: concepto y obligados",
+        "haciendas",
+        [
+          41,
+          42,
+          43
+        ],
+        "La prestación voluntaria también se ofrece por el sector privado."
+      ],
+      [
+        "fijacion",
+        "Cuantía y establecimiento de precios",
+        "haciendas",
+        [
+          44,
+          45,
+          46,
+          47
+        ],
+        "Por razones sociales puede fijarse un precio inferior al coste con dotación presupuestaria."
+      ]
+    ],
+    "scope": {
+      "haciendas": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    }
+  },
+  {
+    "topic": 32,
+    "officialTopic": 16,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "Ordenanzas fiscales y órganos competentes de Melilla",
+    "subtitle": "Parte específica · Tema 16 · Ordenanzas fiscales y órganos competentes de Melilla",
+    "overview": "Una ordenanza fiscal tiene procedimiento específico: exposición mínima de treinta días, aprobación definitiva y publicación íntegra. No apliques sin más el régimen de ordenanzas ordinarias. La inexistencia de reclamaciones permite elevar el acuerdo provisional a definitivo; publicación del acuerdo y texto íntegro condicionan la eficacia. En Melilla identifica la competencia fiscal de la Asamblea y su régimen estatutario.",
+    "categories": [
+      [
+        "imposicion",
+        "Imposición y necesidad de ordenanza",
+        "haciendas",
+        [
+          15
+        ],
+        "Se distingue impuesto obligatorio de tributo que exige acuerdo de imposición."
+      ],
+      [
+        "contenido",
+        "Contenido y acuerdos de ordenación",
+        "haciendas",
+        [
+          16
+        ],
+        "La ordenanza debe determinar elementos del tributo, fecha y régimen de aplicación."
+      ],
+      [
+        "exposicion",
+        "Aprobación provisional y exposición",
+        "haciendas",
+        [
+          17
+        ],
+        "El acuerdo provisional se expone durante el plazo mínimo legal."
+      ],
+      [
+        "anuncios",
+        "Publicación de anuncios",
+        "haciendas",
+        [
+          17
+        ],
+        "Se comprueba el anuncio oficial y el supuesto de publicación en diario."
+      ],
+      [
+        "definitiva",
+        "Reclamaciones y aprobación definitiva",
+        "haciendas",
+        [
+          17
+        ],
+        "El órgano resuelve las reclamaciones o eleva automáticamente el acuerdo sin ellas."
+      ],
+      [
+        "publicacion",
+        "Publicación íntegra y vigencia",
+        "haciendas",
+        [
+          17,
+          19
+        ],
+        "El texto íntegro y los acuerdos definitivos deben publicarse para entrar en vigor."
+      ],
+      [
+        "interesados",
+        "Interesados en la reclamación",
+        "haciendas",
+        [
+          18
+        ],
+        "Se identifica legitimación para reclamar contra el acuerdo provisional."
+      ],
+      [
+        "recurso",
+        "Impugnación de ordenanzas fiscales",
+        "haciendas",
+        [
+          19
+        ],
+        "El recurso contra la ordenanza es contencioso-administrativo conforme a su regla específica."
+      ],
+      [
+        "melilla",
+        "Competencia fiscal de la Asamblea",
+        "estatuto",
+        [
+          12,
+          38,
+          39,
+          40
+        ],
+        "Se diferencia la competencia de la Asamblea para tributos de la ejecución administrativa."
+      ],
+      [
+        "regimen",
+        "Régimen jurídico y publicación de Melilla",
+        "estatuto",
+        [
+          29,
+          30,
+          34,
+          35,
+          36,
+          37
+        ],
+        "La autonomía financiera y la publicación normativa se aplican con la legislación estatal."
+      ]
+    ],
+    "scope": {
+      "haciendas": [
+        15,
+        16,
+        17,
+        19,
+        18
+      ],
+      "estatuto": [
+        12,
+        38,
+        39,
+        40,
+        29,
+        30,
+        34,
+        35,
+        36,
+        37
+      ]
+    }
+  },
+  {
+    "topic": 33,
+    "officialTopic": 17,
+    "block": "specific",
+    "seedsPerCategory": 8,
+    "compactVariants": true,
+    "title": "TREBEP: personal, derechos, deberes, disciplina y relación de servicio",
+    "subtitle": "Parte específica · Tema 17 · TREBEP: personal, derechos, deberes, disciplina y relación de servicio",
+    "overview": "Clasifica al personal por su vínculo y funciones: carrera, interino, laboral y eventual. No confundas acceso al empleo con adquisición de la condición de funcionario de carrera. Distingue retribuciones básicas y complementarias, permisos y vacaciones, deberes y principios de conducta. Para disciplina separa tipificación, prescripción de faltas y sanciones, y procedimiento. Los permisos se estudian con la redacción de 2024 exigida por las bases; las ampliaciones posteriores no se trasladan automáticamente.",
+    "categories": [
+      [
+        "ambito",
+        "Objeto y ámbito del TREBEP",
+        "ebep",
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "Se determina a qué personal se aplica el Estatuto y con qué especialidades."
+      ],
+      [
+        "personal",
+        "Clases de empleados y directivos",
+        "ebep",
+        [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "Un nombramiento temporal no equivale a funcionario de carrera ni a personal eventual."
+      ],
+      [
+        "derechos",
+        "Derechos individuales y colectivos",
+        "ebep",
+        [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "El empleado identifica sus derechos y las reglas de carrera y evaluación."
+      ],
+      [
+        "retribuciones",
+        "Retribuciones e indemnizaciones",
+        "ebep",
+        [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "Se diferencia sueldo, trienios y complementos sin inventar importes fijos universales."
+      ],
+      [
+        "jornada",
+        "Jornada, permisos y vacaciones",
+        "ebep",
+        [
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "Un permiso y las vacaciones no tienen el mismo cómputo ni los mismos requisitos."
+      ],
+      [
+        "deberes",
+        "Deberes y código de conducta",
+        "ebep",
+        [
+          52,
+          53,
+          54
+        ],
+        "Una conducta debe respetar neutralidad, imparcialidad y el interés general."
+      ],
+      [
+        "acceso",
+        "Acceso y adquisición de la condición",
+        "ebep",
+        [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "Superar pruebas es un requisito, junto con nombramiento, acatamiento y toma de posesión."
+      ],
+      [
+        "perdida",
+        "Pérdida y rehabilitación",
+        "ebep",
+        [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "La renuncia, pérdida de nacionalidad o condena tienen presupuestos y efectos distintos."
+      ],
+      [
+        "disciplina",
+        "Responsabilidad y faltas",
+        "ebep",
+        [
+          93,
+          94,
+          95
+        ],
+        "La falta debe calificarse con tipificación y principios del régimen disciplinario."
+      ],
+      [
+        "sanciones",
+        "Sanciones, prescripción y procedimiento",
+        "ebep",
+        [
+          96,
+          97,
+          98
+        ],
+        "Se distingue prescripción de una falta de la de su sanción y la separación instructor-resolutor."
+      ]
+    ],
+    "scope": {
+      "ebep": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "rga": [
+        113
+      ]
+    }
+  }
+]

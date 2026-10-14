@@ -1,0 +1,739 @@
+{
+  "topic": 28,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "objeto": 24,
+    "ambito": 24,
+    "exclusiones": 24,
+    "obras": 24,
+    "concesiones": 24,
+    "suministros": 24,
+    "servicios": 24,
+    "regimen": 24,
+    "organos": 24,
+    "melilla": 24
+  },
+  "anchors": [
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.1",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.2",
+      "phrase": "carácter público",
+      "contrasts": [
+        "carácter privado",
+        "carácter reservado"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.3",
+      "phrase": "fondos públicos",
+      "contrasts": [
+        "fondos del contratista exclusivamente",
+        "fondos privados ajenos"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.1",
+      "phrase": "económicamente",
+      "contrasts": [
+        "sólo moralmente",
+        "únicamente políticamente"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.1",
+      "phrase": "acceso a las licitaciones",
+      "contrasts": [
+        "acceso a las elecciones",
+        "acceso al Padrón"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.1",
+      "phrase": "publicidad y transparencia",
+      "contrasts": [
+        "secreto absoluto en toda contratación",
+        "ausencia de control presupuestario"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "Ley 9/2017, artículo 1.3",
+      "phrase": "mejor relación calidad-precio",
+      "contrasts": [
+        "únicamente el precio más alto",
+        "orden de llegada en todo caso"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 2.2",
+      "phrase": "personas físicas o jurídicas",
+      "contrasts": [
+        "sólo personas físicas",
+        "sólo personas jurídicas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 3, letra a",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 2.3",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 2.4",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 3, letra b",
+      "phrase": "Servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 3, letra c",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 3, letra d",
+      "phrase": "personalidad jurídica propia",
+      "contrasts": [
+        "personalidad jurídica compartida",
+        "dependencia sin personalidad jurídica"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 9/2017, artículo 3, letra e",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 5.2",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 6.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 7.2",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 8",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 9.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 10",
+      "phrase": "12",
+      "contrasts": [
+        "10",
+        "15"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 11.3",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "exclusiones",
+      "reference": "Ley 9/2017, artículo 5",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 12.1",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 13",
+      "phrase": "independientes",
+      "contrasts": [
+        "dependientes del Gobierno",
+        "dependientes de las Cortes"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 12.2",
+      "phrase": "derecho administrativo",
+      "contrasts": [
+        "Derecho privado",
+        "Derecho penal"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 13",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 12.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 12.1",
+      "phrase": "concesión de servicios",
+      "contrasts": [
+        "contrato de suministro en todo caso",
+        "subvención en todo caso"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 13",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "obras",
+      "reference": "Ley 9/2017, artículo 13",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 14.1",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 15.1",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 14.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 14, letra a",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 14, letra b",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 14.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 14.4",
+      "phrase": "riesgo operacional",
+      "contrasts": [
+        "beneficio asegurado sin riesgo",
+        "riesgo tributario del Ayuntamiento"
+      ]
+    },
+    {
+      "category": "concesiones",
+      "reference": "Ley 9/2017, artículo 14",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16.1",
+      "phrase": "arrendamiento financiero",
+      "contrasts": [
+        "arrendamiento de inmuebles siempre",
+        "contrato de trabajo"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16.2",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16.3",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16, letra a",
+      "phrase": "pluralidad de bienes",
+      "contrasts": [
+        "un único inmueble",
+        "un único derecho incorporal"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16, letra b",
+      "phrase": "programas de ordenador desarrollados a medida",
+      "contrasts": [
+        "programas estándar comercializados",
+        "equipos de comunicación estándar"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16, letra d",
+      "phrase": "energía primaria o energía transformada",
+      "contrasts": [
+        "servicios personales profesionales",
+        "derechos de propiedad intelectual exclusivamente"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16.1",
+      "phrase": "bienes muebles",
+      "contrasts": [
+        "bienes inmuebles exclusivamente",
+        "derechos incorporales exclusivamente"
+      ]
+    },
+    {
+      "category": "suministros",
+      "reference": "Ley 9/2017, artículo 16.2",
+      "phrase": "programas de ordenador",
+      "contrasts": [
+        "servicios sanitarios",
+        "obras de construcción"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 17",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 18.1",
+      "phrase": "contrato mixto",
+      "contrasts": [
+        "contrato menor en todo caso",
+        "contrato privado en todo caso"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 17",
+      "phrase": "No podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 18",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 18, letra a",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 18",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 18, letra b",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Ley 9/2017, artículo 18",
+      "phrase": "20",
+      "contrasts": [
+        "15",
+        "25"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 19.1",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 20.1",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 21.1",
+      "phrase": "valor estimado",
+      "contrasts": [
+        "importe con IVA",
+        "precio pagado con IVA siempre"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 22.1",
+      "phrase": "valor estimado",
+      "contrasts": [
+        "importe con IVA",
+        "precio pagado con IVA siempre"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 23.1",
+      "phrase": "17",
+      "contrasts": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 24",
+      "phrase": "derecho administrativo",
+      "contrasts": [
+        "Derecho privado",
+        "Derecho penal"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 25, letra a",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Ley 9/2017, artículo 26, letra a",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 61.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 62.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 64.1",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 65.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 62.3",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 64.2",
+      "phrase": "al menos",
+      "contrasts": [
+        "como máximo",
+        "exactamente sin posibilidad de aumentar"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 65",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Ley 9/2017, artículo 65.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.1",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.3",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.4",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.5",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 112.6",
+      "phrase": "Consejeros",
+      "contrasts": [
+        "Viceconsejeros",
+        "Secretarios Técnicos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "topic": 31,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "recursos": 24,
+    "tributos": 24,
+    "tasa": 24,
+    "sujeto": 24,
+    "cuota": 24,
+    "contribucion": 24,
+    "base": 24,
+    "imposicion": 24,
+    "precio": 24,
+    "fijacion": 24
+  },
+  "anchors": [
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 2, letra b",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 3.2",
+      "phrase": "uso o servicio público",
+      "contrasts": [
+        "uso privado exclusivamente",
+        "disfrute de contratistas exclusivamente"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 5",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 2, letra c",
+      "phrase": "tributos",
+      "contrasts": [
+        "multas siempre",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 2, letra e",
+      "phrase": "precios públicos",
+      "contrasts": [
+        "tasas siempre",
+        "impuestos siempre"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 2, letra f",
+      "phrase": "crédito",
+      "contrasts": [
+        "potestad jurisdiccional",
+        "soberanía monetaria"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 2, letra g",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "TRLRHL, artículo 2.2",
+      "phrase": "carácter público",
+      "contrasts": [
+        "carácter privado",
+        "carácter reservado"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 6",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 7.1",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 8.1",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 9.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 10",
+      "phrase": "tributos",
+      "contrasts": [
+        "multas siempre",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 11",
+      "phrase": "tributos",
+      "contrasts": [
+        "multas siempre",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 12.1",
+      "phrase": "tributos",
+      "contrasts": [
+        "multas siempre",
+        "precios privados exclusivamente"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "TRLRHL, artículo 13",
+      "phrase": "17",
+      "contrasts": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 20.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 21.1",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 22",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 20",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 20",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 20.2",
+      "phrase": "población",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 20.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "tasa",
+      "reference": "TRLRHL, artículo 20, letra c",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23.1",
+      "phrase": "17",
+      "contrasts": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23, letra a",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23, letra b",
+      "phrase": "4",
+      "contrasts": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23.2",
+      "phrase": "sustitutos del contribuyente",
+      "contrasts": [
+        "responsables judiciales",
+        "contratistas exclusivamente"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23, letra a",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23, letra b",
+      "phrase": "tasas",
+      "contrasts": [
+        "precios públicos siempre",
+        "contribuciones especiales siempre"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23, letra c",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "sujeto",
+      "reference": "TRLRHL, artículo 23, letra d",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 24.1",
+      "phrase": "tasas",
+      "contrasts": [
+        "precios públicos siempre",
+        "contribuciones especiales siempre"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 25",
+      "phrase": "informe",
+      "contrasts": [
+        "contrato",
+        "sentencia"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 26.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 27.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 24, letra a",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 24, letra b",
+      "phrase": "concesión",
+      "contrasts": [
+        "mera comunicación privada",
+        "declaración responsable siempre"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 24, letra c",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "cuota",
+      "reference": "TRLRHL, artículo 24",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 28",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 29.1",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 29, letra a",
+      "phrase": "bienes patrimoniales",
+      "contrasts": [
+        "bienes de dominio público",
+        "bienes comunales exclusivamente"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 29, letra b",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 29, letra c",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 29.2",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 29.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "contribucion",
+      "reference": "TRLRHL, artículo 28",
+      "phrase": "obras públicas",
+      "contrasts": [
+        "relaciones internacionales",
+        "legislación procesal"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 30.1",
+      "phrase": "17",
+      "contrasts": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 31.1",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 30, letra a",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 30, letra b",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 30, letra c",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 30, letra d",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 31, letra b",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "base",
+      "reference": "TRLRHL, artículo 31, letra c",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 32.1",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 33.1",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 34.1",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 35.1",
+      "phrase": "contribuciones especiales",
+      "contrasts": [
+        "cotizaciones sociales",
+        "participaciones en beneficio privado"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 36.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 37",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 32, letra b",
+      "phrase": "cinco",
+      "contrasts": [
+        "cuatro",
+        "seis"
+      ]
+    },
+    {
+      "category": "imposicion",
+      "reference": "TRLRHL, artículo 32.3",
+      "phrase": "cinco años",
+      "contrasts": [
+        "cuatro años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 41",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 42",
+      "phrase": "No podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 43",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 41",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 41",
+      "phrase": "precios públicos",
+      "contrasts": [
+        "tasas siempre",
+        "impuestos siempre"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 42",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 42",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "precio",
+      "reference": "TRLRHL, artículo 42",
+      "phrase": "precios públicos",
+      "contrasts": [
+        "tasas siempre",
+        "impuestos siempre"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 44.1",
+      "phrase": "precios públicos",
+      "contrasts": [
+        "tasas siempre",
+        "impuestos siempre"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 45",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 46.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 47.1",
+      "phrase": "delegación",
+      "contrasts": [
+        "sustitución judicial",
+        "desconcentración automática"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 44.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 46.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 47.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "fijacion",
+      "reference": "TRLRHL, artículo 47",
+      "phrase": "precios públicos",
+      "contrasts": [
+        "tasas siempre",
+        "impuestos siempre"
+      ]
+    }
+  ]
+}

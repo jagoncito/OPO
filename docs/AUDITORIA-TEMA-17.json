@@ -1,0 +1,739 @@
+{
+  "topic": 17,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "ambito": 24,
+    "capacidad": 24,
+    "representacion": 24,
+    "identificacion": 24,
+    "canal": 24,
+    "registros": 24,
+    "documentos": 24,
+    "resolver": 24,
+    "silencio": 24,
+    "plazos": 24
+  },
+  "anchors": [
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 1.1",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 2, letra c",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 1.2",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 2, letra a",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 2, letra b",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 2, letra c",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 2.3",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "ambito",
+      "reference": "Ley 39/2015, artículo 2.4",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 3",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 4.1",
+      "phrase": "procedimiento administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 3, letra a",
+      "phrase": "capacidad de obrar",
+      "contrasts": [
+        "capacidad electoral",
+        "capacidad de contratar exclusivamente"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 3, letra b",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 3, letra c",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 4, letra a",
+      "phrase": "intereses legítimos individuales o colectivos",
+      "contrasts": [
+        "intereses exclusivamente económicos",
+        "intereses únicamente individuales"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 3",
+      "phrase": "capacidad de obrar",
+      "contrasts": [
+        "capacidad electoral",
+        "capacidad de contratar exclusivamente"
+      ]
+    },
+    {
+      "category": "capacidad",
+      "reference": "Ley 39/2015, artículo 3, letra a",
+      "phrase": "personas físicas o jurídicas",
+      "contrasts": [
+        "sólo personas físicas",
+        "sólo personas jurídicas"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 5.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 6.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 7",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 5.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 5.4",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 5",
+      "phrase": "apoderamiento apud acta",
+      "contrasts": [
+        "autorización verbal informal",
+        "ratificación de un tercero"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 5.5",
+      "phrase": "representante",
+      "contrasts": [
+        "testigo",
+        "perito"
+      ]
+    },
+    {
+      "category": "representacion",
+      "reference": "Ley 39/2015, artículo 5.6",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 9.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 10.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 11.1",
+      "phrase": "procedimiento administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 12.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 9.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 9, letra a",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 9, letra b",
+      "phrase": "servicios",
+      "contrasts": [
+        "suministros en todo caso",
+        "obras en todo caso"
+      ]
+    },
+    {
+      "category": "identificacion",
+      "reference": "Ley 39/2015, artículo 9, letra c",
+      "phrase": "diez días",
+      "contrasts": [
+        "quince días",
+        "veinte días"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 13",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 14.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 13, letra a",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 13, letra b",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 13, letra c",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 13, letra d",
+      "phrase": "Ordenamiento Jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 13, letra f",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "canal",
+      "reference": "Ley 39/2015, artículo 13, letra h",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 15.1",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 16.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 17.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 15",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 15.3",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 16",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 16",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "registros",
+      "reference": "Ley 39/2015, artículo 16.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 18.1",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 19.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 20.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 26.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 27.1",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 28.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 18.2",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "documentos",
+      "reference": "Ley 39/2015, artículo 19.2",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 21.1",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 22.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 23.1",
+      "phrase": "5",
+      "contrasts": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 21",
+      "phrase": "renuncia",
+      "contrasts": [
+        "cualquier permiso",
+        "cualquier cambio de puesto"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 21.2",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 21",
+      "phrase": "seis",
+      "contrasts": [
+        "cinco",
+        "siete"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 21.3",
+      "phrase": "tres meses",
+      "contrasts": [
+        "dos meses",
+        "seis meses"
+      ]
+    },
+    {
+      "category": "resolver",
+      "reference": "Ley 39/2015, artículo 21.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24.1",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 25.1",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24.2",
+      "phrase": "acto administrativo",
+      "contrasts": [
+        "reglamento exclusivamente",
+        "contrato privado"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24.3",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24, letra a",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "silencio",
+      "reference": "Ley 39/2015, artículo 24, letra b",
+      "phrase": "resolución expresa",
+      "contrasts": [
+        "resolución presunta exclusivamente",
+        "acuerdo privado"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 29",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 30",
+      "phrase": "veinticuatro horas",
+      "contrasts": [
+        "cuarenta y ocho horas",
+        "setenta y dos horas"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 31.1",
+      "phrase": "medios electrónicos",
+      "contrasts": [
+        "únicamente medios en papel",
+        "únicamente medios verbales"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 32.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 33.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 30.3",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 30.4",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    },
+    {
+      "category": "plazos",
+      "reference": "Ley 39/2015, artículo 30",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    }
+  ]
+}

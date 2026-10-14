@@ -1,0 +1,667 @@
+{
+  "topic": 20,
+  "sourceRules": 72,
+  "questions": 240,
+  "categories": {
+    "nulidad": 24,
+    "anulabilidad": 24,
+    "limites": 24,
+    "conversion": 24,
+    "conservacion": 24,
+    "convalidacion": 24,
+    "revision": 24,
+    "lesividad": 24,
+    "revocacion": 24,
+    "melilla": 24
+  },
+  "anchors": [
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47, letra a",
+      "phrase": "lesionen los derechos y libertades susceptibles de amparo constitucional",
+      "contrasts": [
+        "lesionen únicamente intereses económicos",
+        "lesionen cualquier preferencia personal"
+      ]
+    },
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47, letra b",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47, letra c",
+      "phrase": "contenido imposible",
+      "contrasts": [
+        "contenido discrecional siempre",
+        "contenido desfavorable siempre"
+      ]
+    },
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47, letra e",
+      "phrase": "prescindiendo total y absolutamente del procedimiento",
+      "contrasts": [
+        "con cualquier defecto leve de forma",
+        "con retraso sin otras condiciones"
+      ]
+    },
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47, letra f",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47, letra g",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "nulidad",
+      "reference": "Ley 39/2015, artículo 47.2",
+      "phrase": "rango superior",
+      "contrasts": [
+        "rango inferior",
+        "cualquier rango sin excepción"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.1",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.2",
+      "phrase": "requisitos formales indispensables",
+      "contrasts": [
+        "cualquier requisito accesorio",
+        "formalidades prescindibles únicamente"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.3",
+      "phrase": "naturaleza del término o plazo",
+      "contrasts": [
+        "criterio subjetivo del solicitante",
+        "número de recursos presentados"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.1",
+      "phrase": "anulables",
+      "contrasts": [
+        "siempre nulos de pleno derecho",
+        "inimpugnables"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.1",
+      "phrase": "infracción del ordenamiento jurídico",
+      "contrasts": [
+        "cumplimiento del ordenamiento jurídico",
+        "mera discrepancia del interesado"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.1",
+      "phrase": "desviación de poder",
+      "contrasts": [
+        "cualquier inconveniente privado",
+        "cualquier dificultad material"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.2",
+      "phrase": "indefensión",
+      "contrasts": [
+        "mera molestia",
+        "un gasto privado sin relevancia procesal"
+      ]
+    },
+    {
+      "category": "anulabilidad",
+      "reference": "Ley 39/2015, artículo 48.2",
+      "phrase": "interesados",
+      "contrasts": [
+        "únicamente funcionarios",
+        "únicamente contratistas"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.1",
+      "phrase": "independientes",
+      "contrasts": [
+        "dependientes del Gobierno",
+        "dependientes de las Cortes"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.2",
+      "phrase": "independientes",
+      "contrasts": [
+        "dependientes del Gobierno",
+        "dependientes de las Cortes"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.1",
+      "phrase": "sucesivos en el procedimiento que sean independientes del primero",
+      "contrasts": [
+        "todos los actos posteriores sin excepción",
+        "todos los actos anteriores sin excepción"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.1",
+      "phrase": "independientes del primero",
+      "contrasts": [
+        "dependientes necesariamente del primero",
+        "todos sin distinción"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.1",
+      "phrase": "sucesivos",
+      "contrasts": [
+        "anteriores siempre",
+        "ajenos a todo procedimiento"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.1",
+      "phrase": "nulidad o anulabilidad",
+      "contrasts": [
+        "únicamente validez",
+        "únicamente eficacia"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.2",
+      "phrase": "acto administrativo",
+      "contrasts": [
+        "reglamento exclusivamente",
+        "contrato privado"
+      ]
+    },
+    {
+      "category": "limites",
+      "reference": "Ley 39/2015, artículo 49.2",
+      "phrase": "nulidad o anulabilidad",
+      "contrasts": [
+        "únicamente validez",
+        "únicamente eficacia"
+      ]
+    },
+    {
+      "category": "conversion",
+      "reference": "Ley 39/2015, artículo 50",
+      "phrase": "anulables",
+      "contrasts": [
+        "siempre nulos de pleno derecho",
+        "inimpugnables"
+      ]
+    },
+    {
+      "category": "conversion",
+      "reference": "Ley 39/2015, artículo 50",
+      "phrase": "elementos constitutivos de otro distinto",
+      "contrasts": [
+        "únicamente el mismo vicio",
+        "ningún elemento válido"
+      ]
+    },
+    {
+      "category": "conversion",
+      "reference": "Ley 39/2015, artículo 50",
+      "phrase": "efectos de éste",
+      "contrasts": [
+        "efectos siempre nulos",
+        "efectos de cualquier norma"
+      ]
+    },
+    {
+      "category": "conversion",
+      "reference": "Ley 39/2015, artículo 50",
+      "phrase": "otro distinto",
+      "contrasts": [
+        "el mismo sin cambio",
+        "cualquier contrato privado"
+      ]
+    },
+    {
+      "category": "conservacion",
+      "reference": "Ley 39/2015, artículo 51",
+      "phrase": "contenido se hubiera mantenido igual",
+      "contrasts": [
+        "contenido hubiera sido necesariamente distinto",
+        "contenido hubiera sido contrario a la ley"
+      ]
+    },
+    {
+      "category": "conservacion",
+      "reference": "Ley 39/2015, artículo 51",
+      "phrase": "actos y trámites",
+      "contrasts": [
+        "únicamente normas legales",
+        "únicamente sentencias"
+      ]
+    },
+    {
+      "category": "conservacion",
+      "reference": "Ley 39/2015, artículo 51",
+      "phrase": "conservación de aquellos actos y trámites",
+      "contrasts": [
+        "anulación automática de todo trámite",
+        "repetición siempre de todas las actuaciones"
+      ]
+    },
+    {
+      "category": "conservacion",
+      "reference": "Ley 39/2015, artículo 51",
+      "phrase": "se hubiera mantenido igual",
+      "contrasts": [
+        "habría sido completamente distinto",
+        "habría sido necesariamente ilícito"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.2",
+      "phrase": "3",
+      "contrasts": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.4",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.1",
+      "phrase": "anulables",
+      "contrasts": [
+        "siempre nulos de pleno derecho",
+        "inimpugnables"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.1",
+      "phrase": "convalidar los actos anulables",
+      "contrasts": [
+        "convalidar cualquier acto nulo",
+        "convalidar todas las disposiciones ilegales"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.1",
+      "phrase": "subsanando los vicios de que adolezcan",
+      "contrasts": [
+        "sin subsanar sus vicios",
+        "anulando los trámites válidos"
+      ]
+    },
+    {
+      "category": "convalidacion",
+      "reference": "Ley 39/2015, artículo 52.3",
+      "phrase": "órgano competente",
+      "contrasts": [
+        "órgano que reciba primero la solicitud",
+        "órgano elegido por el interesado"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.1",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.2",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.3",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.4",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.5",
+      "phrase": "seis",
+      "contrasts": [
+        "cinco",
+        "siete"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.1",
+      "phrase": "previo dictamen favorable",
+      "contrasts": [
+        "previo dictamen desfavorable",
+        "sin dictamen en ningún caso"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Ley 39/2015, artículo 106.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 107.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 108",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 107.2",
+      "phrase": "cuatro años",
+      "contrasts": [
+        "cinco años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 107",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 107.3",
+      "phrase": "seis",
+      "contrasts": [
+        "cinco",
+        "siete"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 107.5",
+      "phrase": "Administración Local",
+      "contrasts": [
+        "administración autonómica",
+        "administración estatal"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 107.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "lesividad",
+      "reference": "Ley 39/2015, artículo 107.1",
+      "phrase": "actos favorables para los interesados",
+      "contrasts": [
+        "actos desfavorables exclusivamente",
+        "únicamente actos de trámite"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 109.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 110",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 111",
+      "phrase": "anulables",
+      "contrasts": [
+        "siempre nulos de pleno derecho",
+        "inimpugnables"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 109.2",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 111, letra a",
+      "phrase": "Consejo de Ministros",
+      "contrasts": [
+        "Consejo General del Poder Judicial",
+        "Consejo de Estado"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 109.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 109.1",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "revocacion",
+      "reference": "Ley 39/2015, artículo 109.1",
+      "phrase": "actos de gravamen o desfavorables",
+      "contrasts": [
+        "todos los actos favorables",
+        "todas las normas con rango de ley"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 88",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 91.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 87",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 89.1",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 90",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 91.2",
+      "phrase": "Podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 89.2",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 89.3",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    }
+  ]
+}

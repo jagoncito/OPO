@@ -15,13 +15,16 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'tools/data'
 NORMS = {p.stem: json.loads(p.read_text()) for p in (ROOT / 'docs/normas').glob('*.json')}
 VOCAB = json.loads((DATA / 'contrastes.json').read_text())
+EXTRA_VOCAB = json.loads((DATA / 'contrastes-especifica.json').read_text()) if (DATA / 'contrastes-especifica.json').exists() else []
 CASES = json.loads((DATA / 'casos.json').read_text())
+if (DATA / 'casos-especifica.json').exists():
+    CASES += json.loads((DATA / 'casos-especifica.json').read_text())
 ORDINALS = {'primero':1,'segundo':2,'tercero':3,'cuarto':4,'quinto':5,'sexto':6,'séptimo':7,'octavo':8,'noveno':9,'diez':10,'once':11,'doce':12,'trece':13,'catorce':14,'quince':15,'dieciséis':16}
 
 
 def article_number(article):
     label = unicodedata.normalize('NFKC', article['label'])
-    m = re.search(r'Artículo\s+(\d+)', label)
+    m = re.search(r'(?:Artículo|Art\.)\s*(\d+)', label)
     if m:
         return int(m[1])
     m = re.search(r'Artículo\s+([a-záéíóúñ]+)', label, re.I)
@@ -33,7 +36,8 @@ def articles(source, numbers):
 
 
 def citation(source, article, paragraph):
-    short = {'ce':'CE','lopj':'LOPJ','lotc':'LOTC','estatuto':'Estatuto de Melilla','cc':'Código Civil','ley39':'Ley 39/2015','lbrl':'Ley 7/1985','igualdad':'LO 3/2007','rga':'Reglamento del Gobierno y Administración de Melilla'}[source]
+    short = {'ce':'CE','lopj':'LOPJ','lotc':'LOTC','estatuto':'Estatuto de Melilla','cc':'Código Civil','ley39':'Ley 39/2015','lbrl':'Ley 7/1985','igualdad':'LO 3/2007','rga':'Reglamento del Gobierno y Administración de Melilla',
+             'ley40':'Ley 40/2015','lcsp':'Ley 9/2017','haciendas':'TRLRHL','ebep':'TREBEP','servicios':'Reglamento de Servicios de las Corporaciones Locales','bienes':'Reglamento de Bienes de las Entidades Locales','poblacion':'Reglamento de Población y Demarcación Territorial','subvenciones':'Ley 38/2003','asamblea':'Reglamento de la Asamblea de Melilla'}[source]
     n = article_number(article)
     suffix = re.search(r'Artículo\s+\d+\s+(bis|ter|quater)\b', article['label'], re.I)
     article_name = str(n)+((' '+suffix[1]) if suffix else '')
@@ -82,8 +86,13 @@ def find_seed(category, source, number, phrase, wrong1, wrong2):
 def automatic_seeds(model):
     seeds=[]
     used=set()
+    used_changes=set()
     extra=model.get('extraSeeds',[])
+    default_target=model.get('seedsPerCategory',4)
+    vocab = VOCAB+EXTRA_VOCAB if model.get('block')=='specific' else VOCAB
+    compiled_vocab = [(re.compile(r'(?<!\w)'+re.escape(p)+r'(?!\w)',re.I),p,w1,w2) for p,w1,w2 in vocab]
     for category,title,source,numbers,scenario in model['categories']:
+        target=model.get('seedCounts',{}).get(category,default_target)
         candidates=[]
         for row in extra:
             if row[0]==category:
@@ -95,8 +104,8 @@ def automatic_seeds(model):
                 filter_pattern=model.get('paragraphFilters',{}).get(category)
                 if filter_pattern and not re.search(filter_pattern,paragraph,re.I):
                     continue
-                for phrase,wrong1,wrong2 in VOCAB:
-                    for m in re.finditer(r'(?<!\w)'+re.escape(phrase)+r'(?!\w)',paragraph,re.I):
+                for pattern,phrase,wrong1,wrong2 in compiled_vocab:
+                    for m in pattern.finditer(paragraph):
                         # No convierte la numeración de una lista en una pregunta.
                         if m[0].isdigit() and (m.start()<4 or paragraph[max(0,m.start()-9):m.start()].strip().casefold().endswith(('artículo','art.'))):
                             continue
@@ -108,26 +117,32 @@ def automatic_seeds(model):
         for pass_no in range(3):
             for candidate in candidates:
                 key=(candidate['source'],candidate['article']['id'],candidate['paragraph'],candidate['phrase'].casefold())
-                if key in used:
+                change=(candidate['source'],candidate['article']['id'],tuple(sorted(replace_once(candidate['paragraph'],candidate['phrase'],w).casefold() for w in candidate['wrong'])))
+                if key in used or change in used_changes:
                     continue
                 if pass_no==0 and any(s['article']['id']==candidate['article']['id'] for s in selected):
                     continue
                 if pass_no==1 and any(s['paragraph']==candidate['paragraph'] for s in selected):
                     continue
-                selected.append(candidate);used.add(key)
-                if len(selected)==4:
+                selected.append(candidate);used.add(key);used_changes.add(change)
+                if len(selected)==target:
                     break
-            if len(selected)==4:
+            if len(selected)==target:
                 break
-        if len(selected)!=4:
+        if len(selected)!=target:
             raise ValueError(f'Tema {model["topic"]}, {category}: solo {len(selected)} anclajes; requiere curación adicional.')
         seeds.extend(selected)
-    assert len(seeds)==40
+    assert len(seeds)==sum(model.get('seedCounts',{}).get(c[0],default_target) for c in model['categories'])
     return seeds
 
 
 def truth_fragment(seed, limit=320):
     return window_text(seed['paragraph'],seed['phrase'],limit)
+
+
+def text_fingerprint(value):
+    plain=unicodedata.normalize('NFD',value.casefold())
+    return ''.join(c for c in plain if c.isalnum())
 
 
 def combine_reference(*seeds):
@@ -150,8 +165,8 @@ def build_questions(model,seeds,manual=False):
         nearby=nearby[:min(12,len(nearby))]
         partner=nearby[(index*3)%len(nearby)]
         partner2=nearby[(index*3+1)%len(nearby)]
-        if partner2['paragraph']==partner['paragraph']:
-            partner2=next(s for s in others if s['paragraph']!=partner['paragraph'])
+        if text_fingerprint(truth_fragment(partner2,320))==text_fingerprint(truth_fragment(partner,320)):
+            partner2=next(s for s in others if text_fingerprint(truth_fragment(s,320))!=text_fingerprint(truth_fragment(partner,320)))
         fragment=truth_fragment(seed)
         masked=replace_once(fragment,seed['phrase'],'[____]')
         bad1=replace_once(fragment,seed['phrase'],seed['wrong'][0])
@@ -161,9 +176,10 @@ def build_questions(model,seeds,manual=False):
         base=seed['ref']
         correct_reason=f'El texto establece «{seed["phrase"]}». Lee la regla con su sujeto y sus condiciones: «{fragment}».'
         reasons=[f'Esta alternativa sustituye «{seed["phrase"]}» por «{w}» y cambia el fragmento previsto en {base}.' for w in seed['wrong']]
-        if manual:
+        compact = manual or (model.get('compactVariants') and sum(s['category']==seed['category'] for s in seeds)==8)
+        if compact:
             category_info=categories[seed['category']]
-            scenario=category_info[2]
+            scenario=category_info[2] if manual else category_info[4]
             local_number=sum(1 for s in seeds[:index+1] if s['category']==seed['category'])
             variants=[0,1,5]
             evaluation_variants={0 if local_number==5 else 1 if local_number==6 else 5} if local_number>4 else set()
@@ -252,9 +268,11 @@ def highlighted(text,seeds):
 
 def generate_lesson(model,seeds):
     topic=model['topic'];sections=[]
+    origin_notice = ('Cada pregunta identifica su procedencia: original de entrenamiento o transcripción de un cuestionario oficial relacionado. Ese antecedente no predice el próximo examen.'
+                     if model.get('block')=='specific' else 'Las preguntas son de entrenamiento: no se atribuyen a exámenes oficiales ni predicen el próximo cuestionario.')
     rows=''.join('<tr><td>'+html.escape(c[1])+'</td><td>'+html.escape(c[2] if len(c)==3 else c[4])+'</td></tr>' for c in model['categories'])
     sections.append({'id':f't{topic}-mapa','title':'Mapa del tema y objetivos de dominio','html':
-      '<p>'+html.escape(model['overview'])+'</p><p>La fuente es la normativa aplicable a la fecha de las bases, <mark>19 de noviembre de 2024</mark>. Las preguntas son de entrenamiento: no se atribuyen a exámenes oficiales ni predicen el próximo cuestionario.</p>'
+      '<p>'+html.escape(model['overview'])+'</p><p>La fuente es la normativa aplicable a la fecha de las bases, <mark>19 de noviembre de 2024</mark>. '+origin_notice+'</p>'
       '<div class="table-wrap"><table><caption>Qué distinguir en cada bloque</caption><thead><tr><th>Bloque</th><th>Objetivo</th></tr></thead><tbody>'+rows+'</tbody></table></div>'})
     seen=set()
     for category in model['categories']:
@@ -307,11 +325,13 @@ def write_model(model):
     lesson=generate_lesson(model,seeds)
     solved=[]
     for case in [c for c in CASES if c[0]==topic]:
-        _,category,source,number,stem,right,wrong1,wrong2,reason=case
+        _,category,source,number,stem,right,wrong1,wrong2,reason=case[:9]
+        evaluated=case[9] if len(case)>9 else False
         article=articles(source,[number])[0]
         ref=citation(source,article,article['paragraphs'][0])
         ref=re.sub(r'\.(\d+)$','',ref)
-        question=next(q for q in questions if q['topic']==category and not q['evaluation'] and q['audit']['variant']==1)
+        candidates=[q for q in questions if q['topic']==category and q['evaluation']==evaluated and q['audit']['variant']!='case']
+        question=next((q for q in candidates if q['audit']['variant']==1),candidates[0])
         position=question['answer'];options=[None]*3;why=[None]*3
         options[position]=right;why[position]='Es la opción correcta. '+reason
         for dest,wrong in zip([p for p in range(3) if p!=position],[wrong1,wrong2]):
@@ -321,14 +341,43 @@ def write_model(model):
                          'articles':[article_number(article)] if article_number(article) else [],
                          'difficulty':3,'skill':'aplicacion',
                          'audit':{'variant':'case','source':source,'articleId':article['id'],'paragraph':' '.join(article['paragraphs'])}})
-        solved.append('<article class="trap-card"><h3>'+html.escape(stem)+'</h3><p><strong>Solución:</strong> '+html.escape(right)+'</p><p>'+html.escape(reason)+'</p><p class="source-note">'+html.escape(ref)+' · Caso didáctico original.</p></article>')
+        if not evaluated:
+            solved.append('<article class="trap-card"><h3>'+html.escape(stem)+'</h3><p><strong>Solución:</strong> '+html.escape(right)+'</p><p>'+html.escape(reason)+'</p><p class="source-note">'+html.escape(ref)+' · Caso didáctico original.</p></article>')
     lesson['sections'].append({'id':f't{topic}-casos','title':'Casos resueltos: aplicar y justificar','html':'<p>Usa estos casos para explicar la regla, su condición y el error de la alternativa cercana. Son ejemplos de entrenamiento, no preguntas atribuidas a una convocatoria.</p>'+''.join(solved)})
+    related=[]
+    if (DATA/'antecedentes-especifica.json').exists():
+        related=[r for r in json.loads((DATA/'antecedentes-especifica.json').read_text()) if r['topic']==topic]
+    if related:
+        exam=json.loads((ROOT/'docs/examenes/administrativo-melilla-2026.json').read_text())
+        for row in related:
+            original=next(q for q in exam['questions'] if q['number']==row['number'])
+            article=articles(row['source'],[row['article']])[0]
+            slot=next(q for q in questions if q['topic']==row['category'] and not q['evaluation'] and q['origin']=='original' and q['audit']['variant']!='case' and q['answer']==row['answer'])
+            slot.update({'stem':original['stem'],'options':original['options'],'answer':row['answer'],
+                         'explanation':row['explanation'],'wrongReasons':row['reasons'],
+                         'reference':citation(row['source'],article,article['paragraphs'][0]),
+                         'sourceUrl':NORMS[row['source']]['url']+'#'+article['id'],'origin':'official',
+                         'articles':[article_number(article)] if article_number(article) else [],
+                         'difficulty':2,'skill':'distincion',
+                         'exam':{'body':'Administrativo CAM, 16 plazas','date':exam['date'],'number':row['number'],
+                                 'url':exam['sourceURL'],'local':'docs/examenes/administrativo-melilla-2026.pdf',
+                                 'answerStatus':'Solución por revisión normativa propia; no se ha localizado la plantilla definitiva.'},
+                         'audit':{'variant':'official','source':row['source'],'articleId':article['id'],'paragraph':' '.join(article['paragraphs'])}})
+        body='<p>Se ha comprobado el cuestionario oficial de <strong>Administrativo CAM, 6 de septiembre de 2026</strong>, un cuerpo distinto de Auxiliar. Se acredita la aparición de estas preguntas en ese documento; no demuestra frecuencia histórica ni garantiza su repetición. Las soluciones del cuaderno son una revisión normativa propia, sin plantilla definitiva localizada.</p><ul>'
+        for row in related:
+            original=next(q for q in exam['questions'] if q['number']==row['number'])
+            body+='<li><strong>Pregunta '+str(row['number'])+'</strong>: '+html.escape(original['stem'])+' <a href="docs/examenes/administrativo-melilla-2026.pdf">Ver cuestionario oficial</a>.</li>'
+        body+='</ul>'
+        lesson['sections'].append({'id':f't{topic}-antecedentes','title':'Preguntas oficiales de un proceso relacionado','html':body})
     directory=ROOT/f'js/tema{topic}';directory.mkdir(exist_ok=True)
     tests=[[c[1],c[2] if len(c)==3 else c[4],[c[0]]] for c in model['categories']]
     config={'topic':topic,'storageKey':f'opo-melilla-tema{topic}-v1','title':model['title'],'scopeText':model['subtitle'],
+            **({'block':'specific','officialTopic':model['officialTopic']} if model.get('block')=='specific' else {}),
             'topicLabels':{c[0]:c[1] for c in model['categories']},'tests':tests,
             'sourceFiles':[{'name':NORMS[s]['title'],'url':NORMS[s]['url'],'version':NORMS[s]['version'],'local':f'docs/normas/{s}.html',
                             **({'note':NORMS[s]['versionNote']} if NORMS[s].get('versionNote') else {})} for s in model['scope']]}
+    assert Counter(q['answer'] for q in questions)=={0:80,1:80,2:80}
+    assert len({(q['stem'],tuple(sorted(q['options']))) for q in questions})==240
     for filename,name,data in [('config.js','OPO_CONFIG',config),('lesson.js','OPO_LESSON',lesson)]:
         (directory/filename).write_text('window.'+name+' = '+json.dumps(data,ensure_ascii=False,indent=2)+';\n')
     for index,letter in enumerate('ABC'):
@@ -343,6 +392,8 @@ if __name__=='__main__':
     import sys
     requested={int(x) for x in sys.argv[1:]} if len(sys.argv)>1 else None
     models=[json.loads((DATA/'tema3.json').read_text()),*json.loads((DATA/'catalogo.json').read_text())]
+    if (DATA/'catalogo-especifica.json').exists():
+        models+=json.loads((DATA/'catalogo-especifica.json').read_text())
     for model in models:
         if requested is None or model['topic'] in requested:
             write_model(model)
