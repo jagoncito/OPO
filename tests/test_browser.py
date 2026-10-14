@@ -11,8 +11,6 @@ import unittest
 from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-URL = (ROOT / 'index.html').as_uri()
-KEY = 'opo-melilla-tema1-v1'
 
 
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
@@ -21,13 +19,15 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
 
 
 class BrowserChecks(unittest.TestCase):
+    page_name = 'index.html'
+    topic = 1
     @classmethod
     def setUpClass(cls):
         handler = functools.partial(QuietHandler, directory=str(ROOT))
         cls.server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), handler)
         cls.thread = threading.Thread(target=cls.server.serve_forever, daemon=True)
         cls.thread.start()
-        cls.url = URL if os.environ.get('OPO_TEST_FILE') == '1' else f'http://127.0.0.1:{cls.server.server_port}/index.html'
+        cls.url = (ROOT / cls.page_name).as_uri() if os.environ.get('OPO_TEST_FILE') == '1' else f'http://127.0.0.1:{cls.server.server_port}/{cls.page_name}'
         cls.playwright = sync_playwright().start()
         executable = shutil.which('chromium')
         cls.browser = cls.playwright.chromium.launch(
@@ -45,6 +45,7 @@ class BrowserChecks(unittest.TestCase):
     def setUp(self):
         self.context = self.browser.new_context(viewport={'width': 1365, 'height': 900})
         self.page = self.context.new_page()
+        self.key = f'opo-melilla-tema{self.topic}-v1'
         self.errors = []
         self.page.on('pageerror', lambda e: self.errors.append(str(e)))
         self.page.goto(self.url)
@@ -67,15 +68,23 @@ class BrowserChecks(unittest.TestCase):
         self.page.locator('#result-panel').wait_for(state='visible')
 
     def test_content_and_test_partition(self):
-        self.assertEqual(self.page.locator('.lesson-section').count(), 10)
+        if self.topic == 1:
+            self.assertEqual(self.page.locator('.lesson-section').count(), 10)
+        else:
+            self.assertGreaterEqual(self.page.locator('.lesson-section').count(), 15)
+            self.assertEqual(self.page.locator('#lesson-content .legal-text').count(), 46)
         self.assertGreaterEqual(self.page.locator('mark').count(), 50)
-        self.assertEqual(self.page.locator('.trap-card').count(), 23)
+        if self.topic == 1:
+            self.assertEqual(self.page.locator('.trap-card').count(), 23)
+        else:
+            self.assertGreaterEqual(self.page.locator('.trap-card').count(), 50)
         data = self.page.evaluate('window.OPO_APP.tests')
         self.assertEqual(len(data), 11)
         self.assertEqual([len(t['ids']) for t in data], [20] * 10 + [40])
         self.assertEqual([t['seconds'] for t in data], [1271] * 10 + [2542])
         self.assertEqual(len(set(q for t in data for q in t['ids'])), 240)
-        self.assertEqual(self.page.locator('#sources-content').locator('a[href^="docs/"]').count(), 2)
+        for source in ['bases-2024.pdf','aviso-examen-2026.pdf','ampliacion-30-plazas-2026.pdf','rectificacion-tiempo-2024.pdf']:
+            self.assertEqual(self.page.locator(f'#sources-content a[href="docs/{source}"]').count(), 1)
 
     def test_scoring_all_tests_correct_wrong_blank_and_mixed(self):
         data = self.page.evaluate('''() => {
@@ -162,7 +171,7 @@ class BrowserChecks(unittest.TestCase):
         self.page.locator('[data-resume]').click()
         self.assertTrue(self.page.locator('#result-panel').is_visible())
         self.assertIn('automáticamente', self.page.locator('#result-summary').inner_text())
-        saved = self.page.evaluate('key=>JSON.parse(localStorage.getItem(key))', KEY)
+        saved = self.page.evaluate('key=>JSON.parse(localStorage.getItem(key))', self.key)
         self.assertIsNone(saved['active'])
         self.assertEqual(len(saved['attempts']), 1)
 
@@ -175,6 +184,7 @@ class BrowserChecks(unittest.TestCase):
             self.page.locator('#export-progress').click()
         exported = json.loads(pathlib.Path(download_info.value.path()).read_text())
         self.assertEqual(exported['version'], 1)
+        self.assertEqual(exported['topic'], self.topic)
         self.assertEqual(len(exported['attempts']), 1)
         self.page.locator('#reset-progress').click()
         self.page.locator('#confirm-accept').click()
@@ -227,6 +237,44 @@ class BrowserChecks(unittest.TestCase):
             self.assertEqual(page.locator('#result-review .review-card').count(),20)
         finally:
             context.close()
+
+
+class ThemeTwoChecks(BrowserChecks):
+    page_name = 'tema2.html'
+    topic = 2
+
+    def test_complete_article_coverage_and_focused_tests(self):
+        data = self.page.evaluate('''() => {
+          const bank=[...OPO_QUESTIONS_A,...OPO_QUESTIONS_B,...OPO_QUESTIONS_C];
+          const map=new Map(bank.map(q=>[q.id,q]));
+          return {articles:[...new Set(bank.flatMap(q=>q.articles))],
+            categories:OPO_APP.tests.slice(0,10).map(t=>[...new Set(t.ids.map(id=>map.get(id).topic))]),
+            evaluation:OPO_APP.tests[10].ids.reduce((o,id)=>{const topic=map.get(id).topic;o[topic]=(o[topic]||0)+1;return o;},{})};
+        }''')
+        self.assertEqual(sorted(data['articles']), list(range(10,56)))
+        self.assertTrue(all(len(categories)==1 for categories in data['categories']))
+        self.assertEqual(len(data['evaluation']),10)
+        self.assertTrue(all(n==4 for n in data['evaluation'].values()))
+
+    def test_topics_keep_independent_history(self):
+        self.start()
+        self.submit()
+        self.page.locator('#result-back').click()
+        self.page.locator('[data-topic="1"]').click()
+        self.page.wait_for_function('OPO_APP.topic===1')
+        self.page.locator('[data-view="progress"]').click()
+        self.assertEqual(self.page.locator('[data-result]').count(),0)
+        self.page.locator('[data-topic="2"]').click()
+        self.page.wait_for_function('OPO_APP.topic===2')
+        self.page.locator('[data-view="progress"]').click()
+        self.assertEqual(self.page.locator('[data-result]').count(),1)
+
+    def test_reject_import_from_another_topic(self):
+        self.page.locator('[data-view="progress"]').click()
+        data={'version':1,'topic':1,'attempts':[],'active':None,'mastery':[]}
+        self.page.locator('#import-progress').set_input_files({'name':'tema1.json','mimeType':'application/json','buffer':json.dumps(data).encode()})
+        self.assertIn('otro tema',self.page.locator('#import-status').inner_text())
+        self.assertFalse(self.page.locator('#confirm-panel').is_visible())
 
 
 if __name__ == '__main__':

@@ -1,11 +1,11 @@
-# Validación de esta entrega
+# Validación de los temas 1 y 2
 
 ## Contenido
 
-- 240 preguntas con IDs y enunciados distintos: 200 de entrenamiento y 40 reservadas para evaluación.
+- 240 preguntas por tema, con IDs y enunciados distintos: 200 de entrenamiento y 40 reservadas para evaluación en cada uno; 480 en total.
 - Tres opciones por pregunta, una clave, fundamento y explicación individual de los distractores.
-- Cobertura de características, fechas, estructura y todos los artículos 1–9.
-- Revisión interna independiente del contenido didáctico y las claves jurídicas. Esta revisión no sustituye la consulta del BOE ni acredita dificultad psicométrica.
+- Tema 1: características, fechas, estructura y artículos 1–9. Tema 2: todos los artículos 10–55 y diez categorías de 24 preguntas (20 de entrenamiento + 4 de evaluación).
+- Textos literales cotejados con el BOE oficial, redacción de 17/02/2024 aplicable a la fecha de las bases; revisión jurídica independiente de teoría y claves. No se afirma calibración psicométrica.
 - Todos los orígenes están identificados como preguntas originales; no hay preguntas atribuidas sin evidencia a exámenes anteriores.
 
 ## Funcionamiento
@@ -14,10 +14,11 @@ Comandos de comprobación:
 
 ```sh
 node tools/check-content.mjs
+python3 tools/check-literals.py
 python3 -m unittest discover -s tests -v
 ```
 
-Nueve comprobaciones de navegador, completadas en Chromium por HTTP local:
+21 comprobaciones de navegador, completadas en Chromium por HTTP local: las nueve siguientes se ejecutan para cada tema; otras tres verifican cobertura de los 46 artículos, separación del progreso y rechazo de una importación de otro tema.
 
 1. Contenido, reparto de los once tests y ausencia de solapamiento de preguntas.
 2. Puntuación de todos los cuestionarios con aciertos, errores, blancos y casos mixtos.
@@ -45,4 +46,4 @@ aviso-examen-2026.pdf
 
 ## Pendientes externos
 
-El acceso al BOE y los portales oficiales de Melilla devolvió bloqueo de red. No se ha completado el cotejo externo del texto constitucional, la búsqueda de exámenes anteriores ni la localización de la modificación de 22 a 30 plazas. Estas limitaciones también figuran en la web y en el README.
+El 14/10/2026 se completaron el acceso al BOE, el cotejo de los textos constitucionales y la localización de la modificación de 22 a 30 plazas y de la rectificación de tiempo. Continúa pendiente localizar cuestionarios y plantillas de exámenes anteriores de Auxiliar Administrativo: los anuncios comprobados no permiten atribuir preguntas. Se documenta el recorrido en `INVESTIGACION-EXAMENES.md`.

@@ -2,10 +2,11 @@
 (() => {
   'use strict';
   const $ = id => document.getElementById(id);
+  const config = window.OPO_CONFIG || {topic: 1};
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const bank = [...window.OPO_QUESTIONS_A, ...window.OPO_QUESTIONS_B, ...window.OPO_QUESTIONS_C];
   const byId = new Map(bank.map(q => [q.id, q]));
-  const key = 'opo-melilla-tema1-v1';
+  const key = config.storageKey || 'opo-melilla-tema1-v1';
   let persistent = true;
   let state = {attempts: [], active: null, mastery: []};
   try {
@@ -20,8 +21,8 @@
   let pendingConfirmation = null;
   let confirmationFocus = null;
   const confidenceLabels = {high:'Seguro', medium:'Entre dos', low:'Duda'};
-  const topicLabels = {caracteristicas:'Características', fechas:'Fechas', estructura:'Estructura', art1:'Artículo 1', art2:'Artículo 2', art3:'Artículo 3', art4:'Artículo 4', art5:'Artículo 5', art6:'Artículo 6', art7:'Artículo 7', art8:'Artículo 8', art9:'Artículo 9', integracion:'Integración'};
-  const labels = [
+  const topicLabels = config.topicLabels || {caracteristicas:'Características', fechas:'Fechas', estructura:'Estructura', art1:'Artículo 1', art2:'Artículo 2', art3:'Artículo 3', art4:'Artículo 4', art5:'Artículo 5', art6:'Artículo 6', art7:'Artículo 7', art8:'Artículo 8', art9:'Artículo 9', integracion:'Integración'};
+  const labels = config.tests || [
     ['Fundamentos y fechas', 'Reconocer los rasgos de la Constitución y distinguir los cuatro hitos de 1978.', ['caracteristicas','fechas']],
     ['Mapa de la Constitución', 'Situar títulos y artículos; evitar confundir el Título Preliminar con el Título I.', ['estructura']],
     ['Estado, soberanía y lenguas', 'Separar valores, forma política, autonomía y régimen lingüístico.', ['art1','art2','art3']],
@@ -37,8 +38,8 @@
   const tests = labels.map(([title, purpose, topics], index) => {
     const affinity = q => {
       let value = topics.includes(q.topic) ? 10 : 0;
-      if (index === 6 && /9[.,]3/.test(q.reference)) value -= 8;
-      if (index === 7 && /9[.,]3/.test(q.reference)) value += 8;
+      if (config.topic === 1 && index === 6 && /9[.,]3/.test(q.reference)) value -= 8;
+      if (config.topic === 1 && index === 7 && /9[.,]3/.test(q.reference)) value += 8;
       return value;
     };
     const candidates = [...remaining].sort((a,b) => affinity(b)-affinity(a) || a.difficulty-b.difficulty || a.id.localeCompare(b.id));
@@ -218,10 +219,26 @@
       const n=items.length, correct=items.filter(i=>i.answer===byId.get(i.id).answer).length;
       return `<tr><th scope="row">${label}</th><td>${n}</td><td>${n?Math.round(correct/n*100)+' %':'—'}</td></tr>`;
     }).join('');
-    $('progress-content').innerHTML = `<div class="stats-grid"><div class="stat"><strong>${completed.length}</strong><span>Intentos completados</span></div><div class="stat"><strong>${recent.length?scoreText(average):'—'}</strong><span>Media de últimos ${recent.length||0}</span></div><div class="stat"><strong>${latest.size}/240</strong><span>Preguntas distintas realizadas</span></div></div><h3>Prioridad de repaso</h3><p>Se usa tu última respuesta a cada pregunta, para no inflar resultados al repetir. Las preguntas en blanco también cuentan. Los temas no realizados siguen pendientes.</p>${rows.length?`<div class="table-wrap"><table><thead><tr><th>Bloque</th><th>Vistas</th><th>Aciertos</th><th>Errores</th><th>Blancas</th><th>Errores seguros</th></tr></thead><tbody>${rows.map(([topic,g])=>`<tr><th scope="row">${escape(topicLabels[topic])}</th><td>${g.n}</td><td>${g.correct}</td><td>${g.errors}</td><td>${g.blanks}</td><td>${g.highErrors}</td></tr>`).join('')}</tbody></table></div><p><strong>Empieza por ${escape(topicLabels[rows[0][0]])}.</strong> Explica la regla sin mirar, contrástala con el artículo y vuelve a comprobarla después de 48 horas.</p>`:'<p>Completa el primer test para obtener un diagnóstico.</p>'}<h3>Tu confianza frente a tu acierto real</h3><div class="table-wrap"><table><thead><tr><th>Confianza</th><th>Respondidas</th><th>Acierto observado</th></tr></thead><tbody>${confidenceStats}</tbody></table></div><p>Con tres opciones y penalización de medio acierto, responder tiene valor esperado positivo si tu probabilidad de acertar supera 1/3. El azar puro tiene valor esperado cero. Una muestra pequeña no demuestra tu probabilidad real: usa estos datos para calibrar, no para prometer resultados.</p><h3>Historial</h3>${completed.length?`<ol class="history-list">${[...completed].reverse().map(a=>`<li><button class="button-secondary" data-result="${escape(a.id)}">${escape(testById.get(a.testId)?.title||a.testId)} · ${scoreText(a.score)}/10 · ${new Date(a.finishedAt).toLocaleString('es-ES')}</button></li>`).join('')}</ol>`:'<p>Aún no hay intentos.</p>'}<div class="toolbar"><button id="export-progress">Exportar progreso</button><label class="button-secondary import-label">Importar progreso <input id="import-progress" type="file" accept="application/json,.json"></label><button id="reset-progress" class="button-secondary">Borrar progreso</button></div><p id="import-status" role="status"></p>`;
+    $('progress-content').innerHTML = `<div class="stats-grid"><div class="stat"><strong>${completed.length}</strong><span>Intentos completados</span></div><div class="stat"><strong>${recent.length?scoreText(average):'—'}</strong><span>Media de últimos ${recent.length||0}</span></div><div class="stat"><strong>${latest.size}/${bank.length}</strong><span>Preguntas distintas realizadas</span></div></div><h3>Prioridad de repaso</h3><p>Se usa tu última respuesta a cada pregunta, para no inflar resultados al repetir. Las preguntas en blanco también cuentan. Los temas no realizados siguen pendientes.</p>${rows.length?`<div class="table-wrap"><table><thead><tr><th>Bloque</th><th>Vistas</th><th>Aciertos</th><th>Errores</th><th>Blancas</th><th>Errores seguros</th></tr></thead><tbody>${rows.map(([topic,g])=>`<tr><th scope="row">${escape(topicLabels[topic])}</th><td>${g.n}</td><td>${g.correct}</td><td>${g.errors}</td><td>${g.blanks}</td><td>${g.highErrors}</td></tr>`).join('')}</tbody></table></div><p><strong>Empieza por ${escape(topicLabels[rows[0][0]])}.</strong> Explica la regla sin mirar, contrástala con el artículo y vuelve a comprobarla después de 48 horas.</p>`:'<p>Completa el primer test para obtener un diagnóstico.</p>'}<h3>Tu confianza frente a tu acierto real</h3><div class="table-wrap"><table><thead><tr><th>Confianza</th><th>Respondidas</th><th>Acierto observado</th></tr></thead><tbody>${confidenceStats}</tbody></table></div><p>Con tres opciones y penalización de medio acierto, responder tiene valor esperado positivo si tu probabilidad de acertar supera 1/3. El azar puro tiene valor esperado cero. Una muestra pequeña no demuestra tu probabilidad real: usa estos datos para calibrar, no para prometer resultados.</p><h3>Historial</h3>${completed.length?`<ol class="history-list">${[...completed].reverse().map(a=>`<li><button class="button-secondary" data-result="${escape(a.id)}">${escape(testById.get(a.testId)?.title||a.testId)} · ${scoreText(a.score)}/10 · ${new Date(a.finishedAt).toLocaleString('es-ES')}</button></li>`).join('')}</ol>`:'<p>Aún no hay intentos.</p>'}<div class="toolbar"><button id="export-progress">Exportar progreso</button><label class="button-secondary import-label">Importar progreso <input id="import-progress" type="file" accept="application/json,.json"></label><button id="reset-progress" class="button-secondary">Borrar progreso</button></div><p id="import-status" role="status"></p>`;
   }
   function renderSources() {
-    $('sources-content').innerHTML = `<h2>Fuentes y alcance de la preparación</h2><ul class="source-list"><li><strong>Programa verificado en el PDF aportado:</strong> BOME n.º 6227, 19 de noviembre de 2024, artículo 1011, base décima, páginas 3169–3170. Tema general 1: «La Constitución Española de 1978: Características, estructura y Título Preliminar». <a href="docs/bases-2024.pdf">Abrir las bases locales</a>.</li><li><strong>Formato del primer ejercicio verificado:</strong> BOME extraordinario n.º 44, 7 de octubre de 2026, artículo 119: 80 preguntas + 5 reservas, tres opciones, 90 minutos, valor 0,125 por pregunta y errores −½ acierto. Examen: 25 de octubre de 2026 a las 18:00. <a href="docs/aviso-examen-2026.pdf">Abrir el anuncio local</a>.</li><li><strong>Referencia normativa:</strong> <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229" target="_blank" rel="noopener noreferrer">Constitución Española, BOE-A-1978-31229</a>. Se indican artículos y apartados en las correcciones. La consulta directa del BOE no ha podido completarse por el bloqueo de red del entorno; el texto didáctico se ha revisado internamente, sin presentar esa revisión como cotejo externo.</li><li><strong>Exámenes anteriores:</strong> no se ha podido verificar ningún cuestionario anterior en esta entrega. Las 240 preguntas son originales. No se señalan preguntas «caídas», frecuencias ni años sin evidencia.</li></ul><div class="explanation"><p>Las bases aportadas convocaban 22 plazas; el anuncio de 2026 habla de 30. No se ha localizado la modificación intermedia. Este tema coincide con el programa aportado, pero no se afirma haber comprobado la continuidad de todo el programa.</p><p>Estas bases fijan la normativa a la fecha de publicación de la convocatoria. Para este tema, las reformas de los artículos 13, 135 y 49 quedan fuera del Título Preliminar y no alteran los artículos 1–9.</p><p>Los tests por tema son una adaptación: 20 preguntas en 21:11 y evaluación de 40 en 42:22. No son simulacros completos ni incluyen reservas. El criterio ≥9 es una meta de preparación, no un corte oficial ni una garantía de plaza.</p></div><h3>Cómo usar el material</h3><ol><li>Lee cada sección y explica su regla sin mirar.</li><li>Realiza los tests por orden, sin consultar el texto durante el intento.</li><li>Revisa todas las justificaciones; prioriza errores con confianza alta.</li><li>Después de 48 horas, vuelve a explicar las reglas y realiza preguntas pendientes.</li><li>Reserva la evaluación para comprobar transferencia a preguntas nuevas.</li></ol><p>Todo funciona localmente. No se envían respuestas, notas ni archivos a un servidor. Los enlaces externos y PDF se abren solo cuando los seleccionas.</p>`;
+    const topic = config.topic;
+    const snapshot = config.normativeFile || 'docs/constitucion-2024-preliminar.html';
+    const scope = topic === 2 ? 'Título I, artículos 10–55. Incluye la reforma del artículo 49 publicada el 17 de febrero de 2024.' : 'Características, estructura y Título Preliminar, artículos 1–9.';
+    $('sources-content').innerHTML = `
+      <h2>Fuentes y alcance de la preparación</h2>
+      <ul class="source-list">
+        <li><strong>Programa:</strong> BOME n.º 6227, 19/11/2024, artículo 1011, base décima, páginas 3169–3170. Tema general ${topic}: ${escape(window.OPO_LESSON.title)}. <a href="docs/bases-2024.pdf">Bases originales locales</a>.</li>
+        <li><strong>Convocatoria de 30 plazas:</strong> BOME n.º 6368, 07/04/2026, artículo 367. Incorpora las plazas de 2026, suprime la reserva para militares y mantiene cuatro plazas reservadas para personas con discapacidad. No modifica el programa. <a href="docs/ampliacion-30-plazas-2026.pdf">Modificación verificada</a>.</li>
+        <li><strong>Tiempo corregido:</strong> BOME n.º 6239, 31/12/2024, artículo 1151. Rectifica el primer ejercicio de 60 a 90 minutos. <a href="docs/rectificacion-tiempo-2024.pdf">Rectificación verificada</a>.</li>
+        <li><strong>Primer ejercicio de 2026:</strong> BOME extraordinario n.º 44, 07/10/2026, artículo 119: 80 preguntas + 5 reservas, tres opciones, 90 minutos, valor 0,125 por pregunta y errores −½ acierto. Examen: 25/10/2026 a las 18:00. <a href="docs/aviso-examen-2026.pdf">Anuncio local</a>.</li>
+        <li><strong>Constitución cotejada con el BOE:</strong> consulta directa completada el 14/10/2026. Se utiliza la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&tn=1&p=20240217" target="_blank" rel="noopener noreferrer">redacción publicada el 17/02/2024</a>, aplicable el 19/11/2024 conforme a la base décima. ${scope} <a href="${snapshot}">Leer el texto oficial extraído sin conexión</a>.</li>
+        ${topic===2?'<li><strong>Nota del artículo 15:</strong> se ha consultado también la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1995-25714" target="_blank" rel="noopener noreferrer">LO 11/1995</a>, que abolió la pena de muerte para tiempo de guerra. Se diferencia su efecto de la literalidad constitucional.</li>':''}
+        <li><strong>Procedencia de las preguntas:</strong> las ${bank.length} preguntas de este tema son originales. Se han comprobado anuncios oficiales de ejercicios anteriores (2021 y 2022), pero no sus cuestionarios ni plantillas. La búsqueda no es exhaustiva y no se atribuyen preguntas ni frecuencias sin documentos comprobados. <a href="docs/INVESTIGACION-EXAMENES.md">Ver el recorrido de búsqueda</a>.</li>
+      </ul>
+      <div class="explanation"><p>Los tests temáticos son una adaptación: 20 preguntas en 21:11 y evaluación de 40 en 42:22. No son simulacros completos ni incluyen reservas. El objetivo ≥9 es una meta de preparación, no un corte oficial ni una garantía de plaza.</p><p>La dificultad es editorial. Las preguntas se han revisado jurídicamente; eso no equivale a una calibración con resultados de aspirantes.</p></div>
+      <h3>Cómo usar el material</h3><ol><li>Explica cada regla sin mirar el texto.</li><li>Realiza los tests sin apuntes.</li><li>Revisa todas las justificaciones y prioriza errores con confianza alta.</li><li>Recupera las reglas de nuevo después de 48 horas.</li><li>Reserva la evaluación para preguntas nuevas.</li></ol>
+      <p>El progreso de cada tema se guarda por separado. No se envían respuestas, notas ni archivos a un servidor.</p>`;
   }
   document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',()=>{
     if(active) { state.active=active;persist(); }
@@ -256,8 +273,8 @@
   $('progress-content').addEventListener('click',e=>{
     const button=e.target.closest('[data-result]');if(button){const attempt=state.attempts.find(a=>a.id===button.dataset.result);if(attempt)renderResult(attempt);}
     if(e.target.id==='export-progress'){
-      const blob=new Blob([JSON.stringify({version:1,...state},null,2)],{type:'application/json'});
-      const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='opo-tema1-progreso.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+      const blob=new Blob([JSON.stringify({version:1,topic:config.topic,...state},null,2)],{type:'application/json'});
+      const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download=`opo-tema${config.topic}-progreso.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
     }
     if(e.target.id==='reset-progress')confirmAction('¿Borrar los intentos y el progreso de este navegador? Exporta antes si quieres conservarlos.',()=>{clearInterval(interval);active=null;state={attempts:[],active:null,mastery:[]};persist();renderProgress();document.querySelectorAll('[data-mastery]').forEach(input=>input.checked=false);});
   });
@@ -270,6 +287,7 @@
     if(e.target.id!=='import-progress'||!e.target.files.length)return;
     try {
       const imported=JSON.parse(await e.target.files[0].text());
+      if((imported.topic || 1) !== config.topic)throw new Error('El archivo corresponde a otro tema.');
       if(imported.version!==1||!Array.isArray(imported.attempts)||imported.attempts.length>10000||imported.attempts.some(a=>!validAttempt(a)||!Number.isFinite(a.finishedAt))||!Array.isArray(imported.mastery)||imported.mastery.some(i=>!Number.isInteger(i)||i<0||i>=window.OPO_LESSON.mastery.length)||imported.active&&!validAttempt(imported.active))throw new Error('Formato o preguntas incompatibles.');
       confirmAction('La importación reemplazará el progreso actual. ¿Continuar?',()=>{
         clearInterval(interval);active=null;
@@ -290,6 +308,6 @@
   });
   document.addEventListener('visibilitychange',()=>{if(!document.hidden&&active)tick();});
   window.addEventListener('beforeunload',persist);
-  window.OPO_APP = Object.freeze({tests:tests.map(t=>({...t,ids:[...t.ids]})),calculate,bankSize:bank.length});
+  window.OPO_APP = Object.freeze({tests:tests.map(t=>({...t,ids:[...t.ids]})),calculate,bankSize:bank.length,topic:config.topic});
   storageMessage();renderLesson();renderSources();switchView('lesson');
 })();
