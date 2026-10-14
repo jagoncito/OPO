@@ -1,0 +1,379 @@
+{
+  "topic": 11,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "alcance": 24,
+    "ordenacion": 24,
+    "actividad": 24,
+    "cultura": 24,
+    "social": 24,
+    "ejecucion": 24,
+    "educacion": 24,
+    "empresas": 24,
+    "local": 24,
+    "fiscal_territorio": 24
+  },
+  "anchors": [
+    {
+      "category": "alcance",
+      "reference": "Estatuto de Melilla, artículo 21.2",
+      "phrase": "potestad normativa reglamentaria",
+      "contrasts": [
+        "potestad legislativa propia",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "alcance",
+      "reference": "Estatuto de Melilla, artículo 21.2",
+      "phrase": "legislación general del Estado",
+      "contrasts": [
+        "legislación propia de la Ciudad",
+        "legislación de otra comunidad autónoma"
+      ]
+    },
+    {
+      "category": "alcance",
+      "reference": "Estatuto de Melilla, artículo 21.2",
+      "phrase": "facultades de administración",
+      "contrasts": [
+        "facultades de legislación estatal",
+        "facultades jurisdiccionales"
+      ]
+    },
+    {
+      "category": "alcance",
+      "reference": "Estatuto de Melilla, artículo 21.2",
+      "phrase": "administración, inspección y sanción",
+      "contrasts": [
+        "legislación, jurisdicción y casación",
+        "dirección exclusiva de la política estatal"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Estatuto de Melilla, artículo 21.1",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Estatuto de Melilla, artículo 21",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Estatuto de Melilla, artículo 21",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "ordenacion",
+      "reference": "Estatuto de Melilla, artículo 21",
+      "phrase": "aprovechamientos hidráulicos",
+      "contrasts": [
+        "aguas territoriales internacionales",
+        "energía nuclear exclusivamente"
+      ]
+    },
+    {
+      "category": "actividad",
+      "reference": "Estatuto de Melilla, artículo 21",
+      "phrase": "Agricultura y ganadería",
+      "contrasts": [
+        "Política monetaria y relaciones internacionales",
+        "Legislación penal y penitenciaria"
+      ]
+    },
+    {
+      "category": "actividad",
+      "reference": "Estatuto de Melilla, artículo 21",
+      "phrase": "Montes y aprovechamientos forestales",
+      "contrasts": [
+        "Montes exclusivamente estatales y política monetaria",
+        "Defensa nacional y relaciones exteriores"
+      ]
+    },
+    {
+      "category": "actividad",
+      "reference": "Estatuto de Melilla, artículo 21",
+      "phrase": "Acuicultura y marisqueo",
+      "contrasts": [
+        "Pesca marítima exterior y defensa nacional",
+        "Legislación procesal y penitenciaria"
+      ]
+    },
+    {
+      "category": "actividad",
+      "reference": "Estatuto de Melilla, artículo 21.10",
+      "phrase": "Ferias interiores",
+      "contrasts": [
+        "Ferias diplomáticas internacionales",
+        "Mercados de política monetaria"
+      ]
+    },
+    {
+      "category": "cultura",
+      "reference": "Estatuto de Melilla, artículo 21.13",
+      "phrase": "interés para la ciudad",
+      "contrasts": [
+        "interés exclusivo del Estado",
+        "interés exclusivo de otra comunidad"
+      ]
+    },
+    {
+      "category": "cultura",
+      "reference": "Estatuto de Melilla, artículo 21.14",
+      "phrase": "interés para la Ciudad",
+      "contrasts": [
+        "interés exclusivo del Estado",
+        "interés exclusivo de otra comunidad"
+      ]
+    },
+    {
+      "category": "cultura",
+      "reference": "Estatuto de Melilla, artículo 21.15",
+      "phrase": "Promoción y fomento de la cultura",
+      "contrasts": [
+        "Dirección de la legislación penal",
+        "Dirección de las relaciones internacionales"
+      ]
+    },
+    {
+      "category": "cultura",
+      "reference": "Estatuto de Melilla, artículo 21.17",
+      "phrase": "Promoción del deporte",
+      "contrasts": [
+        "Legislación mercantil deportiva",
+        "Regulación de la defensa nacional"
+      ]
+    },
+    {
+      "category": "social",
+      "reference": "Estatuto de Melilla, artículo 21.18",
+      "phrase": "Asistencia social",
+      "contrasts": [
+        "relaciones internacionales",
+        "legislación penal"
+      ]
+    },
+    {
+      "category": "social",
+      "reference": "Estatuto de Melilla, artículo 21.19",
+      "phrase": "Sanidad e higiene",
+      "contrasts": [
+        "legislación penal",
+        "relaciones internacionales"
+      ]
+    },
+    {
+      "category": "social",
+      "reference": "Estatuto de Melilla, artículo 21.24",
+      "phrase": "protección de sus edificios e instalaciones",
+      "contrasts": [
+        "dirección de la defensa nacional",
+        "dirección de las relaciones exteriores"
+      ]
+    },
+    {
+      "category": "social",
+      "reference": "Estatuto de Melilla, artículo 21.24",
+      "phrase": "Policía local",
+      "contrasts": [
+        "Policía nacional exclusivamente",
+        "Fuerzas Armadas"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Estatuto de Melilla, artículo 22.1",
+      "phrase": "ejecución de la legislación del Estado",
+      "contrasts": [
+        "sustitución de la legislación del Estado",
+        "derogación de la legislación del Estado"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Estatuto de Melilla, artículo 22",
+      "phrase": "Comercio interior",
+      "contrasts": [
+        "comercio exterior exclusivo",
+        "política monetaria"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Estatuto de Melilla, artículo 22",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "ejecucion",
+      "reference": "Estatuto de Melilla, artículo 22.2",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "educacion",
+      "reference": "Estatuto de Melilla, artículo 23",
+      "phrase": "Administración del Estado",
+      "contrasts": [
+        "Administración de la Ciudad",
+        "Administración provincial"
+      ]
+    },
+    {
+      "category": "educacion",
+      "reference": "Estatuto de Melilla, artículo 23",
+      "phrase": "programación general de la enseñanza",
+      "contrasts": [
+        "programación exclusivamente municipal",
+        "programación legislativa propia"
+      ]
+    },
+    {
+      "category": "educacion",
+      "reference": "Estatuto de Melilla, artículo 23",
+      "phrase": "peculiaridades docentes",
+      "contrasts": [
+        "normas legislativas propias en educación",
+        "competencias educativas exclusivas"
+      ]
+    },
+    {
+      "category": "educacion",
+      "reference": "Estatuto de Melilla, artículo 23",
+      "phrase": "propondrá",
+      "contrasts": [
+        "impondrá unilateralmente",
+        "aprobará con rango de ley"
+      ]
+    },
+    {
+      "category": "empresas",
+      "reference": "Estatuto de Melilla, artículo 24.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "empresas",
+      "reference": "Estatuto de Melilla, artículo 24.2",
+      "phrase": "legislación del Estado",
+      "contrasts": [
+        "legislación de otra ciudad",
+        "decisión exclusiva de la Asamblea"
+      ]
+    },
+    {
+      "category": "empresas",
+      "reference": "Estatuto de Melilla, artículo 24.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "empresas",
+      "reference": "Estatuto de Melilla, artículo 24.1",
+      "phrase": "resolución motivada",
+      "contrasts": [
+        "decisión inmotivada",
+        "silencio favorable automático"
+      ]
+    },
+    {
+      "category": "local",
+      "reference": "Estatuto de Melilla, artículo 25",
+      "phrase": "legislación estatal",
+      "contrasts": [
+        "normativa exclusivamente municipal",
+        "legislación autonómica de Andalucía"
+      ]
+    },
+    {
+      "category": "local",
+      "reference": "Estatuto de Melilla, artículo 25",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "local",
+      "reference": "Estatuto de Melilla, artículo 25",
+      "phrase": "Ayuntamientos",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Departamentos ministeriales"
+      ]
+    },
+    {
+      "category": "local",
+      "reference": "Estatuto de Melilla, artículo 25",
+      "phrase": "Diputaciones provinciales",
+      "contrasts": [
+        "Parlamentos autonómicos",
+        "Delegaciones del Gobierno"
+      ]
+    },
+    {
+      "category": "fiscal_territorio",
+      "reference": "Estatuto de Melilla, artículo 26",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "fiscal_territorio",
+      "reference": "Estatuto de Melilla, artículo 27",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "fiscal_territorio",
+      "reference": "Estatuto de Melilla, artículo 26",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "fiscal_territorio",
+      "reference": "Estatuto de Melilla, artículo 26",
+      "phrase": "acuerdo de su Asamblea",
+      "contrasts": [
+        "decreto unilateral de su Presidente",
+        "instrucción del Delegado del Gobierno"
+      ]
+    }
+  ]
+}

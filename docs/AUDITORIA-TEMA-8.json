@@ -1,0 +1,379 @@
+{
+  "topic": 8,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "composicion": 24,
+    "atribuciones": 24,
+    "cuestion": 24,
+    "iniciativa": 24,
+    "ordinaria": 24,
+    "agravada": 24,
+    "naturaleza": 24,
+    "organizacion": 24,
+    "funcionamiento": 24,
+    "requisitos": 24
+  },
+  "anchors": [
+    {
+      "category": "composicion",
+      "reference": "CE, artículo 159.1",
+      "phrase": "tres quintos",
+      "contrasts": [
+        "dos tercios",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "composicion",
+      "reference": "CE, artículo 160",
+      "phrase": "tres años",
+      "contrasts": [
+        "dos años",
+        "cuatro años"
+      ]
+    },
+    {
+      "category": "composicion",
+      "reference": "CE, artículo 159.2",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "composicion",
+      "reference": "CE, artículo 159.3",
+      "phrase": "nueve años",
+      "contrasts": [
+        "seis años",
+        "cinco años"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "CE, artículo 161.1",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "CE, artículo 162, letra a",
+      "phrase": "Presidente del Gobierno",
+      "contrasts": [
+        "Presidente del Congreso",
+        "Presidente del Senado"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "CE, artículo 161, letra a",
+      "phrase": "recurso de inconstitucionalidad",
+      "contrasts": [
+        "recurso de amparo",
+        "recurso de alzada"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "CE, artículo 161, letra b",
+      "phrase": "recurso de amparo",
+      "contrasts": [
+        "recurso de inconstitucionalidad",
+        "recurso de reposición"
+      ]
+    },
+    {
+      "category": "cuestion",
+      "reference": "CE, artículo 163",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "cuestion",
+      "reference": "CE, artículo 164.1",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "cuestion",
+      "reference": "CE, artículo 165",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "cuestion",
+      "reference": "CE, artículo 163",
+      "phrase": "en ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "CE, artículo 167.1",
+      "phrase": "tres quintos",
+      "contrasts": [
+        "dos tercios",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "CE, artículo 167.2",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "CE, artículo 167.3",
+      "phrase": "décima parte",
+      "contrasts": [
+        "quinta parte",
+        "tercera parte"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "CE, artículo 167.1",
+      "phrase": "tres",
+      "contrasts": [
+        "dos",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "ordinaria",
+      "reference": "CE, artículo 167.1",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "ordinaria",
+      "reference": "CE, artículo 167.2",
+      "phrase": "dos tercios",
+      "contrasts": [
+        "tres quintos",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "ordinaria",
+      "reference": "CE, artículo 167.3",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "ordinaria",
+      "reference": "CE, artículo 167.1",
+      "phrase": "Senado",
+      "contrasts": [
+        "Congreso",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "agravada",
+      "reference": "CE, artículo 168.1",
+      "phrase": "dos tercios",
+      "contrasts": [
+        "tres quintos",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "agravada",
+      "reference": "CE, artículo 169",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "agravada",
+      "reference": "CE, artículo 168.2",
+      "phrase": "dos tercios",
+      "contrasts": [
+        "tres quintos",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "agravada",
+      "reference": "CE, artículo 168.3",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "LOTC, artículo 1",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "LOTC, artículo 2",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "LOTC, artículo 3",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "naturaleza",
+      "reference": "LOTC, artículo 4.1",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "LOTC, artículo 6",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "LOTC, artículo 7",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "LOTC, artículo 8.1",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "organizacion",
+      "reference": "LOTC, artículo 6",
+      "phrase": "Dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "LOTC, artículo 9",
+      "phrase": "secreta",
+      "contrasts": [
+        "pública",
+        "obligatoriamente telemática"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "LOTC, artículo 10, letra b",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "LOTC, artículo 11",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "LOTC, artículo 9",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "requisitos",
+      "reference": "LOTC, artículo 14",
+      "phrase": "dos tercios",
+      "contrasts": [
+        "tres quintos",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "requisitos",
+      "reference": "LOTC, artículo 15",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "requisitos",
+      "reference": "LOTC, artículo 16",
+      "phrase": "cincuenta",
+      "contrasts": [
+        "cuarenta",
+        "sesenta"
+      ]
+    },
+    {
+      "category": "requisitos",
+      "reference": "LOTC, artículo 16",
+      "phrase": "Senado",
+      "contrasts": [
+        "Congreso",
+        "Gobierno"
+      ]
+    }
+  ]
+}

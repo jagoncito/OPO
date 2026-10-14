@@ -1,0 +1,739 @@
+{
+  "topic": 3,
+  "sourceRules": 80,
+  "questions": 240,
+  "categories": {
+    "posicion": 24,
+    "sucesion": 24,
+    "conflictos": 24,
+    "regencia": 24,
+    "regencia_requisitos": 24,
+    "tutela": 24,
+    "juramento": 24,
+    "funciones": 24,
+    "exterior_gracia": 24,
+    "refrendo_casa": 24
+  },
+  "anchors": [
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.1",
+      "phrase": "Jefe del Estado",
+      "contrasts": [
+        "Presidente del Gobierno",
+        "Presidente de las Cortes Generales"
+      ]
+    },
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.1",
+      "phrase": "unidad y permanencia",
+      "contrasts": [
+        "autonomía y temporalidad",
+        "pluralidad y alternancia"
+      ]
+    },
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.1",
+      "phrase": "arbitra y modera",
+      "contrasts": [
+        "dirige y ejecuta",
+        "legisla y juzga"
+      ]
+    },
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.1",
+      "phrase": "la más alta representación",
+      "contrasts": [
+        "la representación exclusivamente consular",
+        "la representación exclusivamente parlamentaria"
+      ]
+    },
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.1",
+      "phrase": "expresamente",
+      "contrasts": [
+        "por analogía",
+        "por costumbre exclusivamente"
+      ]
+    },
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.2",
+      "phrase": "Rey de España",
+      "contrasts": [
+        "Presidente de España",
+        "Rey de las Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.3",
+      "phrase": "inviolable",
+      "contrasts": [
+        "responsable políticamente",
+        "responsable administrativamente"
+      ]
+    },
+    {
+      "category": "posicion",
+      "reference": "CE, artículo 56.3",
+      "phrase": "careciendo de validez",
+      "contrasts": [
+        "conservando siempre su validez",
+        "quedando únicamente suspendidos"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.1",
+      "phrase": "hereditaria",
+      "contrasts": [
+        "electiva",
+        "rotatoria"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.1",
+      "phrase": "Don Juan Carlos I de Borbón",
+      "contrasts": [
+        "Don Felipe VI de Borbón",
+        "Don Alfonso XIII de Borbón"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.1",
+      "phrase": "primogenitura y representación",
+      "contrasts": [
+        "elección y designación",
+        "antigüedad y residencia"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.1",
+      "phrase": "la línea anterior a las posteriores",
+      "contrasts": [
+        "la línea posterior a las anteriores",
+        "la línea designada por el Gobierno"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.1",
+      "phrase": "el grado más próximo al más remoto",
+      "contrasts": [
+        "el grado más remoto al más próximo",
+        "el grado elegido por el Senado"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.1",
+      "phrase": "el varón a la mujer",
+      "contrasts": [
+        "la mujer al varón",
+        "el de mayor edad sin atender al grado"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.1",
+      "phrase": "la persona de más edad a la de menos",
+      "contrasts": [
+        "la persona de menos edad a la de más",
+        "la persona residente en España a la ausente"
+      ]
+    },
+    {
+      "category": "sucesion",
+      "reference": "CE, artículo 57.2",
+      "phrase": "Príncipe de Asturias",
+      "contrasts": [
+        "Príncipe de Melilla",
+        "Presidente de la Corona"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.2",
+      "phrase": "desde su nacimiento",
+      "contrasts": [
+        "desde que cumpla dieciocho años exclusivamente",
+        "desde su juramento ante el Gobierno"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.2",
+      "phrase": "desde que se produzca el hecho que origine el llamamiento",
+      "contrasts": [
+        "desde su elección por el Congreso",
+        "desde su nombramiento por el Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.3",
+      "phrase": "las Cortes Generales proveerán",
+      "contrasts": [
+        "el Consejo de Ministros proveerá",
+        "el Tribunal Constitucional proveerá"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.3",
+      "phrase": "a los intereses de España",
+      "contrasts": [
+        "a la voluntad exclusiva del Gobierno",
+        "a la preferencia del Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.4",
+      "phrase": "del Rey y de las Cortes Generales",
+      "contrasts": [
+        "del Rey o del Gobierno indistintamente",
+        "del Presidente del Congreso exclusivamente"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.4",
+      "phrase": "por sí y sus descendientes",
+      "contrasts": [
+        "únicamente por sí",
+        "únicamente sus descendientes"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.5",
+      "phrase": "Las abdicaciones y renuncias",
+      "contrasts": [
+        "Únicamente las abdicaciones",
+        "Únicamente las renuncias"
+      ]
+    },
+    {
+      "category": "conflictos",
+      "reference": "CE, artículo 57.5",
+      "phrase": "una ley orgánica",
+      "contrasts": [
+        "un decreto del Rey",
+        "una ley ordinaria"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 58",
+      "phrase": "salvo lo dispuesto para la Regencia",
+      "contrasts": [
+        "sin excepción alguna",
+        "salvo el nombramiento del Gobierno"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 59.1",
+      "phrase": "el padre o la madre del Rey",
+      "contrasts": [
+        "el Presidente del Gobierno",
+        "el Presidente del Congreso"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 59.1",
+      "phrase": "el pariente mayor de edad más próximo a suceder",
+      "contrasts": [
+        "el pariente de menor edad más próximo a suceder",
+        "el miembro del Gobierno de mayor antigüedad"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 59.1",
+      "phrase": "inmediatamente",
+      "contrasts": [
+        "transcurridos quince días",
+        "tras una votación de investidura"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 59.1",
+      "phrase": "durante el tiempo de la minoría de edad",
+      "contrasts": [
+        "durante cuatro años",
+        "hasta que se renueven las Cortes"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 59.2",
+      "phrase": "reconocida por las Cortes Generales",
+      "contrasts": [
+        "reconocida por el Consejo de Ministros",
+        "reconocida por el Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 59.2",
+      "phrase": "el Príncipe heredero de la Corona",
+      "contrasts": [
+        "el Presidente del Senado",
+        "el Defensor del Pueblo"
+      ]
+    },
+    {
+      "category": "regencia",
+      "reference": "CE, artículo 59.2",
+      "phrase": "hasta que el Príncipe heredero alcance la mayoría de edad",
+      "contrasts": [
+        "hasta que el Gobierno decida finalizarla",
+        "hasta la siguiente elección de las Cortes"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 59.3",
+      "phrase": "nombrada por las Cortes Generales",
+      "contrasts": [
+        "nombrada por el Consejo de Gobierno",
+        "nombrada por el Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 59.3",
+      "phrase": "una, tres o cinco personas",
+      "contrasts": [
+        "dos, cuatro o seis personas",
+        "siempre tres personas"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 59.4",
+      "phrase": "ser español y mayor de edad",
+      "contrasts": [
+        "ser español de nacimiento y mayor de veinticinco años",
+        "ser ciudadano europeo y mayor de edad"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 59.5",
+      "phrase": "por mandato constitucional",
+      "contrasts": [
+        "por delegación del Gobierno",
+        "por mandato electoral directo"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 59.5",
+      "phrase": "siempre en nombre del Rey",
+      "contrasts": [
+        "siempre en nombre del Gobierno",
+        "en nombre propio del Regente"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 58",
+      "phrase": "La Reina consorte o el consorte de la Reina",
+      "contrasts": [
+        "Solo la Reina consorte",
+        "Solo el consorte de la Reina"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 59.1",
+      "phrase": "según el orden establecido en la Constitución",
+      "contrasts": [
+        "según el orden elegido por el Gobierno",
+        "según el orden fijado por el Senado"
+      ]
+    },
+    {
+      "category": "regencia_requisitos",
+      "reference": "CE, artículo 59.3",
+      "phrase": "Si no hubiere ninguna persona a quien corresponda la Regencia",
+      "contrasts": [
+        "Siempre que lo solicite el Gobierno",
+        "Después de cada renovación de las Cortes"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.1",
+      "phrase": "en su testamento",
+      "contrasts": [
+        "mediante decreto del Consejo de Ministros",
+        "en un acuerdo del Senado"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.1",
+      "phrase": "el Rey difunto",
+      "contrasts": [
+        "el Presidente del Gobierno",
+        "el Presidente del Congreso"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.1",
+      "phrase": "mayor de edad y español de nacimiento",
+      "contrasts": [
+        "mayor de edad y ciudadano europeo",
+        "español y mayor de veinticinco años"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.1",
+      "phrase": "mientras permanezcan viudos",
+      "contrasts": [
+        "aunque contraigan nuevo matrimonio",
+        "durante un máximo de cuatro años"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.1",
+      "phrase": "lo nombrarán las Cortes Generales",
+      "contrasts": [
+        "lo nombrará el Gobierno",
+        "lo nombrará el Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.1",
+      "phrase": "padre, madre o ascendientes directos del Rey",
+      "contrasts": [
+        "cualquier pariente del Rey",
+        "cualquier miembro de las Cortes"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.2",
+      "phrase": "todo cargo o representación política",
+      "contrasts": [
+        "solo la Presidencia del Gobierno",
+        "únicamente la representación autonómica"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "CE, artículo 60.1",
+      "phrase": "no podrán acumularse los cargos de Regente y de tutor",
+      "contrasts": [
+        "siempre deberán acumularse Regencia y tutela",
+        "la acumulación será decidida libremente por el Gobierno"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.1",
+      "phrase": "al ser proclamado",
+      "contrasts": [
+        "al finalizar su mandato",
+        "al ser elegido por el Gobierno"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.1",
+      "phrase": "ante las Cortes Generales",
+      "contrasts": [
+        "ante el Consejo de Ministros",
+        "ante el Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.1",
+      "phrase": "desempeñar fielmente sus funciones",
+      "contrasts": [
+        "dirigir la política interior",
+        "resolver los conflictos judiciales"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.1",
+      "phrase": "guardar y hacer guardar la Constitución y las leyes",
+      "contrasts": [
+        "guardar exclusivamente la Constitución",
+        "guardar exclusivamente las leyes orgánicas"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.1",
+      "phrase": "los derechos de los ciudadanos y de las Comunidades Autónomas",
+      "contrasts": [
+        "solo los derechos de los ciudadanos",
+        "solo los derechos de las Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.2",
+      "phrase": "al alcanzar la mayoría de edad",
+      "contrasts": [
+        "al cumplir dieciséis años",
+        "al cumplir veinticinco años"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.2",
+      "phrase": "al hacerse cargo de sus funciones",
+      "contrasts": [
+        "cuando termine su Regencia",
+        "solo tras un año de ejercicio"
+      ]
+    },
+    {
+      "category": "juramento",
+      "reference": "CE, artículo 61.2",
+      "phrase": "fidelidad al Rey",
+      "contrasts": [
+        "fidelidad al Gobierno",
+        "fidelidad al Presidente del Congreso"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra a",
+      "phrase": "Sancionar y promulgar las leyes",
+      "contrasts": [
+        "Aprobar definitivamente los proyectos de ley",
+        "Revisar jurisdiccionalmente las leyes"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra b",
+      "phrase": "en los términos previstos en la Constitución",
+      "contrasts": [
+        "según su decisión sin límites",
+        "en los términos que acuerde la Casa del Rey"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra c",
+      "phrase": "en los casos previstos en la Constitución",
+      "contrasts": [
+        "cuando lo solicite cualquier ciudadano",
+        "en todos los casos decididos por el Rey"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra d",
+      "phrase": "Proponer el candidato a Presidente del Gobierno",
+      "contrasts": [
+        "Elegir directamente a todos los diputados",
+        "Nombrar directamente al Presidente del Congreso"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra e",
+      "phrase": "a propuesta de su Presidente",
+      "contrasts": [
+        "a propuesta exclusiva del Senado",
+        "a propuesta del Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra f",
+      "phrase": "los decretos acordados en el Consejo de Ministros",
+      "contrasts": [
+        "los decretos acordados exclusivamente por su Casa",
+        "las sentencias dictadas por el Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra g",
+      "phrase": "a petición del Presidente del Gobierno",
+      "contrasts": [
+        "a petición exclusiva del Presidente del Senado",
+        "sin petición de ningún órgano"
+      ]
+    },
+    {
+      "category": "funciones",
+      "reference": "CE, artículo 62, letra h",
+      "phrase": "El mando supremo de las Fuerzas Armadas",
+      "contrasts": [
+        "La dirección de la política interior",
+        "La potestad jurisdiccional suprema"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 63.1",
+      "phrase": "los embajadores y otros representantes diplomáticos",
+      "contrasts": [
+        "solo los cónsules",
+        "únicamente los representantes parlamentarios"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 63.1",
+      "phrase": "están acreditados ante él",
+      "contrasts": [
+        "están acreditados ante el Congreso exclusivamente",
+        "están acreditados ante el Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 63.2",
+      "phrase": "manifestar el consentimiento del Estado",
+      "contrasts": [
+        "aprobar unilateralmente todo tratado",
+        "sustituir siempre la autorización parlamentaria"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 63.2",
+      "phrase": "de conformidad con la Constitución y las leyes",
+      "contrasts": [
+        "sin sujeción a las leyes",
+        "exclusivamente conforme a la costumbre"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 63.3",
+      "phrase": "previa autorización de las Cortes Generales",
+      "contrasts": [
+        "previa autorización del Senado exclusivamente",
+        "previa autorización del Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 63.3",
+      "phrase": "declarar la guerra y hacer la paz",
+      "contrasts": [
+        "declarar por sí solo el estado de excepción",
+        "suspender por sí solo derechos fundamentales"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 62, letra i",
+      "phrase": "no podrá autorizar indultos generales",
+      "contrasts": [
+        "podrá autorizar indultos generales",
+        "deberá autorizar indultos generales"
+      ]
+    },
+    {
+      "category": "exterior_gracia",
+      "reference": "CE, artículo 62, letra j",
+      "phrase": "El Alto Patronazgo de las Reales Academias",
+      "contrasts": [
+        "La dirección judicial de las Reales Academias",
+        "La potestad legislativa de las Reales Academias"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 64.1",
+      "phrase": "el Presidente del Gobierno",
+      "contrasts": [
+        "el Presidente del Senado",
+        "el Presidente del Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 64.1",
+      "phrase": "los Ministros competentes",
+      "contrasts": [
+        "cualquier miembro de las Cortes",
+        "los miembros de su Casa"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 64.1",
+      "phrase": "el Presidente del Congreso",
+      "contrasts": [
+        "el Presidente del Senado",
+        "el Ministro de Justicia"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 64.2",
+      "phrase": "las personas que los refrenden",
+      "contrasts": [
+        "el Rey personalmente",
+        "los miembros de la Casa del Rey"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 65.1",
+      "phrase": "los Presupuestos del Estado",
+      "contrasts": [
+        "los Presupuestos de las Comunidades Autónomas",
+        "las cuotas de las Cortes Generales"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 65.1",
+      "phrase": "una cantidad global",
+      "contrasts": [
+        "una cantidad fijada para cada miembro por separado",
+        "una cantidad decidida exclusivamente por su Casa"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 65.1",
+      "phrase": "distribuye libremente",
+      "contrasts": [
+        "distribuye conforme al acuerdo del Senado",
+        "distribuye por resolución judicial"
+      ]
+    },
+    {
+      "category": "refrendo_casa",
+      "reference": "CE, artículo 65.2",
+      "phrase": "nombra y releva libremente",
+      "contrasts": [
+        "nombra por elección del Congreso",
+        "releva exclusivamente mediante ley orgánica"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "topic": 4,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "cortes": 24,
+    "congreso": 24,
+    "senado": 24,
+    "estatuto": 24,
+    "sesiones": 24,
+    "control": 24,
+    "acuerdos": 24,
+    "delegacion": 24,
+    "leyes": 24,
+    "finalizacion": 24
+  },
+  "anchors": [
+    {
+      "category": "cortes",
+      "reference": "CE, artículo 66.1",
+      "phrase": "Congreso de los Diputados",
+      "contrasts": [
+        "Senado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "cortes",
+      "reference": "CE, artículo 67.1",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "cortes",
+      "reference": "CE, artículo 66.2",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "cortes",
+      "reference": "CE, artículo 66.3",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "congreso",
+      "reference": "CE, artículo 68.1",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "congreso",
+      "reference": "CE, artículo 68.2",
+      "phrase": "circunscripción electoral",
+      "contrasts": [
+        "circunscripción administrativa",
+        "circunscripción judicial"
+      ]
+    },
+    {
+      "category": "congreso",
+      "reference": "CE, artículo 68.3",
+      "phrase": "representación proporcional",
+      "contrasts": [
+        "representación mayoritaria",
+        "representación censitaria"
+      ]
+    },
+    {
+      "category": "congreso",
+      "reference": "CE, artículo 68.4",
+      "phrase": "cuatro años",
+      "contrasts": [
+        "cinco años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "senado",
+      "reference": "CE, artículo 69.1",
+      "phrase": "Senado",
+      "contrasts": [
+        "Congreso",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "senado",
+      "reference": "CE, artículo 69.2",
+      "phrase": "cuatro",
+      "contrasts": [
+        "tres",
+        "cinco"
+      ]
+    },
+    {
+      "category": "senado",
+      "reference": "CE, artículo 69.3",
+      "phrase": "tres",
+      "contrasts": [
+        "dos",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "senado",
+      "reference": "CE, artículo 69.4",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "CE, artículo 70.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "CE, artículo 71.1",
+      "phrase": "inviolabilidad",
+      "contrasts": [
+        "inmunidad",
+        "exención tributaria"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "CE, artículo 72.1",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "CE, artículo 70, letra a",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "sesiones",
+      "reference": "CE, artículo 73.1",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "sesiones",
+      "reference": "CE, artículo 74.1",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "sesiones",
+      "reference": "CE, artículo 75.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "sesiones",
+      "reference": "CE, artículo 73.2",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "CE, artículo 76.1",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "CE, artículo 77.1",
+      "phrase": "siempre por escrito",
+      "contrasts": [
+        "siempre verbalmente",
+        "indistintamente verbalmente o por escrito"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "CE, artículo 78.1",
+      "phrase": "Diputación Permanente",
+      "contrasts": [
+        "Mesa conjunta de las Cortes",
+        "Comisión General del Gobierno"
+      ]
+    },
+    {
+      "category": "control",
+      "reference": "CE, artículo 78.3",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "acuerdos",
+      "reference": "CE, artículo 79.2",
+      "phrase": "leyes orgánicas",
+      "contrasts": [
+        "leyes ordinarias",
+        "disposiciones reglamentarias"
+      ]
+    },
+    {
+      "category": "acuerdos",
+      "reference": "CE, artículo 80",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "acuerdos",
+      "reference": "CE, artículo 81.1",
+      "phrase": "leyes orgánicas",
+      "contrasts": [
+        "leyes ordinarias",
+        "disposiciones reglamentarias"
+      ]
+    },
+    {
+      "category": "acuerdos",
+      "reference": "CE, artículo 79.3",
+      "phrase": "indelegable",
+      "contrasts": [
+        "delegable",
+        "renunciable"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 82.1",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 83",
+      "phrase": "en ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 84",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 85",
+      "phrase": "Decretos Legislativos",
+      "contrasts": [
+        "Decretos-leyes",
+        "Decretos reglamentarios"
+      ]
+    },
+    {
+      "category": "leyes",
+      "reference": "CE, artículo 86.1",
+      "phrase": "Decretos-leyes",
+      "contrasts": [
+        "Decretos Legislativos",
+        "Decretos reglamentarios"
+      ]
+    },
+    {
+      "category": "leyes",
+      "reference": "CE, artículo 87.1",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "leyes",
+      "reference": "CE, artículo 88",
+      "phrase": "Consejo de Ministros",
+      "contrasts": [
+        "Consejo General del Poder Judicial",
+        "Consejo de Estado"
+      ]
+    },
+    {
+      "category": "leyes",
+      "reference": "CE, artículo 89.2",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "finalizacion",
+      "reference": "CE, artículo 90.1",
+      "phrase": "Congreso de los Diputados",
+      "contrasts": [
+        "Senado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "finalizacion",
+      "reference": "CE, artículo 91",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "finalizacion",
+      "reference": "CE, artículo 92.1",
+      "phrase": "referéndum",
+      "contrasts": [
+        "votación del Senado exclusivamente",
+        "consulta administrativa"
+      ]
+    },
+    {
+      "category": "finalizacion",
+      "reference": "CE, artículo 93",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    }
+  ]
+}

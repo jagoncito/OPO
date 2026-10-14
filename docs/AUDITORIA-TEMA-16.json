@@ -1,0 +1,379 @@
+{
+  "topic": 16,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "objeto": 24,
+    "principio": 24,
+    "empleo": 24,
+    "directa": 24,
+    "acoso": 24,
+    "embarazo": 24,
+    "efectos": 24,
+    "positivas": 24,
+    "tutela": 24,
+    "prueba": 24
+  },
+  "anchors": [
+    {
+      "category": "objeto",
+      "reference": "LO 3/2007, artículo 1.1",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "LO 3/2007, artículo 2.1",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "LO 3/2007, artículo 1.2",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "objeto",
+      "reference": "LO 3/2007, artículo 2.2",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "LO 3/2007, artículo 3",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "LO 3/2007, artículo 4",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "LO 3/2007, artículo 3",
+      "phrase": "razón de sexo",
+      "contrasts": [
+        "razón de territorio exclusivamente",
+        "razón de domicilio exclusivamente"
+      ]
+    },
+    {
+      "category": "principio",
+      "reference": "LO 3/2007, artículo 3",
+      "phrase": "obligaciones familiares",
+      "contrasts": [
+        "preferencias políticas",
+        "condición de contribuyente"
+      ]
+    },
+    {
+      "category": "empleo",
+      "reference": "LO 3/2007, artículo 5",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "empleo",
+      "reference": "LO 3/2007, artículo 5",
+      "phrase": "esencial y determinante",
+      "contrasts": [
+        "accesorio y meramente conveniente",
+        "habitual sin ser necesario"
+      ]
+    },
+    {
+      "category": "empleo",
+      "reference": "LO 3/2007, artículo 5",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "empleo",
+      "reference": "LO 3/2007, artículo 5",
+      "phrase": "empleo privado y en el del empleo público",
+      "contrasts": [
+        "empleo privado exclusivamente",
+        "empleo público exclusivamente"
+      ]
+    },
+    {
+      "category": "directa",
+      "reference": "LO 3/2007, artículo 6.1",
+      "phrase": "discriminación directa",
+      "contrasts": [
+        "discriminación indirecta",
+        "acción positiva"
+      ]
+    },
+    {
+      "category": "directa",
+      "reference": "LO 3/2007, artículo 6.2",
+      "phrase": "discriminación indirecta",
+      "contrasts": [
+        "discriminación directa",
+        "acción positiva"
+      ]
+    },
+    {
+      "category": "directa",
+      "reference": "LO 3/2007, artículo 6.3",
+      "phrase": "razón de sexo",
+      "contrasts": [
+        "razón de territorio exclusivamente",
+        "razón de domicilio exclusivamente"
+      ]
+    },
+    {
+      "category": "directa",
+      "reference": "LO 3/2007, artículo 6.1",
+      "phrase": "razón de sexo",
+      "contrasts": [
+        "razón de territorio exclusivamente",
+        "razón de domicilio exclusivamente"
+      ]
+    },
+    {
+      "category": "acoso",
+      "reference": "LO 3/2007, artículo 7.1",
+      "phrase": "acoso sexual",
+      "contrasts": [
+        "acoso por razón de sexo",
+        "discriminación indirecta"
+      ]
+    },
+    {
+      "category": "acoso",
+      "reference": "LO 3/2007, artículo 7.2",
+      "phrase": "acoso por razón de sexo",
+      "contrasts": [
+        "acoso sexual",
+        "discriminación indirecta"
+      ]
+    },
+    {
+      "category": "acoso",
+      "reference": "LO 3/2007, artículo 7.3",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "acoso",
+      "reference": "LO 3/2007, artículo 7.4",
+      "phrase": "acoso sexual",
+      "contrasts": [
+        "acoso por razón de sexo",
+        "discriminación indirecta"
+      ]
+    },
+    {
+      "category": "embarazo",
+      "reference": "LO 3/2007, artículo 8",
+      "phrase": "discriminación directa",
+      "contrasts": [
+        "discriminación indirecta",
+        "acción positiva"
+      ]
+    },
+    {
+      "category": "embarazo",
+      "reference": "LO 3/2007, artículo 9",
+      "phrase": "igualdad de trato",
+      "contrasts": [
+        "diferencia de trato",
+        "preferencia automática"
+      ]
+    },
+    {
+      "category": "embarazo",
+      "reference": "LO 3/2007, artículo 8",
+      "phrase": "razón de sexo",
+      "contrasts": [
+        "razón de territorio exclusivamente",
+        "razón de domicilio exclusivamente"
+      ]
+    },
+    {
+      "category": "embarazo",
+      "reference": "LO 3/2007, artículo 9",
+      "phrase": "razón de sexo",
+      "contrasts": [
+        "razón de territorio exclusivamente",
+        "razón de domicilio exclusivamente"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "LO 3/2007, artículo 10",
+      "phrase": "razón de sexo",
+      "contrasts": [
+        "razón de territorio exclusivamente",
+        "razón de domicilio exclusivamente"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "LO 3/2007, artículo 10",
+      "phrase": "nulos y sin efecto",
+      "contrasts": [
+        "válidos y plenamente ejecutivos",
+        "eficaces hasta una aprobación parlamentaria"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "LO 3/2007, artículo 10",
+      "phrase": "sistema de reparaciones o indemnizaciones",
+      "contrasts": [
+        "sistema exclusivamente sancionador",
+        "sistema exclusivamente declarativo"
+      ]
+    },
+    {
+      "category": "efectos",
+      "reference": "LO 3/2007, artículo 10",
+      "phrase": "reales, efectivas y proporcionadas",
+      "contrasts": [
+        "simbólicas y automáticamente uniformes",
+        "independientes del perjuicio sufrido"
+      ]
+    },
+    {
+      "category": "positivas",
+      "reference": "LO 3/2007, artículo 11.1",
+      "phrase": "razonables y proporcionadas",
+      "contrasts": [
+        "ilimitadas y permanentes",
+        "automáticas e incondicionadas"
+      ]
+    },
+    {
+      "category": "positivas",
+      "reference": "LO 3/2007, artículo 11.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "positivas",
+      "reference": "LO 3/2007, artículo 11.1",
+      "phrase": "medidas específicas",
+      "contrasts": [
+        "medidas indiscriminadas",
+        "medidas permanentes sin evaluación"
+      ]
+    },
+    {
+      "category": "positivas",
+      "reference": "LO 3/2007, artículo 11.1",
+      "phrase": "en tanto subsistan dichas situaciones",
+      "contrasts": [
+        "sin límite aunque desaparezca la desigualdad",
+        "solo durante un año"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "LO 3/2007, artículo 12.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "LO 3/2007, artículo 12.2",
+      "phrase": "interés legítimo",
+      "contrasts": [
+        "interés exclusivamente económico",
+        "interés exclusivamente electoral"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "LO 3/2007, artículo 12.3",
+      "phrase": "acoso sexual",
+      "contrasts": [
+        "acoso por razón de sexo",
+        "discriminación indirecta"
+      ]
+    },
+    {
+      "category": "tutela",
+      "reference": "LO 3/2007, artículo 12.1",
+      "phrase": "incluso tras la terminación",
+      "contrasts": [
+        "solo mientras subsista",
+        "solo antes del inicio"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "LO 3/2007, artículo 13.1",
+      "phrase": "razón de sexo",
+      "contrasts": [
+        "razón de territorio exclusivamente",
+        "razón de domicilio exclusivamente"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "LO 3/2007, artículo 13",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "LO 3/2007, artículo 13.1",
+      "phrase": "ausencia de discriminación",
+      "contrasts": [
+        "obligación de discriminar",
+        "libertad de discriminar"
+      ]
+    },
+    {
+      "category": "prueba",
+      "reference": "LO 3/2007, artículo 13.1",
+      "phrase": "persona demandada",
+      "contrasts": [
+        "persona demandante siempre",
+        "Administración siempre"
+      ]
+    }
+  ]
+}

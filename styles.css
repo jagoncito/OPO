@@ -61,7 +61,7 @@ details[open] summary { margin-bottom: 14px; }
 .brand-text small { font-size: 9px; font-weight: 600; display: block; letter-spacing: .16em; margin-top: 4px; }
 .sidebar-caption { font-size: 9px; letter-spacing: .13em; font-weight: 650; color: var(--muted); padding: 0 11px; margin-bottom: 15px; }
 .main-nav { display: flex; flex-direction: column; gap: 7px; }
-.topic-switch { display: grid; gap: 7px; padding: 0 7px 22px; font-size: 11px; }
+.topic-switch { display: grid; gap: 7px; padding: 0 7px 10px; margin-bottom: 12px; font-size: 11px; max-height: 190px; overflow-y: auto; }
 .topic-switch a { padding: 7px 9px; border: 1px solid var(--line); border-radius: 5px; text-decoration: none; }
 .topic-switch a[aria-current="page"] { background: var(--surface); border-color: #80937f; font-weight: 650; }
 @media (max-width: 700px) { .topic-switch { grid-template-columns: 1fr 1fr; padding: 0 0 14px; width: 100%; } }

@@ -224,7 +224,8 @@
   function renderSources() {
     const topic = config.topic;
     const snapshot = config.normativeFile || 'docs/constitucion-2024-preliminar.html';
-    const scope = topic === 2 ? 'Título I, artículos 10–55. Incluye la reforma del artículo 49 publicada el 17 de febrero de 2024.' : 'Características, estructura y Título Preliminar, artículos 1–9.';
+    const scope = config.scopeText || (topic === 2 ? 'Título I, artículos 10–55. Incluye la reforma del artículo 49 publicada el 17 de febrero de 2024.' : 'Características, estructura y Título Preliminar, artículos 1–9.');
+    const sources = config.sourceFiles ? config.sourceFiles.map(s=>`<li><strong>${escape(s.name)}</strong> · redacción de referencia ${escape(s.version)}. <a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">Fuente oficial</a> · <a href="${escape(s.local)}">Lectura local sin conexión</a>. ${s.note?escape(s.note):''}</li>`).join('') : `<li><strong>Constitución cotejada con el BOE:</strong> consulta directa completada el 14/10/2026. Se utiliza la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&tn=1&p=20240217" target="_blank" rel="noopener noreferrer">redacción publicada el 17/02/2024</a>, aplicable el 19/11/2024 conforme a la base décima. ${scope} <a href="${snapshot}">Leer el texto oficial extraído sin conexión</a>.</li>`;
     $('sources-content').innerHTML = `
       <h2>Fuentes y alcance de la preparación</h2>
       <ul class="source-list">
@@ -232,7 +233,7 @@
         <li><strong>Convocatoria de 30 plazas:</strong> BOME n.º 6368, 07/04/2026, artículo 367. Incorpora las plazas de 2026, suprime la reserva para militares y mantiene cuatro plazas reservadas para personas con discapacidad. No modifica el programa. <a href="docs/ampliacion-30-plazas-2026.pdf">Modificación verificada</a>.</li>
         <li><strong>Tiempo corregido:</strong> BOME n.º 6239, 31/12/2024, artículo 1151. Rectifica el primer ejercicio de 60 a 90 minutos. <a href="docs/rectificacion-tiempo-2024.pdf">Rectificación verificada</a>.</li>
         <li><strong>Primer ejercicio de 2026:</strong> BOME extraordinario n.º 44, 07/10/2026, artículo 119: 80 preguntas + 5 reservas, tres opciones, 90 minutos, valor 0,125 por pregunta y errores −½ acierto. Examen: 25/10/2026 a las 18:00. <a href="docs/aviso-examen-2026.pdf">Anuncio local</a>.</li>
-        <li><strong>Constitución cotejada con el BOE:</strong> consulta directa completada el 14/10/2026. Se utiliza la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&tn=1&p=20240217" target="_blank" rel="noopener noreferrer">redacción publicada el 17/02/2024</a>, aplicable el 19/11/2024 conforme a la base décima. ${scope} <a href="${snapshot}">Leer el texto oficial extraído sin conexión</a>.</li>
+        ${sources}
         ${topic===2?'<li><strong>Nota del artículo 15:</strong> se ha consultado también la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1995-25714" target="_blank" rel="noopener noreferrer">LO 11/1995</a>, que abolió la pena de muerte para tiempo de guerra. Se diferencia su efecto de la literalidad constitucional.</li>':''}
         <li><strong>Procedencia de las preguntas:</strong> las ${bank.length} preguntas de este tema son originales. Se han comprobado anuncios oficiales de ejercicios anteriores (2021 y 2022), pero no sus cuestionarios ni plantillas. La búsqueda no es exhaustiva y no se atribuyen preguntas ni frecuencias sin documentos comprobados. <a href="docs/INVESTIGACION-EXAMENES.md">Ver el recorrido de búsqueda</a>.</li>
       </ul>
@@ -310,4 +311,7 @@
   window.addEventListener('beforeunload',persist);
   window.OPO_APP = Object.freeze({tests:tests.map(t=>({...t,ids:[...t.ids]})),calculate,bankSize:bank.length,topic:config.topic});
   storageMessage();renderLesson();renderSources();switchView('lesson');
+  const topicNavigation = document.querySelector('.topic-switch');
+  const selectedTopic = topicNavigation?.querySelector('[aria-current="page"]');
+  if (topicNavigation && selectedTopic) topicNavigation.scrollTop = Math.max(0, selectedTopic.offsetTop - topicNavigation.offsetTop - topicNavigation.clientHeight/2);
 })();

@@ -1,0 +1,379 @@
+{
+  "topic": 5,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "direccion": 24,
+    "investidura": 24,
+    "investidura_final": 24,
+    "cese": 24,
+    "administracion": 24,
+    "garantias": 24,
+    "parlamento": 24,
+    "confianza": 24,
+    "censura": 24,
+    "emergencia": 24
+  },
+  "anchors": [
+    {
+      "category": "direccion",
+      "reference": "CE, artículo 97",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "direccion",
+      "reference": "CE, artículo 98.1",
+      "phrase": "Presidente, de los Vicepresidentes",
+      "contrasts": [
+        "Presidente sin Vicepresidentes",
+        "Presidente del Congreso y los Vicepresidentes"
+      ]
+    },
+    {
+      "category": "direccion",
+      "reference": "CE, artículo 98.2",
+      "phrase": "acción del Gobierno",
+      "contrasts": [
+        "actividad de las Cortes",
+        "actividad jurisdiccional"
+      ]
+    },
+    {
+      "category": "direccion",
+      "reference": "CE, artículo 98.3",
+      "phrase": "no podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "investidura",
+      "reference": "CE, artículo 99.1",
+      "phrase": "Congreso de los Diputados",
+      "contrasts": [
+        "Senado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "investidura",
+      "reference": "CE, artículo 99.2",
+      "phrase": "Congreso de los Diputados",
+      "contrasts": [
+        "Senado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "investidura",
+      "reference": "CE, artículo 99.3",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "investidura",
+      "reference": "CE, artículo 99.5",
+      "phrase": "dos meses",
+      "contrasts": [
+        "tres meses",
+        "un mes"
+      ]
+    },
+    {
+      "category": "investidura_final",
+      "reference": "CE, artículo 99.1",
+      "phrase": "Presidente del Congreso",
+      "contrasts": [
+        "Presidente del Senado",
+        "Presidente del Gobierno"
+      ]
+    },
+    {
+      "category": "investidura_final",
+      "reference": "CE, artículo 99.2",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "investidura_final",
+      "reference": "CE, artículo 99.3",
+      "phrase": "mayoría simple",
+      "contrasts": [
+        "mayoría absoluta",
+        "mayoría de tres quintos"
+      ]
+    },
+    {
+      "category": "investidura_final",
+      "reference": "CE, artículo 99.5",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "cese",
+      "reference": "CE, artículo 102.1",
+      "phrase": "Tribunal Supremo",
+      "contrasts": [
+        "Tribunal Constitucional",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "cese",
+      "reference": "CE, artículo 102.2",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "cese",
+      "reference": "CE, artículo 102.2",
+      "phrase": "la cuarta parte",
+      "contrasts": [
+        "la mitad",
+        "la tercera parte"
+      ]
+    },
+    {
+      "category": "cese",
+      "reference": "CE, artículo 102.2",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "administracion",
+      "reference": "CE, artículo 103.1",
+      "phrase": "descentralización",
+      "contrasts": [
+        "centralización absoluta",
+        "dependencia judicial"
+      ]
+    },
+    {
+      "category": "administracion",
+      "reference": "CE, artículo 103.2",
+      "phrase": "Administración del Estado",
+      "contrasts": [
+        "Administración de la Ciudad",
+        "Administración provincial"
+      ]
+    },
+    {
+      "category": "administracion",
+      "reference": "CE, artículo 103.3",
+      "phrase": "mérito y capacidad",
+      "contrasts": [
+        "antigüedad y confianza",
+        "discrecionalidad sin concurrencia"
+      ]
+    },
+    {
+      "category": "administracion",
+      "reference": "CE, artículo 103.1",
+      "phrase": "objetividad",
+      "contrasts": [
+        "arbitrariedad",
+        "preferencia política"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 104.2",
+      "phrase": "ley orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 106.1",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 107",
+      "phrase": "Consejo de Estado",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 107",
+      "phrase": "ley orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "parlamento",
+      "reference": "CE, artículo 108",
+      "phrase": "Congreso de los Diputados",
+      "contrasts": [
+        "Senado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "parlamento",
+      "reference": "CE, artículo 109",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "parlamento",
+      "reference": "CE, artículo 110.2",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "parlamento",
+      "reference": "CE, artículo 111.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "CE, artículo 112",
+      "phrase": "mayoría simple",
+      "contrasts": [
+        "mayoría absoluta",
+        "mayoría de tres quintos"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "CE, artículo 114.1",
+      "phrase": "Presidente del Gobierno",
+      "contrasts": [
+        "Presidente del Congreso",
+        "Presidente del Senado"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "CE, artículo 114.2",
+      "phrase": "Presidente del Gobierno",
+      "contrasts": [
+        "Presidente del Congreso",
+        "Presidente del Senado"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "CE, artículo 112",
+      "phrase": "Congreso de los Diputados",
+      "contrasts": [
+        "Senado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "censura",
+      "reference": "CE, artículo 113.1",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "censura",
+      "reference": "CE, artículo 114.1",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "censura",
+      "reference": "CE, artículo 115.1",
+      "phrase": "Presidente del Gobierno",
+      "contrasts": [
+        "Presidente del Congreso",
+        "Presidente del Senado"
+      ]
+    },
+    {
+      "category": "censura",
+      "reference": "CE, artículo 113.2",
+      "phrase": "décima parte",
+      "contrasts": [
+        "quinta parte",
+        "tercera parte"
+      ]
+    },
+    {
+      "category": "emergencia",
+      "reference": "CE, artículo 116.1",
+      "phrase": "ley orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "emergencia",
+      "reference": "CE, artículo 116.2",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "emergencia",
+      "reference": "CE, artículo 116.3",
+      "phrase": "treinta días",
+      "contrasts": [
+        "quince días",
+        "sesenta días"
+      ]
+    },
+    {
+      "category": "emergencia",
+      "reference": "CE, artículo 116.4",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@ Consulta realizada el 14 de octubre de 2026. No se presenta esta investigación 
 - Buscador del portal oficial de Melilla y documentación de la convocatoria actual de 30 plazas.
 - Apartado oficial «Ejercicios de Procesos Selectivos», que ofrece ocho categorías y no incluye Auxiliar Administrativo en la consulta realizada.
 - Sumarios y anuncios del BOME relacionados con Auxiliar Administrativo entre 2018 y 2026. Se localizaron anuncios de celebración, resultados y otros actos; no un cuestionario o plantilla de respuestas utilizable.
+- Se amplió la búsqueda del BOME a 1990–2017 con «auxiliar administrativo». El índice devolvió un boletín, sin un cuestionario verificable. La cobertura de las publicaciones antiguas es limitada: este resultado no acredita haber revisado todos los procesos de esos años.
 
 Un cuestionario de **Administrativo** enlazado desde aquel apartado se excluyó: corresponde a otro cuerpo. Tampoco se atribuyen preguntas procedentes de academias a convocatorias oficiales sin documento original comprobado.
 
@@ -19,6 +20,12 @@ Un cuestionario de **Administrativo** enlazado desde aquel apartado se excluyó:
 
 ## Consecuencia para el material
 
-Las preguntas de los temas 1 y 2 son **creadas para entrenamiento**. No se etiqueta ninguna como oficial ni se afirma que un artículo haya aparecido en un examen determinado usando únicamente un anuncio de celebración.
+Las preguntas de los temas 1–16 son **creadas para entrenamiento**. No se etiqueta ninguna como oficial ni se afirma que un artículo haya aparecido en un examen determinado usando únicamente un anuncio de celebración.
 
 Para añadir antecedentes de preguntas hace falta localizar el cuestionario original, identificar convocatoria, fecha y número, y comprobar la plantilla definitiva o aclarar que la solución es una revisión jurídica propia. La ausencia de resultados en este recorrido no demuestra que tales documentos no existan.
+
+## Reglamento del Gobierno y de la Administración
+
+Se consultó la ficha oficial de normativa de Melilla y sus enlaces al [texto original de 2017](https://www.melilla.es/melillaPortal/RecursosWeb/DOCUMENTOS/1/8_135_1.pdf) y al [texto consolidado de marzo de 2026](https://www.melilla.es/melillaportal/RecursosWeb/DOCUMENTOS/1/1_36912_1.pdf). El original queda conservado en `reglamento-gobierno-2017.pdf`.
+
+Para comprobar su versión temporal se buscaron en el BOME «reglamento del gobierno», «sentencia» y «consejeros», hasta el 19/11/2024. Se consultaron 218 boletines del recorrido combinado. Los anuncios recuperados incluían reformas de otros reglamentos y la publicación original; no se localizó una reforma de este reglamento anterior al corte. Esto no constituye una revisión exhaustiva de toda la jurisprudencia ni una certificación de vigencia. El tema 14 identifica la publicación utilizada y esta limitación.

@@ -1,0 +1,379 @@
+{
+  "topic": 6,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "jurisdiccion": 24,
+    "garantias": 24,
+    "organos_const": 24,
+    "competencias": 24,
+    "composicion": 24,
+    "candidatos": 24,
+    "estatuto": 24,
+    "presidencia": 24,
+    "pleno": 24,
+    "comisiones": 24
+  },
+  "anchors": [
+    {
+      "category": "jurisdiccion",
+      "reference": "CE, artículo 117.1",
+      "phrase": "Jueces y Magistrados",
+      "contrasts": [
+        "Ministros y Consejeros",
+        "Diputados y Senadores"
+      ]
+    },
+    {
+      "category": "jurisdiccion",
+      "reference": "CE, artículo 117.2",
+      "phrase": "Jueces y Magistrados",
+      "contrasts": [
+        "Ministros y Consejeros",
+        "Diputados y Senadores"
+      ]
+    },
+    {
+      "category": "jurisdiccion",
+      "reference": "CE, artículo 117.3",
+      "phrase": "exclusivamente",
+      "contrasts": [
+        "preferentemente",
+        "subsidiariamente"
+      ]
+    },
+    {
+      "category": "jurisdiccion",
+      "reference": "CE, artículo 117.4",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 119",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 120.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 120.2",
+      "phrase": "oral",
+      "contrasts": [
+        "exclusivamente escrito",
+        "exclusivamente reservado"
+      ]
+    },
+    {
+      "category": "garantias",
+      "reference": "CE, artículo 120.3",
+      "phrase": "motivadas",
+      "contrasts": [
+        "inmotivadas",
+        "discrecionales sin motivación"
+      ]
+    },
+    {
+      "category": "organos_const",
+      "reference": "CE, artículo 122.1",
+      "phrase": "ley orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "organos_const",
+      "reference": "CE, artículo 123.1",
+      "phrase": "Tribunal Supremo",
+      "contrasts": [
+        "Tribunal Constitucional",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "organos_const",
+      "reference": "CE, artículo 124.2",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "organos_const",
+      "reference": "CE, artículo 125",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "LOPJ, artículo 558.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "LOPJ, artículo 559",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "LOPJ, artículo 560.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "competencias",
+      "reference": "LOPJ, artículo 561.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "composicion",
+      "reference": "LOPJ, artículo 566",
+      "phrase": "doce",
+      "contrasts": [
+        "diez",
+        "quince"
+      ]
+    },
+    {
+      "category": "composicion",
+      "reference": "LOPJ, artículo 567.1",
+      "phrase": "veinte",
+      "contrasts": [
+        "quince",
+        "veinticinco"
+      ]
+    },
+    {
+      "category": "composicion",
+      "reference": "LOPJ, artículo 568.1",
+      "phrase": "cinco años",
+      "contrasts": [
+        "cuatro años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "composicion",
+      "reference": "LOPJ, artículo 569.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "candidatos",
+      "reference": "LOPJ, artículo 572",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "candidatos",
+      "reference": "LOPJ, artículo 573.1",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "candidatos",
+      "reference": "LOPJ, artículo 574.1",
+      "phrase": "veinticinco",
+      "contrasts": [
+        "veinte",
+        "treinta"
+      ]
+    },
+    {
+      "category": "candidatos",
+      "reference": "LOPJ, artículo 575.1",
+      "phrase": "un mes",
+      "contrasts": [
+        "dos meses",
+        "tres meses"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "LOPJ, artículo 579.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "LOPJ, artículo 580.2",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "LOPJ, artículo 581",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "estatuto",
+      "reference": "LOPJ, artículo 582.1",
+      "phrase": "tres quintos",
+      "contrasts": [
+        "dos tercios",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "presidencia",
+      "reference": "LOPJ, artículo 585",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "presidencia",
+      "reference": "LOPJ, artículo 586.1",
+      "phrase": "veinticinco",
+      "contrasts": [
+        "veinte",
+        "treinta"
+      ]
+    },
+    {
+      "category": "presidencia",
+      "reference": "LOPJ, artículo 587.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "presidencia",
+      "reference": "LOPJ, artículo 588.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "LOPJ, artículo 595.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "LOPJ, artículo 596",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "LOPJ, artículo 597",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "pleno",
+      "reference": "LOPJ, artículo 598",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "comisiones",
+      "reference": "LOPJ, artículo 601.1",
+      "phrase": "Consejo General del Poder Judicial",
+      "contrasts": [
+        "Consejo de Estado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "comisiones",
+      "reference": "LOPJ, artículo 602.1",
+      "phrase": "Comisión Permanente",
+      "contrasts": [
+        "Comisión Disciplinaria",
+        "Comisión de Igualdad"
+      ]
+    },
+    {
+      "category": "comisiones",
+      "reference": "LOPJ, artículo 603.1",
+      "phrase": "cinco años",
+      "contrasts": [
+        "cuatro años",
+        "seis años"
+      ]
+    },
+    {
+      "category": "comisiones",
+      "reference": "LOPJ, artículo 604.1",
+      "phrase": "Jueces y Magistrados",
+      "contrasts": [
+        "Ministros y Consejeros",
+        "Diputados y Senadores"
+      ]
+    }
+  ]
+}

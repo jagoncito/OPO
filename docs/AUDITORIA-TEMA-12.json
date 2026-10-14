@@ -1,0 +1,379 @@
+{
+  "topic": 12,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "personalidad": 24,
+    "potestades": 24,
+    "disposiciones": 24,
+    "publicidad": 24,
+    "regimen": 24,
+    "especialidades": 24,
+    "propio": 24,
+    "transferido": 24,
+    "judicial": 24,
+    "revision": 24
+  },
+  "anchors": [
+    {
+      "category": "personalidad",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "personalidad jurídica propia",
+      "contrasts": [
+        "personalidad jurídica compartida",
+        "dependencia sin personalidad jurídica"
+      ]
+    },
+    {
+      "category": "personalidad",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "personalidad",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "Administraciones públicas territoriales",
+      "contrasts": [
+        "entidades privadas mercantiles",
+        "órganos judiciales exclusivamente"
+      ]
+    },
+    {
+      "category": "personalidad",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "potestades y privilegios",
+      "contrasts": [
+        "derechos de soberanía propia",
+        "facultades jurisdiccionales exclusivas"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "en el ejercicio de sus competencias",
+      "contrasts": [
+        "fuera de sus competencias",
+        "en cualquier materia sin límite"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "jurídica propia",
+      "contrasts": [
+        "jurídica compartida",
+        "jurídica dependiente sin autonomía"
+      ]
+    },
+    {
+      "category": "potestades",
+      "reference": "Estatuto de Melilla, artículo 28",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "disposiciones",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "disposiciones",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "Boletín Oficial de la Ciudad",
+      "contrasts": [
+        "Boletín Oficial del Estado exclusivamente",
+        "Diario Oficial de la Unión Europea"
+      ]
+    },
+    {
+      "category": "disposiciones",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "actos de eficacia general",
+      "contrasts": [
+        "actos exclusivamente privados",
+        "actos exclusivamente individuales"
+      ]
+    },
+    {
+      "category": "disposiciones",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "de eficacia general",
+      "contrasts": [
+        "de eficacia individual exclusivamente",
+        "de eficacia exclusivamente judicial"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "Boletín Oficial de la Ciudad de Melilla",
+      "contrasts": [
+        "Boletín Oficial del Estado exclusivamente",
+        "Diario Oficial de la Unión Europea"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "emanados de los diferentes órganos de la Ciudad",
+      "contrasts": [
+        "emanados exclusivamente del Presidente",
+        "emanados exclusivamente de la Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "reglamentos y demás disposiciones",
+      "contrasts": [
+        "sentencias y tratados internacionales",
+        "leyes autonómicas y tratados"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Estatuto de Melilla, artículo 29",
+      "phrase": "publicados",
+      "contrasts": [
+        "comunicados exclusivamente al Presidente",
+        "reservados necesariamente"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "responsabilidad patrimonial",
+      "contrasts": [
+        "responsabilidad disciplinaria",
+        "responsabilidad electoral"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "expropiaciones",
+      "contrasts": [
+        "sentencias penales",
+        "tratados internacionales"
+      ]
+    },
+    {
+      "category": "regimen",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "procedimiento administrativo",
+      "contrasts": [
+        "procedimiento penal",
+        "procedimiento constitucional"
+      ]
+    },
+    {
+      "category": "especialidades",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "régimen de bienes",
+      "contrasts": [
+        "régimen electoral exclusivamente",
+        "régimen de relaciones internacionales"
+      ]
+    },
+    {
+      "category": "especialidades",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "especialidades derivadas de la organización propia",
+      "contrasts": [
+        "exclusión de toda legislación estatal",
+        "ausencia de toda especialidad"
+      ]
+    },
+    {
+      "category": "especialidades",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "Régimen Local",
+      "contrasts": [
+        "Régimen Militar",
+        "Régimen Judicial"
+      ]
+    },
+    {
+      "category": "especialidades",
+      "reference": "Estatuto de Melilla, artículo 30",
+      "phrase": "legislación del Estado sobre Régimen Local",
+      "contrasts": [
+        "legislación autonómica de Andalucía",
+        "reglamento interno exclusivamente"
+      ]
+    },
+    {
+      "category": "propio",
+      "reference": "Estatuto de Melilla, artículo 31",
+      "phrase": "personal propio",
+      "contrasts": [
+        "personal transferido exclusivamente",
+        "personal de otra comunidad exclusivamente"
+      ]
+    },
+    {
+      "category": "propio",
+      "reference": "Estatuto de Melilla, artículo 31",
+      "phrase": "personal transferido",
+      "contrasts": [
+        "personal propio exclusivamente",
+        "personal de empresas privadas exclusivamente"
+      ]
+    },
+    {
+      "category": "propio",
+      "reference": "Estatuto de Melilla, artículo 31",
+      "phrase": "disposición adicional cuarta",
+      "contrasts": [
+        "disposición transitoria primera",
+        "disposición final única"
+      ]
+    },
+    {
+      "category": "propio",
+      "reference": "Estatuto de Melilla, artículo 31",
+      "phrase": "legislación estatal",
+      "contrasts": [
+        "normativa exclusivamente municipal",
+        "legislación autonómica de Andalucía"
+      ]
+    },
+    {
+      "category": "transferido",
+      "reference": "Estatuto de Melilla, artículo 31",
+      "phrase": "función pública local",
+      "contrasts": [
+        "función judicial",
+        "función militar"
+      ]
+    },
+    {
+      "category": "transferido",
+      "reference": "Estatuto de Melilla, Disposición adicional cuarta..1",
+      "phrase": "legislación estatal",
+      "contrasts": [
+        "normativa exclusivamente municipal",
+        "legislación autonómica de Andalucía"
+      ]
+    },
+    {
+      "category": "transferido",
+      "reference": "Estatuto de Melilla, Disposición adicional cuarta..2",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "transferido",
+      "reference": "Estatuto de Melilla, Disposición adicional cuarta..1",
+      "phrase": "transferidos a Comunidades Autónomas",
+      "contrasts": [
+        "transferidos a empresas privadas",
+        "transferidos a órganos judiciales"
+      ]
+    },
+    {
+      "category": "judicial",
+      "reference": "Estatuto de Melilla, artículo 32.1",
+      "phrase": "jurisdicción contencioso-administrativa",
+      "contrasts": [
+        "jurisdicción civil",
+        "jurisdicción penal"
+      ]
+    },
+    {
+      "category": "judicial",
+      "reference": "Estatuto de Melilla, artículo 32.2",
+      "phrase": "en vía administrativa",
+      "contrasts": [
+        "en vía penal",
+        "en vía civil"
+      ]
+    },
+    {
+      "category": "judicial",
+      "reference": "Estatuto de Melilla, artículo 32.1",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "judicial",
+      "reference": "Estatuto de Melilla, artículo 32.1",
+      "phrase": "ante los órganos competentes",
+      "contrasts": [
+        "exclusivamente ante la Asamblea",
+        "exclusivamente ante el Consejo de Gobierno"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Estatuto de Melilla, artículo 32.1",
+      "phrase": "normas reglamentarias",
+      "contrasts": [
+        "leyes orgánicas estatales",
+        "sentencias firmes"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Estatuto de Melilla, artículo 32.2",
+      "phrase": "correspondiente legislación del Estado",
+      "contrasts": [
+        "libre decisión del recurrente",
+        "norma exclusiva de la Ciudad"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Estatuto de Melilla, artículo 32.1",
+      "phrase": "actos y acuerdos",
+      "contrasts": [
+        "tratados internacionales",
+        "leyes orgánicas estatales"
+      ]
+    },
+    {
+      "category": "revision",
+      "reference": "Estatuto de Melilla, artículo 32.2",
+      "phrase": "actos y acuerdos",
+      "contrasts": [
+        "tratados internacionales",
+        "leyes orgánicas estatales"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "topic": 14,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "marco": 24,
+    "estructura": 24,
+    "secretaria_nom": 24,
+    "secretaria_func": 24,
+    "directores_nom": 24,
+    "directores_func": 24,
+    "otros_directivos": 24,
+    "servicios": 24,
+    "unidades": 24,
+    "colegiados": 24
+  },
+  "anchors": [
+    {
+      "category": "marco",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 4",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "marco",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 1.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "marco",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "marco",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 3.1",
+      "phrase": "diez",
+      "contrasts": [
+        "doce",
+        "quince"
+      ]
+    },
+    {
+      "category": "estructura",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 47.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "estructura",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 48.1",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "estructura",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 49.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "estructura",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 49.3",
+      "phrase": "No podrán",
+      "contrasts": [
+        "deberán",
+        "podrán sin límites"
+      ]
+    },
+    {
+      "category": "secretaria_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 50.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "secretaria_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 52.1",
+      "phrase": "Secretarios Técnicos",
+      "contrasts": [
+        "Consejeros",
+        "Jefes de Negociado"
+      ]
+    },
+    {
+      "category": "secretaria_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 53.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "secretaria_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 50.2",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "secretaria_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 51.1",
+      "phrase": "Consejerías",
+      "contrasts": [
+        "Direcciones Generales",
+        "Secciones"
+      ]
+    },
+    {
+      "category": "secretaria_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 51.2",
+      "phrase": "Viceconsejeros",
+      "contrasts": [
+        "Consejeros",
+        "Directores Generales"
+      ]
+    },
+    {
+      "category": "secretaria_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 51, letra f",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "secretaria_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 51.3",
+      "phrase": "Secretarios Técnicos",
+      "contrasts": [
+        "Consejeros",
+        "Jefes de Negociado"
+      ]
+    },
+    {
+      "category": "directores_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 54.1",
+      "phrase": "Directores Generales",
+      "contrasts": [
+        "Jefes de Negociado",
+        "Viceconsejeros"
+      ]
+    },
+    {
+      "category": "directores_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 56.1",
+      "phrase": "Directores Generales",
+      "contrasts": [
+        "Jefes de Negociado",
+        "Viceconsejeros"
+      ]
+    },
+    {
+      "category": "directores_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 57.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "directores_nom",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 54",
+      "phrase": "Directores Generales",
+      "contrasts": [
+        "Jefes de Negociado",
+        "Viceconsejeros"
+      ]
+    },
+    {
+      "category": "directores_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 55.1",
+      "phrase": "Directores Generales",
+      "contrasts": [
+        "Jefes de Negociado",
+        "Viceconsejeros"
+      ]
+    },
+    {
+      "category": "directores_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 55.2",
+      "phrase": "Directores Generales",
+      "contrasts": [
+        "Jefes de Negociado",
+        "Viceconsejeros"
+      ]
+    },
+    {
+      "category": "directores_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 55, letra j",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "directores_func",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 55",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "otros_directivos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 58.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "otros_directivos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 59.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "otros_directivos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 60.1",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "otros_directivos",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 58",
+      "phrase": "en todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 61",
+      "phrase": "Director General",
+      "contrasts": [
+        "Viceconsejero",
+        "Jefe de Negociado"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 61",
+      "phrase": "mérito y capacidad",
+      "contrasts": [
+        "antigüedad y confianza",
+        "discrecionalidad sin concurrencia"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 61",
+      "phrase": "Consejería",
+      "contrasts": [
+        "Dirección General",
+        "Sección"
+      ]
+    },
+    {
+      "category": "servicios",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 61",
+      "phrase": "Consejerías",
+      "contrasts": [
+        "Direcciones Generales",
+        "Secciones"
+      ]
+    },
+    {
+      "category": "unidades",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 62.1",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "unidades",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 63.1",
+      "phrase": "Negociados",
+      "contrasts": [
+        "Consejerías",
+        "Direcciones Generales"
+      ]
+    },
+    {
+      "category": "unidades",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 62.2",
+      "phrase": "Director General",
+      "contrasts": [
+        "Viceconsejero",
+        "Jefe de Negociado"
+      ]
+    },
+    {
+      "category": "unidades",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 62.3",
+      "phrase": "Jefe de Sección",
+      "contrasts": [
+        "Consejero",
+        "Director General"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 64.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 65.1",
+      "phrase": "Presidente de la Ciudad",
+      "contrasts": [
+        "Presidente de la Asamblea Legislativa del Estado",
+        "Delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 66.1",
+      "phrase": "tres",
+      "contrasts": [
+        "dos",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "colegiados",
+      "reference": "Reglamento del Gobierno y Administración de Melilla, artículo 67",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1972 @@
+[
+  {
+    "topic": 4,
+    "title": "La Constitución Española de 1978: Título III. De las Cortes Generales",
+    "subtitle": "Cortes Generales · Artículos 66–96",
+    "scope": {
+      "ce": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    "overview": "Las Cortes representan al pueblo español y se componen de Congreso y Senado. Distingue las funciones y reglas de cada Cámara, el estatuto de sus miembros y las diferentes formas de producir normas con rango de ley. Las mayorías no son intercambiables: identifica siempre órgano, votación y materia. La inmunidad y la inviolabilidad protegen supuestos distintos; la delegación legislativa y el decreto-ley tienen presupuestos, límites y controles diferentes.",
+    "categories": [
+      [
+        "cortes",
+        "Representación y bicameralismo",
+        "ce",
+        [
+          66,
+          67
+        ],
+        "Una ficha confunde representación del pueblo, control del Gobierno y prohibición de mandato imperativo."
+      ],
+      [
+        "congreso",
+        "Congreso: composición y elección",
+        "ce",
+        [
+          68
+        ],
+        "Se comparan circunscripción, representación proporcional, duración y fechas de las elecciones al Congreso."
+      ],
+      [
+        "senado",
+        "Senado: representación territorial",
+        "ce",
+        [
+          69
+        ],
+        "El supuesto mezcla senadores provinciales, insulares y designados por comunidades autónomas."
+      ],
+      [
+        "estatuto",
+        "Estatuto de diputados y senadores",
+        "ce",
+        [
+          70,
+          71,
+          72
+        ],
+        "Se atribuye a la inmunidad un efecto que corresponde a la inviolabilidad y se discute quién autoriza el procesamiento."
+      ],
+      [
+        "sesiones",
+        "Sesiones y funcionamiento",
+        "ce",
+        [
+          73,
+          74,
+          75
+        ],
+        "Hay que determinar convocatoria, sesión conjunta y materias excluidas de delegación en comisiones."
+      ],
+      [
+        "control",
+        "Investigación, peticiones y Diputación Permanente",
+        "ce",
+        [
+          76,
+          77,
+          78
+        ],
+        "Se confunde el valor de una investigación parlamentaria con una resolución judicial y el papel de la Diputación Permanente."
+      ],
+      [
+        "acuerdos",
+        "Acuerdos y leyes orgánicas",
+        "ce",
+        [
+          79,
+          80,
+          81
+        ],
+        "Una votación exige distinguir quórum de asistencia, mayoría de aprobación y votación final de una ley orgánica."
+      ],
+      [
+        "delegacion",
+        "Delegación y decretos legislativos",
+        "ce",
+        [
+          82,
+          83,
+          84,
+          85
+        ],
+        "Un proyecto pretende utilizar una ley de bases para una materia o facultad que la Constitución excluye."
+      ],
+      [
+        "leyes",
+        "Decreto-ley e iniciativa legislativa",
+        "ce",
+        [
+          86,
+          87,
+          88,
+          89
+        ],
+        "Se confrontan urgencia, materias vedadas, convalidación y requisitos de iniciativa popular."
+      ],
+      [
+        "finalizacion",
+        "Senado, sanción, referéndum y tratados",
+        "ce",
+        [
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "Hay que separar veto del Senado, sanción del Rey, referéndum consultivo y autorización de un tratado."
+      ]
+    ]
+  },
+  {
+    "topic": 5,
+    "title": "La Constitución Española de 1978: Títulos IV y V. Gobierno, Administración y relaciones con las Cortes",
+    "subtitle": "Gobierno y Administración · Artículos 97–116",
+    "scope": {
+      "ce": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ]
+    },
+    "overview": "Separa el Gobierno como órgano político de la Administración al servicio objetivo de los intereses generales. La investidura, cuestión de confianza y moción de censura tienen sujetos, mayorías y consecuencias distintas. La responsabilidad solidaria del Gobierno se exige ante el Congreso. Los estados de alarma, excepción y sitio también tienen autoridades y límites diferentes: no conviertas la urgencia en una facultad ilimitada.",
+    "categories": [
+      [
+        "direccion",
+        "Dirección y composición del Gobierno",
+        "ce",
+        [
+          97,
+          98
+        ],
+        "Un resumen atribuye al Rey la dirección política o confunde dirección presidencial con responsabilidad de los ministros."
+      ],
+      [
+        "investidura",
+        "Investidura: propuesta y primera votación",
+        "ce",
+        [
+          99
+        ],
+        "Tras una consulta a los grupos, se discute quién propone al candidato y qué mayoría necesita la primera votación."
+      ],
+      [
+        "investidura_final",
+        "Investidura: segunda votación y bloqueo",
+        "ce",
+        [
+          99,
+          100
+        ],
+        "La primera investidura fracasa: hay que identificar segunda votación, plazo global y refrendo de la disolución."
+      ],
+      [
+        "cese",
+        "Cese y responsabilidad del Gobierno",
+        "ce",
+        [
+          101,
+          102
+        ],
+        "Una dimisión o acusación penal se confunde con una sanción administrativa o con el cese automático de cada ministro."
+      ],
+      [
+        "administracion",
+        "Administración y función pública",
+        "ce",
+        [
+          103
+        ],
+        "Se evalúa si una decisión respeta objetividad, principios organizativos y acceso por mérito y capacidad."
+      ],
+      [
+        "garantias",
+        "Seguridad, audiencia y control",
+        "ce",
+        [
+          104,
+          105,
+          106,
+          107
+        ],
+        "Un expediente exige diferenciar seguridad pública, audiencia, acceso a archivos, control judicial y Consejo de Estado."
+      ],
+      [
+        "parlamento",
+        "Responsabilidad y control parlamentario",
+        "ce",
+        [
+          108,
+          109,
+          110,
+          111
+        ],
+        "Una Cámara pide información o comparecencia y una interpelación puede producir una moción."
+      ],
+      [
+        "confianza",
+        "Cuestión de confianza",
+        "ce",
+        [
+          112,
+          114
+        ],
+        "El Presidente plantea confianza y es necesario identificar deliberación previa, mayoría y consecuencias del rechazo."
+      ],
+      [
+        "censura",
+        "Moción de censura y disolución",
+        "ce",
+        [
+          113,
+          114,
+          115
+        ],
+        "Una moción exige candidato, firmas y espera; se pretende disolver mientras está en trámite."
+      ],
+      [
+        "emergencia",
+        "Alarma, excepción y sitio",
+        "ce",
+        [
+          116
+        ],
+        "Ante una emergencia se discute qué órgano declara el estado, qué Cámara interviene y si cabe prorrogarlo."
+      ]
+    ]
+  },
+  {
+    "topic": 6,
+    "title": "La Constitución: Título VI. Poder Judicial y CGPJ en la Ley Orgánica 6/1985",
+    "subtitle": "Poder Judicial · Composición y funcionamiento del CGPJ",
+    "scope": {
+      "ce": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "lopj": [
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642
+      ]
+    },
+    "overview": "Jueces y magistrados ejercen jurisdicción; el CGPJ gobierna el Poder Judicial y no sustituye al juez en un proceso. Distingue independencia, inamovilidad, responsabilidad y sometimiento a la ley. El CGPJ tiene veinte vocales además de su Presidente; la elección parlamentaria, nombramiento por el Rey y renovación son fases diferentes. Usa la LOPJ aplicable en noviembre de 2024, que ya incorpora sus reformas de agosto de ese año.",
+    "categories": [
+      [
+        "jurisdiccion",
+        "Jurisdicción e independencia",
+        "ce",
+        [
+          117,
+          118
+        ],
+        "Se atribuye a un órgano administrativo una función que corresponde exclusivamente a juzgados y tribunales."
+      ],
+      [
+        "garantias",
+        "Garantías y responsabilidad de la Justicia",
+        "ce",
+        [
+          119,
+          120,
+          121
+        ],
+        "Se confunden gratuidad, publicidad, motivación de sentencias y reparación por error judicial."
+      ],
+      [
+        "organos_const",
+        "CGPJ, Supremo y Fiscalía en la Constitución",
+        "ce",
+        [
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "Se intercambian funciones de Tribunal Supremo, Fiscalía y CGPJ o reglas de incompatibilidad judicial."
+      ],
+      [
+        "competencias",
+        "Competencias e informes del CGPJ",
+        "lopj",
+        [
+          558,
+          559,
+          560,
+          561,
+          562,
+          563,
+          564,
+          565
+        ],
+        "Un acuerdo del CGPJ se compara con informes, memoria anual y ejercicio de potestad reglamentaria."
+      ],
+      [
+        "composicion",
+        "Composición, designación y renovación",
+        "lopj",
+        [
+          566,
+          567,
+          568,
+          569,
+          570,
+          571
+        ],
+        "Se calcula el reparto de vocales judiciales y juristas entre ambas Cámaras y se verifica la mayoría exigida."
+      ],
+      [
+        "candidatos",
+        "Candidaturas judiciales",
+        "lopj",
+        [
+          572,
+          573,
+          574,
+          575,
+          576,
+          577,
+          578
+        ],
+        "Una candidatura judicial debe respetar avales, plazo y revisión electoral, sin confundirlo con el nombramiento."
+      ],
+      [
+        "estatuto",
+        "Estatuto de los vocales",
+        "lopj",
+        [
+          579,
+          580,
+          581,
+          582,
+          583,
+          584
+        ],
+        "Un vocal pretende compatibilizar un cargo, recibir instrucciones o promocionar durante su mandato."
+      ],
+      [
+        "presidencia",
+        "Presidencia y Vicepresidencia",
+        "lopj",
+        [
+          585,
+          586,
+          587,
+          588,
+          589,
+          590,
+          591,
+          592,
+          593,
+          594
+        ],
+        "Se elige al Presidente o al Vicepresidente y se distinguen requisitos, mayoría, duración y sustitución."
+      ],
+      [
+        "pleno",
+        "Pleno y organización funcional",
+        "lopj",
+        [
+          595,
+          596,
+          597,
+          598,
+          599,
+          600,
+          629,
+          630,
+          631,
+          632,
+          633,
+          634,
+          635,
+          636,
+          637,
+          638,
+          639,
+          640,
+          641,
+          642
+        ],
+        "Hay que identificar atribuciones del Pleno, convocatoria ordinaria y órganos de ejercicio del Consejo."
+      ],
+      [
+        "comisiones",
+        "Comisiones y disciplina",
+        "lopj",
+        [
+          601,
+          602,
+          603,
+          604,
+          605,
+          606,
+          607,
+          608,
+          609,
+          610,
+          611
+        ],
+        "Se distribuye una actuación entre Comisión Permanente, Disciplinaria, de Asuntos Económicos y de Igualdad."
+      ]
+    ]
+  },
+  {
+    "topic": 7,
+    "title": "La Constitución: Título VIII. Organización territorial y acceso de Melilla a la autonomía",
+    "subtitle": "Organización territorial · Artículos 137–158 y autonomía de Melilla",
+    "scope": {
+      "ce": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        "quinta"
+      ],
+      "estatuto": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "overview": "Autonomía no significa soberanía. Distingue municipio, provincia y comunidad autónoma, vías de acceso, Estatutos y reparto de competencias. Melilla accede al autogobierno mediante su Estatuto aprobado por ley orgánica: la vía constitucional específica de Ceuta y Melilla no debe confundirse con la vía provincial ordinaria ni con el procedimiento agravado del artículo 151. La disposición transitoria quinta contempla la posibilidad de constituirse en comunidades autónomas mediante decisión de los respectivos Ayuntamientos y autorización de las Cortes por ley orgánica. El autogobierno establecido por la LO 2/1995 organiza la Ciudad de Melilla; su competencia normativa propia es reglamentaria, conforme al Estatuto.",
+    "categories": [
+      [
+        "principios",
+        "Unidad territorial y autonomía",
+        "ce",
+        [
+          137,
+          138,
+          139
+        ],
+        "Una norma territorial debe respetar solidaridad, igualdad y libre circulación entre territorios."
+      ],
+      [
+        "municipio",
+        "Municipio y autonomía local",
+        "ce",
+        [
+          140
+        ],
+        "Hay que determinar personalidad municipal, gobierno y elección de alcalde y concejales."
+      ],
+      [
+        "provincia",
+        "Provincia, islas y haciendas locales",
+        "ce",
+        [
+          141,
+          142
+        ],
+        "Se modifica un límite provincial o se atribuye la administración insular al órgano equivocado."
+      ],
+      [
+        "via_general",
+        "Vía ordinaria y supuestos especiales",
+        "ce",
+        [
+          143,
+          144,
+          145,
+          146
+        ],
+        "Una iniciativa de autonomía requiere distinguir sujetos, plazos, ley orgánica y prohibición de federación."
+      ],
+      [
+        "estatutos",
+        "Estatutos y competencias asumibles",
+        "ce",
+        [
+          147,
+          148
+        ],
+        "Se redacta un Estatuto y se confunde su contenido mínimo con las materias que pueden asumirse."
+      ],
+      [
+        "estado",
+        "Competencias exclusivas del Estado",
+        "ce",
+        [
+          149
+        ],
+        "Un supuesto cambia el titular de una competencia estatal o confunde bases con ejecución."
+      ],
+      [
+        "transferencia",
+        "Transferencias y armonización",
+        "ce",
+        [
+          150
+        ],
+        "Se pretende transferir facultades por un instrumento equivocado o armonizar sin la mayoría exigida."
+      ],
+      [
+        "via_reforzada",
+        "Procedimiento especial y organización",
+        "ce",
+        [
+          151,
+          152
+        ],
+        "La vía especial exige sujetos y mayorías diferentes y configura órganos institucionales específicos."
+      ],
+      [
+        "control_finanzas",
+        "Control, artículo 155 y financiación",
+        "ce",
+        [
+          153,
+          154,
+          155,
+          156,
+          157,
+          158
+        ],
+        "Se aplica un control territorial o financiero: identifica órgano, requisito previo y alcance."
+      ],
+      [
+        "melilla",
+        "Acceso y autogobierno de Melilla",
+        "estatuto",
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Se confunde el autogobierno estatutario de Melilla con soberanía, un territorio provincial o una vía autonómica ordinaria."
+      ]
+    ],
+    "extraSeeds": [
+      [
+        "melilla",
+        "ce",
+        144,
+        "no estén integrados en la organización provincial",
+        "estén integrados necesariamente en una provincia",
+        "pertenezcan obligatoriamente a una provincia"
+      ],
+      [
+        "melilla",
+        "ce",
+        "quinta",
+        "mayoría absoluta",
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ],
+      [
+        "melilla",
+        "ce",
+        "quinta",
+        "Cortes Generales",
+        "Consejo de Ministros",
+        "Senado exclusivamente"
+      ],
+      [
+        "melilla",
+        "ce",
+        "quinta",
+        "ley orgánica",
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ],
+      [
+        "melilla",
+        "ce",
+        "quinta",
+        "mayoría absoluta",
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ],
+      [
+        "melilla",
+        "ce",
+        "quinta",
+        "Cortes Generales",
+        "Consejo de Ministros",
+        "Senado exclusivamente"
+      ],
+      [
+        "melilla",
+        "ce",
+        "quinta",
+        "ley orgánica",
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    ]
+  },
+  {
+    "topic": 8,
+    "title": "Tribunal Constitucional: regulación, organización, atribuciones y reforma constitucional",
+    "subtitle": "Tribunal Constitucional y reforma · Artículos 159–169",
+    "scope": {
+      "ce": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "lotc": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "overview": "El Tribunal Constitucional no forma parte del Poder Judicial. Identifica composición, nombramiento, mandato, organización y competencias; distingue recurso de inconstitucionalidad, amparo y cuestión de inconstitucionalidad. La reforma ordinaria y la agravada tienen materias, mayorías, disolución y referéndum diferentes. El Título Preliminar, la Sección 1.ª del Capítulo II del Título I y el Título II reciben protección reforzada.",
+    "categories": [
+      [
+        "composicion",
+        "Composición constitucional",
+        "ce",
+        [
+          159,
+          160
+        ],
+        "Se reparte la propuesta de doce magistrados entre órganos y se calcula mandato y renovación."
+      ],
+      [
+        "atribuciones",
+        "Atribuciones y legitimación",
+        "ce",
+        [
+          161,
+          162
+        ],
+        "Un recurso o conflicto exige identificar competencia y sujetos legitimados."
+      ],
+      [
+        "cuestion",
+        "Cuestión, sentencia y ley orgánica",
+        "ce",
+        [
+          163,
+          164,
+          165
+        ],
+        "Un juez duda de una ley aplicable y se distinguen planteamiento, efectos y publicación de la sentencia."
+      ],
+      [
+        "iniciativa",
+        "Iniciativa de reforma",
+        "ce",
+        [
+          166,
+          167
+        ],
+        "Se pretende iniciar una reforma por una vía o sujeto que la Constitución no habilita."
+      ],
+      [
+        "ordinaria",
+        "Reforma ordinaria",
+        "ce",
+        [
+          167
+        ],
+        "Una reforma ordinaria no obtiene acuerdo entre Cámaras y debe seguir el mecanismo constitucional."
+      ],
+      [
+        "agravada",
+        "Reforma agravada y límites temporales",
+        "ce",
+        [
+          168,
+          169
+        ],
+        "Se modifica una materia protegida o se inicia la reforma en guerra o durante un estado excepcional."
+      ],
+      [
+        "naturaleza",
+        "Naturaleza y jurisdicción constitucional",
+        "lotc",
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Se confunde intérprete supremo, extensión de jurisdicción y garantía de las resoluciones del Tribunal."
+      ],
+      [
+        "organizacion",
+        "Pleno, Salas y Secciones",
+        "lotc",
+        [
+          6,
+          7,
+          8
+        ],
+        "Un asunto se atribuye a un órgano de composición distinta de la prevista por la ley orgánica."
+      ],
+      [
+        "funcionamiento",
+        "Elección y competencias orgánicas",
+        "lotc",
+        [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "Se elige Presidente o se distribuye una función entre Pleno y Salas."
+      ],
+      [
+        "requisitos",
+        "Quórum, potestades y magistrados",
+        "lotc",
+        [
+          14,
+          15,
+          16
+        ],
+        "Se comprueba asistencia válida, potestades de Presidencia y propuesta o renovación de magistrados."
+      ]
+    ]
+  },
+  {
+    "topic": 9,
+    "title": "Fuentes del Derecho Público. La ley y el reglamento: concepto y clases",
+    "subtitle": "Fuentes, jerarquía normativa, leyes y reglamentos",
+    "scope": {
+      "cc": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "ce": [
+        9,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        96,
+        97,
+        103,
+        106
+      ],
+      "ley39": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ]
+    },
+    "overview": "Distingue las fuentes formales y su posición en el ordenamiento. La jurisprudencia complementa el ordenamiento; no se identifica sin más con ley o reglamento. Diferencia ley orgánica, ley ordinaria, decreto legislativo y decreto-ley por materia, procedimiento y límites. Un reglamento tiene rango inferior a la ley y debe respetar reserva legal y jerarquía. La publicación de una norma no equivale a notificar un acto administrativo individual. La STC 55/2018 afecta al ámbito competencial de los artículos 129, 130, 132 y 133 de la Ley 39/2015: distingue su literalidad, los incisos anulados y su aplicación a la iniciativa legislativa o a la potestad reglamentaria de cada Administración. Las notas oficiales están junto a cada artículo; no extrapoles una regla de procedimiento estatal sin comprobar su ámbito.",
+    "categories": [
+      [
+        "fuentes",
+        "Ley, costumbre y principios",
+        "cc",
+        [
+          1
+        ],
+        "Se pretende aplicar una costumbre contra ley o tratar una sentencia aislada como ley formal."
+      ],
+      [
+        "vigencia",
+        "Vigencia, derogación e interpretación",
+        "cc",
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "Una norma se aplica antes de entrar en vigor, retroactivamente o por analogía en un supuesto excluido."
+      ],
+      [
+        "jerarquia",
+        "Legalidad y jerarquía",
+        "ce",
+        [
+          9,
+          103,
+          106
+        ],
+        "Una instrucción administrativa contradice una norma superior o se confunde discrecionalidad con arbitrariedad."
+      ],
+      [
+        "ley_organica",
+        "Ley orgánica y ley ordinaria",
+        "ce",
+        [
+          81
+        ],
+        "Un proyecto afecta a una materia reservada y debe respetar tipo de ley y votación final."
+      ],
+      [
+        "delegacion",
+        "Delegación y decreto legislativo",
+        "ce",
+        [
+          82,
+          83,
+          84,
+          85
+        ],
+        "Se refunden textos o se desarrolla una ley de bases y se comprueban autorización y límites."
+      ],
+      [
+        "decreto_ley",
+        "Decreto-ley",
+        "ce",
+        [
+          86
+        ],
+        "La urgencia de una norma no elimina materias vedadas ni la necesidad de control parlamentario."
+      ],
+      [
+        "procedimiento",
+        "Iniciativa y elaboración de leyes",
+        "ce",
+        [
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          96
+        ],
+        "Se confunden iniciativa popular, veto del Senado, sanción y efectos de un tratado publicado."
+      ],
+      [
+        "reglamento",
+        "Potestad y límites reglamentarios",
+        "ley39",
+        [
+          128
+        ],
+        "Se propone un reglamento que invade ley, contradice otra disposición superior o establece una materia reservada."
+      ],
+      [
+        "regulacion",
+        "Buena regulación y evaluación",
+        "ley39",
+        [
+          129,
+          130
+        ],
+        "Una propuesta normativa debe justificarse por necesidad, proporcionalidad, seguridad jurídica y evaluación."
+      ],
+      [
+        "publicidad",
+        "Publicación, planificación y participación",
+        "ley39",
+        [
+          131,
+          132,
+          133
+        ],
+        "Se distingue publicación oficial, plan normativo y participación previa, con sus excepciones legales."
+      ]
+    ]
+  },
+  {
+    "topic": 10,
+    "title": "Estatuto de Autonomía de Melilla: Títulos Preliminar y I. Organización institucional",
+    "subtitle": "Estatuto de Melilla · Artículos 1–20",
+    "scope": {
+      "estatuto": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "overview": "El Estatuto reconoce autonomía dentro de la unidad de la Nación y configura Asamblea, Presidente y Consejo de Gobierno. No intercambies la doble condición de Presidente y Alcalde con sus atribuciones como Presidente de la Asamblea o del Gobierno. Los veinticinco miembros de la Asamblea, las mayorías y la elección del Presidente son puntos que debes resolver con precisión. Diferencia la función normativa reglamentaria de la iniciativa legislativa ante las Cortes.",
+    "categories": [
+      [
+        "autogobierno",
+        "Autogobierno, territorio y símbolos",
+        "estatuto",
+        [
+          1,
+          2,
+          3
+        ],
+        "Se identifica territorio, bandera y alcance de la autonomía sin atribuir soberanía propia."
+      ],
+      [
+        "melillenses",
+        "Condición de melillense y derechos",
+        "estatuto",
+        [
+          4,
+          5
+        ],
+        "Una persona residente en el extranjero o su descendiente consulta su condición y derechos estatutarios."
+      ],
+      [
+        "organos",
+        "Órganos y composición de la Asamblea",
+        "estatuto",
+        [
+          6,
+          7,
+          8
+        ],
+        "Se confunden órganos institucionales, número de miembros y elección por sufragio."
+      ],
+      [
+        "funcionamiento",
+        "Mesa y sesiones",
+        "estatuto",
+        [
+          9,
+          10,
+          11
+        ],
+        "Una sesión o acuerdo debe respetar convocatoria, mayoría y participación de sus miembros."
+      ],
+      [
+        "atribuciones",
+        "Atribuciones de la Asamblea",
+        "estatuto",
+        [
+          12
+        ],
+        "Se atribuye al Consejo de Gobierno una decisión que el Estatuto reserva a la Asamblea."
+      ],
+      [
+        "iniciativa",
+        "Iniciativa legislativa y Presidente",
+        "estatuto",
+        [
+          13,
+          14
+        ],
+        "Se plantea una iniciativa ante las Cortes o se confunde representación de la Ciudad con dirección del Gobierno."
+      ],
+      [
+        "eleccion",
+        "Elección y nombramiento del Presidente",
+        "estatuto",
+        [
+          15
+        ],
+        "Ningún candidato obtiene la mayoría exigida: aplica la regla estatutaria, no la investidura del Gobierno estatal."
+      ],
+      [
+        "gobierno",
+        "Consejo de Gobierno",
+        "estatuto",
+        [
+          16,
+          17
+        ],
+        "Se determina composición, nombramiento y funciones ejecutivas y administrativas."
+      ],
+      [
+        "responsabilidad",
+        "Responsabilidad política y censura",
+        "estatuto",
+        [
+          18
+        ],
+        "Una moción exige sujetos, candidato y mayoría propios de la Ciudad."
+      ],
+      [
+        "confianza",
+        "Confianza y organización propia",
+        "estatuto",
+        [
+          19,
+          20
+        ],
+        "La Asamblea vota confianza y se evalúan efectos del rechazo y competencia de autoorganización."
+      ]
+    ]
+  },
+  {
+    "topic": 11,
+    "title": "Estatuto de Autonomía de Melilla: Título II. Competencias de la Ciudad",
+    "subtitle": "Competencias estatutarias · Artículos 21–27",
+    "scope": {
+      "estatuto": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    "overview": "No basta con reconocer una materia: debes identificar el alcance de la competencia. El artículo 21 atribuye administración, inspección, sanción y potestad reglamentaria dentro de la legislación estatal; el 22 regula ejecución de legislación del Estado. La potestad reglamentaria no equivale a potestad legislativa. Educación, informes sobre empresas públicas, competencias municipales y propuestas tributarias tienen fórmulas específicas. Todas las competencias están referidas al territorio de Melilla.",
+    "categories": [
+      [
+        "alcance",
+        "Alcance de las competencias del artículo 21",
+        "estatuto",
+        [
+          21
+        ],
+        "Un órgano de la Ciudad se atribuye potestad legislativa cuando el Estatuto delimita funciones administrativas y reglamentarias."
+      ],
+      [
+        "ordenacion",
+        "Urbanismo, obras y transportes",
+        "estatuto",
+        [
+          21
+        ],
+        "La materia se compara con sus límites territoriales y con las funciones de administración e inspección."
+      ],
+      [
+        "actividad",
+        "Actividad económica y sectores",
+        "estatuto",
+        [
+          21
+        ],
+        "Se distingue turismo, comercio y otras materias de la lista estatutaria sin cambiar su alcance competencial."
+      ],
+      [
+        "cultura",
+        "Cultura, deporte y patrimonio",
+        "estatuto",
+        [
+          21
+        ],
+        "Se relacionan museos, patrimonio cultural y actividades deportivas con el ámbito de la Ciudad."
+      ],
+      [
+        "social",
+        "Servicios sociales y protección",
+        "estatuto",
+        [
+          21
+        ],
+        "Se identifica una competencia de asistencia o protección y se distingue de legislación estatal exclusiva."
+      ],
+      [
+        "ejecucion",
+        "Ejecución de legislación estatal",
+        "estatuto",
+        [
+          22
+        ],
+        "Se confunde ejecución de una materia con poder para sustituir la ley estatal."
+      ],
+      [
+        "educacion",
+        "Peculiaridades docentes",
+        "estatuto",
+        [
+          23
+        ],
+        "La Ciudad formula propuestas docentes dentro de la programación general, sin atribuirse una competencia distinta."
+      ],
+      [
+        "empresas",
+        "Empresas públicas y territorios",
+        "estatuto",
+        [
+          24
+        ],
+        "Se prepara un informe relativo a empresas públicas y se identifica a quién se remite y quién decide."
+      ],
+      [
+        "local",
+        "Competencias municipales y provinciales",
+        "estatuto",
+        [
+          25
+        ],
+        "Se atribuyen a Melilla competencias locales y se comprueba la remisión concreta del Estatuto."
+      ],
+      [
+        "fiscal_territorio",
+        "Propuestas fiscales y alcance territorial",
+        "estatuto",
+        [
+          26,
+          27
+        ],
+        "Una propuesta fiscal o actuación fuera del territorio debe respetar instrumento y límites estatutarios."
+      ]
+    ],
+    "paragraphFilters": {
+      "alcance": "^2\\. En relación",
+      "ordenacion": "^(?:1|2|3|4|7)\\.",
+      "actividad": "^(?:5|6|9|10|11|12|16|21|22)\\.",
+      "cultura": "^(?:13|14|15|17)\\.",
+      "social": "^(?:18|19|24)\\."
+    },
+    "extraSeeds": [
+      [
+        "alcance",
+        "estatuto",
+        21,
+        "potestad normativa reglamentaria",
+        "potestad legislativa propia",
+        "potestad jurisdiccional"
+      ],
+      [
+        "alcance",
+        "estatuto",
+        21,
+        "legislación general del Estado",
+        "legislación propia de la Ciudad",
+        "legislación de otra comunidad autónoma"
+      ],
+      [
+        "alcance",
+        "estatuto",
+        21,
+        "facultades de administración",
+        "facultades de legislación estatal",
+        "facultades jurisdiccionales"
+      ]
+    ]
+  },
+  {
+    "topic": 12,
+    "title": "Estatuto de Autonomía de Melilla: Título III. Régimen jurídico",
+    "subtitle": "Régimen jurídico · Artículos 28–32",
+    "scope": {
+      "estatuto": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        "dacuarta"
+      ]
+    },
+    "overview": "Este bloque es breve pero exige distinguir personalidad, potestades, publicidad, Derecho aplicable, personal y control. Los actos generales deben publicarse; no se confunden con actos dirigidos a una sola persona. La legislación estatal de régimen local es la referencia general, con especialidades organizativas del Estatuto. Distingue personal propio y transferido, y separa revisión administrativa de impugnación ante la jurisdicción contencioso-administrativa.",
+    "categories": [
+      [
+        "personalidad",
+        "Personalidad y capacidad de actuación",
+        "estatuto",
+        [
+          28
+        ],
+        "Un expediente trata a la Ciudad como una unidad sin personalidad propia."
+      ],
+      [
+        "potestades",
+        "Potestades y privilegios",
+        "estatuto",
+        [
+          28
+        ],
+        "Se determina qué potestades corresponden a la Ciudad y dentro de qué competencias."
+      ],
+      [
+        "disposiciones",
+        "Disposiciones y actos generales",
+        "estatuto",
+        [
+          29
+        ],
+        "Se confunde un reglamento o acto general con una decisión dirigida exclusivamente a una persona."
+      ],
+      [
+        "publicidad",
+        "Publicación oficial",
+        "estatuto",
+        [
+          29
+        ],
+        "Una norma general se difunde únicamente mediante una comunicación interna."
+      ],
+      [
+        "regimen",
+        "Régimen administrativo general",
+        "estatuto",
+        [
+          30
+        ],
+        "Un contrato o procedimiento se pretende regir por una fuente distinta de la remisión estatutaria."
+      ],
+      [
+        "especialidades",
+        "Especialidades organizativas",
+        "estatuto",
+        [
+          30
+        ],
+        "La remisión a legislación estatal se interpreta como eliminación de toda especialidad organizativa."
+      ],
+      [
+        "propio",
+        "Personal propio",
+        "estatuto",
+        [
+          31
+        ],
+        "Se determina el régimen del personal propio sin confundirlo con el procedente de traspasos."
+      ],
+      [
+        "transferido",
+        "Personal transferido",
+        "estatuto",
+        [
+          31,
+          "dacuarta"
+        ],
+        "Un expediente de traspaso requiere localizar la remisión estatutaria correcta."
+      ],
+      [
+        "judicial",
+        "Impugnación jurisdiccional",
+        "estatuto",
+        [
+          32
+        ],
+        "Se quiere impugnar una norma o acuerdo de la Ciudad y se propone una jurisdicción incorrecta."
+      ],
+      [
+        "revision",
+        "Revisión administrativa",
+        "estatuto",
+        [
+          32
+        ],
+        "Se confunde un recurso administrativo con una impugnación judicial y su legislación de referencia."
+      ]
+    ]
+  },
+  {
+    "topic": 13,
+    "title": "Estatuto de Melilla: cooperación, régimen económico y financiero y reforma",
+    "subtitle": "Títulos IV, V y VI · Artículos 33–41",
+    "scope": {
+      "estatuto": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    "overview": "Separa cooperación con la Administración del Estado, autonomía financiera, patrimonio, recursos, crédito, tributos y presupuesto. El Consejo de Gobierno elabora y ejecuta el presupuesto; la Asamblea lo examina y aprueba. No confundas iniciativa de reforma, mayoría de la Asamblea y aprobación mediante ley orgánica por las Cortes. Las relaciones de cooperación no eliminan competencias de ninguna Administración.",
+    "categories": [
+      [
+        "cooperacion",
+        "Cooperación con el Estado",
+        "estatuto",
+        [
+          33
+        ],
+        "Se propone un órgano conjunto y se identifica quién puede impulsar su creación y qué competencias conserva cada Administración."
+      ],
+      [
+        "autonomia",
+        "Autonomía financiera y Hacienda",
+        "estatuto",
+        [
+          34
+        ],
+        "La autonomía financiera se confunde con independencia de la Hacienda estatal."
+      ],
+      [
+        "patrimonio",
+        "Patrimonio de la Ciudad",
+        "estatuto",
+        [
+          35
+        ],
+        "Se determina qué bienes y derechos integran el patrimonio y quién puede afectarlos o gestionarlos."
+      ],
+      [
+        "recursos",
+        "Recursos propios",
+        "estatuto",
+        [
+          36
+        ],
+        "Un ingreso se clasifica según la enumeración estatutaria, sin confundir tributo, precio e ingreso patrimonial."
+      ],
+      [
+        "participacion",
+        "Participaciones y transferencias",
+        "estatuto",
+        [
+          36
+        ],
+        "Se identifican recursos derivados de participaciones y transferencias de otras Administraciones."
+      ],
+      [
+        "credito",
+        "Operaciones de crédito",
+        "estatuto",
+        [
+          37
+        ],
+        "Una operación de crédito debe respetar la remisión a la legislación estatal y sus modalidades."
+      ],
+      [
+        "tributos",
+        "Gestión y ordenación tributaria",
+        "estatuto",
+        [
+          38,
+          39
+        ],
+        "Se distribuye gestión tributaria y establecimiento de tributos entre órganos de la Ciudad."
+      ],
+      [
+        "presupuesto",
+        "Elaboración y aprobación del presupuesto",
+        "estatuto",
+        [
+          40
+        ],
+        "Se atribuyen a un mismo órgano elaboración, ejecución, examen y aprobación del presupuesto."
+      ],
+      [
+        "iniciativa",
+        "Iniciativa de reforma estatutaria",
+        "estatuto",
+        [
+          41
+        ],
+        "Una iniciativa procede de la Asamblea, Cortes o Gobierno y debe respetar su habilitación."
+      ],
+      [
+        "reforma",
+        "Mayoría y aprobación de la reforma",
+        "estatuto",
+        [
+          41
+        ],
+        "La iniciativa local y la aprobación final exigen mayorías e instrumentos diferentes."
+      ]
+    ],
+    "paragraphFilters": {
+      "recursos": "^(?:1|5|6|7|9)\\.",
+      "participacion": "^(?:2|3|4|8|10)\\."
+    }
+  },
+  {
+    "topic": 14,
+    "title": "Reglamento del Gobierno y de la Administración de Melilla: órganos de la Administración",
+    "subtitle": "Órganos superiores, directivos y administrativos de Melilla",
+    "scope": {
+      "rga": [
+        1,
+        2,
+        3,
+        4,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    "overview": "Clasifica primero: órganos institucionales, superiores, directivos y administrativos no son expresiones equivalentes. Las Consejerías forman la estructura básica; Secretarios Técnicos y Directores Generales son personal directivo; Servicios, Secciones y Negociados se sitúan en otros niveles. La creación de órganos exige precisar integración, funciones y créditos y evitar duplicación. Se trabaja con el texto publicado en 2017 y el corte normativo de las bases, no con una sustitución automática por la consolidación de 2026. Fuente temporal: publicación oficial de 30/01/2017. La búsqueda del BOME hasta el corte de las bases no ha localizado una modificación anterior; no constituye una certificación exhaustiva de vigencia ni de jurisprudencia. La consolidación de marzo de 2026 no se utiliza para sustituir automáticamente esta publicación.",
+    "categories": [
+      [
+        "marco",
+        "Marco y clases de órganos",
+        "rga",
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        "Una ficha mezcla órganos institucionales, superiores y directivos y atribuye personalidad separada a cada Consejería."
+      ],
+      [
+        "estructura",
+        "Estructura, organización y creación",
+        "rga",
+        [
+          47,
+          48,
+          49
+        ],
+        "Se propone crear un órgano duplicando competencias y sin dotación o integración administrativa."
+      ],
+      [
+        "secretaria_nom",
+        "Secretarios Técnicos: nombramiento y régimen",
+        "rga",
+        [
+          50,
+          52,
+          53
+        ],
+        "Se determina quién nombra, qué requisitos exige la Secretaría Técnica y cómo se sustituye o cesa."
+      ],
+      [
+        "secretaria_func",
+        "Secretarios Técnicos: funciones",
+        "rga",
+        [
+          51
+        ],
+        "Un expediente exige diferenciar fe pública, asesoramiento y otras atribuciones de Secretaría Técnica."
+      ],
+      [
+        "directores_nom",
+        "Directores Generales: carácter y régimen",
+        "rga",
+        [
+          54,
+          56,
+          57
+        ],
+        "Se clasifica al Director General y se revisan los requisitos, sustitución y cese previstos por la fuente temporal."
+      ],
+      [
+        "directores_func",
+        "Directores Generales: atribuciones",
+        "rga",
+        [
+          55
+        ],
+        "Se distribuye una actuación de dirección, personal o coordinación entre órganos de la Consejería."
+      ],
+      [
+        "otros_directivos",
+        "Otros directivos e incompatibilidades",
+        "rga",
+        [
+          58,
+          59,
+          60
+        ],
+        "Se crea un puesto directivo profesional y deben respetarse condiciones de provisión y régimen aplicable."
+      ],
+      [
+        "servicios",
+        "Servicios y jefaturas",
+        "rga",
+        [
+          61
+        ],
+        "Un Servicio debe ubicarse jerárquicamente y diferenciarse de una Dirección General."
+      ],
+      [
+        "unidades",
+        "Secciones y Negociados",
+        "rga",
+        [
+          62,
+          63
+        ],
+        "Se identifica la jefatura y funciones de unidades de tramitación, archivo y gestión."
+      ],
+      [
+        "colegiados",
+        "Otros órganos y órganos colegiados",
+        "rga",
+        [
+          64,
+          65,
+          66,
+          67
+        ],
+        "Un órgano de varias personas o fuera de la jerarquía debe respetar creación, composición y régimen jurídico."
+      ]
+    ]
+  },
+  {
+    "topic": 15,
+    "title": "Régimen local español: principios, entidades y Municipio. Concepto y elementos",
+    "subtitle": "Régimen local · Constitución y Ley 7/1985",
+    "scope": {
+      "ce": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
+      ],
+      "lbrl": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "overview": "La autonomía local se garantiza para gestionar intereses propios; no es soberanía. Identifica entidades territoriales y otras entidades locales, sus potestades y tipos de competencia. El Municipio posee personalidad y capacidad; sus elementos son territorio, población y organización. Padrón, vecindad y nacionalidad no son equivalentes. La inscripción de una persona extranjera no acredita por sí sola residencia legal en España.",
+    "categories": [
+      [
+        "constitucion",
+        "Garantías constitucionales locales",
+        "ce",
+        [
+          137,
+          138,
+          139,
+          140,
+          141,
+          142
+        ],
+        "Una norma local se compara con autonomía, igualdad territorial, organización provincial y suficiencia financiera."
+      ],
+      [
+        "autonomia",
+        "Autonomía y participación",
+        "lbrl",
+        [
+          1,
+          2
+        ],
+        "Se determina el papel básico del Municipio y el derecho de las entidades locales a intervenir en sus asuntos."
+      ],
+      [
+        "entidades",
+        "Clases de entidades locales",
+        "lbrl",
+        [
+          3
+        ],
+        "Se confunden entidades territoriales con otras entidades locales de régimen específico."
+      ],
+      [
+        "potestades",
+        "Potestades, capacidad y principios",
+        "lbrl",
+        [
+          4,
+          5,
+          6
+        ],
+        "Una entidad debe ejercer potestades y capacidad dentro de sus competencias y con sujeción a principios administrativos."
+      ],
+      [
+        "competencias",
+        "Tipos de competencias y relaciones",
+        "lbrl",
+        [
+          7,
+          8,
+          9,
+          10
+        ],
+        "Una actividad local se califica como propia, delegada o distinta de las anteriores y requiere controles específicos."
+      ],
+      [
+        "municipio",
+        "Municipio y elementos",
+        "lbrl",
+        [
+          11
+        ],
+        "Se pretende definir el Municipio prescindiendo de uno de sus tres elementos legales."
+      ],
+      [
+        "territorio",
+        "Término y alteraciones municipales",
+        "lbrl",
+        [
+          12,
+          13,
+          14
+        ],
+        "Una alteración o cambio de denominación exige identificar procedimiento, límites e inscripción."
+      ],
+      [
+        "poblacion",
+        "Población y vecindad",
+        "lbrl",
+        [
+          15
+        ],
+        "Una persona reside en varios municipios y debe determinar dónde se inscribe y cuándo adquiere vecindad."
+      ],
+      [
+        "padron",
+        "Datos y efectos del Padrón",
+        "lbrl",
+        [
+          16,
+          17
+        ],
+        "Se confunde prueba de residencia y domicilio con nacionalidad o regularidad de residencia extranjera."
+      ],
+      [
+        "vecinos",
+        "Derechos y deberes de los vecinos",
+        "lbrl",
+        [
+          18
+        ],
+        "Un vecino solicita participación, información o prestación de un servicio mínimo y se evalúa su derecho."
+      ]
+    ]
+  },
+  {
+    "topic": 16,
+    "title": "Ley Orgánica 3/2007: Títulos Preliminar y I. Igualdad y tutela contra la discriminación",
+    "subtitle": "Igualdad efectiva · Artículos 1–13",
+    "scope": {
+      "igualdad": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "overview": "Clasifica correctamente discriminación directa e indirecta, acoso sexual y acoso por razón de sexo. Una medida aparentemente neutra puede producir discriminación indirecta; una diferencia profesional exige justificación y proporcionalidad. Embarazo y maternidad tienen protección expresa. Las acciones positivas corrigen desigualdades de hecho sin ser preferencias ilimitadas. La carga de la prueba del artículo 13 tiene una excepción para procedimientos penales.",
+    "categories": [
+      [
+        "objeto",
+        "Objeto y ámbito de la ley",
+        "igualdad",
+        [
+          1,
+          2
+        ],
+        "Una entidad pretende excluir un ámbito privado o a una persona por su nacionalidad o domicilio."
+      ],
+      [
+        "principio",
+        "Principio e interpretación",
+        "igualdad",
+        [
+          3,
+          4
+        ],
+        "Se interpreta una norma o una situación laboral olvidando el principio informador de igualdad."
+      ],
+      [
+        "empleo",
+        "Igualdad en empleo y profesiones",
+        "igualdad",
+        [
+          5
+        ],
+        "Una diferencia de acceso al empleo se justifica invocando sin más la naturaleza de la profesión."
+      ],
+      [
+        "directa",
+        "Discriminación directa e indirecta",
+        "igualdad",
+        [
+          6
+        ],
+        "Un trato individual y una regla aparentemente neutra producen efectos diferentes que deben calificarse."
+      ],
+      [
+        "acoso",
+        "Acoso sexual y por razón de sexo",
+        "igualdad",
+        [
+          7
+        ],
+        "Se confunde la naturaleza sexual de una conducta con su realización por razón del sexo."
+      ],
+      [
+        "embarazo",
+        "Embarazo, maternidad e indemnidad",
+        "igualdad",
+        [
+          8,
+          9
+        ],
+        "Una trabajadora recibe un trato desfavorable por maternidad o por reclamar igualdad."
+      ],
+      [
+        "efectos",
+        "Consecuencias jurídicas",
+        "igualdad",
+        [
+          10
+        ],
+        "Una cláusula discriminatoria exige distinguir nulidad, reparación e indemnización."
+      ],
+      [
+        "positivas",
+        "Acciones positivas",
+        "igualdad",
+        [
+          11
+        ],
+        "Una medida de corrección de desigualdad se plantea como privilegio permanente y sin proporcionalidad."
+      ],
+      [
+        "tutela",
+        "Tutela judicial y legitimación",
+        "igualdad",
+        [
+          12
+        ],
+        "Se solicita protección aunque la relación haya terminado y se determina quién puede accionar en un supuesto de acoso."
+      ],
+      [
+        "prueba",
+        "Carga de la prueba",
+        "igualdad",
+        [
+          13
+        ],
+        "Ante alegación de discriminación se distribuye la prueba y se compara con un procedimiento penal."
+      ]
+    ]
+  }
+]

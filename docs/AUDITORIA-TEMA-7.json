@@ -1,0 +1,379 @@
+{
+  "topic": 7,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "principios": 24,
+    "municipio": 24,
+    "provincia": 24,
+    "via_general": 24,
+    "estatutos": 24,
+    "estado": 24,
+    "transferencia": 24,
+    "via_reforzada": 24,
+    "control_finanzas": 24,
+    "melilla": 24
+  },
+  "anchors": [
+    {
+      "category": "principios",
+      "reference": "CE, artículo 137",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "principios",
+      "reference": "CE, artículo 138.1",
+      "phrase": "solidaridad",
+      "contrasts": [
+        "soberanía territorial",
+        "separación territorial"
+      ]
+    },
+    {
+      "category": "principios",
+      "reference": "CE, artículo 139.1",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "principios",
+      "reference": "CE, artículo 138.2",
+      "phrase": "en ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "municipio",
+      "reference": "CE, artículo 140",
+      "phrase": "sufragio universal",
+      "contrasts": [
+        "sufragio censitario",
+        "designación administrativa"
+      ]
+    },
+    {
+      "category": "municipio",
+      "reference": "CE, artículo 140",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "municipio",
+      "reference": "CE, artículo 140",
+      "phrase": "vecinos",
+      "contrasts": [
+        "contribuyentes exclusivamente",
+        "electores exclusivamente"
+      ]
+    },
+    {
+      "category": "municipio",
+      "reference": "CE, artículo 140",
+      "phrase": "Concejales",
+      "contrasts": [
+        "diputados provinciales",
+        "delegados del Gobierno"
+      ]
+    },
+    {
+      "category": "provincia",
+      "reference": "CE, artículo 141.1",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "provincia",
+      "reference": "CE, artículo 141.2",
+      "phrase": "provincias",
+      "contrasts": [
+        "Municipios",
+        "Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "provincia",
+      "reference": "CE, artículo 141.3",
+      "phrase": "la provincia",
+      "contrasts": [
+        "el municipio",
+        "la comunidad autónoma"
+      ]
+    },
+    {
+      "category": "provincia",
+      "reference": "CE, artículo 141.1",
+      "phrase": "ley orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "via_general",
+      "reference": "CE, artículo 143.1",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "via_general",
+      "reference": "CE, artículo 144",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "via_general",
+      "reference": "CE, artículo 145.1",
+      "phrase": "En ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "via_general",
+      "reference": "CE, artículo 146",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "estatutos",
+      "reference": "CE, artículo 147.1",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "estatutos",
+      "reference": "CE, artículo 148.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "estatutos",
+      "reference": "CE, artículo 147.2",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "estatutos",
+      "reference": "CE, artículo 147, letra b",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "CE, artículo 149",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "CE, artículo 149",
+      "phrase": "crédito",
+      "contrasts": [
+        "potestad jurisdiccional",
+        "soberanía monetaria"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "CE, artículo 149",
+      "phrase": "coordinación",
+      "contrasts": [
+        "subordinación judicial",
+        "exclusión recíproca"
+      ]
+    },
+    {
+      "category": "estado",
+      "reference": "CE, artículo 149",
+      "phrase": "coordinación",
+      "contrasts": [
+        "subordinación judicial",
+        "exclusión recíproca"
+      ]
+    },
+    {
+      "category": "transferencia",
+      "reference": "CE, artículo 150.1",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "transferencia",
+      "reference": "CE, artículo 150.2",
+      "phrase": "ley orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "transferencia",
+      "reference": "CE, artículo 150.3",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "transferencia",
+      "reference": "CE, artículo 150.1",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "via_reforzada",
+      "reference": "CE, artículo 151.1",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "via_reforzada",
+      "reference": "CE, artículo 152.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "via_reforzada",
+      "reference": "CE, artículo 151",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "via_reforzada",
+      "reference": "CE, artículo 151",
+      "phrase": "dos meses",
+      "contrasts": [
+        "tres meses",
+        "un mes"
+      ]
+    },
+    {
+      "category": "control_finanzas",
+      "reference": "CE, artículo 153, letra a",
+      "phrase": "Tribunal Constitucional",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal de Cuentas"
+      ]
+    },
+    {
+      "category": "control_finanzas",
+      "reference": "CE, artículo 154",
+      "phrase": "Administración del Estado",
+      "contrasts": [
+        "Administración de la Ciudad",
+        "Administración provincial"
+      ]
+    },
+    {
+      "category": "control_finanzas",
+      "reference": "CE, artículo 155.1",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "control_finanzas",
+      "reference": "CE, artículo 156.1",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "CE, artículo 144, letra b",
+      "phrase": "no estén integrados en la organización provincial",
+      "contrasts": [
+        "estén integrados necesariamente en una provincia",
+        "pertenezcan obligatoriamente a una provincia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "CE, Disposición transitoria quinta.",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 1",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "melilla",
+      "reference": "Estatuto de Melilla, artículo 2",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    }
+  ]
+}

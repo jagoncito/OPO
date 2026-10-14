@@ -1,0 +1,379 @@
+{
+  "topic": 13,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "cooperacion": 24,
+    "autonomia": 24,
+    "patrimonio": 24,
+    "recursos": 24,
+    "participacion": 24,
+    "credito": 24,
+    "tributos": 24,
+    "presupuesto": 24,
+    "iniciativa": 24,
+    "reforma": 24
+  },
+  "anchors": [
+    {
+      "category": "cooperacion",
+      "reference": "Estatuto de Melilla, artículo 33",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "cooperacion",
+      "reference": "Estatuto de Melilla, artículo 33",
+      "phrase": "Presidente de la ciudad",
+      "contrasts": [
+        "Presidente de la Asamblea Legislativa del Estado",
+        "Delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "cooperacion",
+      "reference": "Estatuto de Melilla, artículo 33",
+      "phrase": "Delegado del Gobierno",
+      "contrasts": [
+        "Presidente de la Ciudad",
+        "Presidente del Senado"
+      ]
+    },
+    {
+      "category": "cooperacion",
+      "reference": "Estatuto de Melilla, artículo 33",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "autonomia",
+      "reference": "Estatuto de Melilla, artículo 34",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "autonomia",
+      "reference": "Estatuto de Melilla, artículo 34",
+      "phrase": "autonomía financiera",
+      "contrasts": [
+        "soberanía financiera",
+        "independencia tributaria absoluta"
+      ]
+    },
+    {
+      "category": "autonomia",
+      "reference": "Estatuto de Melilla, artículo 34",
+      "phrase": "bienes de dominio público",
+      "contrasts": [
+        "bienes de uso exclusivamente privado",
+        "bienes patrimoniales exclusivamente"
+      ]
+    },
+    {
+      "category": "autonomia",
+      "reference": "Estatuto de Melilla, artículo 34",
+      "phrase": "coordinación",
+      "contrasts": [
+        "subordinación judicial",
+        "exclusión recíproca"
+      ]
+    },
+    {
+      "category": "patrimonio",
+      "reference": "Estatuto de Melilla, artículo 35.1",
+      "phrase": "patrimonio de la ciudad",
+      "contrasts": [
+        "patrimonio exclusivamente estatal",
+        "patrimonio exclusivamente privado"
+      ]
+    },
+    {
+      "category": "patrimonio",
+      "reference": "Estatuto de Melilla, artículo 35",
+      "phrase": "Ayuntamiento",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Supremo"
+      ]
+    },
+    {
+      "category": "patrimonio",
+      "reference": "Estatuto de Melilla, artículo 35",
+      "phrase": "bienes afectos a los servicios",
+      "contrasts": [
+        "bienes sin afectación a ningún servicio",
+        "bienes de cualquier Administración sin transferencia"
+      ]
+    },
+    {
+      "category": "patrimonio",
+      "reference": "Estatuto de Melilla, artículo 35",
+      "phrase": "cualquier título jurídico",
+      "contrasts": [
+        "solo adquisición onerosa",
+        "solo adquisición por transferencia"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "municipios",
+      "contrasts": [
+        "Provincias",
+        "Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "patrimonio de la Ciudad",
+      "contrasts": [
+        "patrimonio exclusivamente estatal",
+        "patrimonio exclusivamente privado"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "multas y sanciones",
+      "contrasts": [
+        "aportaciones políticas obligatorias",
+        "cuotas electorales obligatorias"
+      ]
+    },
+    {
+      "category": "recursos",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "crédito",
+      "contrasts": [
+        "potestad jurisdiccional",
+        "soberanía monetaria"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "Presupuestos Generales del Estado",
+      "contrasts": [
+        "Presupuestos exclusivamente municipales",
+        "Presupuestos de cualquier entidad privada"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "municipios",
+      "contrasts": [
+        "Provincias",
+        "Comunidades Autónomas"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "Fondo de Compensación Interterritorial",
+      "contrasts": [
+        "Fondo de Financiación Electoral",
+        "Fondo de Dotación Judicial"
+      ]
+    },
+    {
+      "category": "participacion",
+      "reference": "Estatuto de Melilla, artículo 36",
+      "phrase": "competencias",
+      "contrasts": [
+        "potestades judiciales ilimitadas",
+        "facultades legislativas soberanas"
+      ]
+    },
+    {
+      "category": "credito",
+      "reference": "Estatuto de Melilla, artículo 37",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "credito",
+      "reference": "Estatuto de Melilla, artículo 37.1",
+      "phrase": "crédito",
+      "contrasts": [
+        "potestad jurisdiccional",
+        "soberanía monetaria"
+      ]
+    },
+    {
+      "category": "credito",
+      "reference": "Estatuto de Melilla, artículo 37.3",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "credito",
+      "reference": "Estatuto de Melilla, artículo 37.4",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "Estatuto de Melilla, artículo 38.1",
+      "phrase": "gestión, liquidación, recaudación, inspección y revisión",
+      "contrasts": [
+        "gestión sin recaudación ni revisión",
+        "liquidación exclusivamente"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "Estatuto de Melilla, artículo 39",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "Estatuto de Melilla, artículo 38.2",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "tributos",
+      "reference": "Estatuto de Melilla, artículo 38.2",
+      "phrase": "Administración tributaria del Estado",
+      "contrasts": [
+        "Asamblea de Melilla exclusivamente",
+        "Consejo de Gobierno exclusivamente"
+      ]
+    },
+    {
+      "category": "presupuesto",
+      "reference": "Estatuto de Melilla, artículo 40.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "presupuesto",
+      "reference": "Estatuto de Melilla, artículo 40.2",
+      "phrase": "totalidad",
+      "contrasts": [
+        "mitad",
+        "tercera parte"
+      ]
+    },
+    {
+      "category": "presupuesto",
+      "reference": "Estatuto de Melilla, artículo 40.1",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "presupuesto",
+      "reference": "Estatuto de Melilla, artículo 40.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 41.1",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 41.2",
+      "phrase": "dos tercios",
+      "contrasts": [
+        "tres quintos",
+        "tres cuartos"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 41.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 41.2",
+      "phrase": "dos",
+      "contrasts": [
+        "tres",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "reforma",
+      "reference": "Estatuto de Melilla, artículo 41.2",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "reforma",
+      "reference": "Estatuto de Melilla, artículo 41.2",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "reforma",
+      "reference": "Estatuto de Melilla, artículo 41.2",
+      "phrase": "Ley Orgánica",
+      "contrasts": [
+        "ley ordinaria",
+        "disposición reglamentaria"
+      ]
+    },
+    {
+      "category": "reforma",
+      "reference": "Estatuto de Melilla, artículo 41.2",
+      "phrase": "En todo caso",
+      "contrasts": [
+        "solo excepcionalmente",
+        "a discreción del órgano"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "topic": 9,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "fuentes": 24,
+    "vigencia": 24,
+    "jerarquia": 24,
+    "ley_organica": 24,
+    "delegacion": 24,
+    "decreto_ley": 24,
+    "procedimiento": 24,
+    "reglamento": 24,
+    "regulacion": 24,
+    "publicidad": 24
+  },
+  "anchors": [
+    {
+      "category": "fuentes",
+      "reference": "Código Civil, artículo 1.1",
+      "phrase": "principios generales del derecho",
+      "contrasts": [
+        "reglamentos ejecutivos",
+        "órdenes de servicio"
+      ]
+    },
+    {
+      "category": "fuentes",
+      "reference": "Código Civil, artículo 1.2",
+      "phrase": "rango superior",
+      "contrasts": [
+        "rango inferior",
+        "cualquier rango sin excepción"
+      ]
+    },
+    {
+      "category": "fuentes",
+      "reference": "Código Civil, artículo 1.3",
+      "phrase": "costumbre",
+      "contrasts": [
+        "jurisprudencia",
+        "disposición administrativa"
+      ]
+    },
+    {
+      "category": "fuentes",
+      "reference": "Código Civil, artículo 1",
+      "phrase": "costumbre",
+      "contrasts": [
+        "jurisprudencia",
+        "disposición administrativa"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Código Civil, artículo 2.1",
+      "phrase": "veinte días",
+      "contrasts": [
+        "quince días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Código Civil, artículo 3.2",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Código Civil, artículo 4.2",
+      "phrase": "expresamente",
+      "contrasts": [
+        "tácitamente",
+        "presuntamente"
+      ]
+    },
+    {
+      "category": "vigencia",
+      "reference": "Código Civil, artículo 6.2",
+      "phrase": "orden público",
+      "contrasts": [
+        "interés económico",
+        "interés electoral"
+      ]
+    },
+    {
+      "category": "jerarquia",
+      "reference": "CE, artículo 9.1",
+      "phrase": "ordenamiento jurídico",
+      "contrasts": [
+        "programa electoral",
+        "instrucción política exclusivamente"
+      ]
+    },
+    {
+      "category": "jerarquia",
+      "reference": "CE, artículo 103.1",
+      "phrase": "descentralización",
+      "contrasts": [
+        "centralización absoluta",
+        "dependencia judicial"
+      ]
+    },
+    {
+      "category": "jerarquia",
+      "reference": "CE, artículo 106.1",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "jerarquia",
+      "reference": "CE, artículo 9.3",
+      "phrase": "jerarquía normativa",
+      "contrasts": [
+        "igualdad normativa",
+        "autonomía normativa absoluta"
+      ]
+    },
+    {
+      "category": "ley_organica",
+      "reference": "CE, artículo 81.1",
+      "phrase": "leyes orgánicas",
+      "contrasts": [
+        "leyes ordinarias",
+        "disposiciones reglamentarias"
+      ]
+    },
+    {
+      "category": "ley_organica",
+      "reference": "CE, artículo 81.2",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "ley_organica",
+      "reference": "CE, artículo 81.1",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "ley_organica",
+      "reference": "CE, artículo 81.1",
+      "phrase": "públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 82.1",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 83",
+      "phrase": "en ningún caso",
+      "contrasts": [
+        "en todo caso",
+        "como regla general"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 84",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "delegacion",
+      "reference": "CE, artículo 85",
+      "phrase": "Decretos Legislativos",
+      "contrasts": [
+        "Decretos-leyes",
+        "Decretos reglamentarios"
+      ]
+    },
+    {
+      "category": "decreto_ley",
+      "reference": "CE, artículo 86.1",
+      "phrase": "Decretos-leyes",
+      "contrasts": [
+        "Decretos Legislativos",
+        "Decretos reglamentarios"
+      ]
+    },
+    {
+      "category": "decreto_ley",
+      "reference": "CE, artículo 86.2",
+      "phrase": "treinta días",
+      "contrasts": [
+        "quince días",
+        "sesenta días"
+      ]
+    },
+    {
+      "category": "decreto_ley",
+      "reference": "CE, artículo 86.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "decreto_ley",
+      "reference": "CE, artículo 86.1",
+      "phrase": "extraordinaria y urgente necesidad",
+      "contrasts": [
+        "necesidad ordinaria de gestión",
+        "mera conveniencia administrativa"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "CE, artículo 87.1",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "CE, artículo 88",
+      "phrase": "Consejo de Ministros",
+      "contrasts": [
+        "Consejo General del Poder Judicial",
+        "Consejo de Estado"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "CE, artículo 89.2",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "procedimiento",
+      "reference": "CE, artículo 90.1",
+      "phrase": "Congreso de los Diputados",
+      "contrasts": [
+        "Senado",
+        "Consejo de Ministros"
+      ]
+    },
+    {
+      "category": "reglamento",
+      "reference": "Ley 39/2015, artículo 128.1",
+      "phrase": "Autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "reglamento",
+      "reference": "Ley 39/2015, artículo 128.2",
+      "phrase": "Cortes Generales",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "reglamento",
+      "reference": "Ley 39/2015, artículo 128.3",
+      "phrase": "rango superior",
+      "contrasts": [
+        "rango inferior",
+        "cualquier rango sin excepción"
+      ]
+    },
+    {
+      "category": "reglamento",
+      "reference": "Ley 39/2015, artículo 128.1",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "regulacion",
+      "reference": "Ley 39/2015, artículo 129.1",
+      "phrase": "potestad reglamentaria",
+      "contrasts": [
+        "potestad legislativa",
+        "potestad jurisdiccional"
+      ]
+    },
+    {
+      "category": "regulacion",
+      "reference": "Ley 39/2015, artículo 130.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "regulacion",
+      "reference": "Ley 39/2015, artículo 129.2",
+      "phrase": "interés general",
+      "contrasts": [
+        "interés particular",
+        "interés exclusivamente patrimonial"
+      ]
+    },
+    {
+      "category": "regulacion",
+      "reference": "Ley 39/2015, artículo 129.4",
+      "phrase": "seguridad jurídica",
+      "contrasts": [
+        "confianza política",
+        "oportunidad electoral"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 39/2015, artículo 131",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 39/2015, artículo 132.1",
+      "phrase": "Públicas",
+      "contrasts": [
+        "secretas",
+        "reservadas"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 39/2015, artículo 133.2",
+      "phrase": "podrá",
+      "contrasts": [
+        "deberá necesariamente",
+        "no podrá"
+      ]
+    },
+    {
+      "category": "publicidad",
+      "reference": "Ley 39/2015, artículo 131",
+      "phrase": "publicación",
+      "contrasts": [
+        "notificación individual",
+        "comunicación interna"
+      ]
+    }
+  ]
+}

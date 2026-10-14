@@ -1,11 +1,13 @@
-# Validación de los temas 1 y 2
+# Validación de legislación: temas 1–16
 
 ## Contenido
 
-- 240 preguntas por tema, con IDs y enunciados distintos: 200 de entrenamiento y 40 reservadas para evaluación en cada uno; 480 en total.
+- 240 preguntas por tema: 200 de entrenamiento y 40 reservadas para evaluación, 3.840 en total. Los IDs son únicos en cada banco y no hay cuestionarios con preguntas compartidas. Para los temas 3–16 se comprueba que no se repitan preguntas completas (enunciado + opciones); algunas instrucciones se reutilizan con opciones distintas. Los conceptos se recuperan en varias tareas.
 - Tres opciones por pregunta, una clave, fundamento y explicación individual de los distractores.
 - Tema 1: características, fechas, estructura y artículos 1–9. Tema 2: todos los artículos 10–55 y diez categorías de 24 preguntas (20 de entrenamiento + 4 de evaluación).
-- Textos literales cotejados con el BOE oficial, redacción de 17/02/2024 aplicable a la fecha de las bases; revisión jurídica independiente de teoría y claves. No se afirma calibración psicométrica.
+- Los temas 1 y 2 conservan la revisión jurídica independiente documentada en sus entregas. El tema 2 mantiene el cotejo íntegro de los 46 artículos del Título I.
+- Los temas 3–16 incluyen 350 citas completas cotejadas con sus fuentes, las claves de 3.318 ejercicios de literalidad verificadas contra esos textos y 42 casos de interpretación revisados por separado. El cotejo textual no certifica por sí solo la interpretación jurídica, la vigencia de toda la jurisprudencia ni la calidad psicométrica de cada pregunta.
+- El corte normativo es 19/11/2024, no la fecha actual. El tema 9 conserva las notas competenciales de la STC 55/2018. La fuente del Reglamento de Melilla y la limitación de la búsqueda de modificaciones quedan visibles en el tema 14.
 - Todos los orígenes están identificados como preguntas originales; no hay preguntas atribuidas sin evidencia a exámenes anteriores.
 
 ## Funcionamiento
@@ -15,10 +17,11 @@ Comandos de comprobación:
 ```sh
 node tools/check-content.mjs
 python3 tools/check-literals.py
+python3 tools/check-all-sources.py
 python3 -m unittest discover -s tests -v
 ```
 
-21 comprobaciones de navegador, completadas en Chromium por HTTP local: las nueve siguientes se ejecutan para cada tema; otras tres verifican cobertura de los 46 artículos, separación del progreso y rechazo de una importación de otro tema.
+24 pruebas de navegador, completadas en Chromium por HTTP local: 21 pruebas conservadas de los temas 1 y 2 y tres pruebas adicionales que recorren cada uno de los 14 temas nuevos. Las nueve pruebas siguientes se ejecutan para cada tema inicial; otras tres verifican cobertura de los 46 artículos, separación del progreso y rechazo de una importación de otro tema.
 
 1. Contenido, reparto de los once tests y ausencia de solapamiento de preguntas.
 2. Puntuación de todos los cuestionarios con aciertos, errores, blancos y casos mixtos.
@@ -29,6 +32,14 @@ python3 -m unittest discover -s tests -v
 7. Diseño móvil, foco e aislamiento de los diálogos para teclado.
 8. Realización y corrección sin red después de cargar los archivos; ausencia de peticiones externas.
 9. Funcionamiento del test cuando el navegador impide guardar datos.
+
+Las tres pruebas adicionales comprueban, con subcasos para cada tema 3–16:
+
+1. Carga de la página, navegación a los 16 temas, fuentes locales existentes, 240 preguntas, reparto 10×20 + 40, tiempos 1.271/2.542 segundos, cuatro preguntas de evaluación por bloque y cálculo de notas de los 154 cuestionarios añadidos con aciertos, errores, blancos y mezclas.
+2. Respuesta real, confianza, marca, salida, recuperación, entrega, corrección de todas las alternativas y conservación independiente del historial al volver a cada tema.
+3. Ausencia de desbordamiento móvil a 390 px, evaluación de 40 preguntas sin red y corrección íntegra sin peticiones adicionales.
+
+Se revisaron además capturas de páginas y correcciones en escritorio y móvil. Los tests de desarrollo no son necesarios para usar las páginas.
 
 La apertura directa como archivo no pudo probarse en este navegador administrado: la política del entorno bloquea el protocolo `file://`. No hay dependencias remotas, importaciones de módulos ni peticiones `fetch` que requieran servidor para ejecutar la aplicación en un navegador local normal. Otros navegadores no se han probado.
 

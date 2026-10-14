@@ -1,0 +1,2002 @@
+[
+  [
+    "mayoría absoluta",
+    "mayoría simple",
+    "mayoría de dos tercios"
+  ],
+  [
+    "mayoría simple",
+    "mayoría absoluta",
+    "mayoría de tres quintos"
+  ],
+  [
+    "tres quintos",
+    "dos tercios",
+    "tres cuartos"
+  ],
+  [
+    "dos tercios",
+    "tres quintos",
+    "tres cuartos"
+  ],
+  [
+    "un tercio",
+    "dos tercios",
+    "un cuarto"
+  ],
+  [
+    "una tercera parte",
+    "la mitad",
+    "dos terceras partes"
+  ],
+  [
+    "la cuarta parte",
+    "la mitad",
+    "la tercera parte"
+  ],
+  [
+    "décima parte",
+    "quinta parte",
+    "tercera parte"
+  ],
+  [
+    "cuatro años",
+    "cinco años",
+    "seis años"
+  ],
+  [
+    "cinco años",
+    "cuatro años",
+    "seis años"
+  ],
+  [
+    "seis años",
+    "cuatro años",
+    "nueve años"
+  ],
+  [
+    "nueve años",
+    "seis años",
+    "cinco años"
+  ],
+  [
+    "tres años",
+    "dos años",
+    "cuatro años"
+  ],
+  [
+    "quince días",
+    "diez días",
+    "treinta días"
+  ],
+  [
+    "treinta días",
+    "quince días",
+    "sesenta días"
+  ],
+  [
+    "veinte días",
+    "quince días",
+    "treinta días"
+  ],
+  [
+    "diez días",
+    "quince días",
+    "veinte días"
+  ],
+  [
+    "tres días",
+    "cinco días",
+    "diez días"
+  ],
+  [
+    "cinco días",
+    "tres días",
+    "diez días"
+  ],
+  [
+    "dos meses",
+    "tres meses",
+    "un mes"
+  ],
+  [
+    "tres meses",
+    "dos meses",
+    "seis meses"
+  ],
+  [
+    "un mes",
+    "dos meses",
+    "tres meses"
+  ],
+  [
+    "cuarenta y ocho horas",
+    "veinticuatro horas",
+    "setenta y dos horas"
+  ],
+  [
+    "veinticuatro horas",
+    "cuarenta y ocho horas",
+    "setenta y dos horas"
+  ],
+  [
+    "setenta y dos horas",
+    "cuarenta y ocho horas",
+    "veinticuatro horas"
+  ],
+  [
+    "doce",
+    "diez",
+    "quince"
+  ],
+  [
+    "veinte",
+    "quince",
+    "veinticinco"
+  ],
+  [
+    "veinticinco",
+    "veinte",
+    "treinta"
+  ],
+  [
+    "cincuenta",
+    "cuarenta",
+    "sesenta"
+  ],
+  [
+    "trescientos",
+    "doscientos",
+    "cuatrocientos"
+  ],
+  [
+    "cuatrocientos",
+    "trescientos",
+    "quinientos"
+  ],
+  [
+    "dos",
+    "tres",
+    "cuatro"
+  ],
+  [
+    "tres",
+    "dos",
+    "cuatro"
+  ],
+  [
+    "cuatro",
+    "tres",
+    "cinco"
+  ],
+  [
+    "cinco",
+    "cuatro",
+    "seis"
+  ],
+  [
+    "diez",
+    "doce",
+    "quince"
+  ],
+  [
+    "seis",
+    "cinco",
+    "siete"
+  ],
+  [
+    "siete",
+    "seis",
+    "ocho"
+  ],
+  [
+    "ocho",
+    "seis",
+    "diez"
+  ],
+  [
+    "dieciocho",
+    "dieciséis",
+    "veintiuno"
+  ],
+  [
+    "Congreso de los Diputados",
+    "Senado",
+    "Consejo de Ministros"
+  ],
+  [
+    "Presidente del Congreso",
+    "Presidente del Senado",
+    "Presidente del Gobierno"
+  ],
+  [
+    "Presidente del Senado",
+    "Presidente del Congreso",
+    "Presidente del Gobierno"
+  ],
+  [
+    "Presidente del Gobierno",
+    "Presidente del Congreso",
+    "Presidente del Senado"
+  ],
+  [
+    "Cortes Generales",
+    "Consejo de Ministros",
+    "Tribunal Constitucional"
+  ],
+  [
+    "Consejo de Ministros",
+    "Consejo General del Poder Judicial",
+    "Consejo de Estado"
+  ],
+  [
+    "Consejo de Estado",
+    "Consejo de Ministros",
+    "Consejo General del Poder Judicial"
+  ],
+  [
+    "Consejo General del Poder Judicial",
+    "Consejo de Estado",
+    "Consejo de Ministros"
+  ],
+  [
+    "Tribunal Constitucional",
+    "Tribunal Supremo",
+    "Tribunal de Cuentas"
+  ],
+  [
+    "Tribunal Supremo",
+    "Tribunal Constitucional",
+    "Tribunal de Cuentas"
+  ],
+  [
+    "Tribunal de Cuentas",
+    "Tribunal Supremo",
+    "Tribunal Constitucional"
+  ],
+  [
+    "Defensor del Pueblo",
+    "Presidente del Gobierno",
+    "Presidente del Tribunal Supremo"
+  ],
+  [
+    "Congreso",
+    "Senado",
+    "Gobierno"
+  ],
+  [
+    "Senado",
+    "Congreso",
+    "Gobierno"
+  ],
+  [
+    "Consejo de Gobierno",
+    "Consejo de Ministros",
+    "Consejo General del Poder Judicial"
+  ],
+  [
+    "Presidente de la Ciudad",
+    "Presidente de la Asamblea Legislativa del Estado",
+    "Delegado del Gobierno"
+  ],
+  [
+    "Delegado del Gobierno",
+    "Presidente de la Ciudad",
+    "Presidente del Senado"
+  ],
+  [
+    "Asamblea de Melilla",
+    "Consejo de Gobierno",
+    "Delegación del Gobierno"
+  ],
+  [
+    "Asamblea",
+    "Consejería",
+    "Delegación del Gobierno"
+  ],
+  [
+    "Consejeros",
+    "Viceconsejeros",
+    "Secretarios Técnicos"
+  ],
+  [
+    "Viceconsejeros",
+    "Consejeros",
+    "Directores Generales"
+  ],
+  [
+    "Secretarios Técnicos",
+    "Consejeros",
+    "Jefes de Negociado"
+  ],
+  [
+    "Directores Generales",
+    "Jefes de Negociado",
+    "Viceconsejeros"
+  ],
+  [
+    "Secretario Técnico",
+    "Consejero",
+    "Jefe de Negociado"
+  ],
+  [
+    "Director General",
+    "Viceconsejero",
+    "Jefe de Negociado"
+  ],
+  [
+    "Consejería",
+    "Dirección General",
+    "Sección"
+  ],
+  [
+    "Consejerías",
+    "Direcciones Generales",
+    "Secciones"
+  ],
+  [
+    "Negociados",
+    "Consejerías",
+    "Direcciones Generales"
+  ],
+  [
+    "Secciones",
+    "Consejerías",
+    "Direcciones Generales"
+  ],
+  [
+    "Jefe de Servicio",
+    "Jefe de Negociado",
+    "Consejero"
+  ],
+  [
+    "Jefe de Sección",
+    "Consejero",
+    "Director General"
+  ],
+  [
+    "Jefe de Negociado",
+    "Consejero",
+    "Director General"
+  ],
+  [
+    "Subgrupo A1",
+    "Subgrupo C1",
+    "Subgrupo C2"
+  ],
+  [
+    "Subgrupo A1 o A2",
+    "Subgrupo C1 o C2",
+    "Grupo B exclusivamente"
+  ],
+  [
+    "Subgrupo C1 o C2",
+    "Subgrupo A1 o A2",
+    "Grupo B exclusivamente"
+  ],
+  [
+    "ley orgánica",
+    "ley ordinaria",
+    "disposición reglamentaria"
+  ],
+  [
+    "leyes orgánicas",
+    "leyes ordinarias",
+    "disposiciones reglamentarias"
+  ],
+  [
+    "Decretos-leyes",
+    "Decretos Legislativos",
+    "Decretos reglamentarios"
+  ],
+  [
+    "Decretos Legislativos",
+    "Decretos-leyes",
+    "Decretos reglamentarios"
+  ],
+  [
+    "decreto-ley",
+    "decreto legislativo",
+    "reglamento"
+  ],
+  [
+    "decreto legislativo",
+    "decreto-ley",
+    "reglamento"
+  ],
+  [
+    "mayores de edad",
+    "mayores de dieciséis años",
+    "mayores de veintiún años"
+  ],
+  [
+    "sufragio universal",
+    "sufragio censitario",
+    "designación administrativa"
+  ],
+  [
+    "representación proporcional",
+    "representación mayoritaria",
+    "representación censitaria"
+  ],
+  [
+    "circunscripción electoral",
+    "circunscripción administrativa",
+    "circunscripción judicial"
+  ],
+  [
+    "la provincia",
+    "el municipio",
+    "la comunidad autónoma"
+  ],
+  [
+    "el Municipio",
+    "la Provincia",
+    "la Comunidad Autónoma"
+  ],
+  [
+    "territorio, la población y la organización",
+    "territorio, la población y el patrimonio",
+    "territorio, el patrimonio y la financiación"
+  ],
+  [
+    "autonomía",
+    "soberanía",
+    "independencia"
+  ],
+  [
+    "personalidad jurídica propia",
+    "personalidad jurídica compartida",
+    "dependencia sin personalidad jurídica"
+  ],
+  [
+    "capacidad jurídica",
+    "capacidad exclusivamente procesal",
+    "capacidad exclusivamente presupuestaria"
+  ],
+  [
+    "potestad reglamentaria",
+    "potestad legislativa",
+    "potestad jurisdiccional"
+  ],
+  [
+    "funciones ejecutivas y administrativas",
+    "funciones legislativas y jurisdiccionales",
+    "funciones exclusivamente consultivas"
+  ],
+  [
+    "jurisdicción contencioso-administrativa",
+    "jurisdicción civil",
+    "jurisdicción penal"
+  ],
+  [
+    "Derecho administrativo",
+    "Derecho privado",
+    "Derecho penal"
+  ],
+  [
+    "derecho administrativo",
+    "derecho privado",
+    "derecho penal"
+  ],
+  [
+    "resolución judicial",
+    "resolución administrativa",
+    "resolución gubernativa"
+  ],
+  [
+    "autoridad judicial",
+    "autoridad administrativa",
+    "autoridad parlamentaria"
+  ],
+  [
+    "Administración del Estado",
+    "Administración de la Ciudad",
+    "Administración provincial"
+  ],
+  [
+    "administración local",
+    "administración autonómica",
+    "administración estatal"
+  ],
+  [
+    "responsabilidad patrimonial",
+    "responsabilidad disciplinaria",
+    "responsabilidad electoral"
+  ],
+  [
+    "recurso de inconstitucionalidad",
+    "recurso de amparo",
+    "recurso de alzada"
+  ],
+  [
+    "recurso de amparo",
+    "recurso de inconstitucionalidad",
+    "recurso de reposición"
+  ],
+  [
+    "referéndum",
+    "votación del Senado exclusivamente",
+    "consulta administrativa"
+  ],
+  [
+    "mandato imperativo",
+    "mandato representativo",
+    "mandato parlamentario"
+  ],
+  [
+    "inmunidad",
+    "inviolabilidad",
+    "exención tributaria"
+  ],
+  [
+    "inviolabilidad",
+    "inmunidad",
+    "exención tributaria"
+  ],
+  [
+    "públicas",
+    "secretas",
+    "reservadas"
+  ],
+  [
+    "carácter público",
+    "carácter privado",
+    "carácter reservado"
+  ],
+  [
+    "secreta",
+    "pública",
+    "obligatoriamente telemática"
+  ],
+  [
+    "en ningún caso",
+    "en todo caso",
+    "como regla general"
+  ],
+  [
+    "en todo caso",
+    "solo excepcionalmente",
+    "a discreción del órgano"
+  ],
+  [
+    "exclusivamente",
+    "preferentemente",
+    "subsidiariamente"
+  ],
+  [
+    "expresamente",
+    "tácitamente",
+    "presuntamente"
+  ],
+  [
+    "indelegable",
+    "delegable",
+    "renunciable"
+  ],
+  [
+    "no vinculantes",
+    "vinculantes",
+    "inmediatamente ejecutivas"
+  ],
+  [
+    "interés general",
+    "interés particular",
+    "interés exclusivamente patrimonial"
+  ],
+  [
+    "igualdad, mérito y capacidad",
+    "antigüedad y confianza",
+    "mérito y afinidad política"
+  ],
+  [
+    "mérito y capacidad",
+    "antigüedad y confianza",
+    "discrecionalidad sin concurrencia"
+  ],
+  [
+    "publicidad y concurrencia",
+    "confidencialidad y designación directa",
+    "antigüedad y afinidad"
+  ],
+  [
+    "igualdad de trato",
+    "diferencia de trato",
+    "preferencia automática"
+  ],
+  [
+    "discriminación directa",
+    "discriminación indirecta",
+    "acción positiva"
+  ],
+  [
+    "discriminación indirecta",
+    "discriminación directa",
+    "acción positiva"
+  ],
+  [
+    "acoso sexual",
+    "acoso por razón de sexo",
+    "discriminación indirecta"
+  ],
+  [
+    "acoso por razón de sexo",
+    "acoso sexual",
+    "discriminación indirecta"
+  ],
+  [
+    "embarazo o maternidad",
+    "edad o nacionalidad",
+    "residencia o vecindad"
+  ],
+  [
+    "acciones positivas",
+    "acciones sancionadoras",
+    "preferencias incondicionadas"
+  ],
+  [
+    "razonables y proporcionadas",
+    "ilimitadas y permanentes",
+    "automáticas e incondicionadas"
+  ],
+  [
+    "carga de la prueba",
+    "legitimación procesal",
+    "capacidad de obrar"
+  ],
+  [
+    "procedimientos penales",
+    "procedimientos civiles",
+    "procedimientos sociales"
+  ],
+  [
+    "jurisprudencia",
+    "costumbre",
+    "reglamento"
+  ],
+  [
+    "principios generales del derecho",
+    "reglamentos ejecutivos",
+    "órdenes de servicio"
+  ],
+  [
+    "costumbre",
+    "jurisprudencia",
+    "disposición administrativa"
+  ],
+  [
+    "orden público",
+    "interés económico",
+    "interés electoral"
+  ],
+  [
+    "jerarquía normativa",
+    "igualdad normativa",
+    "autonomía normativa absoluta"
+  ],
+  [
+    "publicación",
+    "notificación individual",
+    "comunicación interna"
+  ],
+  [
+    "completa publicación",
+    "primera publicación parcial",
+    "aprobación parlamentaria"
+  ],
+  [
+    "no tendrán efecto retroactivo",
+    "tendrán siempre efecto retroactivo",
+    "tendrán necesariamente efecto retroactivo"
+  ],
+  [
+    "rango inferior",
+    "rango superior",
+    "cualquier rango sin excepción"
+  ],
+  [
+    "rango superior",
+    "rango inferior",
+    "cualquier rango sin excepción"
+  ],
+  [
+    "seguridad jurídica",
+    "confianza política",
+    "oportunidad electoral"
+  ],
+  [
+    "interdicción de la arbitrariedad",
+    "libertad absoluta de decisión",
+    "ausencia de control judicial"
+  ],
+  [
+    "autonomía financiera",
+    "soberanía financiera",
+    "independencia tributaria absoluta"
+  ],
+  [
+    "bienes de dominio público",
+    "bienes de uso exclusivamente privado",
+    "bienes patrimoniales exclusivamente"
+  ],
+  [
+    "bienes patrimoniales",
+    "bienes de dominio público",
+    "bienes comunales exclusivamente"
+  ],
+  [
+    "competencias propias",
+    "competencias jurisdiccionales",
+    "competencias estatales exclusivas"
+  ],
+  [
+    "elecciones municipales",
+    "elecciones generales",
+    "elecciones europeas"
+  ],
+  [
+    "Boletín Oficial de la Ciudad",
+    "Boletín Oficial del Estado exclusivamente",
+    "Diario Oficial de la Unión Europea"
+  ],
+  [
+    "disposición transitoria quinta",
+    "disposición adicional primera",
+    "disposición final primera"
+  ],
+  [
+    "integridad territorial",
+    "autonomía territorial",
+    "independencia territorial"
+  ],
+  [
+    "solidaridad",
+    "soberanía territorial",
+    "separación territorial"
+  ],
+  [
+    "territorio",
+    "patrimonio",
+    "presupuesto"
+  ],
+  [
+    "población",
+    "patrimonio",
+    "presupuesto"
+  ],
+  [
+    "organización",
+    "patrimonio",
+    "presupuesto"
+  ],
+  [
+    "Padrón municipal",
+    "Registro Civil",
+    "censo electoral exclusivamente"
+  ],
+  [
+    "vecinos",
+    "contribuyentes exclusivamente",
+    "electores exclusivamente"
+  ],
+  [
+    "alcalde",
+    "presidente provincial",
+    "delegado del Gobierno"
+  ],
+  [
+    "concejales",
+    "diputados provinciales",
+    "delegados del Gobierno"
+  ],
+  [
+    "Ayuntamiento",
+    "Consejo de Ministros",
+    "Tribunal Supremo"
+  ],
+  [
+    "Municipio",
+    "Estado",
+    "Comunidad Autónoma"
+  ],
+  [
+    "Provincia",
+    "Municipio",
+    "Comunidad Autónoma"
+  ],
+  [
+    "isla",
+    "provincia",
+    "comarca"
+  ],
+  [
+    "17",
+    "15",
+    "16"
+  ],
+  [
+    "18",
+    "16",
+    "21"
+  ],
+  [
+    "25",
+    "20",
+    "30"
+  ],
+  [
+    "10",
+    "12",
+    "15"
+  ],
+  [
+    "20",
+    "15",
+    "25"
+  ],
+  [
+    "12",
+    "10",
+    "15"
+  ],
+  [
+    "5",
+    "4",
+    "6"
+  ],
+  [
+    "3",
+    "2",
+    "4"
+  ],
+  [
+    "4",
+    "3",
+    "5"
+  ],
+  [
+    "6",
+    "5",
+    "7"
+  ],
+  [
+    "8",
+    "6",
+    "10"
+  ],
+  [
+    "política interior y exterior",
+    "política exclusivamente interior",
+    "política exclusivamente exterior"
+  ],
+  [
+    "Administración civil y militar",
+    "Administración exclusivamente civil",
+    "Administración exclusivamente militar"
+  ],
+  [
+    "función ejecutiva",
+    "función legislativa",
+    "función jurisdiccional"
+  ],
+  [
+    "Presidente, de los Vicepresidentes",
+    "Presidente sin Vicepresidentes",
+    "Presidente del Congreso y los Vicepresidentes"
+  ],
+  [
+    "acción del Gobierno",
+    "actividad de las Cortes",
+    "actividad jurisdiccional"
+  ],
+  [
+    "disolución",
+    "suspensión temporal",
+    "revocación administrativa"
+  ],
+  [
+    "cuestión de confianza",
+    "moción de censura",
+    "cuestión de inconstitucionalidad"
+  ],
+  [
+    "moción de censura",
+    "cuestión de confianza",
+    "moción administrativa"
+  ],
+  [
+    "constructiva",
+    "destructiva",
+    "vinculada a referéndum"
+  ],
+  [
+    "responsabilidad solidaria",
+    "responsabilidad exclusivamente individual",
+    "responsabilidad exclusivamente electoral"
+  ],
+  [
+    "opiniones manifestadas",
+    "actos administrativos dictados",
+    "contratos privados celebrados"
+  ],
+  [
+    "comisiones de investigación",
+    "comisiones jurisdiccionales",
+    "comisiones electorales"
+  ],
+  [
+    "no serán vinculantes",
+    "serán vinculantes",
+    "tendrán fuerza de cosa juzgada"
+  ],
+  [
+    "siempre por escrito",
+    "siempre verbalmente",
+    "indistintamente verbalmente o por escrito"
+  ],
+  [
+    "sesiones extraordinarias",
+    "sesiones constitutivas",
+    "sesiones exclusivamente conjuntas"
+  ],
+  [
+    "Diputación Permanente",
+    "Mesa conjunta de las Cortes",
+    "Comisión General del Gobierno"
+  ],
+  [
+    "Jueces y Magistrados",
+    "Ministros y Consejeros",
+    "Diputados y Senadores"
+  ],
+  [
+    "inamovibles",
+    "libremente removibles",
+    "dependientes del Gobierno"
+  ],
+  [
+    "independientes",
+    "dependientes del Gobierno",
+    "dependientes de las Cortes"
+  ],
+  [
+    "juzgando y haciendo ejecutar lo juzgado",
+    "dictando leyes y ejecutándolas",
+    "dirigiendo la política y administrando"
+  ],
+  [
+    "unidad jurisdiccional",
+    "pluralidad jurisdiccional soberana",
+    "dependencia jurisdiccional territorial"
+  ],
+  [
+    "Tribunales de excepción",
+    "Tribunales colegiados",
+    "Tribunales especializados"
+  ],
+  [
+    "oral",
+    "exclusivamente escrito",
+    "exclusivamente reservado"
+  ],
+  [
+    "motivadas",
+    "inmotivadas",
+    "discrecionales sin motivación"
+  ],
+  [
+    "habeas corpus",
+    "recurso de alzada",
+    "recurso de reposición"
+  ],
+  [
+    "Junta Electoral",
+    "Mesa del Congreso",
+    "Consejo de Ministros"
+  ],
+  [
+    "Comisión Permanente",
+    "Comisión Disciplinaria",
+    "Comisión de Igualdad"
+  ],
+  [
+    "Comisión Disciplinaria",
+    "Comisión Permanente",
+    "Comisión de Asuntos Económicos"
+  ],
+  [
+    "Comisión de Igualdad",
+    "Comisión Permanente",
+    "Comisión Disciplinaria"
+  ],
+  [
+    "ley de bases",
+    "ley orgánica",
+    "decreto reglamentario"
+  ],
+  [
+    "ley ordinaria",
+    "ley orgánica",
+    "reglamento ejecutivo"
+  ],
+  [
+    "leyes de bases",
+    "leyes orgánicas",
+    "órdenes ministeriales"
+  ],
+  [
+    "textos articulados",
+    "textos refundidos",
+    "reglamentos independientes"
+  ],
+  [
+    "textos refundidos",
+    "textos articulados",
+    "disposiciones administrativas"
+  ],
+  [
+    "forma expresa",
+    "forma tácita",
+    "forma presunta"
+  ],
+  [
+    "un plazo determinado",
+    "un plazo ilimitado",
+    "un plazo a voluntad del delegado"
+  ],
+  [
+    "agota por el uso",
+    "se mantiene indefinidamente",
+    "se renueva automáticamente"
+  ],
+  [
+    "extraordinaria y urgente necesidad",
+    "necesidad ordinaria de gestión",
+    "mera conveniencia administrativa"
+  ],
+  [
+    "materia concreta",
+    "materia indeterminada",
+    "materia elegida libremente por el Gobierno"
+  ],
+  [
+    "retroactivo",
+    "necesariamente retroactivo",
+    "automáticamente retroactivo"
+  ],
+  [
+    "convalidación o derogación",
+    "ratificación judicial o revocación",
+    "aprobación autonómica o suspensión"
+  ],
+  [
+    "ordenación del territorio, urbanismo y vivienda",
+    "defensa nacional y relaciones internacionales",
+    "legislación penal y penitenciaria"
+  ],
+  [
+    "Ordenación del territorio, urbanismo y vivienda",
+    "Defensa nacional y relaciones internacionales",
+    "Legislación penal y penitenciaria"
+  ],
+  [
+    "obras públicas",
+    "relaciones internacionales",
+    "legislación procesal"
+  ],
+  [
+    "Obras públicas",
+    "Relaciones internacionales",
+    "Legislación procesal"
+  ],
+  [
+    "interés para la Ciudad",
+    "interés exclusivo del Estado",
+    "interés exclusivo de otra comunidad"
+  ],
+  [
+    "turismo",
+    "defensa nacional",
+    "relaciones internacionales"
+  ],
+  [
+    "Turismo",
+    "Defensa nacional",
+    "Relaciones internacionales"
+  ],
+  [
+    "Marisqueo y acuicultura",
+    "Defensa nacional",
+    "Legislación penal"
+  ],
+  [
+    "caza",
+    "relaciones internacionales",
+    "administración de justicia"
+  ],
+  [
+    "comercio interior",
+    "comercio exterior exclusivo",
+    "política monetaria"
+  ],
+  [
+    "Museos",
+    "Tribunales de Justicia",
+    "Embajadas"
+  ],
+  [
+    "asistencia social",
+    "relaciones internacionales",
+    "legislación penal"
+  ],
+  [
+    "Asistencia social",
+    "Relaciones internacionales",
+    "Legislación penal"
+  ],
+  [
+    "deportes",
+    "legislación mercantil",
+    "política monetaria"
+  ],
+  [
+    "sanidad e higiene",
+    "legislación penal",
+    "relaciones internacionales"
+  ],
+  [
+    "administración, inspección y sanción",
+    "legislación, jurisdicción y casación",
+    "dirección exclusiva de la política estatal"
+  ],
+  [
+    "ejecución de la legislación del Estado",
+    "sustitución de la legislación del Estado",
+    "derogación de la legislación del Estado"
+  ],
+  [
+    "empresas públicas estatales",
+    "empresas privadas extranjeras",
+    "empresas exclusivamente municipales"
+  ],
+  [
+    "entidades públicas empresariales",
+    "entidades judiciales territoriales",
+    "entidades sin personalidad jurídica"
+  ],
+  [
+    "derechos y deberes",
+    "derechos sin deberes",
+    "deberes sin derechos"
+  ],
+  [
+    "dignidad humana",
+    "preferencia económica",
+    "residencia administrativa"
+  ],
+  [
+    "razón de sexo",
+    "razón de territorio exclusivamente",
+    "razón de domicilio exclusivamente"
+  ],
+  [
+    "obligaciones familiares",
+    "preferencias políticas",
+    "condición de contribuyente"
+  ],
+  [
+    "estado civil",
+    "sistema electoral",
+    "origen de la Administración"
+  ],
+  [
+    "circunstancia personal o social",
+    "exclusivamente condición económica",
+    "exclusivamente nacionalidad"
+  ],
+  [
+    "criterio o práctica aparentemente neutros",
+    "trato abiertamente distinto siempre",
+    "sanción penal firme"
+  ],
+  [
+    "situación particular",
+    "situación general sin excepción",
+    "situación exclusivamente procesal"
+  ],
+  [
+    "necesarios y adecuados",
+    "automáticos e ilimitados",
+    "permanentes e incondicionados"
+  ],
+  [
+    "objetivamente",
+    "subjetivamente",
+    "discrecionalmente sin justificación"
+  ],
+  [
+    "anular su dignidad",
+    "favorecer una preferencia administrativa",
+    "sustituir la carga fiscal"
+  ],
+  [
+    "naturaleza sexual",
+    "naturaleza exclusivamente económica",
+    "naturaleza exclusivamente electoral"
+  ],
+  [
+    "por razón del sexo",
+    "por razón exclusivamente tributaria",
+    "por razón exclusivamente territorial"
+  ],
+  [
+    "nulos y sin efecto",
+    "válidos y plenamente ejecutivos",
+    "eficaces hasta una aprobación parlamentaria"
+  ],
+  [
+    "real, efectiva y proporcionada",
+    "meramente simbólica",
+    "automática y sin proporcionalidad"
+  ],
+  [
+    "no se aplicará",
+    "se aplicará necesariamente",
+    "se aplicará sin excepción"
+  ],
+  [
+    "no podrán",
+    "deberán",
+    "podrán sin límites"
+  ],
+  [
+    "podrán",
+    "deberán necesariamente",
+    "no podrán"
+  ],
+  [
+    "podrá",
+    "deberá necesariamente",
+    "no podrá"
+  ],
+  [
+    "totalidad",
+    "mitad",
+    "tercera parte"
+  ],
+  [
+    "solo",
+    "indistintamente",
+    "preferentemente"
+  ],
+  [
+    "medidas específicas",
+    "medidas indiscriminadas",
+    "medidas permanentes sin evaluación"
+  ],
+  [
+    "igualdad de oportunidades",
+    "preferencia por nacionalidad",
+    "preferencia por domicilio"
+  ],
+  [
+    "ausencia de discriminación",
+    "obligación de discriminar",
+    "libertad de discriminar"
+  ],
+  [
+    "Municipios",
+    "Provincias",
+    "Comunidades Autónomas"
+  ],
+  [
+    "Provincias",
+    "Municipios",
+    "Comunidades Autónomas"
+  ],
+  [
+    "Isla",
+    "Comarca",
+    "Municipalidad"
+  ],
+  [
+    "Comarcas",
+    "Comunidades Autónomas",
+    "Distritos judiciales"
+  ],
+  [
+    "Áreas metropolitanas",
+    "Delegaciones del Gobierno",
+    "Circunscripciones judiciales"
+  ],
+  [
+    "Mancomunidades",
+    "Ministerios",
+    "Audiencias provinciales"
+  ],
+  [
+    "delegación",
+    "sustitución judicial",
+    "desconcentración automática"
+  ],
+  [
+    "descentralización",
+    "centralización absoluta",
+    "dependencia judicial"
+  ],
+  [
+    "objetividad",
+    "arbitrariedad",
+    "preferencia política"
+  ],
+  [
+    "coordinación",
+    "subordinación judicial",
+    "exclusión recíproca"
+  ],
+  [
+    "información mutua",
+    "confidencialidad absoluta",
+    "independencia sin cooperación"
+  ],
+  [
+    "del territorio municipal",
+    "del territorio provincial",
+    "del territorio de Andalucía"
+  ],
+  [
+    "bandera",
+    "soberanía territorial",
+    "nacionalidad propia"
+  ],
+  [
+    "vecindad administrativa",
+    "nacionalidad municipal",
+    "residencia legal automática"
+  ],
+  [
+    "universal, libre, igual, directo y secreto",
+    "censitario, indirecto y público",
+    "universal, indirecto y público"
+  ],
+  [
+    "lista más votada",
+    "persona de mayor edad",
+    "candidato elegido por el Senado"
+  ],
+  [
+    "plenamente competente",
+    "competente únicamente de forma consultiva",
+    "competente exclusivamente en materia electoral"
+  ],
+  [
+    "Alcalde",
+    "Delegado del Gobierno",
+    "Presidente provincial"
+  ],
+  [
+    "patrimonio de la ciudad",
+    "patrimonio exclusivamente estatal",
+    "patrimonio exclusivamente privado"
+  ],
+  [
+    "coordinación con la Hacienda estatal",
+    "independencia de la Hacienda estatal",
+    "sustitución de la Hacienda estatal"
+  ],
+  [
+    "de común acuerdo",
+    "por decisión unilateral de la Ciudad",
+    "por decisión unilateral del Delegado"
+  ],
+  [
+    "planes y programas conjuntos",
+    "sentencias y recursos judiciales",
+    "leyes estatales y tratados"
+  ],
+  [
+    "sin menoscabo de las competencias",
+    "suprimiendo las competencias",
+    "transfiriendo todas las competencias"
+  ],
+  [
+    "contribuciones especiales",
+    "cotizaciones sociales",
+    "participaciones en beneficio privado"
+  ],
+  [
+    "crédito",
+    "potestad jurisdiccional",
+    "soberanía monetaria"
+  ],
+  [
+    "operaciones de crédito",
+    "operaciones jurisdiccionales",
+    "operaciones legislativas"
+  ],
+  [
+    "examen, enmienda, aprobación",
+    "elaboración y ejecución exclusivamente",
+    "inspección penal y jurisdicción"
+  ],
+  [
+    "elaboración y ejecución",
+    "examen y aprobación exclusivamente",
+    "control jurisdiccional y sanción penal"
+  ],
+  [
+    "expropiaciones",
+    "sentencias penales",
+    "tratados internacionales"
+  ],
+  [
+    "procedimiento administrativo",
+    "procedimiento penal",
+    "procedimiento constitucional"
+  ],
+  [
+    "régimen de bienes",
+    "régimen electoral exclusivamente",
+    "régimen de relaciones internacionales"
+  ],
+  [
+    "personal propio",
+    "personal transferido exclusivamente",
+    "personal de otra comunidad exclusivamente"
+  ],
+  [
+    "personal transferido",
+    "personal propio exclusivamente",
+    "personal de empresas privadas exclusivamente"
+  ],
+  [
+    "disposición adicional cuarta",
+    "disposición transitoria primera",
+    "disposición final única"
+  ],
+  [
+    "legislación estatal",
+    "normativa exclusivamente municipal",
+    "legislación autonómica de Andalucía"
+  ],
+  [
+    "función pública local",
+    "función judicial",
+    "función militar"
+  ],
+  [
+    "Administraciones públicas territoriales",
+    "entidades privadas mercantiles",
+    "órganos judiciales exclusivamente"
+  ],
+  [
+    "potestades y privilegios",
+    "derechos de soberanía propia",
+    "facultades jurisdiccionales exclusivas"
+  ],
+  [
+    "en el ejercicio de sus competencias",
+    "fuera de sus competencias",
+    "en cualquier materia sin límite"
+  ],
+  [
+    "actos de eficacia general",
+    "actos exclusivamente privados",
+    "actos exclusivamente individuales"
+  ],
+  [
+    "de eficacia general",
+    "de eficacia individual exclusivamente",
+    "de eficacia exclusivamente judicial"
+  ],
+  [
+    "Boletín Oficial de la Ciudad de Melilla",
+    "Boletín Oficial del Estado exclusivamente",
+    "Diario Oficial de la Unión Europea"
+  ],
+  [
+    "emanados de los diferentes órganos de la Ciudad",
+    "emanados exclusivamente del Presidente",
+    "emanados exclusivamente de la Delegación del Gobierno"
+  ],
+  [
+    "especialidades derivadas de la organización propia",
+    "exclusión de toda legislación estatal",
+    "ausencia de toda especialidad"
+  ],
+  [
+    "Régimen Local",
+    "Régimen Militar",
+    "Régimen Judicial"
+  ],
+  [
+    "legislación del Estado sobre Régimen Local",
+    "legislación autonómica de Andalucía",
+    "reglamento interno exclusivamente"
+  ],
+  [
+    "ante los órganos competentes",
+    "exclusivamente ante la Asamblea",
+    "exclusivamente ante el Consejo de Gobierno"
+  ],
+  [
+    "en vía administrativa",
+    "en vía penal",
+    "en vía civil"
+  ],
+  [
+    "correspondiente legislación del Estado",
+    "libre decisión del recurrente",
+    "norma exclusiva de la Ciudad"
+  ],
+  [
+    "contratos, concesiones, expropiaciones",
+    "tratados, sentencias y relaciones internacionales",
+    "defensa, justicia y nacionalidad"
+  ],
+  [
+    "reglamentos y demás disposiciones",
+    "sentencias y tratados internacionales",
+    "leyes autonómicas y tratados"
+  ],
+  [
+    "normas reglamentarias",
+    "leyes orgánicas estatales",
+    "sentencias firmes"
+  ],
+  [
+    "actos y acuerdos",
+    "tratados internacionales",
+    "leyes orgánicas estatales"
+  ],
+  [
+    "publicados",
+    "comunicados exclusivamente al Presidente",
+    "reservados necesariamente"
+  ],
+  [
+    "competencias",
+    "potestades judiciales ilimitadas",
+    "facultades legislativas soberanas"
+  ],
+  [
+    "jurídica propia",
+    "jurídica compartida",
+    "jurídica dependiente sin autonomía"
+  ],
+  [
+    "legislación del Estado",
+    "legislación de otra ciudad",
+    "decisión exclusiva de la Asamblea"
+  ],
+  [
+    "normativa del Estado",
+    "normativa exclusivamente local",
+    "normativa de una empresa privada"
+  ],
+  [
+    "ordenamiento jurídico",
+    "programa electoral",
+    "instrucción política exclusivamente"
+  ],
+  [
+    "archivos, bibliotecas y conservatorios",
+    "órganos jurisdiccionales y fiscalías",
+    "órganos de defensa y representación diplomática"
+  ],
+  [
+    "que no sean de titularidad estatal",
+    "que sean exclusivamente de titularidad estatal",
+    "cualquiera que sea su titularidad estatal"
+  ],
+  [
+    "Patrimonio cultural",
+    "Patrimonio militar estatal",
+    "Patrimonio diplomático estatal"
+  ],
+  [
+    "Promoción y fomento de la cultura",
+    "Dirección de la legislación penal",
+    "Dirección de las relaciones internacionales"
+  ],
+  [
+    "Promoción del deporte",
+    "Legislación mercantil deportiva",
+    "Regulación de la defensa nacional"
+  ],
+  [
+    "aprovechamientos hidráulicos",
+    "aguas territoriales internacionales",
+    "energía nuclear exclusivamente"
+  ],
+  [
+    "Casinos, juegos y apuestas",
+    "Relaciones diplomáticas",
+    "Legislación de defensa"
+  ],
+  [
+    "Apuestas Mutuas Deportivo-Benéficas",
+    "todas las apuestas deportivas",
+    "todos los casinos"
+  ],
+  [
+    "Cajas de Ahorro",
+    "Banco de España",
+    "política monetaria estatal"
+  ],
+  [
+    "Estadísticas para fines de la Ciudad",
+    "estadísticas exclusivamente estatales",
+    "estadísticas exclusivamente internacionales"
+  ],
+  [
+    "protección de sus edificios e instalaciones",
+    "dirección de la defensa nacional",
+    "dirección de las relaciones exteriores"
+  ],
+  [
+    "en el momento de la entrada en vigor",
+    "solo después de veinte años",
+    "solo antes de 1978"
+  ],
+  [
+    "cualquier título jurídico",
+    "solo adquisición onerosa",
+    "solo adquisición por transferencia"
+  ],
+  [
+    "adquirir, administrar y enajenar",
+    "adquirir y administrar con prohibición de enajenar",
+    "administrar sin capacidad de adquirir"
+  ],
+  [
+    "plena capacidad",
+    "capacidad exclusivamente consultiva",
+    "capacidad exclusivamente presupuestaria"
+  ],
+  [
+    "bienes afectos a los servicios",
+    "bienes sin afectación a ningún servicio",
+    "bienes de cualquier Administración sin transferencia"
+  ],
+  [
+    "Presupuestos Generales del Estado",
+    "Presupuestos exclusivamente municipales",
+    "Presupuestos de cualquier entidad privada"
+  ],
+  [
+    "Fondo de Compensación Interterritorial",
+    "Fondo de Financiación Electoral",
+    "Fondo de Dotación Judicial"
+  ],
+  [
+    "tributos estatales",
+    "tributos privados",
+    "tributos de otra ciudad exclusivamente"
+  ],
+  [
+    "nivel mínimo de los servicios fundamentales",
+    "nivel máximo de todo servicio privado",
+    "nivel mínimo de cualquier actividad privada"
+  ],
+  [
+    "herencias, legados y donaciones",
+    "sentencias, recursos y sanciones penales",
+    "tratados, leyes y convenios internacionales"
+  ],
+  [
+    "multas y sanciones",
+    "aportaciones políticas obligatorias",
+    "cuotas electorales obligatorias"
+  ],
+  [
+    "régimen de dedicación",
+    "régimen de residencia",
+    "régimen de nacionalidad"
+  ],
+  [
+    "empleo privado y en el del empleo público",
+    "empleo privado exclusivamente",
+    "empleo público exclusivamente"
+  ],
+  [
+    "trabajo por cuenta propia",
+    "trabajo exclusivamente por cuenta ajena",
+    "trabajo exclusivamente administrativo"
+  ],
+  [
+    "prestaciones concedidas",
+    "sanciones administrativas impuestas",
+    "tributos públicos recaudados"
+  ],
+  [
+    "esencial y determinante",
+    "accesorio y meramente conveniente",
+    "habitual sin ser necesario"
+  ],
+  [
+    "objetivo sea legítimo",
+    "objetivo sea meramente económico",
+    "objetivo sea subjetivamente preferido"
+  ],
+  [
+    "requisito proporcionado",
+    "requisito ilimitado",
+    "requisito permanente sin evaluación"
+  ],
+  [
+    "menos favorable",
+    "más favorable siempre",
+    "idéntica en cualquier circunstancia"
+  ],
+  [
+    "situación comparable",
+    "situación necesariamente idéntica",
+    "situación exclusivamente laboral"
+  ],
+  [
+    "toda orden de discriminar",
+    "solo una orden escrita de discriminar",
+    "solo una orden administrativa firme"
+  ],
+  [
+    "verbal o físico",
+    "exclusivamente físico",
+    "exclusivamente escrito"
+  ],
+  [
+    "propósito o produzca el efecto",
+    "propósito y produzca necesariamente el efecto",
+    "efecto sin admitir el propósito"
+  ],
+  [
+    "intimidatorio, degradante u ofensivo",
+    "exclusivamente intimidatorio",
+    "exclusivamente ofensivo"
+  ],
+  [
+    "en tanto subsistan dichas situaciones",
+    "sin límite aunque desaparezca la desigualdad",
+    "solo durante un año"
+  ],
+  [
+    "personas físicas y jurídicas privadas",
+    "únicamente personas jurídicas públicas",
+    "únicamente empleadores públicos"
+  ],
+  [
+    "incluso tras la terminación",
+    "solo mientras subsista",
+    "solo antes del inicio"
+  ],
+  [
+    "interés legítimo",
+    "interés exclusivamente económico",
+    "interés exclusivamente electoral"
+  ],
+  [
+    "única legitimada",
+    "legitimada junto con cualquier ciudadano",
+    "excluida de la legitimación"
+  ],
+  [
+    "persona demandada",
+    "persona demandante siempre",
+    "Administración siempre"
+  ],
+  [
+    "a instancia de parte",
+    "necesariamente de oficio",
+    "por decisión exclusiva de la parte demandada"
+  ],
+  [
+    "útil y pertinente",
+    "obligatorio en todo caso",
+    "vinculante para las partes"
+  ],
+  [
+    "ausencia de discriminación",
+    "existencia de afiliación sindical",
+    "existencia de nacionalidad española"
+  ],
+  [
+    "la igualdad de trato y de oportunidades",
+    "la preferencia de una nacionalidad",
+    "la preferencia de un domicilio"
+  ],
+  [
+    "programación general de la enseñanza",
+    "programación exclusivamente municipal",
+    "programación legislativa propia"
+  ],
+  [
+    "peculiaridades docentes",
+    "normas legislativas propias en educación",
+    "competencias educativas exclusivas"
+  ],
+  [
+    "propondrá",
+    "impondrá unilateralmente",
+    "aprobará con rango de ley"
+  ],
+  [
+    "necesidades que se estimen prioritarias",
+    "preferencias exclusivamente políticas",
+    "necesidades de otra comunidad exclusivamente"
+  ],
+  [
+    "comunidad melillense",
+    "comunidad de cualquier territorio",
+    "comunidad exclusivamente empresarial"
+  ],
+  [
+    "resolución motivada",
+    "decisión inmotivada",
+    "silencio favorable automático"
+  ],
+  [
+    "implantadas en Melilla",
+    "implantadas exclusivamente fuera de Melilla",
+    "sin implantación en Melilla"
+  ],
+  [
+    "Ayuntamientos",
+    "Parlamentos autonómicos",
+    "Departamentos ministeriales"
+  ],
+  [
+    "Diputaciones provinciales",
+    "Parlamentos autonómicos",
+    "Delegaciones del Gobierno"
+  ],
+  [
+    "acuerdo de su Asamblea",
+    "decreto unilateral de su Presidente",
+    "instrucción del Delegado del Gobierno"
+  ],
+  [
+    "adaptarlas a las peculiaridades",
+    "derogarlas unilateralmente",
+    "sustituirlas por una ley de la Ciudad"
+  ],
+  [
+    "transferidos a Comunidades Autónomas",
+    "transferidos a empresas privadas",
+    "transferidos a órganos judiciales"
+  ],
+  [
+    "momento del traspaso",
+    "momento de la jubilación",
+    "momento del primer contrato"
+  ],
+  [
+    "concursos de traslado",
+    "concursos políticos de confianza",
+    "procesos electorales"
+  ],
+  [
+    "Cuerpo o Escala",
+    "grupo parlamentario",
+    "territorio de nacimiento"
+  ],
+  [
+    "igualdad de condiciones",
+    "preferencia incondicionada",
+    "exclusión de participación"
+  ],
+  [
+    "Administración tributaria del Estado",
+    "Asamblea de Melilla exclusivamente",
+    "Consejo de Gobierno exclusivamente"
+  ],
+  [
+    "acuerdo plenario de la Asamblea",
+    "decreto unilateral del Presidente",
+    "resolución de la Delegación del Gobierno"
+  ],
+  [
+    "gestión, liquidación, recaudación, inspección y revisión",
+    "gestión sin recaudación ni revisión",
+    "liquidación exclusivamente"
+  ],
+  [
+    "exenciones y bonificaciones",
+    "relaciones internacionales",
+    "sentencias firmes"
+  ],
+  [
+    "sistema de reparaciones o indemnizaciones",
+    "sistema exclusivamente sancionador",
+    "sistema exclusivamente declarativo"
+  ],
+  [
+    "reales, efectivas y proporcionadas",
+    "simbólicas y automáticamente uniformes",
+    "independientes del perjuicio sufrido"
+  ],
+  [
+    "eficaz y disuasorio",
+    "meramente simbólico",
+    "necesariamente idéntico en todo caso"
+  ],
+  [
+    "perjuicio sufrido",
+    "domicilio de la persona",
+    "nacionalidad de la persona"
+  ],
+  [
+    "funcionarios adscritos a servicios",
+    "trabajadores privados sin traspaso",
+    "cargos electivos de otra entidad"
+  ],
+  [
+    "potestad normativa reglamentaria",
+    "potestad legislativa propia",
+    "potestad jurisdiccional"
+  ],
+  [
+    "legislación general del Estado",
+    "legislación propia de la Ciudad",
+    "legislación de otra comunidad autónoma"
+  ],
+  [
+    "facultades de administración",
+    "facultades de legislación estatal",
+    "facultades jurisdiccionales"
+  ],
+  [
+    "Policía local",
+    "Policía nacional exclusivamente",
+    "Fuerzas Armadas"
+  ],
+  [
+    "vigilancia y protección",
+    "legislación y jurisdicción",
+    "dirección de relaciones exteriores"
+  ],
+  [
+    "peculiaridades docentes",
+    "competencias legislativas docentes",
+    "programas docentes vinculantes"
+  ],
+  [
+    "servicios de titularidad estatal",
+    "servicios de titularidad privada",
+    "servicios de titularidad exclusivamente autonómica"
+  ],
+  [
+    "por los traspasos",
+    "por una elección política",
+    "por una contratación privada"
+  ],
+  [
+    "funcionarios transferidos",
+    "funcionarios judiciales exclusivamente",
+    "funcionarios electivos exclusivamente"
+  ],
+  [
+    "Agricultura y ganadería",
+    "Política monetaria y relaciones internacionales",
+    "Legislación penal y penitenciaria"
+  ],
+  [
+    "Montes y aprovechamientos forestales",
+    "Montes exclusivamente estatales y política monetaria",
+    "Defensa nacional y relaciones exteriores"
+  ],
+  [
+    "La artesanía",
+    "La legislación mercantil",
+    "La política monetaria"
+  ],
+  [
+    "Acuicultura y marisqueo",
+    "Pesca marítima exterior y defensa nacional",
+    "Legislación procesal y penitenciaria"
+  ],
+  [
+    "Ferias interiores",
+    "Ferias diplomáticas internacionales",
+    "Mercados de política monetaria"
+  ]
+]

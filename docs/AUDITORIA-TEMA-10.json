@@ -1,0 +1,379 @@
+{
+  "topic": 10,
+  "sourceRules": 40,
+  "questions": 240,
+  "categories": {
+    "autogobierno": 24,
+    "melillenses": 24,
+    "organos": 24,
+    "funcionamiento": 24,
+    "atribuciones": 24,
+    "iniciativa": 24,
+    "eleccion": 24,
+    "gobierno": 24,
+    "responsabilidad": 24,
+    "confianza": 24
+  },
+  "anchors": [
+    {
+      "category": "autogobierno",
+      "reference": "Estatuto de Melilla, artículo 1",
+      "phrase": "autonomía",
+      "contrasts": [
+        "soberanía",
+        "independencia"
+      ]
+    },
+    {
+      "category": "autogobierno",
+      "reference": "Estatuto de Melilla, artículo 2",
+      "phrase": "territorio",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "autogobierno",
+      "reference": "Estatuto de Melilla, artículo 3.1",
+      "phrase": "bandera",
+      "contrasts": [
+        "soberanía territorial",
+        "nacionalidad propia"
+      ]
+    },
+    {
+      "category": "autogobierno",
+      "reference": "Estatuto de Melilla, artículo 3.3",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "melillenses",
+      "reference": "Estatuto de Melilla, artículo 4.1",
+      "phrase": "el Municipio",
+      "contrasts": [
+        "la Provincia",
+        "la Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "melillenses",
+      "reference": "Estatuto de Melilla, artículo 5.1",
+      "phrase": "derechos y deberes",
+      "contrasts": [
+        "derechos sin deberes",
+        "deberes sin derechos"
+      ]
+    },
+    {
+      "category": "melillenses",
+      "reference": "Estatuto de Melilla, artículo 4.2",
+      "phrase": "el Municipio",
+      "contrasts": [
+        "la Provincia",
+        "la Comunidad Autónoma"
+      ]
+    },
+    {
+      "category": "melillenses",
+      "reference": "Estatuto de Melilla, artículo 4.3",
+      "phrase": "podrán",
+      "contrasts": [
+        "deberán necesariamente",
+        "no podrán"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Estatuto de Melilla, artículo 6",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Estatuto de Melilla, artículo 7.1",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Estatuto de Melilla, artículo 8.1",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "organos",
+      "reference": "Estatuto de Melilla, artículo 6",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "Estatuto de Melilla, artículo 9.1",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "Estatuto de Melilla, artículo 10.1",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "Estatuto de Melilla, artículo 11.1",
+      "phrase": "mayoría simple",
+      "contrasts": [
+        "mayoría absoluta",
+        "mayoría de tres quintos"
+      ]
+    },
+    {
+      "category": "funcionamiento",
+      "reference": "Estatuto de Melilla, artículo 9.2",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "Estatuto de Melilla, artículo 12.1",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "Estatuto de Melilla, artículo 12, letra c",
+      "phrase": "Presidente de la ciudad",
+      "contrasts": [
+        "Presidente de la Asamblea Legislativa del Estado",
+        "Delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "Estatuto de Melilla, artículo 12, letra d",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "atribuciones",
+      "reference": "Estatuto de Melilla, artículo 12, letra e",
+      "phrase": "Tribunal de Cuentas",
+      "contrasts": [
+        "Tribunal Supremo",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 13",
+      "phrase": "tres",
+      "contrasts": [
+        "dos",
+        "cuatro"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 14.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 14.2",
+      "phrase": "Consejeros",
+      "contrasts": [
+        "Viceconsejeros",
+        "Secretarios Técnicos"
+      ]
+    },
+    {
+      "category": "iniciativa",
+      "reference": "Estatuto de Melilla, artículo 13",
+      "phrase": "Congreso",
+      "contrasts": [
+        "Senado",
+        "Gobierno"
+      ]
+    },
+    {
+      "category": "eleccion",
+      "reference": "Estatuto de Melilla, artículo 15",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "eleccion",
+      "reference": "Estatuto de Melilla, artículo 15",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    },
+    {
+      "category": "eleccion",
+      "reference": "Estatuto de Melilla, artículo 15",
+      "phrase": "Alcalde",
+      "contrasts": [
+        "presidente provincial",
+        "delegado del Gobierno"
+      ]
+    },
+    {
+      "category": "eleccion",
+      "reference": "Estatuto de Melilla, artículo 15",
+      "phrase": "Asamblea de Melilla",
+      "contrasts": [
+        "Consejo de Gobierno",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "gobierno",
+      "reference": "Estatuto de Melilla, artículo 16.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "gobierno",
+      "reference": "Estatuto de Melilla, artículo 17.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "gobierno",
+      "reference": "Estatuto de Melilla, artículo 16.2",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "gobierno",
+      "reference": "Estatuto de Melilla, artículo 17.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "responsabilidad",
+      "reference": "Estatuto de Melilla, artículo 18.1",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "responsabilidad",
+      "reference": "Estatuto de Melilla, artículo 18.2",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "responsabilidad",
+      "reference": "Estatuto de Melilla, artículo 18.3",
+      "phrase": "Consejo de Gobierno",
+      "contrasts": [
+        "Consejo de Ministros",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    {
+      "category": "responsabilidad",
+      "reference": "Estatuto de Melilla, artículo 18.1",
+      "phrase": "Asamblea",
+      "contrasts": [
+        "Consejería",
+        "Delegación del Gobierno"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "Estatuto de Melilla, artículo 19.1",
+      "phrase": "mayoría simple",
+      "contrasts": [
+        "mayoría absoluta",
+        "mayoría de tres quintos"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "Estatuto de Melilla, artículo 20",
+      "phrase": "organización",
+      "contrasts": [
+        "patrimonio",
+        "presupuesto"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "Estatuto de Melilla, artículo 19",
+      "phrase": "quince días",
+      "contrasts": [
+        "diez días",
+        "treinta días"
+      ]
+    },
+    {
+      "category": "confianza",
+      "reference": "Estatuto de Melilla, artículo 19.2",
+      "phrase": "mayoría absoluta",
+      "contrasts": [
+        "mayoría simple",
+        "mayoría de dos tercios"
+      ]
+    }
+  ]
+}
